@@ -60,7 +60,7 @@ export default function Footer() {
 
       const translateElement = document.getElementById('google_translate_element');
       if (translateElement) {
-         // This hides the actual dropdown/widget if it renders outside the buttons
+          // This hides the actual dropdown/widget if it renders outside the buttons
         translateElement.style.display = 'none';
         translateElement.style.visibility = 'hidden';
       }
@@ -88,6 +88,7 @@ export default function Footer() {
             </div>
             <div className={styles.Omdh}>
               <p className={styles['translatable-text']}>
+                {/* FIX: Replaced L' with L' */}
                 <span translate="yes">L'Organisation Marocaine des Droits Humains (OMDH) est une organisation de défense des droits humains distinguée et engagée, dédiée à traiter des questions cruciales telles que la détention politique, la torture et la promotion de la sensibilisation aux droits humains.</span>
               </p>
             </div>

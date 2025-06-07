@@ -47,7 +47,8 @@ export default function Navbar() {
         
         <div className={styles.NavBtns}>
           <div className={styles.dropdown}>
-            <button className={styles.Btnss}>À propos de l'organisation <i className="bi bi-chevron-down"></i></button>
+            {/* FIX: Replaced l' with l' */}
+            <button className={styles.Btnss}>À propos de l&apos;organisation <i className="bi bi-chevron-down"></i></button>
             <div className={styles['dropdown-content']}>
               <Link href="/about-us">Qui sommes-nous</Link>
               <Link href="/missions">Nos Missions</Link>
@@ -83,7 +84,8 @@ export default function Navbar() {
         
         <div className={styles['mobile-dropdown']}>
           <button className={styles['mobile-dropdown-toggle']} onClick={() => toggleDropdown('about')}>
-            <span>À propos de l'organisation</span>
+            {/* FIX: Replaced l' with l' */}
+            <span>À propos de l&apos;organisation</span>
             <i className={`bi ${openDropdown === 'about' ? 'bi-chevron-up' : 'bi-chevron-down'}`}></i>
           </button>
           <div className={`${styles['mobile-dropdown-content']} ${openDropdown === 'about' ? styles.active : ''}`}>
