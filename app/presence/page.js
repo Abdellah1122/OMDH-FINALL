@@ -191,10 +191,10 @@ export default function PresencePage() {
 
             {/* Future Expansion */}
             <div className="future-expansion">
-              <h2>Perspectives d'Avenir</h2>
+              <h2>Perspectives d&apos;Avenir</h2>
               <p>
                 Dans le cadre de notre engagement continu à défendre et promouvoir les droits humains à travers le
-                Maroc, l'OMDH prépare des initiatives stratégiques pour renforcer notre présence locale et approfondir
+                Maroc, l&apos;OMDH prépare des initiatives stratégiques pour renforcer notre présence locale et approfondir
                 notre impact dans les régions mal desservies.
               </p>
 
@@ -213,7 +213,7 @@ export default function PresencePage() {
             <div className="cta-section">
               <h2>Rejoignez Notre Réseau Mondial</h2>
               <p className="presence-tagline">
-                Intéressé(e) par un partenariat avec nous ou par l'exploration d'opportunités de carrière dans l'un de
+                Intéressé(e) par un partenariat avec nous ou par l&apos;exploration d&apos;opportunités de carrière dans l&apos;un de
                 nos sites à travers le monde ?
               </p>
               <div className="cta-container">

@@ -11,101 +11,104 @@ export default function EditionsPage() {
     <>
       <Navbar />
 
-      <main>
-        <section className="header-section">
-          <div className="header-pattern"></div>
-          <div className="container">
-            <div className="header-content">
-              <span className="header-subtitle">Ressources & Publications</span>
-              <h1 className="header-title">Nos Articles</h1>
-              <p className="header-description">Découvrez nos dernières publications, analyses et témoignages sur la protection des réfugiés et demandeurs d'asile au Maroc.</p>
+     <main>
+    <section className="header-section">
+      <div className="header-pattern"></div>
+      <div className="container">
+        <div className="header-content">
+          <span className="header-subtitle">Ressources & Publications</span>
+          <h1 className="header-title">Nos Articles</h1>
+          {/* FIX: Replaced d' with d&apos; */}
+          <p className="header-description">Découvrez nos dernières publications, analyses et témoignages sur la protection des réfugiés et demandeurs d&apos;asile au Maroc.</p>
+        </div>
+      </div>
+    </section>
+
+    <section className="articles-section">
+      <div className="container">
+        <h2 className="section-title">Articles à la Une</h2>
+
+        <div className="article-list">
+          {/* Note: I've updated the hrefs to point to the pages we created! */}
+          <article className="article-item">
+            <div className="article-image">
+              <Image src="/Images/2.jpeg" alt="Droits des réfugiés au Maroc" width={300} height={300} style={{objectFit: 'cover'}}/>
             </div>
-          </div>
-        </section>
-
-        <section className="articles-section">
-          <div className="container">
-            <h2 className="section-title">Articles à la Une</h2>
-
-            <div className="article-list">
-              {/* Note: I've updated the hrefs to point to the pages we created! */}
-              <article className="article-item">
-                <div className="article-image">
-                  <Image src="/Images/2.jpeg" alt="Droits des réfugiés au Maroc" width={300} height={300} style={{objectFit: 'cover'}}/>
-                </div>
-                <div className="article-content">
-                  <span className="article-category">Actualité</span>
-                  <h3 className="article-title">
-                    انتخاب نوفل البعمري رئيسا للمنظمة المغربية لحقوق الإنسان
-                  </h3>
-                  <div className="article-meta">
-                    <span className="article-author">بقلم: ذ. محمد الطالب ,الرباط</span>
-                    <span className="article-date">.</span>
-                  </div>
-                  <p className="article-excerpt">خلال أشغال المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، الذي انعقد نهاية الأسبوع الماضي بمدينة الرباط، جددت المنظمة هياكلها التنظيمية...</p>
-                  <Link href="/Article1" className="article-button">Lire plus</Link>
-                </div>
-              </article>
-              
-              <article className="article-item">
-                <div className="article-image">
-                  <Image src="/Images/naoufal.jpg" alt="Naoufal Bouamri OMDH" width={300} height={300} style={{objectFit: 'cover'}}/>
-                </div>
-                <div className="article-content">
-                  <span className="article-category">Actualité</span>
-                  <h3 className="article-title">
-                    Naoufal Bouamri consacré à la tête de l’OMDH
-                  </h3>
-                  <div className="article-meta">
-                    <span className="article-author"></span>
-                    <span className="article-date">Mardi 29 Avril 2025</span>
-                  </div>
-                  <p className="article-excerpt">Le 12e congrès national de l’Organisation Marocaine des Droits Humains (OMDH) s’est achevé dimanche dernier sur une note de renouveau...</p>
-                  <Link href="/Article2" className="article-button">Lire plus</Link>
-                </div>
-              </article>
-
-              <article className="article-item">
-                <div className="article-image">
-                  <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان" width={300} height={300} style={{objectFit: 'cover'}}/>
-                </div>
-                <div className="article-content" >
-                  <span className="article-category">Actualité</span>
-                  <h3 className="article-title">
-                    البيان العام الصادر عن المؤتمر الوطني الثاني عشر المنعقد أيام 25-26-27 أبريل 2025
-                  </h3>
-                  <div className="article-meta">
-                    <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
-                    <span className="article-date">27 أبريل 2025</span>
-                  </div>
-                  <p className="article-excerpt">انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 بالمعهد الوطني لكتابة الضبط والمهن القانونية والقضائية...</p>
-                  <Link href="/Article3" className="article-button">Lire plus</Link>
-                </div>
-              </article>
-
-              <article className="article-item">
-                <div className="article-image">
-                  <Image src="/Images/Com.jpg" alt="تصريح صحفي حول المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان" width={300} height={300} style={{objectFit: 'cover'}} />
-                </div>
-                <div className="article-content" >
-                  <span className="article-category">بيان صحفي</span>
-                  <h3 className="article-title">
-                    تصريح صحفي بخصوص انعقاد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان
-                  </h3>
-                  <div className="article-meta">
-                    <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
-                    <span className="article-date">06 ماي 2025</span>
-                  </div>
-                  <p className="article-excerpt">
-                    أود باسم رئاسة المنظمة المغربية لحقوق الإنسان أن أرحب بكم/ن وأشكركم/ن على تلبيتكم/ن دعوة الحضور في هذه الندوة الصحفية...
-                  </p>
-                  <Link href="/Article4" className="article-button">Lire plus</Link>
-                </div>
-              </article>
+            <div className="article-content">
+              <span className="article-category">Actualité</span>
+              <h3 className="article-title">
+                انتخاب نوفل البعمري رئيسا للمنظمة المغربية لحقوق الإنسان
+              </h3>
+              <div className="article-meta">
+                <span className="article-author">بقلم: ذ. محمد الطالب ,الرباط</span>
+                <span className="article-date">.</span>
+              </div>
+              <p className="article-excerpt">خلال أشغال المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، الذي انعقد نهاية الأسبوع الماضي بمدينة الرباط، جددت المنظمة هياكلها التنظيمية...</p>
+              <Link href="/Article1" className="article-button">Lire plus</Link>
             </div>
-          </div>
-        </section>
-      </main>
+          </article>
+          
+          <article className="article-item">
+            <div className="article-image">
+              <Image src="/Images/naoufal.jpg" alt="Naoufal Bouamri OMDH" width={300} height={300} style={{objectFit: 'cover'}}/>
+            </div>
+            <div className="article-content">
+              <span className="article-category">Actualité</span>
+              <h3 className="article-title">
+                {/* FIX: Replaced typographic apostrophe */}
+                Naoufal Bouamri consacré à la tête de l&apos;OMDH
+              </h3>
+              <div className="article-meta">
+                <span className="article-author"></span>
+                <span className="article-date">Mardi 29 Avril 2025</span>
+              </div>
+              {/* FIX: Replaced typographic apostrophes */}
+              <p className="article-excerpt">Le 12e congrès national de l&apos;Organisation Marocaine des Droits Humains (OMDH) s&apos;est achevé dimanche dernier sur une note de renouveau...</p>
+              <Link href="/Article2" className="article-button">Lire plus</Link>
+            </div>
+          </article>
+
+          <article className="article-item">
+            <div className="article-image">
+              <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان" width={300} height={300} style={{objectFit: 'cover'}}/>
+            </div>
+            <div className="article-content" >
+              <span className="article-category">Actualité</span>
+              <h3 className="article-title">
+                البيان العام الصادر عن المؤتمر الوطني الثاني عشر المنعقد أيام 25-26-27 أبريل 2025
+              </h3>
+              <div className="article-meta">
+                <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                <span className="article-date">27 أبريل 2025</span>
+              </div>
+              <p className="article-excerpt">انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 بالمعهد الوطني لكتابة الضبط والمهن القانونية والقضائية...</p>
+              <Link href="/Article3" className="article-button">Lire plus</Link>
+            </div>
+          </article>
+
+          <article className="article-item">
+            <div className="article-image">
+              <Image src="/Images/Com.jpg" alt="تصريح صحفي حول المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان" width={300} height={300} style={{objectFit: 'cover'}} />
+            </div>
+            <div className="article-content" >
+              <span className="article-category">بيان صحفي</span>
+              <h3 className="article-title">
+                تصريح صحفي بخصوص انعقاد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان
+              </h3>
+              <div className="article-meta">
+                <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                <span className="article-date">06 ماي 2025</span>
+              </div>
+              <p className="article-excerpt">
+                أود باسم رئاسة المنظمة المغربية لحقوق الإنسان أن أرحب بكم/ن وأشكركم/ن على تلبيتكم/ن دعوة الحضور في هذه الندوة الصحفية...
+              </p>
+              <Link href="/Article4" className="article-button">Lire plus</Link>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
 
       <Footer />
       

@@ -12,116 +12,117 @@ export default function ContactPage() {
     <>
       <Navbar />
 
-      <main>
-        <div className="main-container">
-          {/* Hero Section */}
-          <section className="hero-section auto-show">
-            <div className="hero-image">
-              <Image src="/Images/Sm.jpg" alt="OMDH Contact" className="floating" width={400} height={400} style={{ borderRadius: 'var(--border-radius)'}} />
+    <main>
+    <div className="main-container">
+      {/* Hero Section */}
+      <section className="hero-section auto-show">
+        <div className="hero-image">
+          <Image src="/Images/Sm.jpg" alt="OMDH Contact" className="floating" width={400} height={400} style={{ borderRadius: 'var(--border-radius)'}} />
+        </div>
+        <div className="hero-content">
+          <h1 className="hero-title">Contactez-Nous</h1>
+          <p className="hero-description">
+            {/* FIX: Replaced N'hésitez with N&apos;hésitez */}
+            N&apos;hésitez pas à nous contacter pour toute question ou assistance. 
+            Nous sommes là pour vous aider et répondre à vos préoccupations concernant les droits humains.
+          </p>
+          <div className="social-section">
+            <p style={{ fontWeight: 600, color: 'var(--text-dark)', marginBottom: '1em' }}>
+              Suivez-nous sur les réseaux sociaux :
+            </p>
+            <div className="social-buttons">
+              <a href="https://www.linkedin.com/company/omdh-morocco" target="_blank" rel="noopener noreferrer" className="social-btn linkedin" title="LinkedIn">
+                <i className="bi bi-linkedin"></i>
+              </a>
+              <a href="https://www.facebook.com/OMDH.Morocco" target="_blank" rel="noopener noreferrer" className="social-btn facebook" title="Facebook">
+                <i className="bi bi-facebook"></i>
+              </a>
+              <a href="https://twitter.com/OMDH_Morocco" target="_blank" rel="noopener noreferrer" className="social-btn twitter" title="Twitter/X">
+                <i className="bi bi-twitter-x"></i>
+              </a>
+              <a href="https://www.instagram.com/omdh_morocco" target="_blank" rel="noopener noreferrer" className="social-btn instagram" title="Instagram">
+                <i className="bi bi-instagram"></i>
+              </a>
             </div>
-            <div className="hero-content">
-              <h1 className="hero-title">Contactez-Nous</h1>
-              <p className="hero-description">
-                N'hésitez pas à nous contacter pour toute question ou assistance. 
-                Nous sommes là pour vous aider et répondre à vos préoccupations concernant les droits humains.
-              </p>
-              <div className="social-section">
-                <p style={{ fontWeight: 600, color: 'var(--text-dark)', marginBottom: '1em' }}>
-                  Suivez-nous sur les réseaux sociaux :
-                </p>
-                <div className="social-buttons">
-                  <a href="https://www.linkedin.com/company/omdh-morocco" target="_blank" rel="noopener noreferrer" className="social-btn linkedin" title="LinkedIn">
-                    <i className="bi bi-linkedin"></i>
-                  </a>
-                  <a href="https://www.facebook.com/OMDH.Morocco" target="_blank" rel="noopener noreferrer" className="social-btn facebook" title="Facebook">
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                  <a href="https://twitter.com/OMDH_Morocco" target="_blank" rel="noopener noreferrer" className="social-btn twitter" title="Twitter/X">
-                    <i className="bi bi-twitter-x"></i>
-                  </a>
-                  <a href="https://www.instagram.com/omdh_morocco" target="_blank" rel="noopener noreferrer" className="social-btn instagram" title="Instagram">
-                    <i className="bi bi-instagram"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
+          </div>
+        </div>
+      </section>
 
-          {/* Contact Information Section */}
-          <section className="section">
-            <div className="auto-show">
-              <h2>Retrouvez-nous</h2>
+      {/* Contact Information Section */}
+      <section className="section">
+        <div className="auto-show">
+          <h2>Retrouvez-nous</h2>
+        </div>
+        
+        <div className="contact-info auto-show">
+          <div className="contact-cards">
+            <div className="contact-card auto-show">
+              <i className="bi bi-geo-alt-fill"></i>
+              <div>
+                <p><strong>Adresse</strong></p>
+                <p className="contact-value">
+                  8, rue Ouargha,<br />
+                  Résidence Volubilis, appt 1,<br />
+                  Agdal / Rabat,<br />
+                  Maroc
+                </p>
+              </div>
             </div>
             
-            <div className="contact-info auto-show">
-              <div className="contact-cards">
-                <div className="contact-card auto-show">
-                  <i className="bi bi-geo-alt-fill"></i>
-                  <div>
-                    <p><strong>Adresse</strong></p>
-                    <p className="contact-value">
-                      8, rue Ouargha,<br />
-                      Résidence Volubilis, appt 1,<br />
-                      Agdal / Rabat,<br />
-                      Maroc
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="contact-card auto-show">
-                  <i className="bi bi-telephone-fill"></i>
-                  <div>
-                    <p><strong>Téléphone Principal</strong></p>
-                    <p className="contact-value">
-                      <a href="tel:+212537770060" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>
-                        +212 537 77 00 60
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="contact-card auto-show">
-                  <i className="bi bi-phone-fill"></i>
-                  <div>
-                    <p><strong>Mobile</strong></p>
-                    <p className="contact-value">
-                      <a href="tel:+212666947975" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>
-                        +212 666 94 79 75
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="contact-card auto-show">
-                  <i className="bi bi-envelope-fill"></i>
-                  <div>
-                    <p><strong>Email</strong></p>
-                    <p className="contact-value">
-                      <a href="mailto:admin.omdh@omdh.ma" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>
-                        admin.omdh@omdh.ma
-                      </a>
-                    </p>
-                  </div>
-                </div>
+            <div className="contact-card auto-show">
+              <i className="bi bi-telephone-fill"></i>
+              <div>
+                <p><strong>Téléphone Principal</strong></p>
+                <p className="contact-value">
+                  <a href="tel:+212537770060" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>
+                    +212 537 77 00 60
+                  </a>
+                </p>
               </div>
             </div>
-          </section>
-
-          {/* Map Section */}
-          <section className="section">
-            <div className="map-section auto-show">
-              <div className="map-container">
-                <iframe 
-                  src="https://maps.google.com/maps?q=8%20rue%20Ouargha,%20R%C3%A9sidence%20Volubilis,%20appt%201,%20Agdal%20/%20Rabat,%20Maroc&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="OMDH Location - 8 rue Ouargha, Résidence Volubilis, Agdal, Rabat, Maroc">
-                </iframe>
+            
+            <div className="contact-card auto-show">
+              <i className="bi bi-phone-fill"></i>
+              <div>
+                <p><strong>Mobile</strong></p>
+                <p className="contact-value">
+                  <a href="tel:+212666947975" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>
+                    +212 666 94 79 75
+                  </a>
+                </p>
               </div>
             </div>
-          </section>
+            
+            <div className="contact-card auto-show">
+              <i className="bi bi-envelope-fill"></i>
+              <div>
+                <p><strong>Email</strong></p>
+                <p className="contact-value">
+                  <a href="mailto:admin.omdh@omdh.ma" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>
+                    admin.omdh@omdh.ma
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
+      </section>
+
+      {/* Map Section */}
+      <section className="section">
+        <div className="map-section auto-show">
+          <div className="map-container">
+            <iframe 
+              src="https://maps.google.com/maps?q=8%20rue%20Ouargha,%20R%C3%A9sidence%20Volubilis,%20appt%201,%20Agdal%20/%20Rabat,%20Maroc&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="OMDH Location - 8 rue Ouargha, Résidence Volubilis, Agdal, Rabat, Maroc">
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
 
       <Footer />
       

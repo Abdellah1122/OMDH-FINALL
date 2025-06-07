@@ -182,7 +182,7 @@ export default function TeamPage() {
               </h1>
               <p className="hero-subtitle">
                 Une équipe passionnée et dévouée travaillant sans relâche pour protéger et assister les réfugiés et
-                demandeurs d'asile au Maroc.
+                demandeurs d&apos;asile au Maroc.
               </p>
             </div>
           </div>
@@ -199,7 +199,7 @@ export default function TeamPage() {
                 <span className="section-subtitle">Leadership</span>
                 <h2 className="section-title">Notre Leadership</h2>
                 <p className="section-description">
-                  L'équipe de direction qui guide notre organisation avec vision et détermination.
+                  L&apos;équipe de direction qui guide notre organisation avec vision et détermination.
                 </p>
               </div>
 
@@ -269,7 +269,7 @@ export default function TeamPage() {
             {/* Team Members */}
             <div className="team-members">
               <div className="section-header">
-                <span className="section-subtitle">Membres de l'Équipe</span>
+                <span className="section-subtitle">Membres de l&apos;Équipe</span>
                 <h2 className="section-title">Notre Équipe Complète</h2>
                 <p className="section-description">
                   Des membres dévoués qui contribuent chaque jour au succès de notre mission.

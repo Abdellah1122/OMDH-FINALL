@@ -11,204 +11,206 @@ export default function CampaignsPage() {
     <>
       <Navbar />
 
-      <main>
-        <section className="initiatives-section">
-          <div className="initiatives-container">
-            <div className="initiatives-header">
-              <h1>Nos <span className="highlight">Initiatives et Réalisations</span></h1>
-              <p className="initiatives-tagline">Depuis des décennies, l'Organisation Marocaine des Droits Humains (OMDH) est à l'avant-garde de la défense des droits humains au Maroc, impulsant des changements significatifs à travers des initiatives stratégiques, un plaidoyer persistant et un engagement communautaire.</p>
-            </div>
+    <main>
+    <section className="initiatives-section">
+      <div className="initiatives-container">
+        <div className="initiatives-header">
+          <h1>Nos <span className="highlight">Initiatives et Réalisations</span></h1>
+          {/* FIX: Replaced l' with l&apos; */}
+          <p className="initiatives-tagline">Depuis des décennies, l&apos;Organisation Marocaine des Droits Humains (OMDH) est à l&apos;avant-garde de la défense des droits humains au Maroc, impulsant des changements significatifs à travers des initiatives stratégiques, un plaidoyer persistant et un engagement communautaire.</p>
+        </div>
 
-            <div className="impact-stats">
-              <div className="stat-card">
-                <div className="stat-number">1,000+</div>
-                <div className="stat-label">Prisonniers Politiques Libérés</div>
-              </div>
-              <div className="stat-card">
-                <div className="stat-number">35+</div>
-                <div className="stat-label">Années de Plaidoyer</div>
-              </div>
-              <div className="stat-card">
-                <div className="stat-number">100+</div>
-                <div className="stat-label">Rapports sur les Droits Humains</div>
-              </div>
-              <div className="stat-card">
-                <div className="stat-number">10,000+</div>
-                <div className="stat-label">Jeunes Éduqués</div>
-              </div>
-            </div>
+        <div className="impact-stats">
+          <div className="stat-card">
+            <div className="stat-number">1,000+</div>
+            <div className="stat-label">Prisonniers Politiques Libérés</div>
+          </div>
+          <div className="stat-card">
+            <div className="stat-number">35+</div>
+            <div className="stat-label">Années de Plaidoyer</div>
+          </div>
+          <div className="stat-card">
+            <div className="stat-number">100+</div>
+            <div className="stat-label">Rapports sur les Droits Humains</div>
+          </div>
+          <div className="stat-card">
+            <div className="stat-number">10,000+</div>
+            <div className="stat-label">Jeunes Éduqués</div>
+          </div>
+        </div>
 
-            <div className="timeline-section">
-              <div className="timeline-line"></div>
+        <div className="timeline-section">
+          <div className="timeline-line"></div>
 
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
-                  <div className="timeline-image">
-                    <Image src="/Images/DeathPenaltyAbolition.jpg" alt="Campagne pour l'abolition de la peine de mort" width={500} height={200} />
-                  </div>
-                  <div className="timeline-text">
-                    <span className="timeline-date">Depuis les années 1990</span>
-                    <h3>Abolition de la Peine de Mort</h3>
-                    <p>L'OMDH est à l'avant-garde de la lutte pour l'abolition de la peine de mort au Maroc. Grâce à un plaidoyer persistant, des partenariats avec des coalitions internationales et une mobilisation publique, elle a créé un élan en faveur d'une réforme législative...</p>
-                    <div className="timeline-footer">
-                      <span className="location-tag">À l'échelle nationale</span>
-                    </div>
-                  </div>
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <div className="timeline-image">
+                <Image src="/Images/DeathPenaltyAbolition.jpg" alt="Campagne pour l'abolition de la peine de mort" width={500} height={200} />
+              </div>
+              <div className="timeline-text">
+                <span className="timeline-date">Depuis les années 1990</span>
+                <h3>Abolition de la Peine de Mort</h3>
+                {/* FIX: Replaced multiple apostrophes */}
+                <p>L&apos;OMDH est à l&apos;avant-garde de la lutte pour l&apos;abolition de la peine de mort au Maroc. Grâce à un plaidoyer persistant, des partenariats avec des coalitions internationales et une mobilisation publique, elle a créé un élan en faveur d&apos;une réforme législative...</p>
+                <div className="timeline-footer">
+                  <span className="location-tag">À l&apos;échelle nationale</span>
                 </div>
-              </div>
-
-              {/* Repeat for other timeline items */}
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
-                  <div className="timeline-image">
-                    <Image src="/Images/Prisonners.jpeg" alt="Soutien aux prisonniers politiques" width={500} height={200} />
-                  </div>
-                  <div className="timeline-text">
-                    <span className="timeline-date">Fin des années 1980</span>
-                    <h3>Soutien aux Prisonniers Politiques</h3>
-                    <p>Durant une période de répression politique intense, l'OMDH a joué un rôle crucial dans la documentation et la dénonciation de la détention de militants politiques et de dissidents...</p>
-                    <div className="timeline-footer">
-                      <span className="location-tag">À l'échelle nationale</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
-                  <div className="timeline-image">
-                    <Image src="/Images/wOMENrIGHT.jpg" alt="Plaidoyer pour les droits des femmes" width={500} height={200} />
-                  </div>
-                  <div className="timeline-text">
-                    <span className="timeline-date">En cours</span>
-                    <h3>Plaidoyer pour les Droits des Femmes</h3>
-                    <p>L'OMDH a défendu les droits des femmes marocaines en poussant à des réformes du code de la famille, en luttant contre la violence basée sur le genre et en plaidant pour l'égalité des chances...</p>
-                    <div className="timeline-footer">
-                      <span className="location-tag">À l'échelle nationale</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
-                  <div className="timeline-image">
-                    <Image src="/Images/Awarness.jpg" alt="Éducation des jeunes aux droits humains" width={500} height={200} />
-                  </div>
-                  <div className="timeline-text">
-                    <span className="timeline-date">En cours</span>
-                    <h3>Éducation des Jeunes aux Droits Humains</h3>
-                    <p>Convaincue que le changement commence par la jeunesse, l'OMDH mène des programmes éducatifs à travers le Maroc pour inculquer un profond respect des droits humains aux jeunes générations...</p>
-                    <div className="timeline-footer">
-                      <span className="location-tag">À l'échelle nationale</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
-                  <div className="timeline-image">
-                    <Image src="/Images/ChildMariage.jpeg" alt="Campagne contre le mariage des mineurs" width={500} height={200} />
-                  </div>
-                  <div className="timeline-text">
-                    <span className="timeline-date">2019</span>
-                    <h3>Campagne contre le Mariage des Mineurs</h3>
-                    <p>L'OMDH a lancé une campagne nationale vigoureuse pour mettre fin au mariage des enfants, en soulignant ses conséquences psychologiques, sociales et juridiques...</p>
-                    <div className="timeline-footer">
-                      <span className="location-tag">À l'échelle nationale</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <h2 style={{ textAlign: 'center', marginTop: '5rem', fontSize: '2rem', color: 'var(--text-dark)', fontFamily: 'var(--Poppins)' }}>Autres Initiatives Clés</h2>
-            <div className="initiatives-grid">
-              {/* Initiative Cards Here */}
-               <div className="initiative-card">
-                  <div className="initiative-image">
-                      <Image src="/Images/freedomeofspech.jpg" alt="Liberté d'expression" width={400} height={200} />
-                  </div>
-                  <div className="initiative-content">
-                      <span className="initiative-category">Liberté & Justice</span>
-                      <h3>Défense de la Liberté d'Expression</h3>
-                      <p>L'OMDH se tient comme un défenseur inébranlable des journalistes, artistes et citoyens confrontés à la censure ou au harcèlement judiciaire...</p>
-                      <div className="initiative-footer">
-                          <span className="initiative-date">En cours</span>
-                      </div>
-                  </div>
-              </div>
-              <div className="initiative-card">
-                  <div className="initiative-image">
-                      <Image src="/Images/humainrightreporting.jpg" alt="Documentation des droits humains" width={400} height={200}/>
-                  </div>
-                  <div className="initiative-content">
-                      <span className="initiative-category">Plaidoyer</span>
-                      <h3>Documentation et Rapports sur les Droits Humains</h3>
-                      <p>Grâce à des enquêtes de terrain méticuleuses, des entretiens et des analyses juridiques, l'OMDH produit des rapports détaillés...</p>
-                      <div className="initiative-footer">
-                          <span className="initiative-date">En cours</span>
-                      </div>
-                  </div>
-              </div>
-              <div className="initiative-card">
-                  <div className="initiative-image">
-                      <Image src="/Images/Parlement.png" alt="Conférences et débats publics" width={400} height={200}/>
-                  </div>
-                  <div className="initiative-content">
-                      <span className="initiative-category">Éducation</span>
-                      <h3>Conférences et Débats Publics</h3>
-                      <p>L'OMDH organise des débats publics inclusifs et des conférences académiques pour mettre en lumière les questions des droits humains...</p>
-                      <div className="initiative-footer">
-                          <span className="initiative-date">En cours</span>
-                      </div>
-                  </div>
-              </div>
-               <div className="initiative-card">
-                  <div className="initiative-image">
-                      <Image src="/Images/9.jpg" alt="Partenariats internationaux" width={400} height={200}/>
-                  </div>
-                  <div className="initiative-content">
-                      <span className="initiative-category">Plaidoyer</span>
-                      <h3>Partenariats Internationaux pour les Droits Humains</h3>
-                      <p>L'OMDH collabore avec des organismes internationaux tels que l'ONU, Amnesty International et la Coalition Mondiale Contre la Peine de Mort...</p>
-                      <div className="initiative-footer">
-                          <span className="initiative-date">En cours</span>
-                      </div>
-                  </div>
-              </div>
-               <div className="initiative-card">
-                  <div className="initiative-image">
-                      <Image src="/Images/Suppport.jpg" alt="Soutien aux victimes" width={400} height={200}/>
-                  </div>
-                  <div className="initiative-content">
-                      <span className="initiative-category">Liberté & Justice</span>
-                      <h3>Soutien aux Victimes de Violations des Droits Humains</h3>
-                      <p>Au-delà du plaidoyer, l'OMDH offre un soutien direct aux victimes d'abus — qu'il s'agisse de survivants de torture, de familles de personnes disparues ou de femmes confrontées à la violence...</p>
-                      <div className="initiative-footer">
-                          <span className="initiative-date">En cours</span>
-                      </div>
-                  </div>
-              </div>
-
-            </div>
-
-            <div className="cta-section">
-              <h2>Rejoignez Notre Mouvement pour les Droits Humains</h2>
-              <p className="cta-description">Ensemble, nous pouvons construire un Maroc où les droits humains sont respectés, protégés et réalisés pour tous. Votre soutien rend notre travail possible.</p>
-              <div className="cta-buttons">
-                <Link href="/contact" className="cta-btn secondary">Soutenez Notre Travail</Link>
               </div>
             </div>
           </div>
-        </section>
-      </main>
+
+          {/* Repeat for other timeline items */}
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <div className="timeline-image">
+                <Image src="/Images/Prisonners.jpeg" alt="Soutien aux prisonniers politiques" width={500} height={200} />
+              </div>
+              <div className="timeline-text">
+                <span className="timeline-date">Fin des années 1980</span>
+                <h3>Soutien aux Prisonniers Politiques</h3>
+                <p>Durant une période de répression politique intense, l&apos;OMDH a joué un rôle crucial dans la documentation et la dénonciation de la détention de militants politiques et de dissidents...</p>
+                <div className="timeline-footer">
+                  <span className="location-tag">À l&apos;échelle nationale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <div className="timeline-image">
+                <Image src="/Images/wOMENrIGHT.jpg" alt="Plaidoyer pour les droits des femmes" width={500} height={200} />
+              </div>
+              <div className="timeline-text">
+                <span className="timeline-date">En cours</span>
+                <h3>Plaidoyer pour les Droits des Femmes</h3>
+                <p>L&apos;OMDH a défendu les droits des femmes marocaines en poussant à des réformes du code de la famille, en luttant contre la violence basée sur le genre et en plaidant pour l&apos;égalité des chances...</p>
+                <div className="timeline-footer">
+                  <span className="location-tag">À l&apos;échelle nationale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <div className="timeline-image">
+                <Image src="/Images/Awarness.jpg" alt="Éducation des jeunes aux droits humains" width={500} height={200} />
+              </div>
+              <div className="timeline-text">
+                <span className="timeline-date">En cours</span>
+                <h3>Éducation des Jeunes aux Droits Humains</h3>
+                <p>Convaincue que le changement commence par la jeunesse, l&apos;OMDH mène des programmes éducatifs à travers le Maroc pour inculquer un profond respect des droits humains aux jeunes générations...</p>
+                <div className="timeline-footer">
+                  <span className="location-tag">À l&apos;échelle nationale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <div className="timeline-image">
+                <Image src="/Images/ChildMariage.jpeg" alt="Campagne contre le mariage des mineurs" width={500} height={200} />
+              </div>
+              <div className="timeline-text">
+                <span className="timeline-date">2019</span>
+                <h3>Campagne contre le Mariage des Mineurs</h3>
+                <p>L&apos;OMDH a lancé une campagne nationale vigoureuse pour mettre fin au mariage des enfants, en soulignant ses conséquences psychologiques, sociales et juridiques...</p>
+                <div className="timeline-footer">
+                  <span className="location-tag">À l&apos;échelle nationale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* NOTE: The single quotes in the style attribute are part of JS syntax and are NOT changed. */}
+        <h2 style={{ textAlign: 'center', marginTop: '5rem', fontSize: '2rem', color: 'var(--text-dark)', fontFamily: 'var(--Poppins)' }}>Autres Initiatives Clés</h2>
+        <div className="initiatives-grid">
+          {/* Initiative Cards Here */}
+            <div className="initiative-card">
+              <div className="initiative-image">
+                  <Image src="/Images/freedomeofspech.jpg" alt="Liberté d'expression" width={400} height={200} />
+              </div>
+              <div className="initiative-content">
+                  <span className="initiative-category">Liberté & Justice</span>
+                  <h3>Défense de la Liberté d&apos;Expression</h3>
+                  <p>L&apos;OMDH se tient comme un défenseur inébranlable des journalistes, artistes et citoyens confrontés à la censure ou au harcèlement judiciaire...</p>
+                  <div className="initiative-footer">
+                      <span className="initiative-date">En cours</span>
+                  </div>
+              </div>
+            </div>
+          <div className="initiative-card">
+            <div className="initiative-image">
+                <Image src="/Images/humainrightreporting.jpg" alt="Documentation des droits humains" width={400} height={200}/>
+            </div>
+            <div className="initiative-content">
+                <span className="initiative-category">Plaidoyer</span>
+                <h3>Documentation et Rapports sur les Droits Humains</h3>
+                <p>Grâce à des enquêtes de terrain méticuleuses, des entretiens et des analyses juridiques, l&apos;OMDH produit des rapports détaillés...</p>
+                <div className="initiative-footer">
+                    <span className="initiative-date">En cours</span>
+                </div>
+            </div>
+          </div>
+          <div className="initiative-card">
+            <div className="initiative-image">
+                <Image src="/Images/Parlement.png" alt="Conférences et débats publics" width={400} height={200}/>
+            </div>
+            <div className="initiative-content">
+                <span className="initiative-category">Éducation</span>
+                <h3>Conférences et Débats Publics</h3>
+                <p>L&apos;OMDH organise des débats publics inclusifs et des conférences académiques pour mettre en lumière les questions des droits humains...</p>
+                <div className="initiative-footer">
+                    <span className="initiative-date">En cours</span>
+                </div>
+            </div>
+          </div>
+            <div className="initiative-card">
+              <div className="initiative-image">
+                  <Image src="/Images/9.jpg" alt="Partenariats internationaux" width={400} height={200}/>
+              </div>
+              <div className="initiative-content">
+                  <span className="initiative-category">Plaidoyer</span>
+                  <h3>Partenariats Internationaux pour les Droits Humains</h3>
+                  <p>L&apos;OMDH collabore avec des organismes internationaux tels que l&apos;ONU, Amnesty International et la Coalition Mondiale Contre la Peine de Mort...</p>
+                  <div className="initiative-footer">
+                      <span className="initiative-date">En cours</span>
+                  </div>
+              </div>
+            </div>
+            <div className="initiative-card">
+              <div className="initiative-image">
+                  <Image src="/Images/Suppport.jpg" alt="Soutien aux victimes" width={400} height={200}/>
+              </div>
+              <div className="initiative-content">
+                  <span className="initiative-category">Liberté & Justice</span>
+                  <h3>Soutien aux Victimes de Violations des Droits Humains</h3>
+                  <p>Au-delà du plaidoyer, l&apos;OMDH offre un soutien direct aux victimes d&apos;abus — qu&apos;il s&apos;agisse de survivants de torture, de familles de personnes disparues ou de femmes confrontées à la violence...</p>
+                  <div className="initiative-footer">
+                      <span className="initiative-date">En cours</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+        <div className="cta-section">
+          <h2>Rejoignez Notre Mouvement pour les Droits Humains</h2>
+          <p className="cta-description">Ensemble, nous pouvons construire un Maroc où les droits humains sont respectés, protégés et réalisés pour tous. Votre soutien rend notre travail possible.</p>
+          <div className="cta-buttons">
+            <Link href="/contact" className="cta-btn secondary">Soutenez Notre Travail</Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
       <Footer />
 

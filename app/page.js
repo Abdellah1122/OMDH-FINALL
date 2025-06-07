@@ -36,7 +36,7 @@ const newsItems = [
     date: "25-26-27 avril 2025",
     title: "12ème Conférence Nationale de l'OMDH sur les Droits Humains et le Changement Global",
     description:
-      'تكرم المنظمة المغربية لحقوق الإنسان مؤسسيها والمساهمين فيها بدعوتهم للمشاركة في الندوات والجلسات الافتتاحية لمؤتمراتها. ويبحث مؤتمرها الوطني الثاني عشر في الرباط موضوع "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة"، ويبدأ بندوة حول الحقوق الاقتصادية والاجتماعية والثقافية في السياسة العامة.',
+      `تكرم المنظمة المغربية لحقوق الإنسان مؤسسيها والمساهمين فيها بدعوتهم للمشاركة في الندوات والجلسات الافتتاحية لمؤتمراتها. ويبحث مؤتمرها الوطني الثاني عشر في الرباط موضوع "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة"، ويبدأ بندوة حول الحقوق الاقتصادية والاجتماعية والثقافية في السياسة العامة.`,
     image: "/Images/New Project.jpg",
     imageStyle: "special-padding",
   },
@@ -44,14 +44,14 @@ const newsItems = [
     date: "6 mai 2025",
     title: "Conférence de Presse de l'OMDH sur les Résultats de la 12ème Conférence Nationale des Droits Humains",
     description:
-      'في 6 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان مؤتمراً صحفياً في الرباط لعرض نتائج مؤتمرها الوطني الثاني عشر حول "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة". وتقاسمت الإدارة الاستنتاجات والتوصيات، وحللت السياقات الوطنية والدولية، وأجابت على أسئلة وسائل الإعلام حول مواقفها من التحديات الراهنة لحقوق الإنسان.',
+      `في 6 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان مؤتمراً صحفياً في الرباط لعرض نتائج مؤتمرها الوطني الثاني عشر حول "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة". وتقاسمت الإدارة الاستنتاجات والتوصيات، وحللت السياقات الوطنية والدولية، وأجابت على أسئلة وسائل الإعلام حول مواقفها من التحديات الراهنة لحقوق الإنسان.`,
     image: "/Images/News2.jpg",
   },
   {
     date: "18 mai 2025",
     title: "Le Conseil National de l'OMDH se Réunit Suite à la 12ème Conférence, Rend Hommage aux Êtres Chers Disparus",
     description:
-      "في 18 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان الجلسة الأولى لمجلسها الوطني لوضع اللمسات الأخيرة على جدول أعمال مؤتمرها الوطني الثاني عشر. بدأ الاجتماع بالوقوف دقيقة صمت حدادًا على روح أنس بوعيش ووالدة الأستاذ عبد الرزاق وئام.",
+      `في 18 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان الجلسة الأولى لمجلسها الوطني لوضع اللمسات الأخيرة على جدول أعمال مؤتمرها الوطني الثاني عشر. بدأ الاجتماع بالوقوف دقيقة صمت حدادًا على روح أنس بوعيش ووالدة الأستاذ عبد الرزاق وئام.`,
     image: "/Images/News3.jpg",
   },
 ]
@@ -299,7 +299,7 @@ export default function HomePage() {
               <div className="story-content">
                 <h3 className="story-title">OMDH : Plaidoyer pour la Justice et la Dignité Humaine</h3>
                 <p className="story-text">
-                  Au cœur de notre mission réside un engagement inébranlable envers la justice, l'égalité et la
+                  Au cœur de notre mission réside un engagement inébranlable envers la justice, l&apos;égalité et la
                   protection des droits humains fondamentaux. Nous plaidons pour la dignité et les libertés de tous les
                   individus, nous efforçant de créer un monde où chaque voix est entendue, chaque droit est respecté, et
                   chaque personne est habilitée à vivre sans peur ni oppression.

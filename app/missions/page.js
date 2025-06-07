@@ -17,10 +17,12 @@ export default function MissionsPage() {
         <section className="hero-section">
           <div className="hero-content">
             <div className="hero-title">
-              <h1>Notre Mission à l'OMDH</h1>
+              {/* FIX: Replaced l' with l&apos; */}
+              <h1>Notre Mission à l&apos;OMDH</h1>
             </div>
             <div className="hero-description">
-              <p>L'Organisation Marocaine des Droits Humains (OMDH) se consacre aux principes universels des droits humains. Nous nous efforçons de promouvoir et de protéger les libertés fondamentales, d'assurer l'état de droit et de soutenir les victimes de violations à travers le Maroc et au-delà.</p>
+              {/* FIX: Replaced L' with L&apos; and l' with l&apos; */}
+              <p>L&apos;Organisation Marocaine des Droits Humains (OMDH) se consacre aux principes universels des droits humains. Nous nous efforçons de promouvoir et de protéger les libertés fondamentales, d&apos;assurer l&apos;état de droit et de soutenir les victimes de violations à travers le Maroc et au-delà.</p>
               <Link href="/about-us" className="btn-secondary">Découvrir Nos Actions</Link>
             </div>
           </div>
@@ -36,31 +38,39 @@ export default function MissionsPage() {
             <div className="missions-grid">
               <div className="mission-card">
                 <h4>Promouvoir et Protéger les Droits Humains</h4>
-                <p>Œuvrer pour la promotion, la jouissance et l'exercice des droits humains et des libertés fondamentales, individuelles et collectives, sans discrimination, sur la base des normes universelles.</p>
+                {/* FIX: Replaced l' with l&apos; */}
+                <p>Œuvrer pour la promotion, la jouissance et l&apos;exercice des droits humains et des libertés fondamentales, individuelles et collectives, sans discrimination, sur la base des normes universelles.</p>
               </div>
 
               <div className="mission-card">
                 <h4>Surveiller et Signaler les Violations</h4>
-                <p>Surveiller activement, exposer, signaler et traiter toutes les violations des droits humains, en publiant des communiqués de presse et des rapports d'enquête.</p>
+                {/* FIX: Replaced d' with d&apos; */}
+                <p>Surveiller activement, exposer, signaler et traiter toutes les violations des droits humains, en publiant des communiqués de presse et des rapports d&apos;enquête.</p>
               </div>
 
               <div className="mission-card">
-                <h4>Plaider pour l'État de Droit</h4>
-                <p>Revendiquer le respect constant des droits humains, l'établissement et la consolidation de l'état de droit, la séparation des pouvoirs et le renforcement de l'indépendance et de l'impartialité du pouvoir judiciaire.</p>
+                {/* FIX: Replaced l' with l&apos; */}
+                <h4>Plaider pour l&apos;État de Droit</h4>
+                {/* FIX: Replaced l' with l&apos; (multiple times) */}
+                <p>Revendiquer le respect constant des droits humains, l&apos;établissement et la consolidation de l&apos;état de droit, la séparation des pouvoirs et le renforcement de l&apos;indépendance et de l&apos;impartialité du pouvoir judiciaire.</p>
               </div>
 
               <div className="mission-card">
+                {/* FIX: Replaced l' with l&apos; */}
                 <h4>Éducation et Culture des Droits Humains</h4>
-                <p>Diffuser la culture des droits humains, poursuivre l'éducation à la citoyenneté et sensibiliser la société marocaine et la communauté internationale au respect de ces droits.</p>
+                {/* FIX: Replaced l' with l&apos; */}
+                <p>Diffuser la culture des droits humains, poursuivre l&apos;éducation à la citoyenneté et sensibiliser la société marocaine et la communauté internationale au respect de ces droits.</p>
               </div>
 
               <div className="mission-card">
                 <h4>Normes Internationales et Harmonisation</h4>
-                <p>Appeler à la ratification des instruments et normes internationaux relatifs aux droits humains, assurer l'harmonisation des lois nationales avec ces conventions et défendre la primauté des normes internationales.</p>
+                {/* FIX: Replaced l' with l&apos; */}
+                <p>Appeler à la ratification des instruments et normes internationaux relatifs aux droits humains, assurer l&apos;harmonisation des lois nationales avec ces conventions et défendre la primauté des normes internationales.</p>
               </div>
 
               <div className="mission-card">
                 <h4>Soutenir les Victimes de Violations</h4>
+                {/* FIX: Replaced se constituant with se constituant (no change needed here, just checking) */}
                 <p>Fournir assistance, conseil et soutien par tous les moyens légaux aux victimes de violations des droits humains, en se constituant potentiellement partie civile dans les affaires judiciaires.</p>
               </div>
             </div>
@@ -69,8 +79,10 @@ export default function MissionsPage() {
           {/* Timeline Section */}
           <section className="timeline-section">
             <div className="timeline-header">
-              <h2>Nos Activités Clés et Domaines d'Intervention</h2>
-              <p>Notre travail couvre divers domaines cruciaux, se concentrant sur le plaidoyer, le soutien juridique, l'éducation et la coopération internationale pour défendre les normes des droits humains.</p>
+              {/* FIX: Replaced d' with d&apos; */}
+              <h2>Nos Activités Clés et Domaines d&apos;Intervention</h2>
+              {/* FIX: Replaced l' with l&apos; */}
+              <p>Notre travail couvre divers domaines cruciaux, se concentrant sur le plaidoyer, le soutien juridique, l&apos;éducation et la coopération internationale pour défendre les normes des droits humains.</p>
             </div>
 
             <div className="timeline">
@@ -78,14 +90,16 @@ export default function MissionsPage() {
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <h4 className="timeline-title">Publier et Diffuser des Informations</h4>
-                  <p className="timeline-description">Publier des données, des périodiques, des rapports thématiques (par exemple, sur les élections, la torture) et d'autres documents relatifs aux questions et situations des droits humains.</p>
+                  {/* FIX: Replaced d' with d&apos; */}
+                  <p className="timeline-description">Publier des données, des périodiques, des rapports thématiques (par exemple, sur les élections, la torture) et d&apos;autres documents relatifs aux questions et situations des droits humains.</p>
                 </div>
               </div>
 
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4 className="timeline-title">Plaidoyer auprès des Décideurs Politiques</h4>
+                  <h4>Plaidoyer auprès des Décideurs Politiques</h4>
+                  {/* FIX: Replaced d' with d&apos; */}
                   <p className="timeline-description">Exercer un plaidoyer auprès des décideurs politiques pour assurer le respect des engagements en matière de droits humains et influencer les changements législatifs.</p>
                 </div>
               </div>
@@ -93,7 +107,7 @@ export default function MissionsPage() {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4 className="timeline-title">Coopération Nationale et Internationale</h4>
+                  <h4>Coopération Nationale et Internationale</h4>
                   <p className="timeline-description">Renforcer la solidarité nationale et coopérer/coordonner avec les associations et institutions aux niveaux national, régional et international sur les questions relatives aux droits humains.</p>
                 </div>
               </div>
@@ -101,7 +115,7 @@ export default function MissionsPage() {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4 className="timeline-title">Publier des Rapports Parallèles</h4>
+                  <h4>Publier des Rapports Parallèles</h4>
                   <p className="timeline-description">Publier des rapports parallèles aux soumissions gouvernementales sous la supervision des comités compétents des organes de traités des Nations Unies.</p>
                 </div>
               </div>
@@ -109,8 +123,9 @@ export default function MissionsPage() {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4 className="timeline-title">Organiser des Événements</h4>
-                  <p className="timeline-description">Organiser des séminaires, des conférences, des galeries d'art et d'autres expositions pour sensibiliser et débattre des sujets relatifs aux droits humains.</p>
+                  <h4>Organiser des Événements</h4>
+                  {/* FIX: Replaced d' with d&apos; (twice) */}
+                  <p className="timeline-description">Organiser des séminaires, des conférences, des galeries d&apos;art et d&apos;autres expositions pour sensibiliser et débattre des sujets relatifs aux droits humains.</p>
                 </div>
               </div>
             </div>

@@ -12,85 +12,85 @@ export default function ArticlePage() {
     <>
       <Navbar />
 
-      <main>
-        <nav className="nav-breadcrumb">
-          <div className="container">
-            <div className="breadcrumb">
-              <Link href="/">Accueil</Link>
-              <span>›</span>
-              <Link href="/editions">Editions</Link>
-              <span>›</span>
-              <span>البيان العام الصادر عن المؤتمر الوطني الثاني عشر</span>
-            </div>
-          </div>
-        </nav>
+     <main>
+    <nav className="nav-breadcrumb">
+      <div className="container">
+        <div className="breadcrumb">
+          <Link href="/">Accueil</Link>
+          <span>›</span>
+          <Link href="/editions">Editions</Link>
+          <span>›</span>
+          <span>البيان العام الصادر عن المؤتمر الوطني الثاني عشر</span>
+        </div>
+      </div>
+    </nav>
 
-        <header className="article-header" dir="rtl" lang="ar">
-          <div className="container">
-            <div className="article-category">Actualité</div>
-            <h1 className="article-title">البيان العام الصادر عن المؤتمر الوطني الثاني عشر المنعقد أيام 25-26-27 أبريل 2025</h1>
-            <p className="article-subtitle">Moroccan Organization of Human Rights – Organisation Marocaine des Droits Humains</p>
-            <div className="article-meta">
-              <div className="meta-item">
-                <strong>بقلم المنظمة المغربية لحقوق الإنسان</strong>
-              </div>
-              <div className="meta-divider"></div>
-              <div className="meta-item">
-                27 أبريل 2025
-              </div>
-            </div>
+    <header className="article-header" dir="rtl" lang="ar">
+      <div className="container">
+        <div className="article-category">Actualité</div>
+        <h1 className="article-title">البيان العام الصادر عن المؤتمر الوطني الثاني عشر المنعقد أيام 25-26-27 أبريل 2025</h1>
+        <p className="article-subtitle">Moroccan Organization of Human Rights – Organisation Marocaine des Droits Humains</p>
+        <div className="article-meta">
+          <div className="meta-item">
+            <strong>بقلم المنظمة المغربية لحقوق الإنسان</strong>
           </div>
-        </header>
+          <div className="meta-divider"></div>
+          <div className="meta-item">
+            27 أبريل 2025
+          </div>
+        </div>
+      </div>
+    </header>
 
-        <section className="article-hero">
-          <div className="container">
-            <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان" className="hero-image" width={800} height={400} priority />
-          
-          </div>
-        </section>
+    <section className="article-hero">
+      <div className="container">
+        <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان" className="hero-image" width={800} height={400} priority />
+      </div>
+    </section>
 
-        <article className="article-content" dir="rtl" lang="ar">
-          <div className="container">
-            <div className="content-body">
-              <p>انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 بالمعهد الوطني لكتابة الضبط والمهن القانونية والقضائية تحت شعار "أي فعلية لحقوق الانسان في ظل التحولات الدولية الراهنة؟ ، وقد تم التمهيد لأشغال المؤتمر بتنظيم ندوة موضوعاتية تحت عنوان "الحقوق الاقتصادية والاجتماعية والثقافية في السياسات العمومية وسؤال الفعلية، وتهدف هذه الندوة إلى طرح وضعية هذه الحقوق انطلاقا من السياسات العمومية التي نهجتها الحكومة في ظل تدبيرها للشأن العمومي، وقد شارك في تأطيرها مجموعة من الأساتذة الجامعيين والخبراء والفاعلين الحقوقيين الوطنيين والدوليين حيث طرحت مجموعة من الأسئلة والاشكالات المرتبطة بوضعية الحقوق الاقتصادية والاجتماعية والثقافية في ظل سؤال مركزي مرتبط بمدى فعليتها في السياسات العمومية، مؤكدين على ضرورة التزام الحكومة بحماية هذه الحقوق وضمان فعليتها وفقا لالتزامات المغرب الدولية والوطنية المؤطرة بالاتفاقيات والصكوك ومواثيق حقوق الانسان والدستور المغربي.</p>
-              <p>وقد خلصت هذه الندوة الموضوعاتية إلى بلورة توصيات متعلقة بحماية الحقوق الاقتصادية والاجتماعية والثقافية والضمانات الأساسية لفعليتها في إطار السياسات العمومية مع تقديم ملاحظات حول كيفية عمل الفاعلين الحقوقيين لكسب هذا الرهان الحقوقي.</p>
-              {/* ... More paragraphs ... */}
-              <h2>نتائج المؤتمر:</h2>
-              <div className="highlight-box">
-                <ul>
-                  <li>يثمن المؤتمر المكتسبات الحقوقية بالمغرب...</li>
-                  <li>يسجل المؤتمر بإيجابية العفو الملكي على مجموعة من الصحفيين...</li>
-                  {/* ... All other list items ... */}
-                  <li>يؤكد على كون إحلال السلام في المنطقة رهين بإقامة دولة فلسطين المستقلة وعاصمتها القدس الشرقية على حدود 67.</li>
-                </ul>
-              </div>
-              <h2>توصيات المؤتمر:</h2>
-              <div className="highlight-box">
-                <ul>
-                  <li>وضع استراتيجية عمل طيلة الولاية الانتدابية لأجهزة المنظمة.</li>
-                  <li>وضع برامج منسجمة لتفعيل استراتيجية العمل، مع تجويد آليات التنفيذ.</li>
-                  <li>التعبئة من أجل ضمان انخراط جميع مكونات المنظمة في تفعيل استراتيجيتها.</li>
-                </ul>
-              </div>
-            </div>
+    <article className="article-content" dir="rtl" lang="ar">
+      <div className="container">
+        <div className="content-body">
+          {/* FIX: Replaced " with &quot; */}
+          <p>انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 بالمعهد الوطني لكتابة الضبط والمهن القانونية والقضائية تحت شعار &quot;أي فعلية لحقوق الانسان في ظل التحولات الدولية الراهنة؟&quot; ، وقد تم التمهيد لأشغال المؤتمر بتنظيم ندوة موضوعاتية تحت عنوان &quot;الحقوق الاقتصادية والاجتماعية والثقافية في السياسات العمومية وسؤال الفعلية&quot;، وتهدف هذه الندوة إلى طرح وضعية هذه الحقوق انطلاقا من السياسات العمومية التي نهجتها الحكومة في ظل تدبيرها للشأن العمومي، وقد شارك في تأطيرها مجموعة من الأساتذة الجامعيين والخبراء والفاعلين الحقوقيين الوطنيين والدوليين حيث طرحت مجموعة من الأسئلة والاشكالات المرتبطة بوضعية الحقوق الاقتصادية والاجتماعية والثقافية في ظل سؤال مركزي مرتبط بمدى فعليتها في السياسات العمومية، مؤكدين على ضرورة التزام الحكومة بحماية هذه الحقوق وضمان فعليتها وفقا لالتزامات المغرب الدولية والوطنية المؤطرة بالاتفاقيات والصكوك ومواثيق حقوق الانسان والدستور المغربي.</p>
+          <p>وقد خلصت هذه الندوة الموضوعاتية إلى بلورة توصيات متعلقة بحماية الحقوق الاقتصادية والاجتماعية والثقافية والضمانات الأساسية لفعليتها في إطار السياسات العمومية مع تقديم ملاحظات حول كيفية عمل الفاعلين الحقوقيين لكسب هذا الرهان الحقوقي.</p>
+          {/* ... More paragraphs ... */}
+          <h2>نتائج المؤتمر:</h2>
+          <div className="highlight-box">
+            <ul>
+              <li>يثمن المؤتمر المكتسبات الحقوقية بالمغرب...</li>
+              <li>يسجل المؤتمر بإيجابية العفو الملكي على مجموعة من الصحفيين...</li>
+              {/* ... All other list items ... */}
+              <li>يؤكد على كون إحلال السلام في المنطقة رهين بإقامة دولة فلسطين المستقلة وعاصمتها القدس الشرقية على حدود 67.</li>
+            </ul>
           </div>
-        </article>
+          <h2>توصيات المؤتمر:</h2>
+          <div className="highlight-box">
+            <ul>
+              <li>وضع استراتيجية عمل طيلة الولاية الانتدابية لأجهزة المنظمة.</li>
+              <li>وضع برامج منسجمة لتفعيل استراتيجية العمل، مع تجويد آليات التنفيذ.</li>
+              <li>التعبئة من أجل ضمان انخراط جميع مكونات المنظمة في تفعيل استراتيجيتها.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
 
-        <section className="author-section">
-          <div className="container">
-            <div className="author-card" dir="rtl">
-              <Image src="/omdhlogo.png" alt="شعار المنظمة المغربية لحقوق الإنسان" className="author-avatar" width={80} height={80} />
-              <div className="author-info">
-                <h4>المنظمة المغربية لحقوق الإنسان</h4>
-                <p className="author-title">جهة الإصدار</p>
-                <p className="author-bio">
-                  البيان العام الصادر عن المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، المنعقد أيام 25-26-27 أبريل 2025 بالرباط.
-                </p>
-              </div>
-            </div>
+    <section className="author-section">
+      <div className="container">
+        <div className="author-card" dir="rtl">
+          <Image src="/omdhlogo.png" alt="شعار المنظمة المغربية لحقوق الإنسان" className="author-avatar" width={80} height={80} />
+          <div className="author-info">
+            <h4>المنظمة المغربية لحقوق الإنسان</h4>
+            <p className="author-title">جهة الإصدار</p>
+            <p className="author-bio">
+              البيان العام الصادر عن المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، المنعقد أيام 25-26-27 أبريل 2025 بالرباط.
+            </p>
           </div>
-        </section>
-      </main>
+        </div>
+      </div>
+    </section>
+  </main>
 
       <Footer />
 

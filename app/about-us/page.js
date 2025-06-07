@@ -13,210 +13,211 @@ export default function AboutUsPage() {
       <Navbar />
 
       <main>
-        <section className="about-section">
-          <div className="about-container">
-            <div className="about-header">
-              <h1>À propos de <span className="highlight">l'OMDH</span></h1>
-              <p className="about-tagline">
-                Depuis sa création en 1988, l'Organisation Marocaine des Droits Humains (OMDH) est un pilier de la défense, de la protection et de la promotion des droits humains au Maroc. Ancrée dans les principes d'universalité, d'indivisibilité et d'interdépendance des droits, l'OMDH plaide pour la dignité, l'égalité et la justice pour tous.
-              </p>
+  <section className="about-section">
+    <div className="about-container">
+      <div className="about-header">
+        {/* FIX: l' replaced with l&apos; */}
+        <h1>À propos de <span className="highlight">l&apos;OMDH</span></h1>
+        <p className="about-tagline">
+          {/* FIX: l', d', etc. replaced with &apos; equivalents */}
+          Depuis sa création en 1988, l&apos;Organisation Marocaine des Droits Humains (OMDH) est un pilier de la défense, de la protection et de la promotion des droits humains au Maroc. Ancrée dans les principes d&apos;universalité, d&apos;indivisibilité et d&apos;interdépendance des droits, l&apos;OMDH plaide pour la dignité, l&apos;égalité et la justice pour tous.
+        </p>
+      </div>
+
+      <div className="about-content">
+        <div className="about-image">
+          <Image src="/Images/candle White Background.jpg" alt="OMDH" width={600} height={700} style={{ objectFit: 'cover' }} />
+          <div className="image-overlay">
+            <span className="founded-year">Fondée en 1988</span>
+          </div>
+        </div>
+
+        <div className="about-text">
+          <h2>Qui sommes-nous</h2>
+          <p>
+            L&apos;Organisation Marocaine des Droits Humains (OMDH) est une association reconnue au niveau national, indépendante et démocratique, créée en 1988 par des défenseurs des droits humains engagés à respecter les normes internationales. Elle est ouverte à toutes les personnes qui partagent les valeurs de liberté, d&apos;égalité et de justice, sans aucune discrimination fondée sur le sexe, la langue, la religion ou l&apos;idéologie.
+          </p>
+          <p>
+            L&apos;OMDH opère dans le cadre des conventions internationales des droits humains ratifiées par le Maroc et de la législation nationale. Elle se concentre sur la nature universelle, globale et complémentaire des droits civils, politiques, économiques, sociaux, culturels et environnementaux.
+          </p>
+
+          <h2>Notre parcours</h2>
+          <p>
+            L&apos;OMDH est née en réponse à un besoin national croissant d&apos;une organisation démocratique des droits humains qui unit les citoyens au-delà des clivages idéologiques. Au fil des décennies, elle s&apos;est développée pour devenir un vaste mouvement pour la justice, façonnant le débat public, influençant les politiques et apportant son soutien aux victimes de violations des droits humains.
+          </p>
+          <p>
+            À travers son siège et ses sections régionales, l&apos;OMDH a constamment contribué aux grands débats et réformes nationaux. Elle a participé à la justice transitionnelle, à la modernisation du code pénal et à la protection des populations vulnérables, tout en restant fermement ancrée dans la société civile.
+          </p>
+
+          <h2>Notre mission</h2>
+          <p>
+            La mission de l&apos;OMDH est de promouvoir, protéger et étendre les droits humains au Maroc à travers un large éventail d&apos;actions comprenant le plaidoyer, l&apos;éducation, le soutien juridique, la réforme des politiques et les interventions sur le terrain. Elle s&apos;efforce d&apos;inculquer une culture fondée sur les droits parmi les citoyens et les institutions publiques.
+          </p>
+          <p>
+            L&apos;organisation défend l&apos;indivisibilité des droits et se concentre sur des questions clés telles que la justice transitionnelle, l&apos;égalité des sexes, la protection des groupes vulnérables, la démocratie participative et l&apos;éducation aux droits humains.
+          </p>
+
+          <div className="stats-container">
+            <div className="stat-item">
+              <span className="stat-number">+35</span>
+              <span className="stat-label">Années de défense des droits humains</span>
             </div>
-
-            <div className="about-content">
-              <div className="about-image">
-                <Image src="/Images/candle White Background.jpg" alt="OMDH" width={600} height={700} style={{ objectFit: 'cover' }} />
-                <div className="image-overlay">
-                  <span className="founded-year">Fondée en 1988</span>
-                </div>
-              </div>
-
-              <div className="about-text">
-                <h2>Qui sommes-nous</h2>
-                <p>
-                  L'Organisation Marocaine des Droits Humains (OMDH) est une association reconnue au niveau national, indépendante et démocratique, créée en 1988 par des défenseurs des droits humains engagés à respecter les normes internationales. Elle est ouverte à toutes les personnes qui partagent les valeurs de liberté, d'égalité et de justice, sans aucune discrimination fondée sur le sexe, la langue, la religion ou l'idéologie.
-                </p>
-                <p>
-                  L'OMDH opère dans le cadre des conventions internationales des droits humains ratifiées par le Maroc et de la législation nationale. Elle se concentre sur la nature universelle, globale et complémentaire des droits civils, politiques, économiques, sociaux, culturels et environnementaux.
-                </p>
-
-                <h2>Notre parcours</h2>
-                <p>
-                  L'OMDH est née en réponse à un besoin national croissant d'une organisation démocratique des droits humains qui unit les citoyens au-delà des clivages idéologiques. Au fil des décennies, elle s'est développée pour devenir un vaste mouvement pour la justice, façonnant le débat public, influençant les politiques et apportant son soutien aux victimes de violations des droits humains.
-                </p>
-                <p>
-                  À travers son siège et ses sections régionales, l'OMDH a constamment contribué aux grands débats et réformes nationaux. Elle a participé à la justice transitionnelle, à la modernisation du code pénal et à la protection des populations vulnérables, tout en restant fermement ancrée dans la société civile.
-                </p>
-
-                <h2>Notre mission</h2>
-                <p>
-                  La mission de l'OMDH est de promouvoir, protéger et étendre les droits humains au Maroc à travers un large éventail d'actions comprenant le plaidoyer, l'éducation, le soutien juridique, la réforme des politiques et les interventions sur le terrain. Elle s'efforce d'inculquer une culture fondée sur les droits parmi les citoyens et les institutions publiques.
-                </p>
-                <p>
-                  L'organisation défend l'indivisibilité des droits et se concentre sur des questions clés telles que la justice transitionnelle, l'égalité des sexes, la protection des groupes vulnérables, la démocratie participative et l'éducation aux droits humains.
-                </p>
-
-                <div className="stats-container">
-                  <div className="stat-item">
-                    <span className="stat-number">+35</span>
-                    <span className="stat-label">Années de défense des droits humains</span>
-                  </div>
-                  <div className="stat-item">
-                    <span className="stat-number">+100</span>
-                    <span className="stat-label">Campagnes de plaidoyer et de sensibilisation</span>
-                  </div>
-                  <div className="stat-item">
-                    <span className="stat-number">+40</span>
-                    <span className="stat-label">Partenariats régionaux et locaux</span>
-                  </div>
-                  <div className="stat-item">
-                    <span className="stat-number">+10K</span>
-                    <span className="stat-label">Personnes sensibilisées par l'éducation</span>
-                  </div>
-                </div>
-
-                <div className="cta-container">
-                  <Link href="/projects" className="BtnPrimary">Nos Projets</Link>
-                  <Link href="/contact" className="BtnSuc">Nous Contacter</Link>
-                </div>
-              </div>
+            <div className="stat-item">
+              <span className="stat-number">+100</span>
+              <span className="stat-label">Campagnes de plaidoyer et de sensibilisation</span>
             </div>
+            <div className="stat-item">
+              <span className="stat-number">+40</span>
+              <span className="stat-label">Partenariats régionaux et locaux</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-number">+10K</span>
+              <span className="stat-label">Personnes sensibilisées par l&apos;éducation</span>
+            </div>
+          </div>
 
-            <div className="timeline-section">
-              <h2>Notre Histoire</h2>
-              <div className="Sec">
-                <div className="Projects">
-                  <div className="timeline-container">
-                    <div className="timeline-item timeline-left">
-                      <div className="timeline-content">
-                        <div className="timeline-year primary">1988</div>
-                        <div className="autoShow">
-                          <div className="timeline-title primary">Fondation de l'OMDH</div>
-                        </div>
-                        <div className="autoShow">
-                          <div className="timeline-description">L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 28 mai 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.</div>
-                        </div>
-                        <div className="autoShow">
-                          <Image src="/Images/HandsSolidarity.jpg" alt="Hands Solidarity" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}} />
-                        </div>
-                      </div>
-                    </div>
-                    {/* Other timeline items... */}
-                     <div className="timeline-item timeline-right">
-                       <div className="timeline-content">
-                         <div className="timeline-year secondary">1993</div>
-                         <div className="autoShow">
-                           <div className="timeline-title secondary">Reconnaissance internationale</div>
-                         </div>
-                         <div className="autoShow">
-                           <div className="timeline-description">L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.</div>
-                         </div>
-                         <div className="autoShow">
-                           <Image src="/Images/CandleInHand2.jpg" alt="Candle In Hand" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}} />
-                         </div>
-                       </div>
-                     </div>
-                     <div className="timeline-item timeline-left">
-                       <div className="timeline-content">
-                         <div className="timeline-year primary">2004</div>
-                         <div className="autoShow">
-                           <div className="timeline-title primary">Justice et Réconciliation</div>
-                         </div>
-                         <div className="autoShow">
-                           <div className="timeline-description">L'OMDH joue un rôle clé au sein de l'Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.</div>
-                         </div>
-                         <div className="autoShow">
-                           <Image src="/Images/Women.jpg" alt="Women" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}}/>
-                         </div>
-                       </div>
-                     </div>
-                     <div className="timeline-item timeline-right">
-                       <div className="timeline-content">
-                         <div className="timeline-year secondary">2011</div>
-                         <div className="autoShow">
-                           <div className="timeline-title secondary">Printemps arabe et Réforme constitutionnelle</div>
-                         </div>
-                         <div className="autoShow">
-                           <div className="timeline-description">Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.</div>
-                         </div>
-                         <div className="autoShow">
-                           <Image src="/Images/arabspring.jpeg" alt="Arab Spring" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}}/>
-                         </div>
-                       </div>
-                     </div>
-                     <div className="timeline-item timeline-left">
-                       <div className="timeline-content">
-                         <div className="timeline-year primary">2023</div>
-                         <div className="autoShow">
-                           <div className="timeline-title primary">Plaidoyer national et Partenariats</div>
-                         </div>
-                         <div className="autoShow">
-                           <div className="timeline-description">L'OMDH renforce sa coopération avec les universités marocaines, les institutions civiles et les organisations internationales pour promouvoir l'éducation, les droits des femmes et les libertés civiles.</div>
-                         </div>
-                         <div className="autoShow">
-                           <Image src="/Images/ChatGPT Image May 3, 2025, 05_09_56 PM.png" alt="Partnerships" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}} />
-                         </div>
-                       </div>
-                     </div>
+          <div className="cta-container">
+            <Link href="/projects" className="BtnPrimary">Nos Projets</Link>
+            <Link href="/contact" className="BtnSuc">Nous Contacter</Link>
+          </div>
+        </div>
+      </div>
 
+      <div className="timeline-section">
+        <h2>Notre Histoire</h2>
+        <div className="Sec">
+          <div className="Projects">
+            <div className="timeline-container">
+              <div className="timeline-item timeline-left">
+                <div className="timeline-content">
+                  <div className="timeline-year primary">1988</div>
+                  <div className="autoShow">
+                    <div className="timeline-title primary">Fondation de l&apos;OMDH</div>
+                  </div>
+                  <div className="autoShow">
+                    <div className="timeline-description">L&apos;Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 28 mai 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.</div>
+                  </div>
+                  <div className="autoShow">
+                    <Image src="/Images/HandsSolidarity.jpg" alt="Hands Solidarity" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}} />
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="values-section">
-              <h2>Nos valeurs fondamentales</h2>
-              <p className="values-description">Nos valeurs constituent le fondement de notre mission et de nos actions. Elles représentent notre engagement indéfectible envers la justice, la dignité et les droits humains pour tous.</p>
-              <div className="values-container">
-                <div className="value-card">
-                  <div className="value-icon"><div className="icon-circle"><span>⚖️</span></div></div>
-                  <h3>Justice</h3>
-                  <p>Nous recherchons la justice à travers la réforme juridique, la responsabilisation et la défense des droits individuels et collectifs, garantissant l'équité et la justice dans toute la société marocaine.</p>
-                </div>
-                <div className="value-card">
-                  <div className="value-icon"><div className="icon-circle"><span>🕊️</span></div></div>
-                  <h3>Dignité</h3>
-                  <p>Nous promouvons le respect de la dignité inhérente à chaque personne, en œuvrant pour éliminer la discrimination, l'exclusion et la violence sous toutes ses formes.</p>
-                </div>
-                <div className="value-card">
-                  <div className="value-icon"><div className="icon-circle"><span>🤝</span></div></div>
-                  <h3>Solidarité</h3>
-                  <p>Nous collaborons avec les communautés, les organisations et les institutions pour construire une voix collective pour les droits humains et renforcer la participation de la société civile.</p>
-                </div>
-                <div className="value-card">
-                  <div className="value-icon"><div className="icon-circle"><span>📣</span></div></div>
-                  <h3>Plaidoyer</h3>
-                  <p>Nous participons activement au discours public, influençons les politiques et prenons des mesures concrètes pour protéger les droits humains et les libertés démocratiques.</p>
+              {/* Other timeline items... */}
+              <div className="timeline-item timeline-right">
+                <div className="timeline-content">
+                  <div className="timeline-year secondary">1993</div>
+                  <div className="autoShow">
+                    <div className="timeline-title secondary">Reconnaissance internationale</div>
+                  </div>
+                  <div className="autoShow">
+                    <div className="timeline-description">L&apos;OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.</div>
+                  </div>
+                  <div className="autoShow">
+                    <Image src="/Images/CandleInHand2.jpg" alt="Candle In Hand" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}} />
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div className="Partnairs">
-              <h2>Découvrez tous nos partenaires !</h2>
-              <div className="parts">
-                <div className="ImgCont"><Image src="/IntPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" alt="Ecosoc Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/IntPartnaires/Amnesty_International_logo.svg.png" alt="Amnesty International Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/IntPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" alt="LC Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/IntPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" alt="Human Rights Watch Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/UNIPartnaires/1631365508628.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/UNIPartnaires/images (3).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/UNIPartnaires/images.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/UNIPartnaires/Logo-UIZ.jpg" alt="UIZ Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/UNIPartnaires/logo.png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/UNIPartnaires/Mohammed_V_University_Logo.png" alt="Mohammed V University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/UNIPartnaires/univ-cadi-ayyad-logo-900x420-1.png" alt="Cadi Ayyad University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/UNIPartnaires/universite-abdelmalek-essaadi-900x420-1.png" alt="Abdelmalek Essaadi University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/UNIPartnaires/Universite-Hassan-1er-settat.png" alt="Hassan 1er University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" alt="ECPM Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/NatPartnaires/images (1).jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/NatPartnaires/images (1).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/NatPartnaires/images (2).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/NatPartnaires/images.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-                <div className="ImgCont"><Image src="/NatPartnaires/images.png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+              <div className="timeline-item timeline-left">
+                <div className="timeline-content">
+                  <div className="timeline-year primary">2004</div>
+                  <div className="autoShow">
+                    <div className="timeline-title primary">Justice et Réconciliation</div>
+                  </div>
+                  <div className="autoShow">
+                    <div className="timeline-description">L&apos;OMDH joue un rôle clé au sein de l&apos;Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.</div>
+                  </div>
+                  <div className="autoShow">
+                    <Image src="/Images/Women.jpg" alt="Women" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}}/>
+                  </div>
+                </div>
+              </div>
+              <div className="timeline-item timeline-right">
+                <div className="timeline-content">
+                  <div className="timeline-year secondary">2011</div>
+                  <div className="autoShow">
+                    <div className="timeline-title secondary">Printemps arabe et Réforme constitutionnelle</div>
+                  </div>
+                  <div className="autoShow">
+                    <div className="timeline-description">Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l&apos;OMDH plaide pour l&apos;élargissement des protections des droits humains, l&apos;indépendance judiciaire et l&apos;égalité des sexes.</div>
+                  </div>
+                  <div className="autoShow">
+                    <Image src="/Images/arabspring.jpeg" alt="Arab Spring" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}}/>
+                  </div>
+                </div>
+              </div>
+              <div className="timeline-item timeline-left">
+                <div className="timeline-content">
+                  <div className="timeline-year primary">2023</div>
+                  <div className="autoShow">
+                    <div className="timeline-title primary">Plaidoyer national et Partenariats</div>
+                  </div>
+                  <div className="autoShow">
+                    <div className="timeline-description">L&apos;OMDH renforce sa coopération avec les universités marocaines, les institutions civiles et les organisations internationales pour promouvoir l&apos;éducation, les droits des femmes et les libertés civiles.</div>
+                  </div>
+                  <div className="autoShow">
+                    <Image src="/Images/ChatGPT Image May 3, 2025, 05_09_56 PM.png" alt="Partnerships" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}} />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-      </main>
+        </div>
+      </div>
+
+      <div className="values-section">
+        <h2>Nos valeurs fondamentales</h2>
+        <p className="values-description">Nos valeurs constituent le fondement de notre mission et de nos actions. Elles représentent notre engagement indéfectible envers la justice, la dignité et les droits humains pour tous.</p>
+        <div className="values-container">
+          <div className="value-card">
+            <div className="value-icon"><div className="icon-circle"><span>⚖️</span></div></div>
+            <h3>Justice</h3>
+            <p>Nous recherchons la justice à travers la réforme juridique, la responsabilisation et la défense des droits individuels et collectifs, garantissant l&apos;équité et la justice dans toute la société marocaine.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon"><div className="icon-circle"><span>🕊️</span></div></div>
+            <h3>Dignité</h3>
+            <p>Nous promouvons le respect de la dignité inhérente à chaque personne, en œuvrant pour éliminer la discrimination, l&apos;exclusion et la violence sous toutes ses formes.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon"><div className="icon-circle"><span>🤝</span></div></div>
+            <h3>Solidarité</h3>
+            <p>Nous collaborons avec les communautés, les organisations et les institutions pour construire une voix collective pour les droits humains et renforcer la participation de la société civile.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon"><div className="icon-circle"><span>📣</span></div></div>
+            <h3>Plaidoyer</h3>
+            <p>Nous participons activement au discours public, influençons les politiques et prenons des mesures concrètes pour protéger les droits humains et les libertés démocratiques.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="Partnairs">
+        <h2>Découvrez tous nos partenaires !</h2>
+        <div className="parts">
+          <div className="ImgCont"><Image src="/IntPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" alt="Ecosoc Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/IntPartnaires/Amnesty_International_logo.svg.png" alt="Amnesty International Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/IntPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" alt="LC Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/IntPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" alt="Human Rights Watch Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/UNIPartnaires/1631365508628.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/UNIPartnaires/images (3).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/UNIPartnaires/images.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/UNIPartnaires/Logo-UIZ.jpg" alt="UIZ Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/UNIPartnaires/logo.png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/UNIPartnaires/Mohammed_V_University_Logo.png" alt="Mohammed V University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/UNIPartnaires/univ-cadi-ayyad-logo-900x420-1.png" alt="Cadi Ayyad University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/UNIPartnaires/universite-abdelmalek-essaadi-900x420-1.png" alt="Abdelmalek Essaadi University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/UNIPartnaires/Universite-Hassan-1er-settat.png" alt="Hassan 1er University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" alt="ECPM Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/NatPartnaires/images (1).jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/NatPartnaires/images (1).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/NatPartnaires/images (2).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/NatPartnaires/images.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+          <div className="ImgCont"><Image src="/NatPartnaires/images.png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
 
       <Footer />
 

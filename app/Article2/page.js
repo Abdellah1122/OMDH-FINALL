@@ -11,61 +11,71 @@ export default function ArticlePage() {
     <>
       <Navbar />
 
-      <main>
-        <nav className="nav-breadcrumb">
-          <div className="container">
-            <div className="breadcrumb">
-              <Link href="/">Accueil</Link>
-              <span>›</span>
-              <Link href="/editions">Editions</Link>
-              <span>›</span>
-              <span>Naoufal Bouamri consacré à la tête de l’OMDH</span>
-            </div>
-          </div>
-        </nav>
+     <main>
+  <nav className="nav-breadcrumb">
+    <div className="container">
+      <div className="breadcrumb">
+        <Link href="/">Accueil</Link>
+        <span>›</span>
+        <Link href="/editions">Editions</Link>
+        <span>›</span>
+        {/* FIX: Replaced typographic apostrophe */}
+        <span>Naoufal Bouamri consacré à la tête de l&apos;OMDH</span>
+      </div>
+    </div>
+  </nav>
 
-        <header className="article-header">
-          <div className="container">
-            <div className="article-category">Actualité</div>
-            <h1 className="article-title">Naoufal Bouamri consacré à la tête de l’OMDH</h1>
-            <p className="article-subtitle">Libération – Mardi 29 Avril 2025</p>
-            <div className="article-meta">
-              <div className="meta-item">
-                <strong>Par Libération</strong>
-              </div>
-              <div className="meta-divider"></div>
-              <div className="meta-item">
-                29 Avril 2025
-              </div>
-            </div>
-          </div>
-        </header>
+  <header className="article-header">
+    <div className="container">
+      <div className="article-category">Actualité</div>
+      {/* FIX: Replaced typographic apostrophe */}
+      <h1 className="article-title">Naoufal Bouamri consacré à la tête de l&apos;OMDH</h1>
+      <p className="article-subtitle">Libération – Mardi 29 Avril 2025</p>
+      <div className="article-meta">
+        <div className="meta-item">
+          <strong>Par Libération</strong>
+        </div>
+        <div className="meta-divider"></div>
+        <div className="meta-item">
+          29 Avril 2025
+        </div>
+      </div>
+    </div>
+  </header>
 
-        <section className="article-hero">
-          <div className="container">
-            <Image src="/Images/naoufal.jpg" alt="Naoufal Bouamri OMDH" className="hero-image" width={800} height={400} priority />
-            
-          </div>
-        </section>
+  <section className="article-hero">
+    <div className="container">
+      <Image src="/Images/naoufal.jpg" alt="Naoufal Bouamri OMDH" className="hero-image" width={800} height={400} priority />
+    </div>
+  </section>
 
-        <article className="article-content">
-          <div className="container">
-            <div className="content-body">
-              <p>Le 12e congrès national de l’Organisation Marocaine des Droits Humains (OMDH) s’est achevé dimanche dernier sur une note de renouveau, marquée par l’élection de Naoufal Bouamri à la tête de cette ONG emblématique du paysage associatif national et international.</p>
-              <p>Cette élection, intervenue dans un climat démocratique, alors que l’OMDH s’apprête à fêter ses 36 ans, incarne un tournant décisif dans la promotion des droits humains au Maroc.</p>
-              <p>Les congressistes venus des quatre coins du Royaume ont pris part aux congrès et qui, par leur présence et leur engagement, ont largement contribué à renforcer cet ancrage national. Dans son allocution prononcée à l’issue de son élection, Naoufal Bouamri a salué l’engagement collectif de l’ensemble des congressistes, saluant leur sens de la responsabilité :</p>
-              <blockquote>
-                "Mes remerciements vont à l’ensemble des congressistes, à tous les membres du conseil national ainsi qu’aux militantes et militants qui nous ont toujours accompagnés."
-              </blockquote>
-              <p>Il a rappelé le rôle prépondérant joué par l’OMDH depuis sa création en 1988. « L’OMDH a joué un rôle fondamental dans le processus de justice transitionnelle et a contribué aux réformes en matière des droits humains sur les plans politique, économique et social. Son action s’est toujours caractérisée par une réflexion rationnelle et une vision claire, lui permettant d’exercer une influence décisive sur plusieurs aspects de ces processus, tout en restant fidèle à son engagement constant à défendre les droits humains. »</p>
-              <p>Naoufal Bouamri a également insisté sur la nécessité pour l’OMDH de rester à l’avant-garde du combat pour les droits humains au Maroc, tout en s’adaptant aux mutations actuelles de la société et en renouvelant ses méthodes d’action.</p>
-              <blockquote>
-                "Notre organisation doit rester à l’avant-garde du combat pour les droits humains au Maroc, tout en s’adaptant aux mutations de la société et en renouvelant ses méthodes d’action."
-              </blockquote>
-            </div>
-          </div>
-        </article>
-      </main>
+  <article className="article-content">
+    <div className="container">
+      <div className="content-body">
+        {/* FIX: Replaced typographic apostrophes */}
+        <p>Le 12e congrès national de l&apos;Organisation Marocaine des Droits Humains (OMDH) s&apos;est achevé dimanche dernier sur une note de renouveau, marquée par l&apos;élection de Naoufal Bouamri à la tête de cette ONG emblématique du paysage associatif national et international.</p>
+        <p>Cette élection, intervenue dans un climat démocratique, alors que l&apos;OMDH s&apos;apprête à fêter ses 36 ans, incarne un tournant décisif dans la promotion des droits humains au Maroc.</p>
+        <p>Les congressistes venus des quatre coins du Royaume ont pris part aux congrès et qui, par leur présence et leur engagement, ont largement contribué à renforcer cet ancrage national. Dans son allocution prononcée à l&apos;issue de son élection, Naoufal Bouamri a salué l&apos;engagement collectif de l&apos;ensemble des congressistes, saluant leur sens de la responsabilité :</p>
+        
+        {/* FIX: Replaced " with &quot; */}
+        <blockquote>
+          &quot;Mes remerciements vont à l&apos;ensemble des congressistes, à tous les membres du conseil national ainsi qu&apos;aux militantes et militants qui nous ont toujours accompagnés.&quot;
+        </blockquote>
+
+        {/* This part was already correct using French guillemets « » */}
+        <p>Il a rappelé le rôle prépondérant joué par l’OMDH depuis sa création en 1988. « L’OMDH a joué un rôle fondamental dans le processus de justice transitionnelle et a contribué aux réformes en matière des droits humains sur les plans politique, économique et social. Son action s’est toujours caractérisée par une réflexion rationnelle et une vision claire, lui permettant d’exercer une influence décisive sur plusieurs aspects de ces processus, tout en restant fidèle à son engagement constant à défendre les droits humains. »</p>
+        
+        {/* FIX: Replaced typographic apostrophes */}
+        <p>Naoufal Bouamri a également insisté sur la nécessité pour l&apos;OMDH de rester à l&apos;avant-garde du combat pour les droits humains au Maroc, tout en s&apos;adaptant aux mutations actuelles de la société et en renouvelant ses méthodes d&apos;action.</p>
+        
+        {/* FIX: Replaced " with &quot; */}
+        <blockquote>
+          &quot;Notre organisation doit rester à l&apos;avant-garde du combat pour les droits humains au Maroc, tout en s&apos;adaptant aux mutations de la société et en renouvelant ses méthodes d&apos;action.&quot;
+        </blockquote>
+      </div>
+    </div>
+  </article>
+</main>
 
       <Footer />
 

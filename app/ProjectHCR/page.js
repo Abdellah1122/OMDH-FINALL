@@ -11,81 +11,81 @@ export default function ProjectHcrPage() {
     <>
       <Navbar />
 
-      <main>
-        <section className="hero-section">
-          <div className="hero-content">
-            <h1 className="hero-title">Projet UNHCR</h1>
-            <p className="hero-subtitle">Assistance et protection des réfugiés et demandeurs d'asile</p>
-            <p className="hero-description">Ce projet, mené par l'OMDH en partenariat avec le HCR, vise à promouvoir la responsabilisation, l'approche DGA (Âge, Genre, Diversité) et la participation communautaire. Il assure protection, soutien administratif et juridique, et plaidoyer, tout en garantissant une écoute active des personnes à travers des groupes de discussion et des réunions communautaires.</p>
-          </div>
-          <div className="ImgContainer">
-            <Image src="/Images/unhcrr.png" alt="UNHCR Logo" width={500} height={400} style={{objectFit:'contain'}} />
-          </div>
-        </section>
+     <main>
+    <section className="hero-section">
+      <div className="hero-content">
+        <h1 className="hero-title">Projet UNHCR</h1>
+        <p className="hero-subtitle">Assistance et protection des réfugiés et demandeurs d&apos;asile</p>
+        <p className="hero-description">Ce projet, mené par l&apos;OMDH en partenariat avec le HCR, vise à promouvoir la responsabilisation, l&apos;approche DGA (Âge, Genre, Diversité) et la participation communautaire. Il assure protection, soutien administratif et juridique, et plaidoyer, tout en garantissant une écoute active des personnes à travers des groupes de discussion et des réunions communautaires.</p>
+      </div>
+      <div className="ImgContainer">
+        <Image src="/Images/unhcrr.png" alt="UNHCR Logo" width={500} height={400} style={{objectFit:'contain'}} />
+      </div>
+    </section>
 
-        <div className="cont">
-          <div className="Axes fade-in">
-            <div className="timeline-horizontal">
-              <div className="timeline-item fade-in delay-1">
-                <div className="timeline-dot"></div>
-                <div className="timeline-opposite">
-                  <h3 className="timeline-title">Axe 1 : Accès à la procédure d'asile</h3>
-                </div>
-                <div className="timeline-content">
-                  <p className="timeline-text">Cette activité consiste à faciliter l'accès à la procédure d'asile au moyen d'entretiens préliminaires, de la complétion de formulaires adaptés à chaque situation, et d'un renvoi au bureau du HCR à Rabat. L'ouverture d'une antenne à Agadir permettra un meilleur service à la région Souss-Massa, évitant aux demandeurs d'asile de longs déplacements. Les bureaux régionaux de l'OMDH (Rabat, Casablanca, Tanger, Oujda, Nador et Agadir) sont ouverts quotidiennement pour accueillir, informer et orienter les personnes souhaitant demander l'asile.</p>
-                </div>
-              </div>
-              <div className="timeline-item fade-in delay-2">
-                <div className="timeline-dot"></div>
-                <div className="timeline-opposite">
-                  <h3 className="timeline-title">Axe 2 : Accès à la documentation civile</h3>
-                </div>
-                <div className="timeline-content">
-                  <p className="timeline-text">L'OMDH assiste les réfugiés dans les formalités administratives, notamment l'enregistrement des naissances, l'obtention ou le renouvellement de permis de séjour, et la production de documents juridiques. Elle couvre une partie des coûts (transport, timbres) et a créé un poste d'assistant dédié à la gestion financière et administrative des dossiers, ainsi qu'à l'accueil, au soutien et à la mise à jour des informations dans une base de données sécurisée.</p>
-                </div>
-              </div>
-              <div className="timeline-item fade-in delay-3">
-                <div className="timeline-dot"></div>
-                <div className="timeline-opposite">
-                  <h3 className="timeline-title">Axe 3 : Enregistrement DSR en ligne</h3>
-                </div>
-                <div className="timeline-content">
-                  <p className="timeline-text">L'OMDH facilite l'enregistrement en ligne des demandes d'asile auprès du HCR via ses bureaux d'Oujda, Nador, Tanger, Casablanca et Agadir. Les demandeurs se rendent dans ces bureaux pour être accompagnés dans la procédure numérique. L'unité DSR gère la planification des entretiens, tandis que l'équipe locale assure la coordination, l'assistance technique et l'organisation logistique. Cette approche vise à rapprocher les services du HCR des populations éloignées, tout en garantissant un accès sécurisé et supervisé à la procédure d'asile.</p>
-                </div>
-              </div>
+    <div className="cont">
+      <div className="Axes fade-in">
+        <div className="timeline-horizontal">
+          <div className="timeline-item fade-in delay-1">
+            <div className="timeline-dot"></div>
+            <div className="timeline-opposite">
+              <h3 className="timeline-title">Axe 1 : Accès à la procédure d&apos;asile</h3>
+            </div>
+            <div className="timeline-content">
+              <p className="timeline-text">Cette activité consiste à faciliter l&apos;accès à la procédure d&apos;asile au moyen d&apos;entretiens préliminaires, de la complétion de formulaires adaptés à chaque situation, et d&apos;un renvoi au bureau du HCR à Rabat. L&apos;ouverture d&apos;une antenne à Agadir permettra un meilleur service à la région Souss-Massa, évitant aux demandeurs d&apos;asile de longs déplacements. Les bureaux régionaux de l&apos;OMDH (Rabat, Casablanca, Tanger, Oujda, Nador et Agadir) sont ouverts quotidiennement pour accueillir, informer et orienter les personnes souhaitant demander l&apos;asile.</p>
             </div>
           </div>
-
-          <div className="OtherAxes fade-in">
-            <div className="images">
-              <div className="ImageContainer fade-in delay-1"><Image src="/Images/unhcr1.jpg" alt="Image du Projet UNHCR 1" width={300} height={200}/></div>
-              <div className="ImageContainer fade-in delay-2"><Image src="/Images/unhcr2.jpg" alt="Image du Projet UNHCR 2" width={300} height={200}/></div>
-              <div className="ImageContainer fade-in delay-3"><Image src="/Images/unhcr3.jpg" alt="Image du Projet UNHCR 3" width={300} height={200}/></div>
-              <div className="ImageContainer fade-in delay-4"><Image src="/Images/unhcr4.jpg" alt="Image du Projet UNHCR 4" width={300} height={200}/></div>
+          <div className="timeline-item fade-in delay-2">
+            <div className="timeline-dot"></div>
+            <div className="timeline-opposite">
+              <h3 className="timeline-title">Axe 2 : Accès à la documentation civile</h3>
             </div>
-            <div className="VerticaleTimeline">
-              <div className="Axe fade-in delay-1"><h2>Axe 4 : Soutien administratif et juridique</h2><p>Il s'agit d'accompagner activement les réfugiés et demandeurs d'asile dans leurs démarches auprès des services de l'administration marocaine : commissariats de police, arrondissements urbains et tribunaux. Cela concerne les procédures d'obtention de documents tels que les actes de naissance, les actes de décès et la légalisation de documents, ainsi que les déclarations de perte, le dépôt de plaintes, les demandes d'autorisation ou les jugements déclaratifs. L'équipe du projet assure un suivi rapproché, rédige les recours nécessaires et guide les bénéficiaires à travers toutes les procédures légales et administratives, veillant au respect de leurs droits. Des indicateurs précis sont utilisés pour mesurer l'impact de cette assistance, incluant le nombre de bénéficiaires aidés et le type de documents obtenus.</p></div>
-              <div className="Axe fade-in delay-2"><h2>Axe 5 : Secrétariats des GTP</h2><p>L'OMDH coordonne les GTP régionaux à Casablanca, Oujda et Tanger, et assure une coordination nationale à Rabat. Ces groupes offrent des plateformes de collaboration avec les organisations de la société civile pour améliorer l'accès aux services, mutualiser les efforts humanitaires, renforcer les capacités des acteurs impliqués et partager les bonnes pratiques. Les GTP permettent également un plaidoyer local autour des droits humains, en particulier ceux des réfugiés. Cette coordination soutient la régionalisation de la Stratégie Nationale d'Immigration et d'Asile (SNIA) et contribue à une réponse humanitaire intégrée et cohérente.</p></div>
-              <div className="Axe fade-in delay-3"><h2>Axe 6 : Protection contre le renvoi et l'arrestation</h2><p>Cet aspect stratégique du projet consiste à prévenir de manière proactive les risques d'incidents de protection impliquant des réfugiés et des demandeurs d'asile, tels que les renvois forcés, le refoulement, l'expulsion ou l'arrestation arbitraire. Lorsqu'un cas est signalé, l'équipe du projet contacte immédiatement les autorités compétentes (Police, Gendarmerie Royale, Forces Auxiliaires) afin de faire valoir le statut de protection internationale des personnes concernées et d'obtenir leur libération. Ces interventions s'inscrivent dans le respect des engagements internationaux du Maroc et de la garantie des droits fondamentaux. Parallèlement, l'OMDH mène des campagnes de sensibilisation ciblant les personnes relevant de sa compétence (PoCs) pour les encourager à détenir des documents valides, notamment l'attestation de demande d'asile ou le document « À qui de droit », afin de pouvoir les présenter en cas de contrôle. De plus, des sessions de renforcement des capacités sont organisées pour les agents des forces de l'ordre afin de les informer de leurs responsabilités envers les personnes sous protection internationale et de promouvoir une application de la loi respectueuse des droits humains.</p></div>
-              <div className="Axe fade-in delay-4"><h2>Axe 7 : Surveillance des frontières et des flux migratoires</h2><p>L'OMDH organise régulièrement des visites de terrain le long des frontières orientales et méditerranéennes du Maroc pour surveiller les mouvements migratoires mixtes et détecter tout incident de protection. Les équipes, basées notamment à Oujda, Nador et Tanger, se déplacent dans des zones stratégiques telles que Jbalasfour, Sidi Yahya, Gala, Touissite, Bni Nsar, Fnideq et Belyounech pour observer les dynamiques locales, recueillir des informations actualisées et repérer toute évolution, comme les changements d'infrastructures (barrières, barbelés) ou de routes migratoires, en particulier dans la région de Nador-Melilla. Ces missions donnent lieu à des rapports détaillés documentant les observations de terrain, les incidents de protection et les recommandations d'action. En situation d'urgence, les équipes signalent immédiatement les faits aux partenaires concernés. Ce mécanisme de surveillance contribue à une meilleure compréhension du contexte migratoire et à une adaptation rapide des réponses humanitaires.</p></div>
+            <div className="timeline-content">
+              <p className="timeline-text">L&apos;OMDH assiste les réfugiés dans les formalités administratives, notamment l&apos;enregistrement des naissances, l&apos;obtention ou le renouvellement de permis de séjour, et la production de documents juridiques. Elle couvre une partie des coûts (transport, timbres) et a créé un poste d&apos;assistant dédié à la gestion financière et administrative des dossiers, ainsi qu&apos;à l&apos;accueil, au soutien et à la mise à jour des informations dans une base de données sécurisée.</p>
             </div>
           </div>
-
-          <div className="AdditionalAxes fade-in">
-            <div className="wa fade-in delay-1"><h2>Axe 8 : Plaidoyer</h2>            <p>L'OMDH organise des ateliers en partenariat avec les universités (Oujda, Casablanca), les forces de l'ordre et l'administration civile, touchant plus de 250 personnes (étudiants, officiers, caïds). Une campagne de communication numérique est également prévue pour sensibiliser au droit d'asile et à la documentation, tout en appelant à une plus grande reconnaissance des droits humains fondamentaux.</p></div>
-            <div className="wa fade-in delay-2"><h2>Axe 9 : Approche communautaire</h2><p>Les relais communautaires (arabophones et francophones) sont des acteurs clés dans l'identification des besoins, la diffusion de l'information et la sensibilisation. L'OMDH prévoit d'en recruter un nouveau à Agadir et d'organiser des réunions régulières pour promouvoir le dialogue entre les relais et améliorer la connaissance du contexte migratoire local.</p></div>
-            <div className="wa fade-in delay-3"><h2>Axe 10 : Protection sociale</h2><p>L'objectif de ce dernier axe est d'accompagner les réfugiés dans leur enregistrement auprès des registres sociaux (RNP, RSU), de faciliter l'accès aux programmes de santé et d'aide directe (AMO), et de suivre les évolutions des politiques sociales. Un assistant dédié assurera la mise en œuvre de ces actions et la sensibilisation des bénéficiaires à leurs droits sociaux.</p></div>
-          </div>
-
-          <div className="cta-section fade-in">
-            <div className="cta-content">
-              <h2 className="fade-in delay-1">Découvrez Nos Projets Passés</h2>
-              <p className="fade-in delay-2">Explorez les initiatives et collaborations que nous avons entreprises pour créer un impact significatif.</p>
-              <Link href="/projects" className="BtnPrimary">Découvrez Maintenant</Link>
+          <div className="timeline-item fade-in delay-3">
+            <div className="timeline-dot"></div>
+            <div className="timeline-opposite">
+              <h3 className="timeline-title">Axe 3 : Enregistrement DSR en ligne</h3>
+            </div>
+            <div className="timeline-content">
+              <p className="timeline-text">L&apos;OMDH facilite l&apos;enregistrement en ligne des demandes d&apos;asile auprès du HCR via ses bureaux d&apos;Oujda, Nador, Tanger, Casablanca et Agadir. Les demandeurs se rendent dans ces bureaux pour être accompagnés dans la procédure numérique. L&apos;unité DSR gère la planification des entretiens, tandis que l&apos;équipe locale assure la coordination, l&apos;assistance technique et l&apos;organisation logistique. Cette approche vise à rapprocher les services du HCR des populations éloignées, tout en garantissant un accès sécurisé et supervisé à la procédure d&apos;asile.</p>
             </div>
           </div>
         </div>
-      </main>
+      </div>
+
+      <div className="OtherAxes fade-in">
+        <div className="images">
+          <div className="ImageContainer fade-in delay-1"><Image src="/Images/unhcr1.jpg" alt="Image du Projet UNHCR 1" width={300} height={200}/></div>
+          <div className="ImageContainer fade-in delay-2"><Image src="/Images/unhcr2.jpg" alt="Image du Projet UNHCR 2" width={300} height={200}/></div>
+          <div className="ImageContainer fade-in delay-3"><Image src="/Images/unhcr3.jpg" alt="Image du Projet UNHCR 3" width={300} height={200}/></div>
+          <div className="ImageContainer fade-in delay-4"><Image src="/Images/unhcr4.jpg" alt="Image du Projet UNHCR 4" width={300} height={200}/></div>
+        </div>
+        <div className="VerticaleTimeline">
+          <div className="Axe fade-in delay-1"><h2>Axe 4 : Soutien administratif et juridique</h2><p>Il s&apos;agit d&apos;accompagner activement les réfugiés et demandeurs d&apos;asile dans leurs démarches auprès des services de l&apos;administration marocaine : commissariats de police, arrondissements urbains et tribunaux. Cela concerne les procédures d&apos;obtention de documents tels que les actes de naissance, les actes de décès et la légalisation de documents, ainsi que les déclarations de perte, le dépôt de plaintes, les demandes d&apos;autorisation ou les jugements déclaratifs. L&apos;équipe du projet assure un suivi rapproché, rédige les recours nécessaires et guide les bénéficiaires à travers toutes les procédures légales et administratives, veillant au respect de leurs droits. Des indicateurs précis sont utilisés pour mesurer l&apos;impact de cette assistance, incluant le nombre de bénéficiaires aidés et le type de documents obtenus.</p></div>
+          <div className="Axe fade-in delay-2"><h2>Axe 5 : Secrétariats des GTP</h2><p>L&apos;OMDH coordonne les GTP régionaux à Casablanca, Oujda et Tanger, et assure une coordination nationale à Rabat. Ces groupes offrent des plateformes de collaboration avec les organisations de la société civile pour améliorer l&apos;accès aux services, mutualiser les efforts humanitaires, renforcer les capacités des acteurs impliqués et partager les bonnes pratiques. Les GTP permettent également un plaidoyer local autour des droits humains, en particulier ceux des réfugiés. Cette coordination soutient la régionalisation de la Stratégie Nationale d&apos;Immigration et d&apos;Asile (SNIA) et contribue à une réponse humanitaire intégrée et cohérente.</p></div>
+          <div className="Axe fade-in delay-3"><h2>Axe 6 : Protection contre le renvoi et l&apos;arrestation</h2><p>Cet aspect stratégique du projet consiste à prévenir de manière proactive les risques d&apos;incidents de protection impliquant des réfugiés et des demandeurs d&apos;asile, tels que les renvois forcés, le refoulement, l&apos;expulsion ou l&apos;arrestation arbitraire. Lorsqu&apos;un cas est signalé, l&apos;équipe du projet contacte immédiatement les autorités compétentes (Police, Gendarmerie Royale, Forces Auxiliaires) afin de faire valoir le statut de protection internationale des personnes concernées et d&apos;obtenir leur libération. Ces interventions s&apos;inscrivent dans le respect des engagements internationaux du Maroc et de la garantie des droits fondamentaux. Parallèlement, l&apos;OMDH mène des campagnes de sensibilisation ciblant les personnes relevant de sa compétence (PoCs) pour les encourager à détenir des documents valides, notamment l&apos;attestation de demande d&apos;asile ou le document « À qui de droit », afin de pouvoir les présenter en cas de contrôle. De plus, des sessions de renforcement des capacités sont organisées pour les agents des forces de l&apos;ordre afin de les informer de leurs responsabilités envers les personnes sous protection internationale et de promouvoir une application de la loi respectueuse des droits humains.</p></div>
+          <div className="Axe fade-in delay-4"><h2>Axe 7 : Surveillance des frontières et des flux migratoires</h2><p>L&apos;OMDH organise régulièrement des visites de terrain le long des frontières orientales et méditerranéennes du Maroc pour surveiller les mouvements migratoires mixtes et détecter tout incident de protection. Les équipes, basées notamment à Oujda, Nador et Tanger, se déplacent dans des zones stratégiques telles que Jbalasfour, Sidi Yahya, Gala, Touissite, Bni Nsar, Fnideq et Belyounech pour observer les dynamiques locales, recueillir des informations actualisées et repérer toute évolution, comme les changements d&apos;infrastructures (barrières, barbelés) ou de routes migratoires, en particulier dans la région de Nador-Melilla. Ces missions donnent lieu à des rapports détaillés documentant les observations de terrain, les incidents de protection et les recommandations d&apos;action. En situation d&apos;urgence, les équipes signalent immédiatement les faits aux partenaires concernés. Ce mécanisme de surveillance contribue à une meilleure compréhension du contexte migratoire et à une adaptation rapide des responses humanitaires.</p></div>
+        </div>
+      </div>
+
+      <div className="AdditionalAxes fade-in">
+        <div className="wa fade-in delay-1"><h2>Axe 8 : Plaidoyer</h2><p>L&apos;OMDH organise des ateliers en partenariat avec les universités (Oujda, Casablanca), les forces de l&apos;ordre et l&apos;administration civile, touchant plus de 250 personnes (étudiants, officiers, caïds). Une campagne de communication numérique est également prévue pour sensibiliser au droit d&apos;asile et à la documentation, tout en appelant à une plus grande reconnaissance des droits humains fondamentaux.</p></div>
+        <div className="wa fade-in delay-2"><h2>Axe 9 : Approche communautaire</h2><p>Les relais communautaires (arabophones et francophones) sont des acteurs clés dans l&apos;identification des besoins, la diffusion de l&apos;information et la sensibilisation. L&apos;OMDH prévoit d&apos;en recruter un nouveau à Agadir et d&apos;organiser des réunions régulières pour promouvoir le dialogue entre les relais et améliorer la connaissance du contexte migratoire local.</p></div>
+        <div className="wa fade-in delay-3"><h2>Axe 10 : Protection sociale</h2><p>L&apos;objectif de ce dernier axe est d&apos;accompagner les réfugiés dans leur enregistrement auprès des registres sociaux (RNP, RSU), de faciliter l&apos;accès aux programmes de santé et d&apos;aide directe (AMO), et de suivre les évolutions des politiques sociales. Un assistant dédié assurera la mise en œuvre de ces actions et la sensibilisation des bénéficiaires à leurs droits sociaux.</p></div>
+      </div>
+
+      <div className="cta-section fade-in">
+        <div className="cta-content">
+          <h2 className="fade-in delay-1">Découvrez Nos Projets Passés</h2>
+          <p className="fade-in delay-2">Explorez les initiatives et collaborations que nous avons entreprises pour créer un impact significatif.</p>
+          <Link href="/projects" className="BtnPrimary">Découvrez Maintenant</Link>
+        </div>
+      </div>
+    </div>
+  </main>
 
       <Footer />
       
