@@ -117,10 +117,10 @@ export default function PresencePage() {
               <h1>
                 Notre <span className="highlight">Présence Nationale</span>
               </h1>
-              <p className="presence-tagline">
-                Depuis sa création, l'OMDH a étendu sa présence à travers le Maroc pour plaider en faveur des droits
-                humains, promouvoir la justice et engager les communautés à travers le royaume.
-              </p>
+                <p className="presence-tagline">
+      Depuis sa création, l&apos;OMDH a étendu sa présence à travers le Maroc pour plaider en faveur des droits
+      humains, promouvoir la justice et engager les communautés à travers le royaume.
+    </p>
             </div>
 
             {/* Map Section */}
