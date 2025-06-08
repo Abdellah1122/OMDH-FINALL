@@ -102,7 +102,7 @@ export default function Navbar() {
                 <i className={`bi ${openDropdown === 'projects' ? 'bi-chevron-up' : 'bi-chevron-down'}`}></i>
             </button>
             <div className={`${styles['mobile-dropdown-content']} ${openDropdown === 'projects' ? styles.active : ''}`}>
-                <Link href="/projects" className={styles['mobile-dropdown-item']} onClick={closeMenu}>Tous les projets</Link>
+                <Link href="/Projects" className={styles['mobile-dropdown-item']} onClick={closeMenu}>Tous les projets</Link>
                 <Link href="/project-hcr" className={styles['mobile-dropdown-item']} onClick={closeMenu}>Projet HCR</Link>
             </div>
         </div>
