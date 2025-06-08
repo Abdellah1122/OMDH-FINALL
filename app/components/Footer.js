@@ -121,10 +121,10 @@ export default function Footer() {
           <p className={styles['no-translate']}>© 2025 OMDH - <span translate="yes">Tous droits réservés</span></p>
           
           <div id="language-selector" className={styles['language-selector']}>
-            <button onClick={() => changeLanguage('en')}>English</button> |
-            <button onClick={() => changeLanguage('es')}>Español</button> |
-            <button onClick={() => changeLanguage('ar')}>العربية</button> |
-            <button onClick={() => changeLanguage('fr')}>Français</button>
+            <button translate="no" onClick={() => changeLanguage('en')}>English</button> |
+            <button translate="no" onClick={() => changeLanguage('es')}>Español</button> |
+            <button translate="no" onClick={() => changeLanguage('ar')}>العربية</button> |
+            <button translate="no" onClick={() => changeLanguage('fr')}>Français</button>
           </div>
           
           <div id="google_translate_element"></div>
