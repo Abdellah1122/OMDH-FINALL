@@ -57,17 +57,9 @@ const newsItems = [
 ]
 
 const partnerCategories = [
+
   {
-    title: "Partenaires Internationaux",
-    partners: [
-      { name: "ECOSOC", logo: "/intPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" },
-      { name: "Amnesty International", logo: "/intPartnaires/Amnesty_International_logo.svg.png" },
-      { name: "LC", logo: "/intPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" },
-      { name: "Human Rights Watch", logo: "/intPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" },
-    ],
-  },
-  {
-    title: "Partenaires Nationaux",
+    title: "Partenaires ",
     partners: [
       { name: "ECPM", logo: "/NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" },
       { name: "Partner 1", logo: "/NatPartnaires/images (1).jpeg" },
@@ -75,11 +67,6 @@ const partnerCategories = [
       { name: "Partner 3", logo: "/NatPartnaires/images (2).png" },
       { name: "Partner 4", logo: "/NatPartnaires/images.jpeg" },
       { name: "Partner 5", logo: "/NatPartnaires/images.png" },
-    ],
-  },
-  {
-    title: "Partenaires Universitaires",
-    partners: [
       { name: "University 1", logo: "/UNIPartnaires/1631365508628.jpeg" },
       { name: "University 2", logo: "/UNIPartnaires/images (3).png" },
       { name: "University 3", logo: "/UNIPartnaires/images.jpeg" },
@@ -91,6 +78,7 @@ const partnerCategories = [
       { name: "Hassan 1er", logo: "/UNIPartnaires/Universite-Hassan-1er-settat.png" },
     ],
   },
+  
 ]
 
 const timelineEvents = [
@@ -552,7 +540,7 @@ export default function HomePage() {
 
         /* Main Container */
         .main-container {
-          max-width: 1200px;
+          max-width: 1400px;
           margin: 0 auto;
           padding: 8rem 2rem;
           display: flex;
