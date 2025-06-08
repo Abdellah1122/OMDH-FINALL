@@ -91,8 +91,12 @@ export default function ProjectHcrPage() {
       
       <style jsx>{`
         
-             button {
-        font-size: 0.95rem;
+
+    .BtnPrimary {
+        background-color: var(--primary-color);
+        color: white;
+        border: 1px solid var(--primary-color);
+         font-size: 0.95rem;
         font-weight: 500;
         padding: 0.5rem 1.8rem;
         border-radius: var(--border-radius);
@@ -100,12 +104,6 @@ export default function ProjectHcrPage() {
         cursor: pointer;
         transition: var(--transition);
         letter-spacing: 0.5px;
-    }
-
-    .BtnPrimary {
-        background-color: var(--primary-color);
-        color: white;
-        border: 1px solid var(--primary-color);
     }
 
         .BtnPrimary:hover {
@@ -133,94 +131,84 @@ export default function ProjectHcrPage() {
         padding: 0 20px;
     }
 
-    /* Header */
-    .hero-section {
-        background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
-        padding: 80px 0 100px;
-        position: relative;
-        overflow: hidden;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .ImgContainer {
-        width: 20em;
-        margin-right: 10em;
-        height: auto;
-    }
-
-        .ImgContainer Image {
-            height: 100%;
-            width: 100%;
-            border-radius: 10px;
-            object-fit: cover;
+   
+/* Hero Section */
+        .hero-section {
+          background: linear-gradient(135deg, #1957a6, #174c91);
+          padding: 80px 0;
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: white;
         }
 
-    .hero-section::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 300px;
-        height: 300px;
-        background-color: rgba(255, 255, 255, 0.05);
-        border-radius: 50%;
-        transform: translate(100px, -150px);
-    }
-
-    .hero-section::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 200px;
-        height: 200px;
-        background-color: rgba(255, 255, 255, 0.05);
-        border-radius: 50%;
-        transform: translate(-100px, 100px);
-    }
-
-    .hero-content {
-        position: relative;
-        z-index: 2;
-        color: white;
-        max-width: 800px;
-    }
-
-    .hero-logo {
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-    }
-
-        .hero-logo Image {
-            height: 70px;
-            margin-right: 20px;
+        .hero-section::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 300px;
+          height: 300px;
+          background-color: rgba(255, 255, 255, 0.05);
+          border-radius: 50%;
+          transform: translate(100px, -150px);
         }
 
-    .hero-title {
-        font-family: var(--Poppins);
-        font-weight: 600;
-        font-size: 2.5em;
-        margin-bottom: 15px;
-        letter-spacing: -0.5px;
-    }
+        .hero-section::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 200px;
+          height: 200px;
+          background-color: rgba(255, 255, 255, 0.05);
+          border-radius: 50%;
+          transform: translate(-100px, 100px);
+        }
 
-    .hero-subtitle {
-        font-family: var(--Roboto);
-        font-weight: 300;
-        font-size: 1.2em;
-        opacity: 0.9;
-        margin-bottom: 30px;
-    }
+        .hero-content {
+          position: relative;
+          z-index: 2;
+          max-width: 600px;
+          padding: 0 40px;
+        }
 
-    .hero-description {
-        font-family: var(--Roboto);
-        line-height: 1.7;
-        margin-bottom: 30px;
-        font-weight: 300;
-    }
+        .hero-title {
+          font-weight: 600;
+          font-size: 2.5rem;
+          margin-bottom: 15px;
+          letter-spacing: -0.5px;
+        }
 
+        .hero-subtitle {
+          font-weight: 300;
+          font-size: 1.2rem;
+          opacity: 0.9;
+          margin-bottom: 20px;
+        }
+
+        .hero-description {
+          line-height: 1.7;
+          margin-bottom: 30px;
+          font-weight: 300;
+          font-size: 1rem;
+        }
+
+        .hero-image-container {
+          position: relative;
+          width: 400px;
+          height: 300px;
+          margin-right: 40px;
+          z-index: 2;
+        }
+
+        .hero-image {
+          border-radius: 10px;
+          object-fit: cover;
+        }
+    
     /* Content container */
     .cont {
         display: flex;

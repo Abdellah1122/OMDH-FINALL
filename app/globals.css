@@ -21,8 +21,12 @@ a {
             border-radius: var(--border-radius);
             border: 1px solid transparent;
             cursor: pointer;
+            text-decoration: none;
             transition: var(--transition);
             letter-spacing: 0.5px;
+            background-color: var(--primary-color);
+          color: white;
+          border: 1px solid var(--primary-color);
         }
 
 * {

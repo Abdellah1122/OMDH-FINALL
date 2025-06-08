@@ -36,7 +36,7 @@ const newsItems = [
     date: "25-26-27 avril 2025",
     title: "12ème Conférence Nationale de l'OMDH sur les Droits Humains et le Changement Global",
     description:
-      `تكرم المنظمة المغربية لحقوق الإنسان مؤسسيها والمساهمين فيها بدعوتهم للمشاركة في الندوات والجلسات الافتتاحية لمؤتمراتها. ويبحث مؤتمرها الوطني الثاني عشر في الرباط موضوع "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة"، ويبدأ بندوة حول الحقوق الاقتصادية والاجتماعية والثقافية في السياسة العامة.`,
+      'تكرم المنظمة المغربية لحقوق الإنسان مؤسسيها والمساهمين فيها بدعوتهم للمشاركة في الندوات والجلسات الافتتاحية لمؤتمراتها. ويبحث مؤتمرها الوطني الثاني عشر في الرباط موضوع "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة"، ويبدأ بندوة حول الحقوق الاقتصادية والاجتماعية والثقافية في السياسة العامة.',
     image: "/Images/New Project.jpg",
     imageStyle: "special-padding",
   },
@@ -44,14 +44,14 @@ const newsItems = [
     date: "6 mai 2025",
     title: "Conférence de Presse de l'OMDH sur les Résultats de la 12ème Conférence Nationale des Droits Humains",
     description:
-      `في 6 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان مؤتمراً صحفياً في الرباط لعرض نتائج مؤتمرها الوطني الثاني عشر حول "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة". وتقاسمت الإدارة الاستنتاجات والتوصيات، وحللت السياقات الوطنية والدولية، وأجابت على أسئلة وسائل الإعلام حول مواقفها من التحديات الراهنة لحقوق الإنسان.`,
+      'في 6 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان مؤتمراً صحفياً في الرباط لعرض نتائج مؤتمرها الوطني الثاني عشر حول "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة". وتقاسمت الإدارة الاستنتاجات والتوصيات، وحللت السياقات الوطنية والدولية، وأجابت على أسئلة وسائل الإعلام حول مواقفها من التحديات الراهنة لحقوق الإنسان.',
     image: "/Images/News2.jpg",
   },
   {
     date: "18 mai 2025",
     title: "Le Conseil National de l'OMDH se Réunit Suite à la 12ème Conférence, Rend Hommage aux Êtres Chers Disparus",
     description:
-      `في 18 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان الجلسة الأولى لمجلسها الوطني لوضع اللمسات الأخيرة على جدول أعمال مؤتمرها الوطني الثاني عشر. بدأ الاجتماع بالوقوف دقيقة صمت حدادًا على روح أنس بوعيش ووالدة الأستاذ عبد الرزاق وئام.`,
+      "في 18 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان الجلسة الأولى لمجلسها الوطني لوضع اللمسات الأخيرة على جدول أعمال مؤتمرها الوطني الثاني عشر. بدأ الاجتماع بالوقوف دقيقة صمت حدادًا على روح أنس بوعيش ووالدة الأستاذ عبد الرزاق وئام.",
     image: "/Images/News3.jpg",
   },
 ]
@@ -152,7 +152,7 @@ export default function HomePage() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentHeroSlide((prev) => (prev + 1) % heroSlides.length)
-    }, 5000)
+    }, 6000)
     return () => clearInterval(timer)
   }, [])
 
@@ -160,7 +160,7 @@ export default function HomePage() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentNewsSlide((prev) => (prev + 1) % newsItems.length)
-    }, 7000)
+    }, 8000)
     return () => clearInterval(timer)
   }, [])
 
@@ -201,10 +201,26 @@ export default function HomePage() {
 
           {/* Carousel Controls */}
           <button onClick={prevHeroSlide} className="hero-control hero-prev" aria-label="Previous slide">
-            ‹
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M15 18L9 12L15 6"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
           </button>
           <button onClick={nextHeroSlide} className="hero-control hero-next" aria-label="Next slide">
-            ›
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9 18L15 12L9 6"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
           </button>
 
           {/* Slide Indicators */}
@@ -225,7 +241,6 @@ export default function HomePage() {
           <section className="news-section">
             <div className="section-header">
               <h2 className="section-title">Actualités Récentes</h2>
-              <div className="section-underline"></div>
             </div>
 
             <div className="news-container">
@@ -233,8 +248,13 @@ export default function HomePage() {
                 <div className="news-content">
                   <div className="news-text-section">
                     <div className="news-date">
-                      <span className="calendar-icon">📅</span>
-                      {newsItems[currentNewsSlide].date}
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" strokeWidth="1.5" />
+                        <path d="M16 2V6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                        <path d="M8 2V6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                        <path d="M3 10H21" stroke="currentColor" strokeWidth="1.5" />
+                      </svg>
+                      <span>{newsItems[currentNewsSlide].date}</span>
                     </div>
                     <h3 className="news-title">{newsItems[currentNewsSlide].title}</h3>
                     <p className="news-description">{newsItems[currentNewsSlide].description}</p>
@@ -269,13 +289,12 @@ export default function HomePage() {
             <section key={categoryIndex} className="partners-section">
               <div className="section-header">
                 <h2 className="section-title">{category.title}</h2>
-                <div className="section-underline"></div>
               </div>
 
               <div className="partners-container">
-                <div className="partners-scroll">
-                  {[...category.partners, ...category.partners].map((partner, index) => (
-                    <div key={index} className="partner-item">
+                <div className="partners-scroll" data-category={categoryIndex}>
+                  {[...category.partners, ...category.partners, ...category.partners].map((partner, index) => (
+                    <div key={`${partner.name}-${index}`} className="partner-item">
                       <Image
                         src={partner.logo || "/placeholder.svg?height=100&width=180"}
                         alt={partner.name}
@@ -315,7 +334,6 @@ export default function HomePage() {
           <section className="timeline-section">
             <div className="section-header">
               <h2 className="section-title">Découvrez Nos Étapes Clés</h2>
-              <div className="section-underline"></div>
             </div>
 
             <div className="timeline-container">
@@ -351,16 +369,30 @@ export default function HomePage() {
           <section className="map-section">
             <div className="section-header">
               <h2 className="section-title">
-                <span className="map-icon">📍</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
                 Nous Trouver
               </h2>
-              <div className="section-underline"></div>
             </div>
 
             <div className="map-container">
               <iframe
                 width="100%"
-                height="600"
+                height="500"
                 title="OMDH Location"
                 src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=8%20,%20rue%20Ouargha%20,%20R%C3%A9sidence%20volubilis,%20appt%201%20,%20Agdal%20/Rabat%C2%A0,%C2%A0Maroc+(OMDH%20)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
                 className="map-iframe"
@@ -378,8 +410,10 @@ export default function HomePage() {
         /* Global Styles */
         .homepage {
           min-height: 100vh;
-          background-color: #f5f5f5;
-          font-family: 'Montserrat', sans-serif;
+          background-color: #fafafa;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          color: #1a1a1a;
+          line-height: 1.6;
         }
 
         /* Hero Section */
@@ -399,7 +433,7 @@ export default function HomePage() {
           position: absolute;
           inset: 0;
           opacity: 0;
-          transition: opacity 1s ease-in-out;
+          transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .hero-slide.active {
@@ -408,151 +442,181 @@ export default function HomePage() {
 
         .hero-image {
           object-fit: cover;
+          transform: scale(1.02);
+          transition: transform 20s ease-out;
+        }
+
+        .hero-slide.active .hero-image {
+          transform: scale(1);
         }
 
         .hero-overlay {
           position: absolute;
           inset: 0;
-          background: rgba(0, 0, 0, 0.3);
+          background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.1) 40%,
+            rgba(0, 0, 0, 0.6) 100%
+          );
         }
 
         .hero-content {
           position: absolute;
-          bottom: 5rem;
+          bottom: 8rem;
           left: 50%;
           transform: translateX(-50%);
-          width: 80%;
-          max-width: 64rem;
+          width: 85%;
+          max-width: 56rem;
+          z-index: 10;
         }
 
         .hero-text-box {
-          background: rgba(0, 0, 0, 0.4);
-          backdrop-filter: blur(8px);
-          border-radius: 8px;
-          padding: 2rem;
+          background: rgba(255, 255, 255, 0.95);
+          backdrop-filter: blur(20px);
+          border-radius: 2px;
+          padding: 2.5rem;
           text-align: center;
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
         }
 
         .hero-text {
-          color: white;
-          font-size: 1.25rem;
-          font-weight: 500;
-          line-height: 1.6;
+          color: #2a2a2a;
+          font-size: 1.125rem;
+          font-weight: 400;
+          line-height: 1.7;
           margin: 0;
+          letter-spacing: 0.01em;
         }
 
         .hero-control {
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
-          background: rgba(255, 255, 255, 0.2);
-          backdrop-filter: blur(8px);
+          background: rgba(255, 255, 255, 0.9);
+          backdrop-filter: blur(10px);
           border: none;
           border-radius: 50%;
-          width: 3rem;
-          height: 3rem;
-          color: white;
-          font-size: 1.5rem;
+          width: 3.5rem;
+          height: 3.5rem;
+          color: #333;
           cursor: pointer;
-          transition: background-color 0.3s ease;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 20;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
 
         .hero-control:hover {
-          background: rgba(255, 255, 255, 0.3);
+          background: rgba(255, 255, 255, 1);
+          transform: translateY(-50%) scale(1.1);
+          box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
         }
 
         .hero-prev {
-          left: 1rem;
+          left: 3rem;
         }
 
         .hero-next {
-          right: 1rem;
+          right: 3rem;
         }
 
         .hero-indicators {
           position: absolute;
-          bottom: 2rem;
+          bottom: 3rem;
           left: 50%;
           transform: translateX(-50%);
           display: flex;
-          gap: 0.5rem;
+          gap: 1rem;
+          z-index: 20;
         }
 
         .hero-indicator {
-          width: 0.75rem;
-          height: 0.75rem;
-          border-radius: 50%;
+          width: 2.5rem;
+          height: 2px;
+          border-radius: 1px;
           border: none;
-          background: rgba(255, 255, 255, 0.5);
+          background: rgba(255, 255, 255, 0.4);
           cursor: pointer;
-          transition: background-color 0.3s ease;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          padding: 0;
         }
 
         .hero-indicator.active {
-          background: white;
+          background: rgba(255, 255, 255, 0.9);
+          width: 4rem;
         }
 
         /* Main Container */
         .main-container {
-          max-width: 1500px;
+          max-width: 1200px;
           margin: 0 auto;
-          padding: 4rem 1rem;
+          padding: 8rem 2rem;
           display: flex;
           flex-direction: column;
-          gap: 6rem;
+          gap: 10rem;
         }
 
         /* Section Headers */
         .section-header {
           text-align: center;
-          margin-bottom: 2rem;
+          margin-bottom: 4rem;
         }
 
         .section-title {
-          font-size: 2.5rem;
-          font-weight: bold;
-          color: #2c3e50;
-          margin-bottom: 1rem;
+          font-size: 2rem;
+          font-weight: 600;
+          color: #1a1a1a;
+          margin: 0;
           display: flex;
           align-items: center;
           justify-content: center;
           gap: 0.75rem;
+          letter-spacing: -0.025em;
+          position: relative;
         }
 
-        .section-underline {
-          width: 4rem;
-          height: 4px;
-          background-color: #d3612f;
-          margin: 0 auto;
+        .section-title::after {
+          content: '';
+          position: absolute;
+          bottom: -1rem;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 2rem;
+          height: 2px;
+          background: #1957a6;
         }
 
         /* News Section */
         .news-section {
           display: flex;
           flex-direction: column;
-          gap: 2rem;
         }
 
         .news-container {
-          max-width: 1200px;
+          max-width: 1000px;
           margin: 0 auto;
           width: 100%;
         }
 
         .news-card {
           background: white;
-          border-radius: 12px;
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          border-radius: 4px;
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04);
           overflow: hidden;
+          border: 1px solid rgba(0, 0, 0, 0.05);
         }
 
         .news-content {
           display: flex;
-          min-height: 500px;
+          min-height: 450px;
         }
 
         .news-text-section {
-          flex: 1;
+          flex: 1.2;
           padding: 3rem;
           display: flex;
           flex-direction: column;
@@ -564,27 +628,27 @@ export default function HomePage() {
           display: flex;
           align-items: center;
           gap: 0.5rem;
-          font-size: 0.875rem;
-          color: #6b7280;
-          margin-bottom: 0.5rem;
-        }
-
-        .calendar-icon {
-          font-size: 1rem;
+          font-size: 0.8rem;
+          color: #666;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
         }
 
         .news-title {
-          font-size: 1.75rem;
-          font-weight: bold;
+          font-size: 1.5rem;
+          font-weight: 600;
           color: #1957a6;
           line-height: 1.3;
           margin: 0;
+          letter-spacing: -0.02em;
         }
 
         .news-description {
-          color: #4b5563;
-          line-height: 1.6;
+          color: #4a4a4a;
+          line-height: 1.7;
           margin: 0;
+          font-size: 0.95rem;
         }
 
         .news-image-section {
@@ -599,6 +663,11 @@ export default function HomePage() {
 
         .news-image {
           object-fit: cover;
+          transition: transform 0.6s ease;
+        }
+
+        .news-card:hover .news-image {
+          transform: scale(1.02);
         }
 
         .news-image-section.special-padding .news-image {
@@ -608,55 +677,58 @@ export default function HomePage() {
         .news-indicators {
           display: flex;
           justify-content: center;
-          margin-top: 1.5rem;
-          gap: 0.5rem;
+          margin-top: 2.5rem;
+          gap: 1rem;
         }
 
         .news-indicator {
-          width: 0.75rem;
-          height: 0.75rem;
-          border-radius: 50%;
+          width: 2.5rem;
+          height: 2px;
+          border-radius: 1px;
           border: none;
-          background: #d1d5db;
+          background: #e5e5e5;
           cursor: pointer;
-          transition: background-color 0.3s ease;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          padding: 0;
         }
 
         .news-indicator.active {
           background: #1957a6;
+          width: 4rem;
         }
 
         /* Partners Section */
         .partners-section {
           display: flex;
           flex-direction: column;
-          gap: 2rem;
         }
 
         .partners-container {
-          background: #e8f0ed;
-          border-radius: 12px;
-          padding: 2rem;
+          background: white;
+          border-radius: 4px;
+          padding: 3rem 2rem;
           overflow: hidden;
+          border: 1px solid rgba(0, 0, 0, 0.05);
         }
 
         .partners-scroll {
           display: flex;
-          animation: scroll 40s linear infinite;
-          gap: 3rem;
+          gap: 4rem;
+          animation: infiniteScroll 60s linear infinite;
+          will-change: transform;
         }
 
-        .partners-scroll:hover {
-          animation-play-state: paused;
-        }
-
-        @keyframes scroll {
+        @keyframes infiniteScroll {
           0% {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translateX(-33.333%);
           }
+        }
+
+        .partners-scroll:hover {
+          animation-play-state: paused;
         }
 
         .partner-item {
@@ -664,31 +736,36 @@ export default function HomePage() {
           display: flex;
           align-items: center;
           justify-content: center;
-          width: 12rem;
-          height: 6rem;
-          filter: grayscale(100%);
-          opacity: 0.8;
-          transition: all 0.3s ease;
+          width: 10rem;
+          height: 5rem;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .partner-item:hover {
-          filter: grayscale(0%);
-          opacity: 1;
-          transform: scale(1.1);
+          transform: scale(1.05);
         }
 
         .partner-logo {
           max-height: 4rem;
+          max-width: 9rem;
           width: auto;
+          height: auto;
           object-fit: contain;
+          opacity: 0.8;
+          transition: opacity 0.3s ease;
+        }
+
+        .partner-item:hover .partner-logo {
+          opacity: 1;
         }
 
         /* Story Section */
         .story-section {
-          background: #e8f0ed;
-          border-radius: 16px;
+          background: white;
+          border-radius: 4px;
           overflow: hidden;
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04);
+          border: 1px solid rgba(0, 0, 0, 0.05);
         }
 
         .story-container {
@@ -696,9 +773,9 @@ export default function HomePage() {
         }
 
         .story-image-section {
-          flex: 3;
+          flex: 1.5;
           position: relative;
-          min-height: 400px;
+          min-height: 500px;
         }
 
         .story-image {
@@ -706,61 +783,64 @@ export default function HomePage() {
         }
 
         .story-content {
-          flex: 2;
-          padding: 3rem;
+          flex: 1;
+          padding: 4rem;
           display: flex;
           flex-direction: column;
           justify-content: center;
         }
 
         .story-title {
-          font-size: 2.25rem;
-          font-weight: bold;
-          color: #2c3e50;
+          font-size: 1.75rem;
+          font-weight: 600;
+          color: #1a1a1a;
           margin-bottom: 1.5rem;
           line-height: 1.2;
+          letter-spacing: -0.025em;
         }
 
         .story-text {
-          color: #4b5563;
+          color: #4a4a4a;
           line-height: 1.7;
-          margin-bottom: 2rem;
-          font-size: 1.125rem;
+          margin-bottom: 2.5rem;
+          font-size: 1rem;
         }
 
         .story-button {
           display: inline-block;
           background: #1957a6;
           color: white;
-          padding: 0.75rem 2rem;
-          border-radius: 6px;
+          padding: 0.875rem 2rem;
+          border-radius: 2px;
           text-decoration: none;
           font-weight: 500;
-          transition: all 0.3s ease;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
           width: fit-content;
+          font-size: 0.9rem;
+          letter-spacing: 0.01em;
         }
 
         .story-button:hover {
           background: #174c91;
           transform: translateY(-2px);
-          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 8px 25px rgba(25, 87, 166, 0.3);
         }
 
         /* Timeline Section */
         .timeline-section {
           display: flex;
           flex-direction: column;
-          gap: 2rem;
         }
 
         .timeline-container {
-          background: #e8f0ed;
-          border-radius: 16px;
-          padding: 3rem;
+          background: white;
+          border-radius: 4px;
+          padding: 4rem 2rem;
+          border: 1px solid rgba(0, 0, 0, 0.05);
         }
 
         .timeline-wrapper {
-          max-width: 1000px;
+          max-width: 900px;
           margin: 0 auto;
           position: relative;
         }
@@ -770,25 +850,30 @@ export default function HomePage() {
           left: 2rem;
           top: 0;
           bottom: 0;
-          width: 2px;
-          background: #1957a6;
+          width: 1px;
+          background: linear-gradient(to bottom, #1957a6, rgba(25, 87, 166, 0.3));
         }
 
         .timeline-item {
           position: relative;
-          margin-bottom: 3rem;
+          margin-bottom: 4rem;
+        }
+
+        .timeline-item:last-child {
+          margin-bottom: 0;
         }
 
         .timeline-dot {
           position: absolute;
-          left: 1.5rem;
+          left: 1.625rem;
           top: 1.5rem;
-          width: 1rem;
-          height: 1rem;
+          width: 0.75rem;
+          height: 0.75rem;
           background: #1957a6;
           border-radius: 50%;
-          border: 4px solid #e8f0ed;
+          border: 3px solid white;
           z-index: 2;
+          box-shadow: 0 0 0 3px rgba(25, 87, 166, 0.2);
         }
 
         .timeline-content {
@@ -801,22 +886,25 @@ export default function HomePage() {
         }
 
         .timeline-card {
-          background: white;
-          padding: 1.5rem;
-          border-radius: 8px;
-          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-          transition: all 0.3s ease;
+          background: #fafafa;
+          padding: 2rem;
+          border-radius: 4px;
+          border: 1px solid rgba(0, 0, 0, 0.05);
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .timeline-card:hover {
-          transform: translateY(-3px);
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+          transform: translateY(-4px);
+          box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+          background: white;
         }
 
         .timeline-year {
-          font-size: 1.25rem;
+          font-size: 1rem;
           font-weight: 600;
           margin-bottom: 0.5rem;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
         }
 
         .timeline-year.primary {
@@ -830,7 +918,8 @@ export default function HomePage() {
         .timeline-title {
           font-size: 1.125rem;
           font-weight: 600;
-          margin-bottom: 0.5rem;
+          margin-bottom: 1rem;
+          line-height: 1.3;
         }
 
         .timeline-title.primary {
@@ -842,64 +931,87 @@ export default function HomePage() {
         }
 
         .timeline-description {
-          color: #4b5563;
+          color: #4a4a4a;
           line-height: 1.6;
-          margin-bottom: 1rem;
+          margin-bottom: 1.5rem;
+          font-size: 0.9rem;
         }
 
         .timeline-image {
           position: relative;
-          height: 12rem;
-          border-radius: 6px;
+          height: 10rem;
+          border-radius: 2px;
           overflow: hidden;
         }
 
         .timeline-img {
           object-fit: cover;
+          transition: transform 0.6s ease;
+        }
+
+        .timeline-card:hover .timeline-img {
+          transform: scale(1.05);
         }
 
         /* Map Section */
         .map-section {
           display: flex;
           flex-direction: column;
-          gap: 2rem;
-        }
-
-        .map-icon {
-          font-size: 2rem;
         }
 
         .map-container {
-          border-radius: 16px;
+          border-radius: 4px;
           overflow: hidden;
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04);
+          border: 1px solid rgba(0, 0, 0, 0.05);
         }
 
         .map-iframe {
           border: none;
+          display: block;
+          width: 100%;
         }
 
         /* Responsive Design */
+        @media (max-width: 1200px) {
+          .main-container {
+            padding: 6rem 2rem;
+            gap: 8rem;
+          }
+        }
+
         @media (max-width: 1024px) {
           .timeline-line {
-            left: 2rem;
+            left: 1rem;
+          }
+
+          .timeline-dot {
+            left: 0.625rem;
           }
 
           .timeline-content,
           .timeline-content.right {
-            margin-left: 4rem;
-            width: calc(100% - 4rem);
+            margin-left: 3rem;
+            width: calc(100% - 3rem);
+          }
+
+          .story-container {
+            flex-direction: column;
+          }
+
+          .story-content {
+            padding: 3rem;
           }
         }
 
         @media (max-width: 768px) {
           .main-container {
-            padding: 2rem 1rem;
-            gap: 4rem;
+            padding: 4rem 1.5rem;
+            gap: 6rem;
           }
 
           .section-title {
-            font-size: 2rem;
+            font-size: 1.5rem;
           }
 
           .hero-text {
@@ -907,12 +1019,25 @@ export default function HomePage() {
           }
 
           .hero-text-box {
-            padding: 1.5rem;
+            padding: 2rem;
           }
 
           .hero-content {
             width: 90%;
-            bottom: 3rem;
+            bottom: 4rem;
+          }
+
+          .hero-control {
+            width: 3rem;
+            height: 3rem;
+          }
+
+          .hero-prev {
+            left: 1.5rem;
+          }
+
+          .hero-next {
+            right: 1.5rem;
           }
 
           .news-content {
@@ -924,29 +1049,20 @@ export default function HomePage() {
             padding: 2rem;
           }
 
-          .news-image-section {
-            height: 16rem;
-          }
-
           .news-title {
-            font-size: 1.5rem;
-          }
-
-          .story-container {
-            flex-direction: column;
+            font-size: 1.25rem;
           }
 
           .story-content {
             padding: 2rem;
-            text-align: center;
           }
 
           .story-title {
-            font-size: 1.75rem;
+            font-size: 1.5rem;
           }
 
           .timeline-container {
-            padding: 2rem 1rem;
+            padding: 3rem 1.5rem;
           }
 
           .partner-item {
@@ -955,37 +1071,43 @@ export default function HomePage() {
           }
 
           .partner-logo {
-            max-height: 2.5rem;
+            max-height: 3rem;
+            max-width: 7rem;
           }
         }
 
         @media (max-width: 480px) {
+          .main-container {
+            padding: 3rem 1rem;
+            gap: 5rem;
+          }
+
           .section-title {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
           }
 
           .hero-text {
             font-size: 0.9rem;
           }
 
-          .news-text-section {
-            padding: 1.5rem;
+          .hero-content {
+            bottom: 3rem;
           }
 
-          .news-title {
-            font-size: 1.25rem;
+          .news-text-section {
+            padding: 1.5rem;
           }
 
           .story-content {
             padding: 1.5rem;
           }
 
-          .story-title {
-            font-size: 1.5rem;
+          .timeline-card {
+            padding: 1.5rem;
           }
 
-          .timeline-card {
-            padding: 1rem;
+          .timeline-image {
+            height: 8rem;
           }
         }
       `}</style>

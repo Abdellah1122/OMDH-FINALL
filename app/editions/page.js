@@ -44,7 +44,7 @@ export default function EditionsPage() {
                 <span className="article-date">.</span>
               </div>
               <p className="article-excerpt">خلال أشغال المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، الذي انعقد نهاية الأسبوع الماضي بمدينة الرباط، جددت المنظمة هياكلها التنظيمية...</p>
-              <Link href="/Article1" className="article-button">Lire plus</Link>
+              <Link href="/Article1" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
             </div>
           </article>
           
@@ -64,7 +64,7 @@ export default function EditionsPage() {
               </div>
               {/* FIX: Replaced typographic apostrophes */}
               <p className="article-excerpt">Le 12e congrès national de l&apos;Organisation Marocaine des Droits Humains (OMDH) s&apos;est achevé dimanche dernier sur une note de renouveau...</p>
-              <Link href="/Article2" className="article-button">Lire plus</Link>
+              <Link href="/Article2" className="article-button"style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
             </div>
           </article>
 
@@ -82,7 +82,7 @@ export default function EditionsPage() {
                 <span className="article-date">27 أبريل 2025</span>
               </div>
               <p className="article-excerpt">انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 بالمعهد الوطني لكتابة الضبط والمهن القانونية والقضائية...</p>
-              <Link href="/Article3" className="article-button">Lire plus</Link>
+              <Link href="/Article3" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
             </div>
           </article>
 
@@ -102,7 +102,7 @@ export default function EditionsPage() {
               <p className="article-excerpt">
                 أود باسم رئاسة المنظمة المغربية لحقوق الإنسان أن أرحب بكم/ن وأشكركم/ن على تلبيتكم/ن دعوة الحضور في هذه الندوة الصحفية...
               </p>
-              <Link href="/Article4" className="article-button">Lire plus</Link>
+              <Link href="/Article4" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
             </div>
           </article>
         </div>

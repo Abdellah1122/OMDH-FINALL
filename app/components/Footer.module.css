@@ -68,8 +68,16 @@
             gap: 0.8em;
             width: 100%;
             transition: var(--transition);
+            background-color: transparent;
+            border: none;
         }
-
+.cnt i{
+    color: var(--primary-color);
+}
+.Linkss{
+    background-color: transparent;
+            border: none;
+}
         .Center .cnt {
             margin-bottom: 0.5em;
             cursor: pointer;

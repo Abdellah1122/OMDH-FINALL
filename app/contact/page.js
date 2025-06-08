@@ -74,7 +74,7 @@ export default function ContactPage() {
               <div>
                 <p><strong>Téléphone Principal</strong></p>
                 <p className="contact-value">
-                  <a href="tel:+212537770060" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>
+                  <a href="tel:+212537770060" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none', textDecoration: 'none'}}>
                     +212 537 77 00 60
                   </a>
                 </p>
@@ -86,7 +86,7 @@ export default function ContactPage() {
               <div>
                 <p><strong>Mobile</strong></p>
                 <p className="contact-value">
-                  <a href="tel:+212666947975" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>
+                  <a href="tel:+212666947975" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none', textDecoration: 'none'}}>
                     +212 666 94 79 75
                   </a>
                 </p>
@@ -98,7 +98,7 @@ export default function ContactPage() {
               <div>
                 <p><strong>Email</strong></p>
                 <p className="contact-value">
-                  <a href="mailto:admin.omdh@omdh.ma" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>
+                  <a href="mailto:admin.omdh@omdh.ma" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none', textDecoration: 'none'}}>
                     admin.omdh@omdh.ma
                   </a>
                 </p>
@@ -229,6 +229,8 @@ export default function ContactPage() {
           position: relative;
           overflow: hidden;
           padding: 0; /* Override default 'a' padding */
+          background-color: transparent;
+            border: none;
         }
         .social-btn:hover {
             transform: translateY(-5px) scale(1.1);
