@@ -222,41 +222,7 @@ export default function AboutUsPage() {
       <Footer />
 
       <style jsx>{`
-        /* --- Page Specific Styles --- */
-        .BtnPrimary, .BtnSuc, .BtnDanger {
-            text-decoration: none;
-            display: inline-block;
-        }
-        .BtnPrimary {
-            background-color: var(--primary-color);
-            color: white;
-            border: 1px solid var(--primary-color);
-        }
-        .BtnPrimary:hover {
-            background-color: var(--primary-dark);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-        }
-        .BtnSuc {
-            background-color: var(--secondary-color);
-            color: white;
-            border: 1px solid var(--secondary-color);
-        }
-        .BtnSuc:hover {
-            background-color: var(--secondary-light);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-        }
-        .BtnDanger {
-            background-color: var(--danger-color);
-            color: white;
-            border: 1px solid var(--danger-color);
-        }
-        .BtnDanger:hover {
-            background-color: var(--danger-dark);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-        }
+       
         .about-section {
             padding: 5rem 2rem;
             background-color: var(--light-bg);
@@ -276,17 +242,6 @@ export default function AboutUsPage() {
             margin-bottom: 1rem;
             position: relative;
             display: inline-block;
-        }
-        .about-header h1::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 4px;
-            background-color: var(--secondary-color);
-            border-radius: 2px;
         }
         .highlight {
             color: var(--primary-color);

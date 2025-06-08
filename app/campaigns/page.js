@@ -481,17 +481,19 @@ export default function CampaignsPage() {
         .cta-section {
             margin-top: 5rem;
             padding: 4rem 2rem;
-            background-color: var(--primary-color);
             border-radius: var(--border-radius);
+            color:black;
             text-align: center;
             color: white;
         }
         .cta-section h2 {
             font-size: 2rem;
             margin-bottom: 1rem;
+            color:black;
         }
         .cta-description {
             max-width: 800px;
+            color:black;
             margin: 0 auto 2rem;
             line-height: 1.7;
             opacity: 0.9;
@@ -499,6 +501,7 @@ export default function CampaignsPage() {
         .cta-buttons {
             display: flex;
             gap: 1rem;
+            color:black;
             justify-content: center;
         }
         .cta-btn {
@@ -506,16 +509,19 @@ export default function CampaignsPage() {
             border-radius: var(--border-radius);
             font-weight: 600;
             cursor: pointer;
+            color:black;
             transition: var(--transition);
             text-decoration: none;
         }
         .cta-btn:hover {
             transform: translateY(-3px);
+            color:black;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
         .cta-btn.secondary {
             background-color: transparent;
             color: white;
+            color:black;
             border: 2px solid white;
         }
         
