@@ -64,7 +64,7 @@ export default function ProjectsPage() {
               <Link key={project.id} href={project.link} className="project-card" style={{color: 'var(--primary-color)',backgroundColor:'var(--accent-color)',border:'none'}}>
                 <div className="project-image-container">
                   <Image
-                    src={project.image || "/placeholder.svg?height=400&width=500"}
+                    src={project.image || "/placeholder.svg?height=400&widthk=500"}
                     alt={project.title}
                     fill
                     className="project-image"
