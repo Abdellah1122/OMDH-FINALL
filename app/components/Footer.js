@@ -104,7 +104,7 @@ export default function Footer() {
             <div className={styles.Contact}>
               <div className={styles.cnt}>
                 <i className="bi bi-geo"></i>
-                <p translate="yes">8, rue Ouargha, Résidence Volubilis, appt 1, Agdal / Rabat, Maroc</p>
+                <p translate="no">8, rue Ouargha, Résidence Volubilis, appt 1, Agdal / Rabat, Maroc</p>
               </div>
               <div className={styles.cnt}><i className="bi bi-telephone-fill"></i><p className={styles['no-translate']}>+212 537 77 00 60</p></div>
               <div className={styles.cnt}><i className="bi bi-envelope"></i><p className={styles['no-translate']}>admin.omdh@omdh.ma</p></div>
