@@ -46,7 +46,7 @@ const timelineEvents = [
     "year": "2000-2006",
     "title": "Abdellah El Oualdi",
     "description": "",
-    "image": "/PastPres/6.jpg",
+    "image": "/PastPres/6.JPG",
     "type": ""
   },
   {
