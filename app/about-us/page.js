@@ -6,7 +6,86 @@ import Footer from '../components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 
-// This is the functional component for your "About Us" page
+const timelineEvents = [
+    {
+    "year": "1988-1989",
+    "title": "Mehdi Elmandjra",
+    "description": "",
+    "image": "/PastPres/1.jpg",
+    "type": ""
+  },
+  {
+    "year": "1988-1989",
+    "title": "Omar Azziman",
+    "description": "",
+    "image": "/PastPres/2.jpg",
+    "type": ""
+  },
+  {
+    "year": "1989-1991",
+    "title": "Khalid Naciri",
+    "description": "",
+    "image": "/PastPres/3.jpg",
+    "type": ""
+  },
+  {
+    "year": "1991-1992",
+    "title": "Ali Amlil",
+    "description": "",
+    "image": "/PastPres/4.jpg",
+    "type": ""
+  },
+  {
+    "year": "1993-2000",
+    "title": "Abdelaziz Bennani",
+    "description": "",
+    "image": "/PastPres/5.jpg",
+    "type": ""
+  },
+  {
+    "year": "2000-2006",
+    "title": "Abdellah El Oualdi",
+    "description": "",
+    "image": "/PastPres/6.jpg",
+    "type": ""
+  },
+  {
+    "year": "2006-2012",
+    "title": "Amina Bouayach",
+    "description": "",
+    "image": "/PastPres/7.jpg",
+    "type": ""
+  },
+  {
+    "year": "2012-2015",
+    "title": "Mohamed Nechnach",
+    "description": "",
+    "image": "/PastPres/8.jpg",
+    "type": ""
+  },
+  {
+    "year": "2015-2022",
+    "title": "Boubker Largo",
+    "description": "",
+    "image": "/PastPres/9.png",
+    "type": ""
+  },
+  {
+    "year": "2022-2025",
+    "title": "Hassan Idrissi",
+    "description": "",
+    "image": "/PastPres/10.jpg",
+    "type": ""
+  },
+  {
+    "year": "2025-",
+    "title": "Naoufal Bouamri",
+    "description": "",
+    "image": "/PastPres/11.jpeg",
+    "type": ""
+  }
+]
+
 export default function AboutUsPage() {
   return (
     <>
@@ -83,86 +162,39 @@ export default function AboutUsPage() {
         </div>
       </div>
 
-      <div className="timeline-section">
-        <h2>Notre Histoire</h2>
-        <div className="Sec">
-          <div className="Projects">
-            <div className="timeline-container">
-              <div className="timeline-item timeline-left">
-                <div className="timeline-content">
-                  <div className="timeline-year primary">1988</div>
-                  <div className="autoShow">
-                    <div className="timeline-title primary">Fondation de l&apos;OMDH</div>
-                  </div>
-                  <div className="autoShow">
-                    <div className="timeline-description">L&apos;Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 28 mai 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.</div>
-                  </div>
-                  <div className="autoShow">
-                    <Image src="/Images/HandsSolidarity.jpg" alt="Hands Solidarity" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}} />
-                  </div>
-                </div>
-              </div>
-              {/* Other timeline items... */}
-              <div className="timeline-item timeline-right">
-                <div className="timeline-content">
-                  <div className="timeline-year secondary">1993</div>
-                  <div className="autoShow">
-                    <div className="timeline-title secondary">Reconnaissance internationale</div>
-                  </div>
-                  <div className="autoShow">
-                    <div className="timeline-description">L&apos;OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.</div>
-                  </div>
-                  <div className="autoShow">
-                    <Image src="/Images/CandleInHand2.jpg" alt="Candle In Hand" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}} />
-                  </div>
-                </div>
-              </div>
-              <div className="timeline-item timeline-left">
-                <div className="timeline-content">
-                  <div className="timeline-year primary">2004</div>
-                  <div className="autoShow">
-                    <div className="timeline-title primary">Justice et Réconciliation</div>
-                  </div>
-                  <div className="autoShow">
-                    <div className="timeline-description">L&apos;OMDH joue un rôle clé au sein de l&apos;Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.</div>
-                  </div>
-                  <div className="autoShow">
-                    <Image src="/Images/Women.jpg" alt="Women" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}}/>
-                  </div>
-                </div>
-              </div>
-              <div className="timeline-item timeline-right">
-                <div className="timeline-content">
-                  <div className="timeline-year secondary">2011</div>
-                  <div className="autoShow">
-                    <div className="timeline-title secondary">Printemps arabe et Réforme constitutionnelle</div>
-                  </div>
-                  <div className="autoShow">
-                    <div className="timeline-description">Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l&apos;OMDH plaide pour l&apos;élargissement des protections des droits humains, l&apos;indépendance judiciaire et l&apos;égalité des sexes.</div>
-                  </div>
-                  <div className="autoShow">
-                    <Image src="/Images/arabspring.jpeg" alt="Arab Spring" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}}/>
-                  </div>
-                </div>
-              </div>
-              <div className="timeline-item timeline-left">
-                <div className="timeline-content">
-                  <div className="timeline-year primary">2023</div>
-                  <div className="autoShow">
-                    <div className="timeline-title primary">Plaidoyer national et Partenariats</div>
-                  </div>
-                  <div className="autoShow">
-                    <div className="timeline-description">L&apos;OMDH renforce sa coopération avec les universités marocaines, les institutions civiles et les organisations internationales pour promouvoir l&apos;éducation, les droits des femmes et les libertés civiles.</div>
-                  </div>
-                  <div className="autoShow">
-                    <Image src="/Images/ChatGPT Image May 3, 2025, 05_09_56 PM.png" alt="Partnerships" width={400} height={250} style={{objectFit: 'cover', borderRadius: 'var(--border-radius)'}} />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <section className="timeline-section">
+                 <div className="section-header">
+                   <h2 className="section-title">Découvrez Nos Étapes Clés</h2>
+                 </div>
+     
+                 <div className="timeline-container">
+                   <div className="timeline-wrapper">
+                     <div className="timeline-line"></div>
+     
+                     {timelineEvents.map((event, index) => (
+                       <div key={index} className="timeline-item">
+                         <div className="timeline-dot"></div>
+     
+                         <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
+                           <div className="timeline-card">
+                             <div className={`timeline-year ${event.type}`}>{event.year}</div>
+                             <h4 className={`timeline-title ${event.type}`}>{event.title}</h4>
+                             <p className="timeline-description">{event.description}</p>
+                             <div className="timeline-image">
+                               <Image
+                                 src={event.image || "/placeholder.svg?height=250&width=400"}
+                                 alt={event.title}
+                                 fill
+                                 className="timeline-img"
+                               />
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     ))}
+                   </div>
+                 </div>
+               </section>
 
       <div className="values-section">
         <h2>Nos valeurs fondamentales</h2>
@@ -222,7 +254,25 @@ export default function AboutUsPage() {
       <Footer />
 
       <style jsx>{`
-       
+       /* Section Headers */
+        .section-header {
+          text-align: center;
+          margin-bottom: 4rem;
+        }
+
+        .section-title {
+          font-size: 2rem;
+          font-weight: 600;
+          color:var(--secondary-color);
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.75rem;
+          letter-spacing: -0.025em;
+          position: relative;
+        }
+
         .about-section {
             padding: 5rem 2rem;
             background-color: var(--light-bg);
@@ -367,131 +417,129 @@ export default function AboutUsPage() {
             gap: 1rem;
             margin-top: 2rem;
         }
+         /* Timeline Section */
         .timeline-section {
-            margin: 5rem 0;
-            position: relative;
-            background: linear-gradient(135deg, var(--accent-color), rgba(232, 240, 237, 0.7));
-            padding: 4rem 2rem;
-            border-radius: var(--border-radius);
+          display: flex;
+          flex-direction: column;
         }
-        .timeline-section h2 {
-            text-align: center;
-            font-size: 2rem;
-            color: var(--text-dark);
-            margin-bottom: 3rem;
-            font-family: var(--Poppins);
-            position: relative;
-            display: inline-block;
-            width: 100%;
-        }
-        .timeline-section h2::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background-color: var(--secondary-color);
-            border-radius: 1.5px;
-        }
+
         .timeline-container {
-            position: relative;
-            max-width: 1000px;
-            margin: 0 auto;
+          background: white;
+          border-radius: 4px;
+          padding: 4rem 2rem;
+          border: 1px solid rgba(0, 0, 0, 0.05);
         }
-        .timeline-container::after {
-            content: '';
-            position: absolute;
-            width: 6px;
-            background-color: var(--primary-color);
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -3px;
-            border-radius: 3px;
+
+        .timeline-wrapper {
+          max-width: 900px;
+          margin: 0 auto;
+          position: relative;
         }
+
+        .timeline-line {
+          position: absolute;
+          left: 2rem;
+          top: 0;
+          bottom: 0;
+          width: 1px;
+          background: linear-gradient(to bottom, #1957a6, rgba(25, 87, 166, 0.3));
+        }
+
         .timeline-item {
-            padding: 10px 40px;
-            position: relative;
-            width: 50%;
-            box-sizing: border-box;
+          position: relative;
+          margin-bottom: 4rem;
         }
-        .timeline-item::after {
-            content: '';
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            background-color: white;
-            border: 4px solid var(--secondary-color);
-            top: 15px;
-            border-radius: 50%;
-            z-index: 1;
+
+        .timeline-item:last-child {
+          margin-bottom: 0;
         }
-        .timeline-left {
-            left: 0;
+
+        .timeline-dot {
+          position: absolute;
+          left: 1.625rem;
+          top: 1.5rem;
+          width: 0.75rem;
+          height: 0.75rem;
+          background: #1957a6;
+          border-radius: 50%;
+          border: 3px solid white;
+          z-index: 2;
+          box-shadow: 0 0 0 3px rgba(25, 87, 166, 0.2);
         }
-        .timeline-right {
-            left: 50%;
-        }
-        .timeline-left::after {
-            right: -10px;
-        }
-        .timeline-right::after {
-            left: -10px;
-        }
+
         .timeline-content {
-            padding: 20px;
-            background-color: white;
-            position: relative;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
+          margin-left: 4rem;
+          width: calc(50% - 2rem);
         }
-        .timeline-content h3 {
-            color: var(--primary-color);
-            margin-bottom: 10px;
-            font-family: var(--Poppins);
+
+        .timeline-content.right {
+          margin-left: calc(50% + 2rem);
         }
-        .timeline-content .date {
-            display: inline-block;
-            background-color: var(--accent-color);
-            color: var(--primary-color);
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-bottom: 15px;
+
+        .timeline-card {
+          background: #fafafa;
+          padding: 2rem;
+          border-radius: 4px;
+          border: 1px solid rgba(0, 0, 0, 0.05);
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        .timeline-content p {
-            line-height: 1.6;
-            color: var(--text-medium);
+
+        .timeline-card:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+          background: white;
         }
+
         .timeline-year {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 0.5em;
+          font-size: 1rem;
+          font-weight: 600;
+          margin-bottom: 0.5rem;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+                    color:var(--secondary-color);
+
         }
-        .timeline-year.primary {
-            color: var(--primary-color);
-        }
-        .timeline-year.secondary {
-            color: var(--secondary-color);
-        }
+
+
         .timeline-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 0.5em;
+          font-size: 1.125rem;
+          font-weight: 600;
+          margin-bottom: 1rem;
+          line-height: 1.3;
+
+                    color:var(--primary-color);
+
         }
+
         .timeline-title.primary {
-            color: var(--primary-color);
+          color: #1957a6;
         }
+
         .timeline-title.secondary {
-            color: var(--secondary-color);
+          color: #d3612f;
         }
+
         .timeline-description {
-            color: var(--text-dark);
-            line-height: 1.6;
-            margin-bottom: 1em;
+          color: #4a4a4a;
+          line-height: 1.6;
+          margin-bottom: 1.5rem;
+          font-size: 0.9rem;
+        }
+
+        .timeline-image {
+          position: relative;
+          height: 10rem;
+          border-radius: 2px;
+          overflow: hidden;
+        }
+
+        .timeline-img {
+          object-fit: cover;
+          transition: transform 0.6s ease;
+        }
+
+        .timeline-card:hover .timeline-img {
+          transform: scale(1.05);
         }
         .Projects img {
             width: 100%;
