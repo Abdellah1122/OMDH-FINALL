@@ -343,6 +343,108 @@ export default function ContactPage() {
             0%, 100% { transform: translateY(0px); }
             50% { transform: translateY(-15px); }
         }
+            /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-container {
+                padding: 1em;
+                gap: 2em;
+            }
+
+            .hero-section {
+                flex-direction: column;
+                gap: 2em;
+                padding: 2em 1em;
+            }
+
+            .hero-image img {
+                width: 100%;
+                height: 300px;
+            }
+
+            .hero-content {
+                padding: 1em;
+                gap: 1.5em;
+            }
+
+            .hero-title {
+                font-size: 1.8rem;
+            }
+
+            .hero-description {
+                font-size: 1rem;
+            }
+
+            .social-buttons {
+                gap: 0.8em;
+            }
+
+            .social-btn {
+                width: 45px;
+                height: 45px;
+                font-size: 1.1rem;
+            }
+
+            .section {
+                padding: 1em;
+                gap: 1.5em;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .contact-info {
+                padding: 2em 1em;
+                gap: 2em;
+            }
+
+            .contact-cards {
+                grid-template-columns: 1fr;
+                gap: 1.5em;
+            }
+
+            .contact-card {
+                padding: 1.5em;
+            }
+
+            .contact-card i {
+                font-size: 2rem;
+            }
+
+            .map-container {
+                height: 400px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 1.5rem;
+            }
+
+            .hero-description {
+                font-size: 0.9rem;
+            }
+
+            h2 {
+                font-size: 1.7rem;
+            }
+
+            .contact-info {
+                padding: 1.5em 1em;
+            }
+
+            .contact-card {
+                padding: 1.2em;
+            }
+
+            .contact-card i {
+                font-size: 1.8rem;
+            }
+
+            .map-container {
+                height: 350px;
+            }
+        }
       `}</style>
     </>
   );

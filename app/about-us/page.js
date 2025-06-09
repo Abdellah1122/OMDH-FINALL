@@ -672,20 +672,17 @@ export default function AboutUsPage() {
         
         /* Responsive Design */
         @media (max-width: 992px) {
-          .timeline-container::after {
-            left: 31px;
+          .timeline-dot {
+            left: 0.625rem;
           }
-          .timeline-item {
-            width: 100%;
-            padding-left: 70px;
-            padding-right: 25px;
+
+          .timeline-content,
+          .timeline-content.right {
+            margin-left: 3rem;
+            width: calc(100% - 3rem);
           }
-          .timeline-item::after {
-            left: 21px;
-          }
-          .timeline-right {
-            left: 0%;
-          }
+
+
         }
         @media (max-width: 768px) {
           .about-content {
@@ -707,6 +704,9 @@ export default function AboutUsPage() {
           .stat-item {
             min-width: 45%; /* Two items per row on tablet */
           }
+            .timeline-container {
+            padding: 3rem 1.5rem;
+          }
         }
         @media (max-width: 576px) {
           .about-section {
@@ -722,6 +722,13 @@ export default function AboutUsPage() {
           .ImgCont,
           .stat-item {
             min-width: 100%;
+          }
+            .timeline-card {
+            padding: 1.5rem;
+          }
+
+          .timeline-image {
+            height: 8rem;
           }
         }
       `}</style>
