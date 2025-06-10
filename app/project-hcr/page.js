@@ -81,7 +81,7 @@ export default function ProjectHcrPage() {
         <div className="cta-content">
           <h2 className="fade-in delay-1">Découvrez Nos Projets Passés</h2>
           <p className="fade-in delay-2">Explorez les initiatives et collaborations que nous avons entreprises pour créer un impact significatif.</p>
-          <Link href="/projects" className="BtnPrimary">Découvrez Maintenant</Link>
+          <Link href="/Projects" className="BtnPrimary">Découvrez Maintenant</Link>
         </div>
       </div>
     </div>

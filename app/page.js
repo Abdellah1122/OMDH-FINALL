@@ -57,16 +57,30 @@ const newsItems = [
 ]
 
 const partnerCategories = [
-
   {
-    title: "Partenaires ",
+    title: "Partenaires Internationaux",
     partners: [
       { name: "ECPM", logo: "/NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" },
+      { name: "ECOSOC", logo: "/IntPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" },
+      { name: "Amnesty International", logo: "/IntPartnaires/Amnesty_International_logo.svg.png" },
+      { name: "LC", logo: "/IntPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" },
+      { name: "Human Rights Watch", logo: "/IntPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" },
+    ],
+  },
+  {
+    title: "Partenaires Nationaux",
+    partners: [
       { name: "Partner 1", logo: "/NatPartnaires/images (1).jpeg" },
       { name: "Partner 2", logo: "/NatPartnaires/images (1).png" },
       { name: "Partner 3", logo: "/NatPartnaires/images (2).png" },
       { name: "Partner 4", logo: "/NatPartnaires/images.jpeg" },
       { name: "Partner 5", logo: "/NatPartnaires/images.png" },
+      { name: "Partner 6", logo: "/NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" },
+    ],
+  },
+  {
+    title: "Partenaires Universitaires",
+    partners: [
       { name: "University 1", logo: "/UNIPartnaires/1631365508628.jpeg" },
       { name: "University 2", logo: "/UNIPartnaires/images (3).png" },
       { name: "University 3", logo: "/UNIPartnaires/images.jpeg" },
@@ -78,7 +92,6 @@ const partnerCategories = [
       { name: "Hassan 1er", logo: "/UNIPartnaires/Universite-Hassan-1er-settat.png" },
     ],
   },
-  
 ]
 
 const timelineEvents = [
@@ -110,40 +123,13 @@ const timelineEvents = [
     "image": "/Images/blue.png",
     "type": "primary"
   },
-  {
-    "year": "2004",
-    "title": "Justice et Réconciliation",
-    "description": "L'OMDH joue un rôle clé au sein de l'Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.",
-    "image": "/Images/Women.jpg",
-    "type": "primary"
-  },
+  
   {
     "year": "2011",
     "title": "Printemps arabe et Réforme constitutionnelle",
     "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
     "image": "/Images/arabspring.jpeg",
     "type": "secondary"
-  },
-    {
-    "year": "2011",
-    "title": "Alliance Anti-Torture",
-    "description": "L'OMDH a collaboré avec le Conseil National des Droits de l'Homme (CNDH) et l'Association pour la Prévention de la Torture (APT) sur la ratification du Protocole Facultatif à la Convention des Nations Unies contre la Torture (OPCAT).",
-    "image": "/Images/CNDH.jpg",
-    "type": "secondary"
-  },
-  {
-    "year": "2013",
-    "title": "Condamnation de l'Injustice",
-    "description": "L'OMDH a publié conjointement avec Ensemble Contre la Peine de Mort (ECPM) un rapport intitulé « Voyage au cimetière des vivants », qui analysait les conditions de détention des personnes condamnées à mort au Maroc.",
-    "image": "/Images/DeathPenaltyAbolition.jpg",
-    "type": "primary"
-  },
-  {
-    "year": "2023",
-    "title": "Plaidoyer national et Partenariats",
-    "description": "L'OMDH renforce sa coopération avec les universités marocaines, les institutions civiles et les organisations internationales pour promouvoir l'éducation, les droits des femmes et les libertés civiles.",
-    "image": "/Images/ChatGPT Image May 3, 2025, 05_09_56 PM.png",
-    "type": "primary"
   },
   {
     "year": "Avril 2025",
@@ -310,7 +296,8 @@ export default function HomePage() {
                         alt={partner.name}
                         width={180}
                         height={100}
-                        className="partner-logo"
+                        className="f"
+                        
                       />
                     </div>
                   ))}
@@ -482,17 +469,16 @@ export default function HomePage() {
         }
 
         .hero-text-box {
-          background: rgba(255, 255, 255, 0.95);
-          backdrop-filter: blur(20px);
-          border-radius: 2px;
+          background: rgba(0, 0, 0, 0.2);
+          backdrop-filter: blur(5px);
+          border-radius: 10px;
           padding: 2.5rem;
           text-align: center;
-          border: 1px solid rgba(255, 255, 255, 0.2);
           box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
         }
 
         .hero-text {
-          color: #2a2a2a;
+          color: white;
           font-size: 1.125rem;
           font-weight: 400;
           line-height: 1.7;
@@ -749,6 +735,7 @@ export default function HomePage() {
           width: 10rem;
           height: 5rem;
           transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          overflow:hidden;
         }
 
         .partner-item:hover {
@@ -763,6 +750,7 @@ export default function HomePage() {
           object-fit: contain;
           opacity: 0.8;
           transition: opacity 0.3s ease;
+          overflow:hidden;
         }
 
         .partner-item:hover .partner-logo {
@@ -836,8 +824,10 @@ export default function HomePage() {
           box-shadow: 0 8px 25px rgba(25, 87, 166, 0.3);
         }
 
-        /* Timeline Section */
+        /* === [CORRECTED] TIMELINE CSS START === */
+        
         .timeline-section {
+          margin-top:5em;
           display: flex;
           flex-direction: column;
         }
@@ -855,47 +845,40 @@ export default function HomePage() {
           position: relative;
         }
 
+        /* Base (Mobile) Styles */
         .timeline-line {
           position: absolute;
-          left: 2rem;
+          left: 1rem;
           top: 0;
           bottom: 0;
-          width: 1px;
+          width: 2px;
           background: linear-gradient(to bottom, #1957a6, rgba(25, 87, 166, 0.3));
         }
 
         .timeline-item {
           position: relative;
+          padding-left: 3rem; /* Space for content to clear the line */
           margin-bottom: 4rem;
         }
-
         .timeline-item:last-child {
           margin-bottom: 0;
         }
 
         .timeline-dot {
           position: absolute;
-          left: 1.625rem;
           top: 1.5rem;
-          width: 0.75rem;
-          height: 0.75rem;
+          left: calc(1rem - 5px); /* Position dot on the line */
+          width: 12px;
+          height: 12px;
           background: #1957a6;
           border-radius: 50%;
           border: 3px solid white;
           z-index: 2;
           box-shadow: 0 0 0 3px rgba(25, 87, 166, 0.2);
         }
-
-        .timeline-content {
-          margin-left: 4rem;
-          width: calc(50% - 2rem);
-        }
-
-        .timeline-content.right {
-          margin-left: calc(50% + 2rem);
-        }
-
+        
         .timeline-card {
+          position: relative;
           background: #fafafa;
           padding: 2rem;
           border-radius: 4px;
@@ -903,6 +886,68 @@ export default function HomePage() {
           transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
+        /* Desktop Alternating Styles */
+        @media (min-width: 993px) {
+          .timeline-line {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          .timeline-item {
+            padding-left: 0; /* Reset mobile padding */
+          }
+          
+          /* This is the container for the floated content */
+          .timeline-item::after {
+            content: '';
+            display: table;
+            clear: both;
+          }
+
+          .timeline-dot {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          .timeline-content {
+            width: calc(50% - 40px);
+            position: relative;
+          }
+
+          .timeline-content.left {
+            float: left;
+          }
+          .timeline-content.right {
+            float: right;
+          }
+
+          /* Arrows */
+          .timeline-card::before {
+            content: '';
+            position: absolute;
+            top: 1.8rem;
+            width: 0;
+            height: 0;
+            border: 8px solid transparent;
+            transition: border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          }
+
+          .timeline-content.left .timeline-card::before {
+            right: -16px;
+            border-left-color: #fafafa;
+          }
+
+          .timeline-content.right .timeline-card::before {
+            left: -16px;
+            border-right-color: #fafafa;
+          }
+
+          .timeline-content .timeline-card:hover::before {
+            border-left-color: white;
+            border-right-color: white;
+          }
+        }
+        
         .timeline-card:hover {
           transform: translateY(-4px);
           box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
@@ -915,21 +960,17 @@ export default function HomePage() {
           margin-bottom: 0.5rem;
           text-transform: uppercase;
           letter-spacing: 0.05em;
+          color:var(--secondary-color);
+
         }
 
-        .timeline-year.primary {
-          color: #1957a6;
-        }
-
-        .timeline-year.secondary {
-          color: #d3612f;
-        }
 
         .timeline-title {
           font-size: 1.125rem;
           font-weight: 600;
           margin-bottom: 1rem;
           line-height: 1.3;
+          color:var(--primary-color);
         }
 
         .timeline-title.primary {
@@ -962,6 +1003,8 @@ export default function HomePage() {
         .timeline-card:hover .timeline-img {
           transform: scale(1.05);
         }
+        
+        /* === TIMELINE CSS END === */
 
         /* Map Section */
         .map-section {

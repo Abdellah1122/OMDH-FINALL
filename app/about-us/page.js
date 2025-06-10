@@ -85,7 +85,78 @@ const timelineEvents = [
     "type": ""
   }
 ]
-
+const timelineEvents2 = [
+   {
+    "year": "1988",
+    "title": "Fondation de l'OMDH",
+    "description": "L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 28 mai 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.",
+    "image": "/Images/HandsSolidarity.jpg",
+    "type": "primary"
+  },
+  {
+    "year": "Début 1989",
+    "title": "Plaidoyer pour l'Amnistie",
+    "description": "L'OMDH a lancé des appels à l'amnistie pour les prisonniers politiques et soumis des demandes de visite des prisons dans le cadre de ses efforts initiaux.",
+    "image": "/Images/AmnestyInternational.jpg",
+    "type": "secondary"
+  },
+  {
+    "year": "1993",
+    "title": "Reconnaissance internationale",
+    "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
+    "image": "/Images/CandleInHand2.jpg",
+    "type": "secondary"
+  },
+    {
+    "year": "1997",
+    "title": "Intégration Régionale",
+    "description": "L'OMDH est devenu membre régulier du réseau EuroMed Rights, indiquant son engagement dans les cadres régionaux des droits humains.",
+    "image": "/Images/blue.png",
+    "type": "primary"
+  },
+  {
+    "year": "2004",
+    "title": "Justice et Réconciliation",
+    "description": "L'OMDH joue un rôle clé au sein de l'Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.",
+    "image": "/Images/Women.jpg",
+    "type": "primary"
+  },
+  {
+    "year": "2011",
+    "title": "Printemps arabe et Réforme constitutionnelle",
+    "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
+    "image": "/Images/arabspring.jpeg",
+    "type": "secondary"
+  },
+    {
+    "year": "2011",
+    "title": "Alliance Anti-Torture",
+    "description": "L'OMDH a collaboré avec le Conseil National des Droits de l'Homme (CNDH) et l'Association pour la Prévention de la Torture (APT) sur la ratification du Protocole Facultatif à la Convention des Nations Unies contre la Torture (OPCAT).",
+    "image": "/Images/CNDH.jpg",
+    "type": "secondary"
+  },
+  {
+    "year": "2013",
+    "title": "Condamnation de l'Injustice",
+    "description": "L'OMDH a publié conjointement avec Ensemble Contre la Peine de Mort (ECPM) un rapport intitulé « Voyage au cimetière des vivants », qui analysait les conditions de détention des personnes condamnées à mort au Maroc.",
+    "image": "/Images/DeathPenaltyAbolition.jpg",
+    "type": "primary"
+  },
+  {
+    "year": "2023",
+    "title": "Plaidoyer national et Partenariats",
+    "description": "L'OMDH renforce sa coopération avec les universités marocaines, les institutions civiles et les organisations internationales pour promouvoir l'éducation, les droits des femmes et les libertés civiles.",
+    "image": "/Images/ChatGPT Image May 3, 2025, 05_09_56 PM.png",
+    "type": "primary"
+  },
+  {
+    "year": "Avril 2025",
+    "title": "Solidarité avec Gaza",
+    "description": "Lors de sa douzième conférence nationale, l'OMDH a exprimé sa solidarité avec le peuple palestinien et condamné l'agression israélienne en cours à Gaza, appelant à une intervention internationale.",
+    "image": "/Images/gaza.jpg",
+    "type": "primary"
+  },
+]
 export default function AboutUsPage() {
   return (
     <>
@@ -95,10 +166,8 @@ export default function AboutUsPage() {
   <section className="about-section">
     <div className="about-container">
       <div className="about-header">
-        {/* FIX: l' replaced with l&apos; */}
         <h1>À propos de <span className="highlight">l&apos;OMDH</span></h1>
         <p className="about-tagline">
-          {/* FIX: l', d', etc. replaced with &apos; equivalents */}
           Depuis sa création en 1988, l&apos;Organisation Marocaine des Droits Humains (OMDH) est un pilier de la défense, de la protection et de la promotion des droits humains au Maroc. Ancrée dans les principes d&apos;universalité, d&apos;indivisibilité et d&apos;interdépendance des droits, l&apos;OMDH plaide pour la dignité, l&apos;égalité et la justice pour tous.
         </p>
       </div>
@@ -163,38 +232,72 @@ export default function AboutUsPage() {
       </div>
 
       <section className="timeline-section">
-                 <div className="section-header">
-                   <h2 className="section-title">Découvrez Nos Étapes Clés</h2>
-                 </div>
+               <div className="section-header">
+                 <h2 className="section-title">Découvrez Nos Étapes Clés</h2>
+               </div>
      
-                 <div className="timeline-container">
-                   <div className="timeline-wrapper">
-                     <div className="timeline-line"></div>
+               <div className="timeline-container">
+                 <div className="timeline-wrapper">
+                   <div className="timeline-line"></div>
      
-                     {timelineEvents.map((event, index) => (
-                       <div key={index} className="timeline-item">
-                         <div className="timeline-dot"></div>
+                   {timelineEvents2.map((event, index) => (
+                     <div key={index} className="timeline-item">
+                       <div className="timeline-dot"></div>
      
-                         <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
-                           <div className="timeline-card">
-                             <div className={`timeline-year ${event.type}`}>{event.year}</div>
-                             <h4 className={`timeline-title ${event.type}`}>{event.title}</h4>
-                             <p className="timeline-description">{event.description}</p>
-                             <div className="timeline-image">
-                               <Image
-                                 src={event.image || "/placeholder.svg?height=250&width=400"}
-                                 alt={event.title}
-                                 fill
-                                 className="timeline-img"
-                               />
-                             </div>
+                       <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
+                         <div className="timeline-card">
+                           <div className={`timeline-year ${event.type}`}>{event.year}</div>
+                           <h4 className={`timeline-title ${event.type}`}>{event.title}</h4>
+                           <p className="timeline-description">{event.description}</p>
+                           <div className="timeline-image">
+                             <Image
+                               src={event.image || "/placeholder.svg?height=250&width=400"}
+                               alt={event.title}
+                               fill
+                               className="timeline-img"
+                             />
                            </div>
                          </div>
                        </div>
-                     ))}
-                   </div>
+                     </div>
+                   ))}
                  </div>
-               </section>
+               </div>
+             </section>
+             
+      <section className="timeline-section">
+               <div className="section-header">
+                 <h2 className="section-title">Nos Pésidents </h2>
+               </div>
+     
+               <div className="timeline-container">
+                 <div className="timeline-wrapper">
+                   <div className="timeline-line"></div>
+     
+                   {timelineEvents.map((event, index) => (
+                     <div key={index} className="timeline-item">
+                       <div className="timeline-dot"></div>
+     
+                       <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
+                         <div className="timeline-card">
+                           <div className={`timeline-year ${event.type}`}>{event.year}</div>
+                           <h4 className={`timeline-title ${event.type}`}>{event.title}</h4>
+                           <p className="timeline-description">{event.description}</p>
+                           <div className="timeline-image">
+                             <Image
+                               src={event.image || "/placeholder.svg?height=250&width=400"}
+                               alt={event.title}
+                               fill
+                               className="timeline-img"
+                             />
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   ))}
+                 </div>
+               </div>
+             </section>
 
       <div className="values-section">
         <h2>Nos valeurs fondamentales</h2>
@@ -254,7 +357,7 @@ export default function AboutUsPage() {
       <Footer />
 
       <style jsx>{`
-       /* Section Headers */
+        /* Section Headers */
         .section-header {
           text-align: center;
           margin-bottom: 4rem;
@@ -417,8 +520,11 @@ export default function AboutUsPage() {
             gap: 1rem;
             margin-top: 2rem;
         }
-         /* Timeline Section */
+        
+        /* === [CORRECTED] TIMELINE CSS START === */
+        
         .timeline-section {
+          margin-top:5em;
           display: flex;
           flex-direction: column;
         }
@@ -436,47 +542,40 @@ export default function AboutUsPage() {
           position: relative;
         }
 
+        /* Base (Mobile) Styles */
         .timeline-line {
           position: absolute;
-          left: 2rem;
+          left: 1rem;
           top: 0;
           bottom: 0;
-          width: 1px;
+          width: 2px;
           background: linear-gradient(to bottom, #1957a6, rgba(25, 87, 166, 0.3));
         }
 
         .timeline-item {
           position: relative;
+          padding-left: 3rem; /* Space for content to clear the line */
           margin-bottom: 4rem;
         }
-
         .timeline-item:last-child {
           margin-bottom: 0;
         }
 
         .timeline-dot {
           position: absolute;
-          left: 1.625rem;
           top: 1.5rem;
-          width: 0.75rem;
-          height: 0.75rem;
+          left: calc(1rem - 5px); /* Position dot on the line */
+          width: 12px;
+          height: 12px;
           background: #1957a6;
           border-radius: 50%;
           border: 3px solid white;
           z-index: 2;
           box-shadow: 0 0 0 3px rgba(25, 87, 166, 0.2);
         }
-
-        .timeline-content {
-          margin-left: 4rem;
-          width: calc(50% - 2rem);
-        }
-
-        .timeline-content.right {
-          margin-left: calc(50% + 2rem);
-        }
-
+        
         .timeline-card {
+          position: relative;
           background: #fafafa;
           padding: 2rem;
           border-radius: 4px;
@@ -484,6 +583,68 @@ export default function AboutUsPage() {
           transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
+        /* Desktop Alternating Styles */
+        @media (min-width: 993px) {
+          .timeline-line {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          .timeline-item {
+            padding-left: 0; /* Reset mobile padding */
+          }
+          
+          /* This is the container for the floated content */
+          .timeline-item::after {
+            content: '';
+            display: table;
+            clear: both;
+          }
+
+          .timeline-dot {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          .timeline-content {
+            width: calc(50% - 40px);
+            position: relative;
+          }
+
+          .timeline-content.left {
+            float: left;
+          }
+          .timeline-content.right {
+            float: right;
+          }
+
+          /* Arrows */
+          .timeline-card::before {
+            content: '';
+            position: absolute;
+            top: 1.8rem;
+            width: 0;
+            height: 0;
+            border: 8px solid transparent;
+            transition: border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          }
+
+          .timeline-content.left .timeline-card::before {
+            right: -16px;
+            border-left-color: #fafafa;
+          }
+
+          .timeline-content.right .timeline-card::before {
+            left: -16px;
+            border-right-color: #fafafa;
+          }
+
+          .timeline-content .timeline-card:hover::before {
+            border-left-color: white;
+            border-right-color: white;
+          }
+        }
+        
         .timeline-card:hover {
           transform: translateY(-4px);
           box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
@@ -496,7 +657,7 @@ export default function AboutUsPage() {
           margin-bottom: 0.5rem;
           text-transform: uppercase;
           letter-spacing: 0.05em;
-                    color:var(--secondary-color);
+          color:var(--secondary-color);
 
         }
 
@@ -506,9 +667,7 @@ export default function AboutUsPage() {
           font-weight: 600;
           margin-bottom: 1rem;
           line-height: 1.3;
-
-                    color:var(--primary-color);
-
+          color:var(--primary-color);
         }
 
         .timeline-title.primary {
@@ -541,6 +700,9 @@ export default function AboutUsPage() {
         .timeline-card:hover .timeline-img {
           transform: scale(1.05);
         }
+        
+        /* === TIMELINE CSS END === */
+
         .Projects img {
             width: 100%;
             max-width: 20em;
@@ -672,17 +834,7 @@ export default function AboutUsPage() {
         
         /* Responsive Design */
         @media (max-width: 992px) {
-          .timeline-dot {
-            left: 0.625rem;
-          }
-
-          .timeline-content,
-          .timeline-content.right {
-            margin-left: 3rem;
-            width: calc(100% - 3rem);
-          }
-
-
+           /* Mobile timeline styles are now the default */
         }
         @media (max-width: 768px) {
           .about-content {
