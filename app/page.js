@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 // Import your existing components
-import Navbar from "./components/Navbar"
+import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 
 const heroSlides = [
@@ -183,9 +183,9 @@ export default function HomePage() {
 
   return (
     <div className="homepage">
-      <Navbar />
+      <Nav />
 
-      <main>
+      <main  style={{ marginTop: "-85px" }}>
         {/* Hero Carousel */}
         <section className="hero-section">
           <div className="hero-container">
@@ -452,6 +452,7 @@ export default function HomePage() {
 
         /* Hero Section */
         .hero-section {
+        z-index:0;
           position: relative;
           height: 100vh;
           overflow: hidden;
