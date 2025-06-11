@@ -593,7 +593,7 @@ export default function HomePage() {
         }
 
         .news-container {
-          max-width: 1000px;
+          max-width: 1400px;
           margin: 0 auto;
           width: 100%;
         }
@@ -650,7 +650,7 @@ export default function HomePage() {
         .news-image-section {
           flex: 1;
           position: relative;
-          min-height: 300px;
+          min-height: 400px;
         }
 
         .news-image-section.special-padding {

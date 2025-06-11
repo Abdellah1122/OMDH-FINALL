@@ -312,9 +312,9 @@ export default function Navbar() {
         }
 
        .logo-container {
-      /* Increased the width and adjusted height for a larger container */
-      width: 310px;
-      height: 60px; /* Adjusted height to maintain aspect ratio with new width if needed */
+     
+      width: 280px;
+      height: 50px; /* Adjusted height to maintain aspect ratio with new width if needed */
       display: flex;
       align-items: center;
       justify-content: center; /* Center the logo within the container if needed */
