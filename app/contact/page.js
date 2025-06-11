@@ -190,17 +190,7 @@ export default function ContactPage() {
           margin-bottom: 0.5rem;
           position: relative;
         }
-        .hero-title::after {
-          content: "";
-          position: absolute;
-          bottom: -10px;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 60px;
-          height: 4px;
-          background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
-          border-radius: 2px;
-        }
+        
         .hero-description {
           font-size: 1.1rem;
           color: var(--text-medium);
@@ -317,14 +307,14 @@ export default function ContactPage() {
         }
         .map-section {
           width: 100%;
-          max-width: 1200px;
+          max-width: 1700px;
           border-radius: var(--border-radius);
           overflow: hidden;
           box-shadow: var(--box-shadow);
         }
         .map-container {
           width: 100%;
-          height: 500px;
+          height: 700px;
         }
         .map-container iframe {
           width: 100%;

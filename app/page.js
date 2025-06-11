@@ -55,43 +55,56 @@ const newsItems = [
     image: "/Images/News3.jpg",
   },
 ]
+const natPart = [
+      { name: "Partner 1", logo:"NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" },
+      { name: "Partner 2", logo: "NatPartnaires/images (1).jpeg"},
+      { name: "Partner 3", logo: "NatPartnaires/images (1).png" },
+      { name: "Partner 4", logo: "NatPartnaires/images (2).png" },
+      { name: "Partner 5", logo: "NatPartnaires/images.jpeg" },
+      { name: "Partner 6", logo: "NatPartnaires/images.png" },
 
-const partnerCategories = [
-  {
-    title: "Partenaires Internationaux",
-    partners: [
-      { name: "ECPM", logo: "/NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" },
-      { name: "ECOSOC", logo: "/IntPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" },
-      { name: "Amnesty International", logo: "/IntPartnaires/Amnesty_International_logo.svg.png" },
-      { name: "LC", logo: "/IntPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" },
-      { name: "Human Rights Watch", logo: "/IntPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" },
-    ],
-  },
-  {
-    title: "Partenaires Nationaux",
-    partners: [
-      { name: "Partner 1", logo: "/NatPartnaires/images (1).jpeg" },
-      { name: "Partner 2", logo: "/NatPartnaires/images (1).png" },
-      { name: "Partner 3", logo: "/NatPartnaires/images (2).png" },
-      { name: "Partner 4", logo: "/NatPartnaires/images.jpeg" },
-      { name: "Partner 5", logo: "/NatPartnaires/images.png" },
-      { name: "Partner 6", logo: "/NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" },
-    ],
-  },
-  {
-    title: "Partenaires Universitaires",
-    partners: [
-      { name: "University 1", logo: "/UNIPartnaires/1631365508628.jpeg" },
-      { name: "University 2", logo: "/UNIPartnaires/images (3).png" },
-      { name: "University 3", logo: "/UNIPartnaires/images.jpeg" },
-      { name: "UIZ", logo: "/UNIPartnaires/Logo-UIZ.jpg" },
-      { name: "University 4", logo: "/UNIPartnaires/logo.png" },
-      { name: "Cadi Ayyad", logo: "/UNIPartnaires/univ-cadi-ayyad-logo-900x420-1.png" },
-      { name: "Mohammed V University", logo: "/UNIPartnaires/Mohammed_V_University_Logo.png" },
-      { name: "Abdelmalek Essaadi", logo: "/UNIPartnaires/universite-abdelmalek-essaadi-900x420-1.png" },
-      { name: "Hassan 1er", logo: "/UNIPartnaires/Universite-Hassan-1er-settat.png" },
-    ],
-  },
+      { name: "Partner 1", logo:"NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" },
+      { name: "Partner 2", logo: "NatPartnaires/images (1).jpeg"},
+      { name: "Partner 3", logo: "NatPartnaires/images (1).png" },
+      { name: "Partner 4", logo: "NatPartnaires/images (2).png" },
+      { name: "Partner 5", logo: "NatPartnaires/images.jpeg" },
+      { name: "Partner 6", logo: "NatPartnaires/images.png" },
+]
+const UniPart = [
+   
+      { name: "University 1", logo: "UNIPartnaires/1631365508628.jpeg" },
+      { name: "University 2", logo:"UNIPartnaires/images (3).png"},
+      { name: "University 3", logo: "UNIPartnaires/images.jpeg" },
+      { name: "UIZ", logo:"UNIPartnaires/Logo-UIZ.jpg" },
+      { name: "University 4", logo: "UNIPartnaires/logo.png" },
+      { name: "Cadi Ayyad", logo: "UNIPartnaires/univ-cadi-ayyad-logo-900x420-1.png" },
+      { name: "Mohammed V University", logo: "UNIPartnaires/Mohammed_V_University_Logo.png"},
+      { name: "Abdelmalek Essaadi", logo: "UNIPartnaires/universite-abdelmalek-essaadi-900x420-1.png" },
+      { name: "Hassan 1er", logo: "UNIPartnaires/Universite-Hassan-1er-settat.png"},
+
+       { name: "University 1", logo: "UNIPartnaires/1631365508628.jpeg" },
+      { name: "University 2", logo:"UNIPartnaires/images (3).png"},
+      { name: "University 3", logo: "UNIPartnaires/images.jpeg" },
+      { name: "UIZ", logo:"UNIPartnaires/Logo-UIZ.jpg" },
+      { name: "University 4", logo: "UNIPartnaires/logo.png" },
+      { name: "Cadi Ayyad", logo: "UNIPartnaires/univ-cadi-ayyad-logo-900x420-1.png" },
+      { name: "Mohammed V University", logo: "UNIPartnaires/Mohammed_V_University_Logo.png"},
+      { name: "Abdelmalek Essaadi", logo: "UNIPartnaires/universite-abdelmalek-essaadi-900x420-1.png" },
+      { name: "Hassan 1er", logo: "UNIPartnaires/Universite-Hassan-1er-settat.png"},
+    
+]
+const intPart = [
+  
+      { name: "ECPM", logo: "intPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" },
+      { name: "ECOSOC", logo: "intPartnaires/Amnesty_International_logo.svg.png" },
+      { name: "Amnesty International", logo: "intPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" },
+      { name: "LC", logo: "intPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" },
+
+      { name: "ECPM", logo: "intPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" },
+      { name: "ECOSOC", logo: "intPartnaires/Amnesty_International_logo.svg.png" },
+      { name: "Amnesty International", logo: "intPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" },
+      { name: "LC", logo: "intPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" },
+   
 ]
 
 const timelineEvents = [
@@ -280,31 +293,55 @@ export default function HomePage() {
             </div>
           </section>
 
-          {/* Partners Sections */}
-          {partnerCategories.map((category, categoryIndex) => (
-            <section key={categoryIndex} className="partners-section">
-              <div className="section-header">
-                <h2 className="section-title">{category.title}</h2>
+        <div className="Sec">
+        <div className="autoShow">
+          <h2 className="section-title">Partenaires Nationaux :</h2>
+        </div>
+        <div className="slider2">
+          <div className="slide-track2">
+            {natPart.map((partner, index) => (
+              <div className="slide2" key={`nat-original-${index}`}>
+                <img src={partner.logo} alt={partner.name} />
               </div>
+            ))}
+          </div>
+        </div>
+      </div>
 
-              <div className="partners-container">
-                <div className="partners-scroll" data-category={categoryIndex}>
-                  {[...category.partners, ...category.partners, ...category.partners].map((partner, index) => (
-                    <div key={`${partner.name}-${index}`} className="partner-item">
-                      <Image
-                        src={partner.logo || "/placeholder.svg?height=100&width=180"}
-                        alt={partner.name}
-                        width={180}
-                        height={100}
-                        className="f"
-                        
-                      />
-                    </div>
-                  ))}
-                </div>
+      {/* University Partners */}
+      <div className="Sec">
+        <div className="autoShow">
+          <h2 className="section-title">Partenaires Universitaires :</h2>
+        </div>
+        <div className="slider3">
+          <div className="slide-track3">
+            {UniPart.map((partner, index) => (
+              <div className="slide3" key={`uni-original-${index}`}>
+                <img src={partner.logo} alt={partner.name} />
               </div>
-            </section>
-          ))}
+            ))}
+            
+          </div>
+        </div>
+      </div>
+
+      {/* International Partners */}
+      <div className="Sec">
+        <div className="autoShow">
+          <h2 className="section-title">Partenaires Internationaux :</h2>
+        </div>
+        <div className="slider">
+          <div className="slide-track">
+            {intPart.map((partner, index) => (
+              <div className="slide" key={`int-original-${index}`}>
+                <img src={partner.logo} alt={partner.name} />
+              </div>
+            ))}
+            
+          </div>
+        </div>
+      </div>
+          
 
           {/* Our Story Section */}
           <section className="story-section">
@@ -436,7 +473,80 @@ export default function HomePage() {
         .hero-slide.active {
           opacity: 1;
         }
+.Sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        gap: 1.5em;
+    }
+         /* Partner Sliders */
+    .slider, .slider2, .slider3 {
+        width: 90%;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        background-color: var(--accent-color);
+        padding: 1em;
+        height: 11em;
+        display: flex;
+        align-items: center;
+    }
 
+    .slide-track, .slide-track2, .slide-track3 {
+        display: flex;
+        animation: scroll 10s linear infinite;
+        gap: 1em;
+        animation-play-state: running;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .slide, .slide2, .slide3 {
+        flex-shrink: 0;
+        width: 18em;
+        height: 10em;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .slide img, .slide2 img, .slide3 img {
+            display: block;
+            max-width: 100%;
+            max-height: 100%;
+            height: 10em;
+            width: auto;
+            object-fit: contain;
+        }
+
+            /* Animations */
+    .autoShow {
+        animation: autoShowAnimation both;
+        animation-timeline: view(90% 5%);
+    }
+
+    @keyframes autoShowAnimation {
+        from {
+            opacity: 0;
+            transform: translateY(200px) scale(0.3);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+    }
         .hero-image {
           object-fit: cover;
           transform: scale(1.02);
@@ -548,7 +658,7 @@ export default function HomePage() {
 
         /* Main Container */
         .main-container {
-          max-width: 1400px;
+          max-width: 1700px;
           margin: 0 auto;
           padding: 8rem 2rem;
           display: flex;
@@ -560,12 +670,13 @@ export default function HomePage() {
         .section-header {
           text-align: center;
           margin-bottom: 4rem;
+          
         }
 
         .section-title {
           font-size: 2rem;
           font-weight: 600;
-          color: #1a1a1a;
+          color: var(--primary-color);
           margin: 0;
           display: flex;
           align-items: center;
@@ -573,17 +684,6 @@ export default function HomePage() {
           gap: 0.75rem;
           letter-spacing: -0.025em;
           position: relative;
-        }
-
-        .section-title::after {
-          content: '';
-          position: absolute;
-          bottom: -1rem;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 2rem;
-          height: 2px;
-          background: #1957a6;
         }
 
         /* News Section */
@@ -693,69 +793,8 @@ export default function HomePage() {
           width: 4rem;
         }
 
-        /* Partners Section */
-        .partners-section {
-          display: flex;
-          flex-direction: column;
-        }
+       
 
-        .partners-container {
-          background: white;
-          border-radius: 4px;
-          padding: 3rem 2rem;
-          overflow: hidden;
-          border: 1px solid rgba(0, 0, 0, 0.05);
-        }
-
-        .partners-scroll {
-          display: flex;
-          gap: 4rem;
-          animation: infiniteScroll 60s linear infinite;
-          will-change: transform;
-        }
-
-        @keyframes infiniteScroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-33.333%);
-          }
-        }
-
-        .partners-scroll:hover {
-          animation-play-state: paused;
-        }
-
-        .partner-item {
-          flex-shrink: 0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 10rem;
-          height: 5rem;
-          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-          overflow:hidden;
-        }
-
-        .partner-item:hover {
-          transform: scale(1.05);
-        }
-
-        .partner-logo {
-          max-height: 4rem;
-          max-width: 9rem;
-          width: auto;
-          height: auto;
-          object-fit: contain;
-          opacity: 0.8;
-          transition: opacity 0.3s ease;
-          overflow:hidden;
-        }
-
-        .partner-item:hover .partner-logo {
-          opacity: 1;
-        }
 
         /* Story Section */
         .story-section {
@@ -829,12 +868,15 @@ export default function HomePage() {
         .timeline-section {
           margin-top:5em;
           display: flex;
+          
           flex-direction: column;
+         
         }
 
         .timeline-container {
           background: white;
           border-radius: 4px;
+           background-color:var(--accent-color);
           padding: 4rem 2rem;
           border: 1px solid rgba(0, 0, 0, 0.05);
         }

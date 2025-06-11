@@ -521,11 +521,15 @@ export default function ProjectHcrPage() {
         text-align: center;
         margin-bottom: 3em;
         width: 100%;
+        
+        
     }
 
     .cta-content {
         max-width: 700px;
         margin: 0 auto;
+        height:100%;
+        padding:1em;
     }
 
     .cta-section h2 {

@@ -84,7 +84,7 @@ export default function Footer() {
         <div className={styles.hh}>
           <div className={styles.Left}>
             <div className={styles.Logo}>
-              <Image src="/omdhlogo.png" alt="OMDH Logo" width={250} height={100} />
+              <Image src="/Logo2.png" alt="OMDH Logo" width={250} height={100} />
             </div>
             <div className={styles.Omdh}>
               <p className={styles['translatable-text']}>

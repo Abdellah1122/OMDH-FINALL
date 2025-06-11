@@ -15,9 +15,9 @@ export default function ArticlePage() {
   <nav className="nav-breadcrumb">
     <div className="container">
       <div className="breadcrumb">
-        <Link href="/">Accueil</Link>
+        <Link href="/"  style={{color:'black',backgroundColor:'transparent' , border:'none'}}>Accueil</Link>
         <span>›</span>
-        <Link href="/editions">Editions</Link>
+        <Link href="/editions"  style={{color:'black',backgroundColor:'transparent' , border:'none'}}>Editions</Link>
         <span>›</span>
         {/* FIX: Replaced typographic apostrophe */}
         <span>Naoufal Bouamri consacré à la tête de l&apos;OMDH</span>

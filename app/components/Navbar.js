@@ -19,6 +19,7 @@ const projectItems = [
 const mainNavItems = [
   { href: "/team", label: "Notre Équipe" },
   { href: "/editions", label: "Éditions" },
+  { href: "/album", label: "Album" },
   { href: "/contact", label: "Contact" },
 ]
 
@@ -115,7 +116,7 @@ export default function Navbar() {
         <div className="logo-container">
           <Link href="/" className="logo-link" style={{color: 'black',backgroundColor:'transparent',border:'none', textDecoration: 'none'}}>
             {/* The logo size is increased here */}
-            <Image src="/omdhlogo2.png" alt="Logo" width={250} height={83.33} priority />
+            <Image src="/Logo.png" alt="Logo" width={50} height={50} priority />
           </Link>
         </div>
 
@@ -312,9 +313,8 @@ export default function Navbar() {
         }
 
        .logo-container {
-     
-      width: 280px;
-      height: 50px; /* Adjusted height to maintain aspect ratio with new width if needed */
+      width: 100px;
+      height: 52px; /* Adjusted height to maintain aspect ratio with new width if needed */
       display: flex;
       align-items: center;
       justify-content: center; /* Center the logo within the container if needed */

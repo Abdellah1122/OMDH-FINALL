@@ -266,18 +266,7 @@ export default function PresencePage() {
           display: inline-block;
         }
 
-        .presence-header h1::after {
-          content: '';
-          position: absolute;
-          bottom: -10px;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 80px;
-          height: 4px;
-          background-color: #d3612f;
-          border-radius: 2px;
-        }
-
+        
         .highlight {
           color: #1957a6;
         }
