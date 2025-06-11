@@ -56,7 +56,7 @@ export default function ArticlePage() {
                 <div className="album-container">
                     <div className="album-header">
                         <h1 className="album-title" style={{color:'var(--primary-color)'}}>OMDH : Un parcours marquant</h1>
-                        <p className="album-subtitle">Une collection de moments mémorables et d'étapes importantes de notre travail à travers le Maroc.</p>
+                        <p className="album-subtitle">Une collection de moments mémorables et d&apos;étapes importantes de notre travail à travers le Maroc.</p>
                     </div>
 
                     {photosWithSrc.length > 0 ? (
