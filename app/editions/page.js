@@ -28,7 +28,7 @@ export default function EditionsPage() {
       <div className="container">
         <h2 className="section-title">Articles à la Une</h2>
 
-        <div className="article-list">
+        <div className="article-list"  translate="no">
           {/* Note: I've updated the hrefs to point to the pages we created! */}
           <article className="article-item">
             <div className="article-image">

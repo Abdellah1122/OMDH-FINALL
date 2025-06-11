@@ -18,7 +18,7 @@ const projectItems = [
 
 const mainNavItems = [
   { href: "/team", label: "Notre Équipe" },
-  { href: "/editions", label: "Éditions" },
+  { href: "/editions", label: "Communiqués" },
   { href: "/album", label: "Album" },
   { href: "/contact", label: "Contact" },
 ]
@@ -213,7 +213,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div className={`mobile-nav-menu ${isMenuOpen ? "active" : ""}`}>
         <div className="mobile-menu-header">
-          <span className="mobile-menu-title">Menu</span>
+          <span className="mobile-menu-title"></span>
           <button className="mobile-menu-close" onClick={closeMenu} aria-label="Close menu">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

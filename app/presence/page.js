@@ -176,12 +176,12 @@ export default function PresencePage() {
                       <p>{office.description}</p>
                       <div className="office-contact">
                         {office.phone.map((phone, index) => (
-                          <div key={index} className="contact-item phone">
+                          <div  translate="no" key={index} className="contact-item phone">
                             {phone}
                           </div>
                         ))}
-                        <div className="contact-item email">{office.email}</div>
-                        <div className="contact-item address">{office.address}</div>
+                        <div translate="no" className="contact-item email">{office.email}</div>
+                        <div translate="no" className="contact-item address">{office.address}</div>
                       </div>
                     </div>
                   </div>

@@ -63,12 +63,6 @@ const natPart = [
       { name: "Partner 5", logo: "NatPartnaires/images.jpeg" },
       { name: "Partner 6", logo: "NatPartnaires/images.png" },
 
-      { name: "Partner 1", logo:"NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" },
-      { name: "Partner 2", logo: "NatPartnaires/images (1).jpeg"},
-      { name: "Partner 3", logo: "NatPartnaires/images (1).png" },
-      { name: "Partner 4", logo: "NatPartnaires/images (2).png" },
-      { name: "Partner 5", logo: "NatPartnaires/images.jpeg" },
-      { name: "Partner 6", logo: "NatPartnaires/images.png" },
 ]
 const UniPart = [
    
@@ -82,28 +76,16 @@ const UniPart = [
       { name: "Abdelmalek Essaadi", logo: "UNIPartnaires/universite-abdelmalek-essaadi-900x420-1.png" },
       { name: "Hassan 1er", logo: "UNIPartnaires/Universite-Hassan-1er-settat.png"},
 
-       { name: "University 1", logo: "UNIPartnaires/1631365508628.jpeg" },
-      { name: "University 2", logo:"UNIPartnaires/images (3).png"},
-      { name: "University 3", logo: "UNIPartnaires/images.jpeg" },
-      { name: "UIZ", logo:"UNIPartnaires/Logo-UIZ.jpg" },
-      { name: "University 4", logo: "UNIPartnaires/logo.png" },
-      { name: "Cadi Ayyad", logo: "UNIPartnaires/univ-cadi-ayyad-logo-900x420-1.png" },
-      { name: "Mohammed V University", logo: "UNIPartnaires/Mohammed_V_University_Logo.png"},
-      { name: "Abdelmalek Essaadi", logo: "UNIPartnaires/universite-abdelmalek-essaadi-900x420-1.png" },
-      { name: "Hassan 1er", logo: "UNIPartnaires/Universite-Hassan-1er-settat.png"},
+    
     
 ]
 const intPart = [
   
-      { name: "ECPM", logo: "intPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" },
-      { name: "ECOSOC", logo: "intPartnaires/Amnesty_International_logo.svg.png" },
-      { name: "Amnesty International", logo: "intPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" },
-      { name: "LC", logo: "intPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" },
+      { name: "ECPM", logo: "IntPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" },
+      { name: "ECOSOC", logo: "IntPartnaires/Amnesty_International_logo.svg.png" },
+      { name: "Amnesty International", logo: "IntPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" },
+      { name: "LC", logo: "IntPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" },
 
-      { name: "ECPM", logo: "intPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" },
-      { name: "ECOSOC", logo: "intPartnaires/Amnesty_International_logo.svg.png" },
-      { name: "Amnesty International", logo: "intPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" },
-      { name: "LC", logo: "intPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" },
    
 ]
 

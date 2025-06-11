@@ -12,7 +12,7 @@ export default function ArticlePage() {
     <>
       <Navbar />
 
-     <main>
+     <main  translate="no">
     <nav className="nav-breadcrumb">
       <div className="container">
         <div className="breadcrumb">
