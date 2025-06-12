@@ -536,6 +536,31 @@ export default function ArticlePage() {
                         grid-template-columns: 1fr;
                         gap: 25px;
                     }
+                          .hero-text {
+            font-size: 1rem;
+          }
+
+          .hero-text-box {
+            padding: 2rem;
+          }
+
+          .hero-content {
+            width: 90%;
+            bottom: 4rem;
+          }
+
+          .hero-control {
+            width: 3rem;
+            height: 3rem;
+          }
+
+          .hero-prev {
+            left: 1.5rem;
+          }
+
+          .hero-next {
+            right: 1.5rem;
+          }
                 }
             `}</style>
         </>
