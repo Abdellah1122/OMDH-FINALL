@@ -32,12 +32,6 @@ const photoAlbumData = [
     "description": ""
   },
   {
-    "src": "/Album/5.jpg",
-    "alt": "",
-    "date": "",
-    "description": ""
-  },
-  {
     "src": "/Album/6.jpg",
     "alt": "",
     "date": "",
@@ -74,18 +68,6 @@ const photoAlbumData = [
     "description": ""
   },
   {
-    "src": "/Album/12.jpg",
-    "alt": "",
-    "date": "",
-    "description": ""
-  },
-  {
-    "src": "/Album/13.jpg",
-    "alt": "",
-    "date": "",
-    "description": ""
-  },
-  {
     "src": "/Album/14.jpg",
     "alt": "",
     "date": "",
@@ -105,12 +87,6 @@ const photoAlbumData = [
   },
   {
     "src": "/Album/17.jpg",
-    "alt": "",
-    "date": "",
-    "description": ""
-  },
-  {
-    "src": "/Album/18.jpg",
     "alt": "",
     "date": "",
     "description": ""
