@@ -211,7 +211,10 @@ export default function ArticlePage() {
                               </div>
                     </section>
 
-                    
+                     <div className="album-header">
+                        <h1 className="album-title" style={{color:'var(--secondary-color)'}}>Decouvrez tous nos moments marquants</h1>
+                        <p className="album-subtitle">Nos réalisations marquantes.</p>
+                    </div>
                         <div className="photo-grid">
                             {photoAlbumData.map((photo, index) => (
                                 <div key={index} className="photo-item">
