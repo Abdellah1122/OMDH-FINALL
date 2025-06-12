@@ -90,21 +90,21 @@ const timelineEvents2 = [
     "year": "1988",
     "title": "Fondation de l'OMDH",
     "description": "L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 10 decembre 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.",
-    "image": "/Images/HandsSolidarity.jpg",
+    "image": "/Images/HandSolidarity.jpg",
     "type": "primary"
   },
   {
     "year": "Début 1989",
     "title": "Plaidoyer pour l'Amnistie",
     "description": "L'OMDH a lancé des appels à l'amnistie pour les prisonniers politiques et soumis des demandes de visite des prisons dans le cadre de ses efforts initiaux.",
-    "image": "/Images/AmnestyInternational.jpg",
+    "image": "/Images/AmnestyIntenational.jpg",
     "type": "secondary"
   },
   {
     "year": "1993",
     "title": "Reconnaissance internationale",
     "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
-    "image": "/Images/CandleInHand2.jpg",
+    "image": "/Images/CandleInHad2.jpg",
     "type": "secondary"
   },
     {
@@ -118,42 +118,42 @@ const timelineEvents2 = [
     "year": "2004",
     "title": "Justice et Réconciliation",
     "description": "L'OMDH joue un rôle clé au sein de l'Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.",
-    "image": "/Images/Women.jpg",
+    "image": "/Images/Wome.jpg",
     "type": "primary"
   },
   {
     "year": "2011",
     "title": "Printemps arabe et Réforme constitutionnelle",
     "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
-    "image": "/Images/arabspring.jpeg",
+    "image": "/Images/arabsprng.jpeg",
     "type": "secondary"
   },
     {
     "year": "2011",
     "title": "Alliance Anti-Torture",
     "description": "L'OMDH a collaboré avec le Conseil National des Droits de l'Homme (CNDH) et l'Association pour la Prévention de la Torture (APT) sur la ratification du Protocole Facultatif à la Convention des Nations Unies contre la Torture (OPCAT).",
-    "image": "/Images/CNDH.jpg",
+    "image": "/Images/CNH.jpg",
     "type": "secondary"
   },
   {
     "year": "2013",
     "title": "Condamnation de l'Injustice",
     "description": "L'OMDH a publié conjointement avec Ensemble Contre la Peine de Mort (ECPM) un rapport intitulé « Voyage au cimetière des vivants », qui analysait les conditions de détention des personnes condamnées à mort au Maroc.",
-    "image": "/Images/DeathPenaltyAbolition.jpg",
+    "image": "/Images/DeathPenltyAbolition.jpg",
     "type": "primary"
   },
   {
     "year": "2023",
     "title": "Plaidoyer national et Partenariats",
     "description": "L'OMDH renforce sa coopération avec les universités marocaines, les institutions civiles et les organisations internationales pour promouvoir l'éducation, les droits des femmes et les libertés civiles.",
-    "image": "/Images/ChatGPT Image May 3, 2025, 05_09_56 PM.png",
+    "image": "/Images/ChtGPT Image May 3, 2025, 05_09_56 PM.png",
     "type": "primary"
   },
   {
     "year": "Avril 2025",
     "title": "Solidarité avec Gaza",
     "description": "Lors de sa douzième conférence nationale, l'OMDH a exprimé sa solidarité avec le peuple palestinien et condamné l'agression israélienne en cours à Gaza, appelant à une intervention internationale.",
-    "image": "/Images/gaza.jpg",
+    "image": "/Images/gaa.jpg",
     "type": "primary"
   },
 ]

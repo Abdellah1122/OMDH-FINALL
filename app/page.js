@@ -94,28 +94,28 @@ const timelineEvents = [
     "year": "1988",
     "title": "Fondation de l'OMDH",
     "description": "L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 10 decembre 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.",
-    "image": "/Images/HandsSolidarity.jpg",
+    "image": "/Images/HandsSoldarity.jpg",
     "type": "primary"
   },
   {
     "year": "Début 1989",
     "title": "Plaidoyer pour l'Amnistie",
     "description": "L'OMDH a lancé des appels à l'amnistie pour les prisonniers politiques et soumis des demandes de visite des prisons dans le cadre de ses efforts initiaux.",
-    "image": "/Images/AmnestyInternational.jpg",
+    "image": "/Images/AmnestInternational.jpg",
     "type": "secondary"
   },
   {
     "year": "1993",
     "title": "Reconnaissance internationale",
     "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
-    "image": "/Images/CandleInHand2.jpg",
+    "image": "/Images/CandlenHand2.jpg",
     "type": "secondary"
   },
     {
     "year": "1997",
     "title": "Intégration Régionale",
     "description": "L'OMDH est devenu membre régulier du réseau EuroMed Rights, indiquant son engagement dans les cadres régionaux des droits humains.",
-    "image": "/Images/blue.png",
+    "image": "/Images/bue.png",
     "type": "primary"
   },
   
@@ -123,14 +123,14 @@ const timelineEvents = [
     "year": "2011",
     "title": "Printemps arabe et Réforme constitutionnelle",
     "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
-    "image": "/Images/arabspring.jpeg",
+    "image": "/Images/arabsring.jpeg",
     "type": "secondary"
   },
   {
     "year": "Avril 2025",
     "title": "Solidarité avec Gaza",
     "description": "Lors de sa douzième conférence nationale, l'OMDH a exprimé sa solidarité avec le peuple palestinien et condamné l'agression israélienne en cours à Gaza, appelant à une intervention internationale.",
-    "image": "/Images/gaza.jpg",
+    "image": "/Images/gza.jpg",
     "type": "primary"
   },
 ]
