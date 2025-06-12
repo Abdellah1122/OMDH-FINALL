@@ -18,7 +18,7 @@ const projectItems = [
 
 const mainNavItems = [
   { href: "/team", label: "Notre Équipe" },
-  { href: "/editions", label: "Communiqués" },
+  { href: "/editions", label: "Les Éditions" },
   { href: "/album", label: "Album" },
   { href: "/contact", label: "Contact" },
 ]

@@ -89,7 +89,7 @@ const timelineEvents2 = [
    {
     "year": "1988",
     "title": "Fondation de l'OMDH",
-    "description": "L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 28 mai 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.",
+    "description": "L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 10 decembre 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.",
     "image": "/Images/HandsSolidarity.jpg",
     "type": "primary"
   },

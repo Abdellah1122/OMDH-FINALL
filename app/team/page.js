@@ -39,7 +39,7 @@ const leadershipTeam = [
     id: 5,
     name: "Zineb Abu Al-Zohour",
     position: "Secrétaire Générale",
-    image: "/placeholder.svg?height=350&width=320",
+    image: "/Membres/AbouZhor.jpg",
     level: "executive",
   },
   {
@@ -119,7 +119,7 @@ const teamMembers = [
     id: 1,
     name: "Dalal BOUHAJBANE",
     position: "Chargée de Programmes",
-    image: "/placeholder.svg?height=280&width=250",
+    image: "/Membres/Dalal.jpg",
   },
   {
     id: 2,
@@ -131,7 +131,7 @@ const teamMembers = [
     id: 3,
     name: "Mouad IMAM",
     position: "Responsable Suivi & Évaluation / Coordinateur National des GTPs",
-    image: "/placeholder.svg?height=280&width=250",
+    image: "/Membres/MouadImame.jpg",
   },
   {
     id: 4,

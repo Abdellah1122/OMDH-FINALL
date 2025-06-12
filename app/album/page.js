@@ -3,51 +3,169 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Image from 'next/image';
+import { useState, useEffect } from "react"
 import Link from 'next/link';
 
 const photoAlbumData = [
   {
-    src: "/", // Add your image source here
-    alt: "A serene landscape with a river and mountains at sunset.",
-    date: "April 15, 2024",
-    description: "Golden hour over the winding river, a perfect ending to a peaceful day.",
+    "src": "/Album/1.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
   },
   {
-    src: "/",
-    alt: "A sprawling cityscape viewed from above at dusk.",
-    date: "May 2, 2024",
-    description: "The city lights beginning to twinkle as day turns to night.",
+    "src": "/Album/2.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
   },
   {
-    src: "/",
-    alt: "A crowd of people enjoying an outdoor music festival.",
-    date: "June 21, 2024",
-    description: "Lost in the music and the energy of the summer festival.",
+    "src": "/Album/3.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
   },
   {
-    src: "/",
-    alt: "A person working on a laptop in a cozy, well-lit cafe.",
-    date: "July 8, 2024",
-    description: "Finding inspiration in the quiet corners of a favorite coffee shop.",
+    "src": "/Album/4.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
   },
   {
-    src: "",
-    alt: "A person standing on a cliff overlooking a vast mountain range.",
-    date: "August 19, 2024",
-    description: "On top of the world, breathing in the crisp mountain air.",
+    "src": "/Album/5.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
   },
   {
-    src: "",
-    alt: "A tranquil lake with a small boat, surrounded by mountains.",
-    date: "September 5, 2024",
-    description: "A quiet morning paddle on the still, reflective waters.",
+    "src": "/Album/6.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
   },
-];
+  {
+    "src": "/Album/7.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/8.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/9.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/10.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/11.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/12.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/13.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/14.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/15.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/16.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/17.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/18.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/19.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/20.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/21.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/22.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "src": "/Album/23.jpg",
+    "alt": "",
+    "date": "",
+    "description": ""
+  }
+]
 
 
 export default function ArticlePage() {
-    // We only want to try and render photos that have a source URL.
-    const photosWithSrc = photoAlbumData.filter(photo => photo.src);
+     const [currentHeroSlide, setCurrentHeroSlide] = useState(0)
+    
+      // Auto-advance hero carousel
+      useEffect(() => {
+        const timer = setInterval(() => {
+          setCurrentHeroSlide((prev) => (prev + 1) % photoAlbumData.length)
+        }, 6000)
+        return () => clearInterval(timer)
+      }, [])
+      const nextHeroSlide = () => {
+        setCurrentHeroSlide((prev) => (prev + 1) % photoAlbumData.length)
+      }
+    
+      const prevHeroSlide = () => {
+        setCurrentHeroSlide((prev) => (prev - 1 + photoAlbumData.length) % photoAlbumData.length)
+      }
+    
 
     return (
         <>
@@ -59,9 +177,67 @@ export default function ArticlePage() {
                         <p className="album-subtitle">Une collection de moments mémorables et d&apos;étapes importantes de notre travail à travers le Maroc.</p>
                     </div>
 
-                    {photosWithSrc.length > 0 ? (
+                     <section className="hero-section">
+                              <div className="hero-container">
+                                {photoAlbumData.map((slide, index) => (
+                                  <div key={index} className={`hero-slide ${index === currentHeroSlide ? "active" : ""}`}>
+                                    <Image
+                                      src={slide.src}
+                                      alt={slide.alt}
+                                      fill
+                                      className="hero-image"
+                                      priority={index === 0}
+                                    />
+                                    <div className="hero-overlay" />
+                                    <div className="hero-content">
+                                      <div className="hero-text-box">
+                                        <p className="hero-text">{slide.text}</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                    
+                              {/* Carousel Controls */}
+                              <button onClick={prevHeroSlide} className="hero-control hero-prev" aria-label="Previous slide">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path
+                                    d="M15 18L9 12L15 6"
+                                    stroke="currentColor"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                  />
+                                </svg>
+                              </button>
+                              <button onClick={nextHeroSlide} className="hero-control hero-next" aria-label="Next slide">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path
+                                    d="M9 18L15 12L9 6"
+                                    stroke="currentColor"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                  />
+                                </svg>
+                              </button>
+                    
+                              {/* Slide Indicators */}
+                              <div className="hero-indicators">
+                                {photoAlbumData.map((_, index) => (
+                                  <button
+                                    key={index}
+                                    onClick={() => setCurrentHeroSlide(index)}
+                                    className={`hero-indicator ${index === currentHeroSlide ? "active" : ""}`}
+                                    aria-label={`Go to slide ${index + 1}`}
+                                  />
+                                ))}
+                              </div>
+                    </section>
+
+                    
                         <div className="photo-grid">
-                            {photosWithSrc.map((photo, index) => (
+                            {photoAlbumData.map((photo, index) => (
                                 <div key={index} className="photo-item">
                                     <div className="image-wrapper">
                                         <Image src={photo.src} alt={photo.alt} layout="fill" objectFit="cover" />
@@ -73,25 +249,9 @@ export default function ArticlePage() {
                                 </div>
                             ))}
                         </div>
-                    ) : (
-                        <div className="empty-album-message">
-                            <p>More memories coming soon.</p>
-                        </div>
-                    )}
+                   
                 </div>
 
-                <section className="cta-section">
-                    <h2 className="cta-title">Prêt à avoir un impact ?</h2>
-                    <p className="cta-subtitle">test test test</p>
-                    <div className="cta-buttons">
-                        <Link href="/missions" className="cta-button primary">
-                            Missions
-                        </Link>
-                        <Link href="/contact" className="cta-button secondary">
-                            Nous contacter
-                        </Link>
-                    </div>
-                </section>
             </main>
             <Footer />
 
@@ -101,6 +261,139 @@ export default function ArticlePage() {
                     background-color: #fdfdfd;
                     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
                 }
+                /* Hero Section */
+        .hero-section {
+        z-index:0;
+          position: relative;
+          height: 100vh;
+          overflow: hidden;
+          margin:5em 0em 10em 0em;
+        }
+
+        .hero-container {
+          position: relative;
+          width: 100%;
+          height: 100%;
+        }
+
+        .hero-slide {
+          position: absolute;
+          inset: 0;
+          opacity: 0;
+          transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .hero-slide.active {
+          opacity: 1;
+        }
+  .hero-image {
+          object-fit: cover;
+          transform: scale(1.02);
+          transition: transform 20s ease-out;
+        }
+
+        .hero-slide.active .hero-image {
+          transform: scale(1);
+        }
+
+        .hero-overlay {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.1) 40%,
+            rgba(0, 0, 0, 0.6) 100%
+          );
+        }
+
+        .hero-content {
+          position: absolute;
+          bottom: 8rem;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 85%;
+          max-width: 56rem;
+          z-index: 10;
+        }
+
+        .hero-text-box {
+          background: rgba(0, 0, 0, 0.2);
+          backdrop-filter: blur(5px);
+          border-radius: 10px;
+          padding: 2.5rem;
+          text-align: center;
+          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-text {
+          color: white;
+          font-size: 1.125rem;
+          font-weight: 400;
+          line-height: 1.7;
+          margin: 0;
+          letter-spacing: 0.01em;
+        }
+
+        .hero-control {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background: rgba(255, 255, 255, 0.9);
+          backdrop-filter: blur(10px);
+          border: none;
+          border-radius: 50%;
+          width: 3.5rem;
+          height: 3.5rem;
+          color: #333;
+          cursor: pointer;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 20;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-control:hover {
+          background: rgba(255, 255, 255, 1);
+          transform: translateY(-50%) scale(1.1);
+          box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .hero-prev {
+          left: 3rem;
+        }
+
+        .hero-next {
+          right: 3rem;
+        }
+
+        .hero-indicators {
+          position: absolute;
+          bottom: 3rem;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          gap: 1rem;
+          z-index: 20;
+        }
+
+        .hero-indicator {
+          width: 2.5rem;
+          height: 2px;
+          border-radius: 1px;
+          border: none;
+          background: rgba(255, 255, 255, 0.4);
+          cursor: pointer;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          padding: 0;
+        }
+
+        .hero-indicator.active {
+          background: rgba(255, 255, 255, 0.9);
+          width: 4rem;
+        }
 
                 .album-container {
                   max-width: 1400px;

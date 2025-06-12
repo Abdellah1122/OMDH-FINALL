@@ -108,7 +108,7 @@ export default function Footer() {
               </div>
               <div className={styles.cnt}><i className="bi bi-telephone-fill"></i><p className={styles['no-translate']}>+212 537 77 00 60</p></div>
               <div className={styles.cnt}><i className="bi bi-envelope"></i><p className={styles['no-translate']}>admin.omdh@omdh.ma</p></div>
-              <div className={styles.btns}>
+              <div className={styles.btns} style={{overflow:'hidden'}}>
                 <a href="https://www.linkedin.com/" className={styles.Linkss} target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
                 <a href="https://www.facebook.com" className={styles.Linkss} target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook"></i></a>
                 <a href="https://www.x.com/" className={styles.Linkss} target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter-x"></i></a>
