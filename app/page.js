@@ -410,7 +410,6 @@ export default function HomePage() {
                 width="100%"
                 height="500"
                 title="OMDH Location"
-                src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=8%20,%20rue%20Ouargha%20,%20R%C3%A9sidence%20volubilis,%20appt%201%20,%20Agdal%20/Rabat%C2%A0,%C2%A0Maroc+(OMDH%20)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
                 className="map-iframe"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
