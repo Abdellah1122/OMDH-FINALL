@@ -11,77 +11,77 @@ const timelineEvents = [
     "year": "1988-1989",
     "title": "Mehdi Elmandjra",
     "description": "",
-    "image": "/PastPres/1",
+    "image": "/PastPres/1.JPG",
     "type": ""
   },
   {
     "year": "1988-1989",
     "title": "Omar Azziman",
     "description": "",
-    "image": "/PastPres/2.pg",
+    "image": "/PastPres/2.JPG",
     "type": ""
   },
   {
     "year": "1989-1991",
     "title": "Khalid Naciri",
     "description": "",
-    "image": "/PastPres/3.pg",
+    "image": "/PastPres/3.JPG",
     "type": ""
   },
   {
     "year": "1991-1992",
     "title": "Ali Amlil",
     "description": "",
-    "image": "/PastPres/4.jg",
+    "image": "/PastPres/4.JPG",
     "type": ""
   },
   {
     "year": "1993-2000",
     "title": "Abdelaziz Bennani",
     "description": "",
-    "image": "/PastPres/5.jg",
+    "image": "/PastPres/5.JPG",
     "type": ""
   },
   {
     "year": "2000-2006",
     "title": "Abdellah El Oualdi",
     "description": "",
-    "image": "/PastPres/6.JG",
+    "image": "/PastPres/6.JPG",
     "type": ""
   },
   {
     "year": "2006-2012",
     "title": "Amina Bouayach",
     "description": "",
-    "image": "/PastPres/7.jg",
+    "image": "/PastPres/7.JPG",
     "type": ""
   },
   {
     "year": "2012-2015",
     "title": "Mohamed Nechnach",
     "description": "",
-    "image": "/PastPres/8.jg",
+    "image": "/PastPres/8.JPG",
     "type": ""
   },
   {
     "year": "2015-2022",
     "title": "Boubker Largo",
     "description": "",
-    "image": "/PastPres/9.pg",
+    "image": "/PastPres/9.JPG",
     "type": ""
   },
   {
     "year": "2022-2025",
     "title": "Hassan Idrissi",
     "description": "",
-    "image": "/PastPres/10.jg",
+    "image": "/PastPres/10.JPG",
     "type": ""
   },
   {
     "year": "2025-",
     "title": "Naoufal Bouamri",
     "description": "",
-    "image": "/PastPres/11.jpe",
+    "image": "/PastPres/11.jpeg",
     "type": ""
   }
 ]
@@ -90,21 +90,21 @@ const timelineEvents2 = [
     "year": "1988",
     "title": "Fondation de l'OMDH",
     "description": "L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 10 decembre 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.",
-    "image": "/Images/HandSolidarity.jpg",
+    "image": "/Images/HandsSolidarity.jpg",
     "type": "primary"
   },
   {
     "year": "Début 1989",
     "title": "Plaidoyer pour l'Amnistie",
     "description": "L'OMDH a lancé des appels à l'amnistie pour les prisonniers politiques et soumis des demandes de visite des prisons dans le cadre de ses efforts initiaux.",
-    "image": "/Images/AmnestyIntenational.jpg",
+    "image": "/Images/AmnestyInternational.jpg",
     "type": "secondary"
   },
   {
     "year": "1993",
     "title": "Reconnaissance internationale",
     "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
-    "image": "/Images/CandleInHad2.jpg",
+    "image": "/Images/CandleInHand2.jpg",
     "type": "secondary"
   },
     {
@@ -118,42 +118,42 @@ const timelineEvents2 = [
     "year": "2004",
     "title": "Justice et Réconciliation",
     "description": "L'OMDH joue un rôle clé au sein de l'Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.",
-    "image": "/Images/Wome.jpg",
+    "image": "/Images/Women.jpg",
     "type": "primary"
   },
   {
     "year": "2011",
     "title": "Printemps arabe et Réforme constitutionnelle",
     "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
-    "image": "/Images/arabsprng.jpeg",
+    "image": "/Images/.jpeg",
     "type": "secondary"
   },
     {
     "year": "2011",
     "title": "Alliance Anti-Torture",
     "description": "L'OMDH a collaboré avec le Conseil National des Droits de l'Homme (CNDH) et l'Association pour la Prévention de la Torture (APT) sur la ratification du Protocole Facultatif à la Convention des Nations Unies contre la Torture (OPCAT).",
-    "image": "/Images/CNH.jpg",
+    "image": "/Images/CNDH.jpg",
     "type": "secondary"
   },
   {
     "year": "2013",
     "title": "Condamnation de l'Injustice",
     "description": "L'OMDH a publié conjointement avec Ensemble Contre la Peine de Mort (ECPM) un rapport intitulé « Voyage au cimetière des vivants », qui analysait les conditions de détention des personnes condamnées à mort au Maroc.",
-    "image": "/Images/DeathPenltyAbolition.jpg",
+    "image": "/Images/DeathPenaltyAbolition.jpg",
     "type": "primary"
   },
   {
     "year": "2023",
     "title": "Plaidoyer national et Partenariats",
     "description": "L'OMDH renforce sa coopération avec les universités marocaines, les institutions civiles et les organisations internationales pour promouvoir l'éducation, les droits des femmes et les libertés civiles.",
-    "image": "/Images/ChtGPT Image May 3, 2025, 05_09_56 PM.png",
+    "image": "/Images/ChatGPT Image May 3, 2025, 05_09_56 PM.png",
     "type": "primary"
   },
   {
     "year": "Avril 2025",
     "title": "Solidarité avec Gaza",
     "description": "Lors de sa douzième conférence nationale, l'OMDH a exprimé sa solidarité avec le peuple palestinien et condamné l'agression israélienne en cours à Gaza, appelant à une intervention internationale.",
-    "image": "/Images/gaa.jpg",
+    "image": "/Images/gaza.jpg",
     "type": "primary"
   },
 ]
