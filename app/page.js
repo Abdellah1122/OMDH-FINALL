@@ -9,19 +9,23 @@ import Footer from "./components/Footer"
 
 const heroSlides = [
   {
-    image: "/Images/Kids.jpg",
+    image: "/Images/CandleInHand2.jpg",
     alt: "Kids",
     text: "Explorez nos dernières initiatives et découvrez en avant-première les événements impactants qui nous attendent. Rejoignez-nous dans la défense des droits humains et soyez parmi les premiers à nous soutenir pour le changement.",
   },
   {
-    image: "/Images/Peace-Pigeon.jpg",
+    image: "/Images/kids.jpg",
     alt: "Peace Pigeon",
     text: "Découvrez notre mission et voyez comment nous travaillons chaque jour pour défendre la dignité humaine, promouvoir la justice et créer un changement durable.",
   },
   {
-    image: "/Images/Hand-solitarity.jpg",
+    image: "/Images/CandleDarkBG2.jpg",
     alt: "Hand Solidarity",
     text: "Explorez tous nos projets et découvrez comment chaque initiative nous rapproche d'un monde où les droits humains sont respectés pour tous !",
+  },
+  {
+    image: "/Images/omdhbg.jpg",
+    alt: "Hand Solidarity",
   },
 ]
 
@@ -393,7 +397,7 @@ export default function HomePage() {
         .hero-slide.active .hero-image { transform: scale(1); }
         .hero-overlay { position: absolute; inset: 0; background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.6) 100% ); }
         .hero-content { position: absolute; bottom: 8rem; left: 50%; transform: translateX(-50%); width: 85%; max-width: 56rem; z-index: 10; }
-        .hero-text-box { background: rgba(0, 0, 0, 0.2); backdrop-filter: blur(5px); border-radius: 10px; padding: 2.5rem; text-align: center; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); }
+        .hero-text-box { background: rgba(0, 0, 0, 0.1); backdrop-filter: blur(3px); border-radius: 10px; padding: 2.5rem; text-align: center; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); }
         .hero-text { color: white; font-size: 1.125rem; font-weight: 400; line-height: 1.7; margin: 0; letter-spacing: 0.01em; }
         .hero-control { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); border: none; border-radius: 50%; width: 3.5rem; height: 3.5rem; color: #333; cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); display: flex; align-items: center; justify-content: center; z-index: 20; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
         .hero-control:hover { background: rgba(255, 255, 255, 1); transform: translateY(-50%) scale(1.1); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); }

@@ -11,7 +11,7 @@ const leadershipTeam = [
     id: 1,
     name: "Noufal Al-Baamari",
     position: "Président",
-    image: "/placeholder.svg?height=350&width=320",
+    image: "/Membres/naoufal.jpg",
     level: "president",
   },
   {
@@ -46,14 +46,14 @@ const leadershipTeam = [
     id: 6,
     name: "Ahmed Hammoush",
     position: "Secrétaire Général Adjoint",
-    image: "/placeholder.svg?height=350&width=320",
+    image: "/Membres/ahmad.jpg",
     level: "executive",
   },
   {
     id: 7,
     name: "Abdeljalil Bado",
     position: "",
-    image: "/placeholder.svg?height=350&width=320",
+    image: "/Membres/bado.jpg",
     level: "member",
   },
   {
@@ -102,7 +102,7 @@ const leadershipTeam = [
     id: 14,
     name: "Fadwa Amharesh",
     position: "",
-    image: "/placeholder.svg?height=350&width=320",
+    image: "/Membres/fadwa.jpg",
     level: "member",
   },
   {
@@ -125,7 +125,7 @@ const teamMembers = [
     id: 2,
     name: "Lamia SELLAK",
     position: "Assistante Administrative et Financière",
-    image: "/placeholder.svg?height=280&width=250",
+    image: "/Membres/lamia.jpg",
   },
   {
     id: 3,
