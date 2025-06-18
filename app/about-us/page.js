@@ -9,70 +9,70 @@ import Link from 'next/link';
 const timelineEvents = [
     {
     "year": "1988-1989",
-    "title": "Mehdi Elmandjra",
+    "title": "Mahdi ELMANDJRA ",
     "description": "",
     "image": "/PastPres/1.JPG",
     "type": ""
   },
   {
     "year": "1988-1989",
-    "title": "Omar Azziman",
+    "title": "Omar AZZIMAN",
     "description": "",
     "image": "/PastPres/2.JPG",
     "type": ""
   },
   {
     "year": "1989-1991",
-    "title": "Khalid Naciri",
+    "title": "Khalid NACIRI ",
     "description": "",
     "image": "/PastPres/3.JPG",
     "type": ""
   },
   {
     "year": "1991-1992",
-    "title": "Ali Amlil",
+    "title": "Ali OUMLIL",
     "description": "",
     "image": "/PastPres/4.JPG",
     "type": ""
   },
   {
     "year": "1993-2000",
-    "title": "Abdelaziz Bennani",
+    "title": "Abdelaziz BENNANI",
     "description": "",
     "image": "/PastPres/5.JPG",
     "type": ""
   },
   {
     "year": "2000-2006",
-    "title": "Abdellah El Oualdi",
+    "title": "Abdellah ELOUALLADI",
     "description": "",
     "image": "/PastPres/6.JPG",
     "type": ""
   },
   {
     "year": "2006-2012",
-    "title": "Amina Bouayach",
+    "title": "Amina BOUAYACH",
     "description": "",
     "image": "/PastPres/7.JPG",
     "type": ""
   },
   {
     "year": "2012-2015",
-    "title": "Mohamed Nechnach",
+    "title": "Mohamed NESHNASH",
     "description": "",
     "image": "/PastPres/8.JPG",
     "type": ""
   },
   {
     "year": "2015-2022",
-    "title": "Boubker Largo",
+    "title": "Boubkeur LARGOU ",
     "description": "",
     "image": "/PastPres/9.JPG",
     "type": ""
   },
   {
     "year": "2022-2025",
-    "title": "Hassan Idrissi",
+    "title": "El Hassan El IDRISSI ",
     "description": "",
     "image": "/PastPres/10.JPG",
     "type": ""

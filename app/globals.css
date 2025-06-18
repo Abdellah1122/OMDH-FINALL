@@ -28,6 +28,12 @@ a {
           color: white;
           border: 1px solid var(--primary-color);
         }
+.article-title{
+  overflow: hidden;
+}
+.nav-breadcrumb .container{
+  overflow: hidden;
+}
 
 * {
   margin: 0;

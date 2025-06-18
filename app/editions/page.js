@@ -30,7 +30,185 @@ export default function EditionsPage() {
 
         <div className="article-list"  translate="no">
           {/* Note: I've updated the hrefs to point to the pages we created! */}
+
+
           <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="الجمع التأسيسي" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">البيان العام</span>
+                <h3 className="article-title">البيان العام الصادر عن الجمع التأسيسي</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">10 ديسمبر 1988</span>
+                </div>
+                <p className="article-excerpt">إن الجمع العام التأسيسي للمنظمة المغربية لحقوق الإنسان المنعقد بالرباط يوم 10 دجنبر 1988 يوم الذكرى الأربعينية للإعلان العالمي لحقوق الإنسان...</p>
+                <Link href="/Article1" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+             <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثالث" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">بلاغ</span>
+                <h3 className="article-title">بلاغ حول اختتام أشغال المؤتمر الوطني الثالث</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">31 مارس 1997</span>
+                </div>
+                <p className="article-excerpt">أنهى المؤتمر الثالث للمنظمة المغربية لحقوق الإنسان أشغاله مساء يوم الأحد 30 مارس 1997. ولقد قرر المؤتمر تعديل بعض مقتضيات القانون الأساسي...</p>
+                <Link href="/Article3" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+            <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الرابع" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">بلاغ</span>
+                <h3 className="article-title">بلاغ حول أشغال المؤتمر الرابع للمنظمة</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">26 مارس 2000</span>
+                </div>
+                <p className="article-excerpt">عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها الرابع تحت شعار "لا ضمانة قارة لحقوق الإنسان وللديمقراطيين دون إصلاح جذري للقضاء وترسيخ كل دعائم دولة الحق والقانون"...</p>
+                <Link href="/Article4" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+            <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الخامس" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">البيان العام</span>
+                <h3 className="article-title">البيان العام للمؤتمر الوطني الخامس</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">18 ماي 2003</span>
+                </div>
+                <p className="article-excerpt">إن المؤتمر الوطني الخامس للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط أيام 16-17-18 ماي 2003 تحت شعار "من أجل حماية الانتقال الديموقراطي والشرعية الدولية والسلم العالمي"...</p>
+                <Link href="/Article5" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+             <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني السادس" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">البيان العام</span>
+                <h3 className="article-title">البيان العام للمؤتمر الوطني السادس</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">02 أبريل 2006</span>
+                </div>
+                <p className="article-excerpt">إن المؤتمر الوطني السادس للمنظمة المغربية لحقوق الإنسان المنعقد بالرباط أيام 31 مارس 1- 2 أبريل 2006 تحت شعار: "تعميق وتسريع وتيرة الاصلاحات أساس لضمان وحماية الانتقال الديمقراطي"...</p>
+                <Link href="/Article6" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+            <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني السابع" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">البيان العام</span>
+                <h3 className="article-title">البيان العام للمؤتمر الوطني السابع</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">29 مارس 2009</span>
+                </div>
+                <p className="article-excerpt">إن المؤتمر الوطني السابع للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط أيام 27 28 و 29 مارس 2009 بشعار مركزي مناهضة" الإفلات من العقاب رهان مأسسة دولة الحق"...</p>
+                <Link href="/Article7" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+            <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثامن" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">البيان العام</span>
+                <h3 className="article-title">البيان العام للمؤتمر الوطني الثامن</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">08 أبريل 2012</span>
+                </div>
+                <p className="article-excerpt">إن المؤتمر الوطني الثامن للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط وبوزنيقة أيام 06- 07 - 08 أبريل 2012 تحت شعار " إعمال المساواة ضمانا لسيادة حقوق الإنسان "...</p>
+                <Link href="/Article8" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+            <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني التاسع" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">البيان العام</span>
+                <h3 className="article-title">البيان العام للمؤتمر الوطني التاسع</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">12 أبريل 2015</span>
+                </div>
+                <p className="article-excerpt">انعقد المؤتمر الوطني التاسع للمنظمة المغربية لحقوق الإنسان بالرباط أيام 10-11-12 أبريل 2015، تحت شعار "إعمال الحقوق وإحقاقها أساس دولة الحق والقانون"...</p>
+                <Link href="/Article9" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+            <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني العاشر" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">بلاغ صحفي</span>
+                <h3 className="article-title">بلاغ صحفي للمؤتمر الوطني العاشر</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">13 ماي 2018</span>
+                </div>
+                <p className="article-excerpt">عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها العاشر بالرباط أيام 11 و 12 و 13 ماي 2018، تحت شعار : "دور الفاعل في إعمال حقوق الإنسان وإحقاقها"...</p>
+                <Link href="/Article10" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+            <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الحادي عشر" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">البيان العام</span>
+                <h3 className="article-title">البيان العام للمؤتمر الوطني الحادي عشر</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">29 ماي 2022</span>
+                </div>
+                <p className="article-excerpt">انعقد المؤتمر الوطني الحادي عشر للمنظمة المغربية لحقوق الإنسان أيام 27 و 28 و 29 ماي 2022 تحت شعار" من أجل حماية وضمانات فعلية التمتع بحقوق الإنسان في ظل الأزمات"...</p>
+                <Link href="/Article11" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+
+            <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثاني عشر" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">البيان العام</span>
+                <h3 className="article-title">البيان العام للمؤتمر الوطني الثاني عشر</h3>
+                <div className="article-meta">
+                  <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+                  <span className="article-date">27 أبريل 2025</span>
+                </div>
+                <p className="article-excerpt">انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 تحت شعار "أي فعلية لحقوق الانسان في ظل التحولات الدولية الراهنة؟"...</p>
+                <Link href="/Article12" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
+            
+                      <article className="article-item">
             <div className="article-image">
               <Image src="/Images/2.jpeg" alt="Droits des réfugiés au Maroc" width={300} height={300} style={{objectFit: 'cover'}}/>
             </div>
@@ -44,7 +222,7 @@ export default function EditionsPage() {
                 <span className="article-date">.</span>
               </div>
               <p className="article-excerpt">خلال أشغال المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، الذي انعقد نهاية الأسبوع الماضي بمدينة الرباط، جددت المنظمة هياكلها التنظيمية...</p>
-              <Link href="/Article1" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              <Link href="/Article" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
             </div>
           </article>
           
@@ -68,43 +246,6 @@ export default function EditionsPage() {
             </div>
           </article>
 
-          <article className="article-item">
-            <div className="article-image">
-              <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان" width={300} height={300} style={{objectFit: 'cover'}}/>
-            </div>
-            <div className="article-content" >
-              <span className="article-category">Actualité</span>
-              <h3 className="article-title">
-                البيان العام الصادر عن المؤتمر الوطني الثاني عشر المنعقد أيام 25-26-27 أبريل 2025
-              </h3>
-              <div className="article-meta">
-                <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
-                <span className="article-date">27 أبريل 2025</span>
-              </div>
-              <p className="article-excerpt">انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 بالمعهد الوطني لكتابة الضبط والمهن القانونية والقضائية...</p>
-              <Link href="/Article3" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
-            </div>
-          </article>
-
-          <article className="article-item">
-            <div className="article-image">
-              <Image src="/Images/Com.jpg" alt="تصريح صحفي حول المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان" width={300} height={300} style={{objectFit: 'cover'}} />
-            </div>
-            <div className="article-content" >
-              <span className="article-category">بيان صحفي</span>
-              <h3 className="article-title">
-                تصريح صحفي بخصوص انعقاد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان
-              </h3>
-              <div className="article-meta">
-                <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
-                <span className="article-date">06 ماي 2025</span>
-              </div>
-              <p className="article-excerpt">
-                أود باسم رئاسة المنظمة المغربية لحقوق الإنسان أن أرحب بكم/ن وأشكركم/ن على تلبيتكم/ن دعوة الحضور في هذه الندوة الصحفية...
-              </p>
-              <Link href="/Article4" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
-            </div>
-          </article>
         </div>
       </div>
     </section>

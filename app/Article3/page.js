@@ -7,101 +7,83 @@ import Footer from '../components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function ArticlePage() {
+export default function PressReleasePage() {
   return (
     <>
       <Navbar />
 
-     <main  translate="no">
-    <nav className="nav-breadcrumb">
-      <div className="container">
-        <div className="breadcrumb">
-          <Link href="/"  style={{color:'black',backgroundColor:'transparent' , border:'none'}}> Accueil</Link>
-          <span>›</span>
-          <Link href="/editions"  style={{color:'black',backgroundColor:'transparent' , border:'none'}}>Editions</Link>
-          <span>›</span>
-          <span>البيان العام الصادر عن المؤتمر الوطني الثاني عشر</span>
-        </div>
-      </div>
-    </nav>
+      <main translate="no">
+        <nav className="nav-breadcrumb">
+          <div className="container">
+            <div className="breadcrumb">
+              <Link href="/" style={{color:'black',backgroundColor:'transparent' , border:'none'}}>Accueil</Link>
+              <span>›</span>
+              <Link href="/editions" style={{color:'black',backgroundColor:'transparent' , border:'none'}}>Editions</Link>
+              <span>›</span>
+              <span>بلاغ حول اختتام أشغال المؤتمر الوطني الثالث</span>
+            </div>
+          </div>
+        </nav>
 
-    <header className="article-header" dir="rtl" lang="ar">
-      <div className="container">
-        <div className="article-category">Actualité</div>
-        <h1 className="article-title">البيان العام الصادر عن المؤتمر الوطني الثاني عشر المنعقد أيام 25-26-27 أبريل 2025</h1>
-        <p className="article-subtitle">Moroccan Organization of Human Rights – Organisation Marocaine des Droits Humains</p>
-        <div className="article-meta">
-          <div className="meta-item">
-            <strong>بقلم المنظمة المغربية لحقوق الإنسان</strong>
+        <header className="article-header" dir="rtl" lang="ar">
+          <div className="container">
+            <div className="article-category">بلاغ</div>
+            <h1 className="article-title">اختتام أشغال المؤتمر الوطني الثالث للمنظمة</h1>
+            <p className="article-subtitle"></p>
+            <div className="article-meta">
+              <div className="meta-item">
+                <strong>بقلم رئيس المنظمة</strong>
+              </div>
+              <div className="meta-divider"></div>
+              <div className="meta-item">
+                31 مارس 1997
+              </div>
+            </div>
           </div>
-          <div className="meta-divider"></div>
-          <div className="meta-item">
-            27 أبريل 2025
-          </div>
-        </div>
-      </div>
-    </header>
+        </header>
 
-    <section className="article-hero">
-      <div className="container">
-        <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان" className="hero-image" width={800} height={400} priority />
-      </div>
-    </section>
+        <section className="article-hero">
+          <div className="container">
+            <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثالث للمنظمة المغربية لحقوق الإنسان" className="hero-image" width={800} height={400} priority />
+          </div>
+        </section>
 
-    <article className="article-content" dir="rtl" lang="ar">
-      <div className="container">
-        <div className="content-body">
-          {/* FIX: Replaced " with &quot; */}
-          <p>انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 بالمعهد الوطني لكتابة الضبط والمهن القانونية والقضائية تحت شعار &quot;أي فعلية لحقوق الانسان في ظل التحولات الدولية الراهنة؟&quot; ، وقد تم التمهيد لأشغال المؤتمر بتنظيم ندوة موضوعاتية تحت عنوان &quot;الحقوق الاقتصادية والاجتماعية والثقافية في السياسات العمومية وسؤال الفعلية&quot;، وتهدف هذه الندوة إلى طرح وضعية هذه الحقوق انطلاقا من السياسات العمومية التي نهجتها الحكومة في ظل تدبيرها للشأن العمومي، وقد شارك في تأطيرها مجموعة من الأساتذة الجامعيين والخبراء والفاعلين الحقوقيين الوطنيين والدوليين حيث طرحت مجموعة من الأسئلة والاشكالات المرتبطة بوضعية الحقوق الاقتصادية والاجتماعية والثقافية في ظل سؤال مركزي مرتبط بمدى فعليتها في السياسات العمومية، مؤكدين على ضرورة التزام الحكومة بحماية هذه الحقوق وضمان فعليتها وفقا لالتزامات المغرب الدولية والوطنية المؤطرة بالاتفاقيات والصكوك ومواثيق حقوق الانسان والدستور المغربي.</p>
-          <p>وقد خلصت هذه الندوة الموضوعاتية إلى بلورة توصيات متعلقة بحماية الحقوق الاقتصادية والاجتماعية والثقافية والضمانات الأساسية لفعليتها في إطار السياسات العمومية مع تقديم ملاحظات حول كيفية عمل الفاعلين الحقوقيين لكسب هذا الرهان الحقوقي.</p>
-          {/* ... More paragraphs ... */}
-          <h2>نتائج المؤتمر:</h2>
-          <div className="highlight-box">
-            <ul>
-              <li>يثمن المؤتمر المكتسبات الحقوقية بالمغرب...</li>
-              <li>يسجل المؤتمر بإيجابية العفو الملكي على مجموعة من الصحفيين...</li>
-              {/* ... All other list items ... */}
-              <li>يؤكد على كون إحلال السلام في المنطقة رهين بإقامة دولة فلسطين المستقلة وعاصمتها القدس الشرقية على حدود 67.</li>
-            </ul>
+        <article className="article-content" dir="rtl" lang="ar">
+          <div className="container">
+            <div className="content-body">
+                <p>أنهى المؤتمر الثالث للمنظمة المغربية لحقوق الإنسان أشغاله مساء يوم الأحد 30 مارس 1997. ولقد قرر المؤتمر تعديل بعض مقتضيات القانون الأساسي وإدخال تعديل على الترجمة الفرنسية لتسمية المنظمة. كما صادق على بيان عام سوف ينشر فيما بعد. وانتخب المجلس الوطني المكون من 65 عضوا وذلك عن طريق نظام التصويت على اللائحة.</p>
+                <p>وإثر نهاية أشغال المؤتمر، اجتمع المجلس الوطني وأعاد انتخاب الأستاذ عبد العزيز بناني رئيسا للمنظمة. كما قرر عقد دورته المقبلة يوم الأحد 13 أبريل بمقر المنظمة ابتداء من الساعة العاشرة صباحا. وسيكون ضمن جدول أعماله انتخاب أعضاء المكتب الوطني.</p>
+              <p><strong>الرباط، 31 مارس 1997</strong></p>
+            </div>
           </div>
-          <h2>توصيات المؤتمر:</h2>
-          <div className="highlight-box">
-            <ul>
-              <li>وضع استراتيجية عمل طيلة الولاية الانتدابية لأجهزة المنظمة.</li>
-              <li>وضع برامج منسجمة لتفعيل استراتيجية العمل، مع تجويد آليات التنفيذ.</li>
-              <li>التعبئة من أجل ضمان انخراط جميع مكونات المنظمة في تفعيل استراتيجيتها.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </article>
+        </article>
 
-    <section className="author-section">
-      <div className="container">
-        <div className="author-card" dir="rtl">
-          <Image src="/omdhlogo.png" alt="شعار المنظمة المغربية لحقوق الإنسان" className="author-avatar" width={80} height={80} />
-          <div className="author-info">
-            <h4>المنظمة المغربية لحقوق الإنسان</h4>
-            <p className="author-title">جهة الإصدار</p>
-            <p className="author-bio">
-              البيان العام الصادر عن المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، المنعقد أيام 25-26-27 أبريل 2025 بالرباط.
-            </p>
+        <section className="author-section">
+          <div className="container">
+            <div className="author-card" dir="rtl">
+              <Image src="/omdhlogo.png" alt="شعار المنظمة المغربية لحقوق الإنسان" className="author-avatar" width={80} height={80}/>
+              <div className="author-info">
+                <h4>المنظمة المغربية لحقوق الإنسان</h4>
+                <p className="author-title">جهة الإصدار</p>
+                <p className="author-bio">
+                  بلاغ حول اختتام أشغال المؤتمر الوطني الثالث للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط يوم 30 مارس 1997.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-  </main>
+        </section>
+      </main>
 
       <Footer />
 
+      {/* Page-specific styles for the article template */}
       <style jsx>{`
+        /* Using the same article template styles as the previous page */
         .container {
           max-width: 800px;
           margin: 0 auto;
           padding: 0 20px;
         }
-
-        /* Navigation */
         .nav-breadcrumb {
           padding: 20px 0;
           background-color: #ffffff;
@@ -114,7 +96,6 @@ export default function ArticlePage() {
         .breadcrumb a {
           color: var(--primary-color);
           text-decoration: none;
-          transition: var(--transition);
           padding: 0;
         }
         .breadcrumb a:hover {
@@ -124,8 +105,6 @@ export default function ArticlePage() {
           margin: 0 8px;
           color: #ccc;
         }
-
-        /* Article Header */
         .article-header {
           background-color: #ffffff;
           padding: 40px 0;
@@ -150,9 +129,6 @@ export default function ArticlePage() {
           line-height: 1.2;
           margin-bottom: 20px;
           color: var(--text-dark);
-          max-width: 700px;
-          margin-left: auto;
-          margin-right: auto;
         }
         .article-subtitle {
           font-size: 1.1rem;
@@ -167,8 +143,6 @@ export default function ArticlePage() {
           align-items: center;
           gap: 20px;
           font-size: 0.9rem;
-          color: var(--text-medium);
-          margin-bottom: 20px;
         }
         .meta-item {
           display: flex;
@@ -180,32 +154,20 @@ export default function ArticlePage() {
           height: 16px;
           background-color: #eeeeee;
         }
-
-        /* Hero Image */
         .article-hero {
-          margin: 40px 0;
+          margin: 40px auto;
+          max-width: 800px;
+          padding: 0 20px;
         }
         .hero-image {
           width: 100%;
-          height: 400px;
+          height: auto;
+          max-height: 450px;
           object-fit: cover;
           display: block;
           border-radius: 12px;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
-        .image-caption {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
-          color: white;
-          padding: 30px 20px 20px;
-          font-size: 0.9rem;
-          font-style: italic;
-        }
-
-        /* Article Content */
         .article-content {
           background-color: #ffffff;
           padding: 50px 0;
@@ -215,56 +177,37 @@ export default function ArticlePage() {
           line-height: 1.8;
           color: var(--text-dark);
         }
-        .content-body p {
-          margin-bottom: 24px;
+        .content-body p, .content-body li {
+          margin-bottom: 1.5rem;
         }
-        .content-body h2 {
+        .content-body ul, .content-body ol {
+          padding-right: 20px;
+          margin-bottom: 1.5rem;
+        }
+        .content-body h2, .content-body h3, .content-body h4 {
           font-family: 'Poppins', sans-serif;
-          font-size: 1.8rem;
           font-weight: 600;
-          margin: 40px 0 20px;
+          margin: 2.5rem 0 1.5rem;
           color: var(--text-dark);
-          position: relative;
-          padding-bottom: 10px;
         }
-        .content-body h2::after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 50px;
-          height: 2px;
-          background-color: var(--primary-color);
-        }
-        .content-body blockquote {
-          border-right: 4px solid var(--primary-color);
-          border-left: none;
-          padding: 20px 30px;
-          margin: 30px 0;
-          background-color: var(--light-bg);
-          font-style: italic;
-          font-size: 1.05rem;
-          border-radius: 8px 0 0 8px;
-        }
-        .content-body ul {
-          margin: 20px 30px 20px 0; /* RTL padding */
-        }
-        .content-body li {
-          margin-bottom: 8px;
-        }
+        .content-body h2 { font-size: 1.8rem; }
+        .content-body h3 { font-size: 1.5rem; }
+        .content-body h4 { font-size: 1.2rem; color: var(--primary-color); }
+
         .highlight-box {
-          background: linear-gradient(135deg, rgba(25, 87, 166, 0.05), rgba(25, 87, 166, 0.02));
-          border: 1px solid rgba(25, 87, 166, 0.1);
-          border-radius: 8px;
+          background: #f8f9fa;
+          border-right: 4px solid var(--primary-color);
+          border-radius: 0 8px 8px 0;
           padding: 25px;
           margin: 30px 0;
         }
-        .highlight-box ul {
-            padding-right: 20px;
-            list-style-type: '✔ ';
+        .highlight-box ul, .highlight-box ol {
+          padding-right: 20px; /* Indent list for RTL */
+          margin: 0;
         }
-
-        /* Author Section */
+        .highlight-box ul {
+           list-style-type: '✔  ';
+        }
         .author-section {
           background-color: var(--light-bg);
           padding: 40px 0;
@@ -288,36 +231,15 @@ export default function ArticlePage() {
         }
         .author-info h4 {
           font-size: 1.2rem;
-          font-weight: 600;
-          margin-bottom: 5px;
-          color: var(--text-dark);
         }
         .author-info .author-title {
           color: var(--primary-color);
           font-size: 0.9rem;
-          font-weight: 500;
           margin-bottom: 10px;
         }
         .author-info .author-bio {
-          color: var(--text-medium);
           font-size: 0.95rem;
           line-height: 1.5;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-          .article-title { font-size: 2rem; }
-          .article-meta { flex-direction: column; gap: 10px; }
-          .meta-divider { display: none; }
-          .hero-image { height: 250px; }
-          .content-body { font-size: 1rem; }
-          .content-body h2 { font-size: 1.5rem; }
-          .author-card { flex-direction: column; text-align: center; }
-        }
-        @media (max-width: 576px) {
-          .container { padding: 0 15px; }
-          .article-header { padding: 30px 0; }
-          .article-title { font-size: 1.8rem; }
         }
       `}</style>
     </>
