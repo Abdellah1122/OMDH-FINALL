@@ -34,7 +34,7 @@ export default function EditionsPage() {
 
           <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/naoufal.jpg" alt="Naoufal Bouamri OMDH" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/naoufal.JPG" alt="Naoufal Bouamri OMDH" width={300} height={300} style={{objectFit: 'cover'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">Actualité</span>
