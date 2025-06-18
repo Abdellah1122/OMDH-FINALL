@@ -53,7 +53,7 @@ const timelineEvents = [
     "year": "2006-2012",
     "title": "Amina BOUAYACH",
     "description": "",
-    "image": "/PastPres/7.jpg",
+    "image": "/PastPres/7.JPG",
     "type": ""
   },
   {
@@ -74,7 +74,7 @@ const timelineEvents = [
     "year": "2022-2025",
     "title": "El Hassan El IDRISSI ",
     "description": "",
-    "image": "/PastPres/10.jpg",
+    "image": "/PastPres/10.JPG",
     "type": ""
   },
   {
