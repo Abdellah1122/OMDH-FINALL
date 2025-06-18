@@ -14,7 +14,7 @@ const heroSlides = [
     text: "Explorez nos dernières initiatives et découvrez en avant-première les événements impactants qui nous attendent. Rejoignez-nous dans la défense des droits humains et soyez parmi les premiers à nous soutenir pour le changement.",
   },
   {
-    image: "/Images/kids.jpg",
+    image: "/Images/kids.JPG",
     alt: "Peace Pigeon",
     text: "Découvrez notre mission et voyez comment nous travaillons chaque jour pour défendre la dignité humaine, promouvoir la justice et créer un changement durable.",
   },
