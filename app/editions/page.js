@@ -48,7 +48,7 @@ export default function EditionsPage() {
               </div>
             </article>
 
-             <article className="article-item">
+                 <article className="article-item">
               <div className="article-image">
                 <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثالث" width={300} height={300} style={{objectFit: 'cover'}}/>
               </div>
@@ -75,7 +75,7 @@ export default function EditionsPage() {
                   <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
                   <span className="article-date">26 مارس 2000</span>
                 </div>
-                <p className="article-excerpt">عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها الرابع تحت شعار "لا ضمانة قارة لحقوق الإنسان وللديمقراطيين دون إصلاح جذري للقضاء وترسيخ كل دعائم دولة الحق والقانون"...</p>
+                <p className="article-excerpt">عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها الرابع تحت شعار &quot;لا ضمانة قارة لحقوق الإنسان وللديمقراطيين دون إصلاح جذري للقضاء وترسيخ كل دعائم دولة الحق والقانون&quot;...</p>
                 <Link href="/Article4" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
             </article>
@@ -91,12 +91,12 @@ export default function EditionsPage() {
                   <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
                   <span className="article-date">18 ماي 2003</span>
                 </div>
-                <p className="article-excerpt">إن المؤتمر الوطني الخامس للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط أيام 16-17-18 ماي 2003 تحت شعار "من أجل حماية الانتقال الديموقراطي والشرعية الدولية والسلم العالمي"...</p>
+                <p className="article-excerpt">إن المؤتمر الوطني الخامس للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط أيام 16-17-18 ماي 2003 تحت شعار &quot;من أجل حماية الانتقال الديموقراطي والشرعية الدولية والسلم العالمي&quot;...</p>
                 <Link href="/Article5" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
             </article>
 
-             <article className="article-item">
+                 <article className="article-item">
               <div className="article-image">
                 <Image src="/Images/Com.jpg" alt="المؤتمر الوطني السادس" width={300} height={300} style={{objectFit: 'cover'}}/>
               </div>
@@ -107,7 +107,7 @@ export default function EditionsPage() {
                   <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
                   <span className="article-date">02 أبريل 2006</span>
                 </div>
-                <p className="article-excerpt">إن المؤتمر الوطني السادس للمنظمة المغربية لحقوق الإنسان المنعقد بالرباط أيام 31 مارس 1- 2 أبريل 2006 تحت شعار: "تعميق وتسريع وتيرة الاصلاحات أساس لضمان وحماية الانتقال الديمقراطي"...</p>
+                <p className="article-excerpt">إن المؤتمر الوطني السادس للمنظمة المغربية لحقوق الإنسان المنعقد بالرباط أيام 31 مارس 1- 2 أبريل 2006 تحت شعار: &quot;تعميق وتسريع وتيرة الاصلاحات أساس لضمان وحماية الانتقال الديمقراطي&quot;...</p>
                 <Link href="/Article6" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
             </article>
@@ -123,7 +123,7 @@ export default function EditionsPage() {
                   <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
                   <span className="article-date">29 مارس 2009</span>
                 </div>
-                <p className="article-excerpt">إن المؤتمر الوطني السابع للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط أيام 27 28 و 29 مارس 2009 بشعار مركزي مناهضة" الإفلات من العقاب رهان مأسسة دولة الحق"...</p>
+                <p className="article-excerpt">إن المؤتمر الوطني السابع للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط أيام 27 28 و 29 مارس 2009 بشعار مركزي &quot;مناهضة الإفلات من العقاب رهان مأسسة دولة الحق&quot;...</p>
                 <Link href="/Article7" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
             </article>
@@ -139,7 +139,7 @@ export default function EditionsPage() {
                   <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
                   <span className="article-date">08 أبريل 2012</span>
                 </div>
-                <p className="article-excerpt">إن المؤتمر الوطني الثامن للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط وبوزنيقة أيام 06- 07 - 08 أبريل 2012 تحت شعار " إعمال المساواة ضمانا لسيادة حقوق الإنسان "...</p>
+                <p className="article-excerpt">إن المؤتمر الوطني الثامن للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط وبوزنيقة أيام 06- 07 - 08 أبريل 2012 تحت شعار &quot;إعمال المساواة ضمانا لسيادة حقوق الإنسان&quot;...</p>
                 <Link href="/Article8" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
             </article>
@@ -155,7 +155,7 @@ export default function EditionsPage() {
                   <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
                   <span className="article-date">12 أبريل 2015</span>
                 </div>
-                <p className="article-excerpt">انعقد المؤتمر الوطني التاسع للمنظمة المغربية لحقوق الإنسان بالرباط أيام 10-11-12 أبريل 2015، تحت شعار "إعمال الحقوق وإحقاقها أساس دولة الحق والقانون"...</p>
+                <p className="article-excerpt">انعقد المؤتمر الوطني التاسع للمنظمة المغربية لحقوق الإنسان بالرباط أيام 10-11-12 أبريل 2015، تحت شعار &quot;إعمال الحقوق وإحقاقها أساس دولة الحق والقانون&quot;...</p>
                 <Link href="/Article9" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
             </article>
@@ -171,7 +171,7 @@ export default function EditionsPage() {
                   <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
                   <span className="article-date">13 ماي 2018</span>
                 </div>
-                <p className="article-excerpt">عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها العاشر بالرباط أيام 11 و 12 و 13 ماي 2018، تحت شعار : "دور الفاعل في إعمال حقوق الإنسان وإحقاقها"...</p>
+                <p className="article-excerpt">عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها العاشر بالرباط أيام 11 و 12 و 13 ماي 2018، تحت شعار : &quot;دور الفاعل في إعمال حقوق الإنسان وإحقاقها&quot;...</p>
                 <Link href="/Article10" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
             </article>
@@ -187,7 +187,7 @@ export default function EditionsPage() {
                   <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
                   <span className="article-date">29 ماي 2022</span>
                 </div>
-                <p className="article-excerpt">انعقد المؤتمر الوطني الحادي عشر للمنظمة المغربية لحقوق الإنسان أيام 27 و 28 و 29 ماي 2022 تحت شعار" من أجل حماية وضمانات فعلية التمتع بحقوق الإنسان في ظل الأزمات"...</p>
+                <p className="article-excerpt">انعقد المؤتمر الوطني الحادي عشر للمنظمة المغربية لحقوق الإنسان أيام 27 و 28 و 29 ماي 2022 تحت شعار &quot;من أجل حماية وضمانات فعلية التمتع بحقوق الإنسان في ظل الأزمات&quot;...</p>
                 <Link href="/Article11" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
             </article>
@@ -203,48 +203,48 @@ export default function EditionsPage() {
                   <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
                   <span className="article-date">27 أبريل 2025</span>
                 </div>
-                <p className="article-excerpt">انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 تحت شعار "أي فعلية لحقوق الانسان في ظل التحولات الدولية الراهنة؟"...</p>
+                <p className="article-excerpt">انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 تحت شعار &quot;أي فعلية لحقوق الانسان في ظل التحولات الدولية الراهنة؟&quot;...</p>
                 <Link href="/Article12" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
             </article>
             
                       <article className="article-item">
-            <div className="article-image">
-              <Image src="/Images/2.jpeg" alt="Droits des réfugiés au Maroc" width={300} height={300} style={{objectFit: 'cover'}}/>
-            </div>
-            <div className="article-content">
-              <span className="article-category">Actualité</span>
-              <h3 className="article-title">
-                انتخاب نوفل البعمري رئيسا للمنظمة المغربية لحقوق الإنسان
-              </h3>
-              <div className="article-meta">
-                <span className="article-author">بقلم: ذ. محمد الطالب ,الرباط</span>
-                <span className="article-date">.</span>
+              <div className="article-image">
+                <Image src="/Images/2.jpeg" alt="Droits des réfugiés au Maroc" width={300} height={300} style={{objectFit: 'cover'}}/>
               </div>
-              <p className="article-excerpt">خلال أشغال المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، الذي انعقد نهاية الأسبوع الماضي بمدينة الرباط، جددت المنظمة هياكلها التنظيمية...</p>
-              <Link href="/Article" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
-            </div>
-          </article>
-          
-          <article className="article-item">
-            <div className="article-image">
-              <Image src="/Images/naoufal.jpg" alt="Naoufal Bouamri OMDH" width={300} height={300} style={{objectFit: 'cover'}}/>
-            </div>
-            <div className="article-content">
-              <span className="article-category">Actualité</span>
-              <h3 className="article-title">
-                {/* FIX: Replaced typographic apostrophe */}
-                Naoufal Bouamri consacré à la tête de l&apos;OMDH
-              </h3>
-              <div className="article-meta">
-                <span className="article-author"></span>
-                <span className="article-date">Mardi 29 Avril 2025</span>
+              <div className="article-content">
+                <span className="article-category">Actualité</span>
+                <h3 className="article-title">
+                  انتخاب نوفل البعمري رئيسا للمنظمة المغربية لحقوق الإنسان
+                </h3>
+                <div className="article-meta">
+                  <span className="article-author">بقلم: ذ. محمد الطالب ,الرباط</span>
+                  <span className="article-date">.</span>
+                </div>
+                <p className="article-excerpt">خلال أشغال المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، الذي انعقد نهاية الأسبوع الماضي بمدينة الرباط، جددت المنظمة هياكلها التنظيمية...</p>
+                <Link href="/Article" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
               </div>
-              {/* FIX: Replaced typographic apostrophes */}
-              <p className="article-excerpt">Le 12e congrès national de l&apos;Organisation Marocaine des Droits Humains (OMDH) s&apos;est achevé dimanche dernier sur une note de renouveau...</p>
-              <Link href="/Article2" className="article-button"style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
-            </div>
-          </article>
+            </article>
+            
+            <article className="article-item">
+              <div className="article-image">
+                <Image src="/Images/naoufal.jpg" alt="Naoufal Bouamri OMDH" width={300} height={300} style={{objectFit: 'cover'}}/>
+              </div>
+              <div className="article-content">
+                <span className="article-category">Actualité</span>
+                <h3 className="article-title">
+                  {/* FIX: Replaced typographic apostrophe */}
+                  Naoufal Bouamri consacré à la tête de l&apos;OMDH
+                </h3>
+                <div className="article-meta">
+                  <span className="article-author"></span>
+                  <span className="article-date">Mardi 29 Avril 2025</span>
+                </div>
+                {/* FIX: Replaced typographic apostrophes */}
+                <p className="article-excerpt">Le 12e congrès national de l&apos;Organisation Marocaine des Droits Humains (OMDH) s&apos;est achevé dimanche dernier sur une note de renouveau...</p>
+                <Link href="/Article2" className="article-button"style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+              </div>
+            </article>
 
         </div>
       </div>

@@ -29,7 +29,7 @@ export default function PressReleasePage() {
           <div className="container">
             <div className="article-category">بلاغ</div>
             <h1 className="article-title">المؤتمر الرابع للمنظمة المغربية لحقوق الإنسان</h1>
-            <p className="article-subtitle">"لا ضمانة قارة لحقوق الإنسان وللديمقراطيين دون إصلاح جذري للقضاء وترسيخ كل دعائم دولة الحق والقانون"</p>
+            <p className="article-subtitle">&quot;لا ضمانة قارة لحقوق الإنسان وللديمقراطيين دون إصلاح جذري للقضاء وترسيخ كل دعائم دولة الحق والقانون&quot;</p>
             <div className="article-meta">
               <div className="meta-item">
                 <strong>المنظمة المغربية لحقوق الإنسان</strong>
@@ -51,7 +51,7 @@ export default function PressReleasePage() {
         <article className="article-content" dir="rtl" lang="ar">
           <div className="container">
             <div className="content-body">
-                <p>عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها الرابع تحت شعار "لا ضمانة قارة لحقوق الإنسان وللديمقراطيين دون إصلاح جذري للقضاء وترسيخ كل دعائم دولة الحق والقانون "، وذلك أيام 24-26 مارس 2000 بالرباط.</p>
+                <p>عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها الرابع تحت شعار &quot;لا ضمانة قارة لحقوق الإنسان وللديمقراطيين دون إصلاح جذري للقضاء وترسيخ كل دعائم دولة الحق والقانون&quot;، وذلك أيام 24-26 مارس 2000 بالرباط.</p>
                 <p>وقد انتخب المؤتمر مجلسا وطنيا يتكون من السيدات والسادة الآتية أسماؤهم :</p>
                 
                 <h2>المجلس الوطني</h2>
