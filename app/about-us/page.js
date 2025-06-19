@@ -111,14 +111,14 @@ const timelineEvents2 = [
     "year": "Début 1989",
     "title": "Plaidoyer pour l'Amnistie",
     "description": "L'OMDH a lancé des appels à l'amnistie pour les prisonniers politiques et soumis des demandes de visite des prisons dans le cadre de ses efforts initiaux.",
-    "image": "/Images/AmnestyInternational.JPG",
+    "image": "/Images/AmnestyInternational.jpg",
     "type": "secondary"
   },
   {
     "year": "1993",
     "title": "Reconnaissance internationale",
     "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
-    "image": "/Images/CandleInHand2.JPG",
+    "image": "/Images/CandleInHand2.jpg",
     "type": "secondary"
   },
     {
@@ -132,21 +132,21 @@ const timelineEvents2 = [
     "year": "2004",
     "title": "Justice et Réconciliation",
     "description": "L'OMDH joue un rôle clé au sein de l'Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.",
-    "image": "/Images/Women.JPG",
+    "image": "/Images/Women.jpg",
     "type": "primary"
   },
   {
     "year": "2011",
     "title": "Printemps arabe et Réforme constitutionnelle",
     "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
-    "image": "/Images/PA.JPG",
+    "image": "/Images/PA.jpg",
     "type": "secondary"
   },
     {
     "year": "2011",
     "title": "Alliance Anti-Torture",
     "description": "L'OMDH a collaboré avec le Conseil National des Droits de l'Homme (CNDH) et l'Association pour la Prévention de la Torture (APT) sur la ratification du Protocole Facultatif à la Convention des Nations Unies contre la Torture (OPCAT).",
-    "image": "/Images/CNDH.JPG",
+    "image": "/Images/CNDH.jpg",
     "type": "secondary"
   },
   {
@@ -167,7 +167,7 @@ const timelineEvents2 = [
     "year": "Avril 2025",
     "title": "Solidarité avec Gaza",
     "description": "Lors de sa douzième conférence nationale, l'OMDH a exprimé sa solidarité avec le peuple palestinien et condamné l'agression israélienne en cours à Gaza, appelant à une intervention internationale.",
-    "image": "/Images/gaza.JPG",
+    "image": "/Images/gaza.jpg",
     "type": "primary"
   },
 ]
