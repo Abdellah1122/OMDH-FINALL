@@ -88,21 +88,21 @@ const timelineEvents = [
     "year": "1988",
     "title": "Fondation de l'OMDH",
     "description": "L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 10 decembre 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.",
-    "image": "/Images/HandsSolidarity.jpg",
+    "image": "/Images/HandsSolidarity.JPG",
     "type": "primary"
   },
   {
     "year": "Début 1989",
     "title": "Plaidoyer pour l'Amnistie",
     "description": "L'OMDH a lancé des appels à l'amnistie pour les prisonniers politiques et soumis des demandes de visite des prisons dans le cadre de ses efforts initiaux.",
-    "image": "/Images/AmnestyInternational.jpg",
+    "image": "/Images/AmnestyInternational.JPG",
     "type": "secondary"
   },
   {
     "year": "1993",
     "title": "Reconnaissance internationale",
     "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
-    "image": "/Images/CandleinHand2.jpg",
+    "image": "/Images/CandleinHand2.JPG",
     "type": "secondary"
   },
     {
@@ -116,14 +116,14 @@ const timelineEvents = [
     "year": "2011",
     "title": "Printemps arabe et Réforme constitutionnelle",
     "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
-    "image": "/Images/.jpeg",
+    "image": "/Images/PA.JPG",
     "type": "secondary"
   },
   {
     "year": "Avril 2025",
     "title": "Solidarité avec Gaza",
     "description": "Lors de sa douzième conférence nationale, l'OMDH a exprimé sa solidarité avec le peuple palestinien et condamné l'agression israélienne en cours à Gaza, appelant à une intervention internationale.",
-    "image": "/Images/gaza.jpg",
+    "image": "/Images/gaza.JPG",
     "type": "primary"
   },
 ]
@@ -173,11 +173,12 @@ export default function HomePage() {
                   className="hero-image"
                 />
                 <div className="hero-overlay" />
-                <div className="hero-content">
+               {/*  <div className="hero-content">
                   <div className="hero-text-box">
                     <p className="hero-text">{slide.text}</p>
                   </div>
                 </div>
+                */}
               </div>
             ))}
           </div>
@@ -279,7 +280,7 @@ export default function HomePage() {
           <section className="story-section">
             <div className="story-container">
               <div className="story-image-section">
-                <img src="/Images/kids.jpg" alt="OMDH Story" className="story-image" />
+                <img src="/Images/kids.JPG" alt="OMDH Story" className="story-image" />
               </div>
               <div className="story-content">
                 <h3 className="story-title">OMDH : Plaidoyer pour la Justice et la Dignité Humaine</h3>

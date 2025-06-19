@@ -7,83 +7,97 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const timelineEvents = [
-    {
+  {
     "year": "1988-1989",
-    "title": "Mahdi ELMANDJRA ",
-    "description": "",
-    "image": "/PastPres/1.JPG",
-    "type": ""
+    "title_fr": "Mahdi ELMANDJRA",
+    "title_ar": "المرحوم الأستاذ المهدي المنجرة",
+    "description": "أستاذ/جامعي",
+    "type": "رئيس شرفي",
+    "status": "المرحوم",
+    "image": "/PastPres/1.JPG"
   },
   {
     "year": "1988-1989",
-    "title": "Omar AZZIMAN",
-    "description": "",
-    "image": "/PastPres/2.JPG",
-    "type": ""
+    "title_fr": "Omar AZZIMAN",
+    "title_ar": "الأستاذ عمر عزيمان",
+    "description": "محام/جامعي",
+    "type": "",
+    "status": "",
+    "image": "/PastPres/2.JPG"
   },
   {
     "year": "1989-1991",
-    "title": "Khalid NACIRI ",
-    "description": "",
-    "image": "/PastPres/3.JPG",
-    "type": ""
+    "title_fr": "Khalid NACIRI",
+    "title_ar": "المرحوم الأستاذ خالد الناصري",
+    "description": "محام/جامعي",
+    "type": "",
+    "status": "المرحوم",
+    "image": "/PastPres/3.JPG"
   },
   {
     "year": "1991-1992",
-    "title": "Ali OUMLIL",
-    "description": "",
-    "image": "/PastPres/4.JPG",
-    "type": ""
+    "title_fr": "Ali OUMLIL",
+    "title_ar": "الأستاذ علي أومليل",
+    "description": "جامعي",
+    "type": "",
+    "status": "",
+    "image": "/PastPres/4.JPG"
   },
   {
     "year": "1993-2000",
-    "title": "Abdelaziz BENNANI",
-    "description": "",
-    "image": "/PastPres/5.JPG",
-    "type": ""
+    "title_fr": "Abdelaziz BENNANI",
+    "title_ar": "الأستاذ عبد العزيز بناني",
+    "description": "محام",
+    "type": "",
+    "status": "",
+    "image": "/PastPres/5.JPG"
   },
   {
     "year": "2000-2006",
-    "title": "Abdellah ELOUALLADI",
-    "description": "",
-    "image": "/PastPres/6.JPG",
-    "type": ""
+    "title_fr": "Abdellah ELOUALLADI",
+    "title_ar": "المرحوم الأستاذ عبد الله الولادي",
+    "description": "محام",
+    "type": "",
+    "status": "المرحوم",
+    "image": "/PastPres/6.JPG"
   },
   {
     "year": "2006-2012",
-    "title": "Amina BOUAYACH",
-    "description": "",
-    "image": "/PastPres/7.JPG",
-    "type": ""
+    "title_fr": "Amina BOUAYACH",
+    "title_ar": "الأستاذة آمنة بوعياش",
+    "description": "خبيرة التواصل المؤسساتي",
+    "type": "",
+    "status": "",
+    "image": "/PastPres/7.JPG"
   },
   {
     "year": "2012-2015",
-    "title": "Mohamed NESHNASH",
-    "description": "",
-    "image": "/PastPres/8.JPG",
-    "type": ""
+    "title_fr": "Mohamed NESHNASH",
+    "title_ar": "الدكتور محمد النشناش",
+    "description": "طبيب",
+    "type": "",
+    "status": "",
+    "image": "/PastPres/8.JPG"
   },
   {
     "year": "2015-2022",
-    "title": "Boubkeur LARGOU ",
-    "description": "",
-    "image": "/PastPres/9.JPG",
-    "type": ""
+    "title_fr": "Boubkeur LARGOU",
+    "title_ar": "الأستاذ بوبكر لركو",
+    "description": "مفتش التعليم الثانوي التأهيلي",
+    "type": "",
+    "status": "",
+    "image": "/PastPres/9.JPG"
   },
   {
     "year": "2022-2025",
-    "title": "El Hassan El IDRISSI ",
-    "description": "",
-    "image": "/PastPres/10.JPG",
-    "type": ""
+    "title_fr": "El Hassan El IDRISSI",
+    "title_ar": "الأستاذ الحسن الإدريس",
+    "description": "إطار إداري",
+    "type": "",
+    "status": "",
+    "image": "/PastPres/10.JPG"
   },
-  {
-    "year": "2025-",
-    "title": "Naoufal Bouamri",
-    "description": "",
-    "image": "/PastPres/11.jpeg",
-    "type": ""
-  }
+  
 ]
 const timelineEvents2 = [
    {
@@ -97,14 +111,14 @@ const timelineEvents2 = [
     "year": "Début 1989",
     "title": "Plaidoyer pour l'Amnistie",
     "description": "L'OMDH a lancé des appels à l'amnistie pour les prisonniers politiques et soumis des demandes de visite des prisons dans le cadre de ses efforts initiaux.",
-    "image": "/Images/AmnestyInternational.jpg",
+    "image": "/Images/AmnestyInternational.JPG",
     "type": "secondary"
   },
   {
     "year": "1993",
     "title": "Reconnaissance internationale",
     "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
-    "image": "/Images/CandleInHand2.jpg",
+    "image": "/Images/CandleInHand2.JPG",
     "type": "secondary"
   },
     {
@@ -118,21 +132,21 @@ const timelineEvents2 = [
     "year": "2004",
     "title": "Justice et Réconciliation",
     "description": "L'OMDH joue un rôle clé au sein de l'Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.",
-    "image": "/Images/Women.jpg",
+    "image": "/Images/Women.JPG",
     "type": "primary"
   },
   {
     "year": "2011",
     "title": "Printemps arabe et Réforme constitutionnelle",
     "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
-    "image": "/Images/.jpeg",
+    "image": "/Images/PA.JPG",
     "type": "secondary"
   },
     {
     "year": "2011",
     "title": "Alliance Anti-Torture",
     "description": "L'OMDH a collaboré avec le Conseil National des Droits de l'Homme (CNDH) et l'Association pour la Prévention de la Torture (APT) sur la ratification du Protocole Facultatif à la Convention des Nations Unies contre la Torture (OPCAT).",
-    "image": "/Images/CNDH.jpg",
+    "image": "/Images/CNDH.JPG",
     "type": "secondary"
   },
   {
@@ -153,7 +167,7 @@ const timelineEvents2 = [
     "year": "Avril 2025",
     "title": "Solidarité avec Gaza",
     "description": "Lors de sa douzième conférence nationale, l'OMDH a exprimé sa solidarité avec le peuple palestinien et condamné l'agression israélienne en cours à Gaza, appelant à une intervention internationale.",
-    "image": "/Images/gaza.jpg",
+    "image": "/Images/gaza.JPG",
     "type": "primary"
   },
 ]
@@ -265,39 +279,43 @@ export default function AboutUsPage() {
                </div>
              </section>
              
-      <section className="timeline-section">
-               <div className="section-header">
-                 <h2 className="section-title">Nos Pésidents </h2>
-               </div>
-     
-               <div className="timeline-container">
-                 <div className="timeline-wrapper">
-                   <div className="timeline-line"></div>
-     
-                   {timelineEvents.map((event, index) => (
-                     <div key={index} className="timeline-item">
-                       <div className="timeline-dot"></div>
-     
-                       <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
-                         <div className="timeline-card">
-                           <div className={`timeline-year ${event.type}`}>{event.year}</div>
-                           <h4 className={`timeline-title ${event.type}`}>{event.title}</h4>
-                           <p className="timeline-description">{event.description}</p>
-                           <div className="timeline-image">
-                             <Image
-                               src={event.image || "/placeholder.svg?height=250&width=400"}
-                               alt={event.title}
-                               fill
-                               className="timeline-img"
-                             />
-                           </div>
-                         </div>
-                       </div>
-                     </div>
-                   ))}
-                 </div>
-               </div>
-             </section>
+      <section className="timeline-section" translate='no'>
+      <div className="section-header">
+        <h2 className="section-title">Nos Pésidents</h2>
+      </div>
+
+      <div className="timeline-container">
+        <div className="timeline-wrapper">
+          <div className="timeline-line"></div>
+
+          {timelineEvents.map((event, index) => (
+            <div key={index} className="timeline-item">
+              <div className="timeline-dot"></div>
+
+              <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
+                <div className="timeline-card">
+                  <div className={`timeline-year ${event.type}`}>{event.year}</div>
+                  {/* Display French title */}
+                  <h4 className={`timeline-title ${event.type}`}>{event.title_fr}</h4>
+                  {/* Display Arabic title */}
+                  {event.title_ar && <h5 className="timeline-title-ar">{event.title_ar}</h5>}
+                  {/* Display description (profession in Arabic) */}
+                  <p className="timeline-description">{event.description}</p>
+                  <div className="timeline-image">
+                    <Image
+                      src={event.image || "/placeholder.svg?height=250&width=400"}
+                      alt={event.title_fr} // Use French title for alt text
+                      fill
+                      className="timeline-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
 
       <div className="values-section">
         <h2>Nos valeurs fondamentales</h2>
@@ -528,6 +546,37 @@ export default function AboutUsPage() {
           display: flex;
           flex-direction: column;
         }
+        /* === STYLE FOR ADDED ARABIC CONTENT === */
+
+          /* Style for the Arabic name (h5 tag) */
+          .timeline-title-ar {
+            font-family: 'Amiri', 'Noto Naskh Arabic', serif; /* A good font for Arabic */
+            font-size: 1.25rem;  /* Slightly larger for readability */
+            font-weight: 500;
+            color: #333; /* Dark grey for a professional look */
+            margin-top: -0.75rem; /* Reduce space below the French title */
+            margin-bottom: 1rem;
+            line-height: 1.5;
+            direction: rtl; /* Ensure right-to-left text direction */
+            text-align: right;
+            overflow:hidden;
+          }
+
+          /* Adjustments for the description (profession in Arabic) */
+          .timeline-description {
+            font-family: 'Amiri', 'Noto Naskh Arabic', serif; /* Consistent Arabic font */
+            font-size: 1rem;
+            color: #555; /* Slightly lighter than the title */
+            direction: rtl; /* Ensure right-to-left text direction */
+            text-align: right;
+            overflow:hidden;
+          }
+
+          /* Optional: Add a special style for the Honorary President's year text */
+          .timeline-year.رئيس.شرفي {
+              color: #d3612f; /* Example color to make it stand out */
+              font-weight: 700;
+          }
 
         .timeline-container {
           background: white;
