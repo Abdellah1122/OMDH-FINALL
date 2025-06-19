@@ -68,7 +68,7 @@ const leadershipTeam = [
     name: "Ahmed Regragui",
     name_ar: "أحمد الركراكي",
     position: "Conseiller",
-    image: "/placeholder.svg?height=350&width=320",
+    image: "/Membres/Ahmed rakraki.jpg",
     level: "member",
   },
   {
@@ -92,7 +92,7 @@ const leadershipTeam = [
     name: "Amina El Gani",
     name_ar: "أمينة الگاني",
     position: "Conseillère",
-    image: "/placeholder.svg?height=350&width=320",
+    image: "/Membres/amina elgani.jpeg.jpg",
     level: "member",
   },
   {
@@ -108,7 +108,7 @@ const leadershipTeam = [
     name: "Kamilia Boutamou",
     name_ar: "كاميليا بوتامو",
     position: "Conseillère",
-    image: "/Membres/Kamelia.jpg",
+    image: "/Membres/Kam.JPG",
     level: "member",
   },
   {
@@ -163,7 +163,7 @@ const teamMembers = [
     name: "Amal IDRISSI CHORFI",
     name_ar: "أمل الإدريسي الشرفي",
     position: "Assistante Financière (Documentation)",
-    image: "/placeholder.svg?height=280&width=250",
+    image: "/Membres/AMAL.jpg",
   },
 ];
 
