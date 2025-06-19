@@ -98,13 +98,6 @@ const timelineEvents = [
     "type": "secondary"
   },
   {
-    "year": "1993",
-    "title": "Reconnaissance internationale",
-    "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
-    "image": "/Images/CandleinHand.jpg",
-    "type": "secondary"
-  },
-  {
     "year": "2011",
     "title": "Printemps arabe et Réforme constitutionnelle",
     "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
