@@ -314,7 +314,7 @@ export default function HomePage() {
             </div>
             <div className="map-container">
                <iframe
-               //src
+src="https://www.openstreetmap.org/export/embed.html?bbox=-6.867313299256923%2C33.9897194585291%2C-6.836693201142908%2C34.00332876585739&amp;layer=mapnik"
                 width="100%"
                 height="500"
                 title="OMDH Location"

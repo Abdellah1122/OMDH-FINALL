@@ -114,6 +114,7 @@ export default function ContactPage() {
           <div className="map-container">
             <iframe 
               loading="lazy"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-6.867313299256923%2C33.9897194585291%2C-6.836693201142908%2C34.00332876585739&amp;layer=mapnik"
               referrerPolicy="no-referrer-when-downgrade"
               title="OMDH Location - 8 rue Ouargha, Résidence Volubilis, Agdal, Rabat, Maroc">
             </iframe>
