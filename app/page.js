@@ -14,7 +14,7 @@ const heroSlides = [
     text: "Explorez nos dernières initiatives et découvrez en avant-première les événements impactants qui nous attendent. Rejoignez-nous dans la défense des droits humains et soyez parmi les premiers à nous soutenir pour le changement.",
   },
   {
-    image: "/Images/kids.JPG",
+    image: "/Images/Hands.jpg",
     alt: "Peace Pigeon",
     text: "Découvrez notre mission et voyez comment nous travaillons chaque jour pour défendre la dignité humaine, promouvoir la justice et créer un changement durable.",
   },
@@ -25,7 +25,6 @@ const heroSlides = [
   },
   {
     image: "/Images/omdhbg.jpg",
-    alt: "Hand Solidarity",
   },
 ]
 
@@ -104,13 +103,6 @@ const timelineEvents = [
     "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
     "image": "/Images/CandleinHand.jpg",
     "type": "secondary"
-  },
-    {
-    "year": "1997",
-    "title": "Intégration Régionale",
-    "description": "L'OMDH est devenu membre régulier du réseau EuroMed Rights, indiquant son engagement dans les cadres régionaux des droits humains.",
-    "image": "/Images/blue.png",
-    "type": "primary"
   },
   {
     "year": "2011",
