@@ -102,7 +102,7 @@ const timelineEvents = [
     "year": "1993",
     "title": "Reconnaissance internationale",
     "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
-    "image": "/Images/CandleinHand2.jpg",
+    "image": "/Images/CandleinHand.jpg",
     "type": "secondary"
   },
     {
@@ -280,7 +280,7 @@ export default function HomePage() {
           <section className="story-section">
             <div className="story-container">
               <div className="story-image-section">
-                <img src="/Images/kids.jpg" alt="OMDH Story" className="story-image" />
+                <img src="/Images/Hands.jpg" alt="OMDH Story" className="story-image" />
               </div>
               <div className="story-content">
                 <h3 className="story-title">OMDH : Plaidoyer pour la Justice et la Dignité Humaine</h3>
