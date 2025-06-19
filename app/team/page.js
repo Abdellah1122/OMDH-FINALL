@@ -108,7 +108,7 @@ const leadershipTeam = [
     name: "Kamilia Boutamou",
     name_ar: "كاميليا بوتامو",
     position: "Conseillère",
-    image: "/Membres/Kamelia.png",
+    image: "/Membres/WhatsApp Image 2025-06-19 at 01.42.51_d4f6c485.jpg",
     level: "member",
   },
   {
