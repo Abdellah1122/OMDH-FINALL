@@ -40,14 +40,14 @@ export default function EditionsPage() {
             {/* Content from the PDF document */}
             <span className="article-category">Déclaration</span>
             <h3 className="article-title">
-              L'OMDH commémore la Journée Mondiale des Réfugiés
+              L&apos;OMDH commémore la Journée Mondiale des Réfugiés
             </h3>
             <div className="article-meta">
               <span className="article-author">OMDH</span>
               <span className="article-date">Vendredi 20 Juin 2025</span>
             </div>
             <p className="article-excerpt">
-              À l'occasion de la Journée Mondiale des Réfugiés, l'Organisation Marocaine des Droits Humains (OMDH) réaffirme ses positions de principe concernant les droits des migrants et des réfugiés...
+              À l&apos;occasion de la Journée Mondiale des Réfugiés, l&apos;Organisation Marocaine des Droits Humains (OMDH) réaffirme ses positions de principe concernant les droits des migrants et des réfugiés...
             </p>
             {/* Make sure the href points to the correct page for this new article */}
             <Link href="/Article13" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
