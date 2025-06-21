@@ -12,18 +12,20 @@ export default function WorldRefugeeDayStatementPage() {
       <Navbar />
 
             <main translate="no">
-        <nav className="nav-breadcrumb">
-          <div className="container">
-            <div className="breadcrumb">
-              <Link href="/" style={{color:'black',backgroundColor:'transparent' , border:'none'}}>Accueil</Link>
-              <span>›</span>
-              <Link href="/editions" style={{color:'black',backgroundColor:'transparent' , border:'none'}}>Editions</Link>
-              <span>›</span>
-              {/* Updated breadcrumb title */}
+
+         <nav className="nav-breadcrumb">
+          <div className="container">
+            <div className="breadcrumb">
+              <Link href="/" style={{color:'black',backgroundColor:'transparent' , border:'none'}}>Accueil</Link>
+              <span>›</span>
+              <Link href="/editions" style={{color:'black',backgroundColor:'transparent' , border:'none'}}>Editions</Link>
+              <span>›</span>
               <span >المنظمة المغربية لحقوق الإنسان تخلد اليوم العالمي للاجئين</span>
-            </div>
-          </div>
-        </nav>
+            </div>
+          </div>
+        </nav>
+
+       
 
         <header className="article-header" dir="rtl" lang="ar">
           <div className="container">
@@ -109,7 +111,7 @@ export default function WorldRefugeeDayStatementPage() {
 
       {/* Page-specific styles for the article template */}
       <style jsx>{`
-        /* Styles are kept the same as they are generic for the article template */
+        /* Using the same article template styles as the previous page */
         .container {
           max-width: 800px;
           margin: 0 auto;
@@ -187,6 +189,20 @@ export default function WorldRefugeeDayStatementPage() {
           height: 16px;
           background-color: #eeeeee;
         }
+        .article-hero {
+          margin: 40px auto;
+          max-width: 800px;
+          padding: 0 20px;
+        }
+        .hero-image {
+          width: 100%;
+          height: auto;
+          max-height: 450px;
+          object-fit: cover;
+          display: block;
+          border-radius: 12px;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
         .article-content {
           background-color: #ffffff;
           padding: 50px 0;
@@ -225,7 +241,7 @@ export default function WorldRefugeeDayStatementPage() {
           margin: 0;
         }
         .highlight-box ul {
-          list-style-type: '✔  ';
+           list-style-type: '✔  ';
         }
         .author-section {
           background-color: var(--light-bg);
