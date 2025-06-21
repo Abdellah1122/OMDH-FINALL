@@ -9,121 +9,151 @@ import Footer from "../components/Footer"
 const leadershipTeam = [
   {
     id: 1,
-    name: "Noufal Al-Baamari",
+    name: "Naoufal BOUAMRI",
     name_ar: "نوفل البعمري",
     position: "Président",
+    statu: "محام",
+    statu_ar: "Avocat",
     image: "/Membres/naoufal.jpg",
     level: "president",
   },
   {
     id: 2,
-    name: "Ahmed Moufid",
-    name_ar: "أحمد مفيد",
+    name: "Ahmed MOUFID",
+    name_ar: " أحمد مفيد",
     position: "Vice-président",
+    statu: "أستاذ باحث",
+    statu_ar: "Professeur chercheur",
     image: "/Membres/ahmad mofid.jpg",
     level: "vice-president",
   },
   {
     id: 3,
-    name: "Houssam Haab",
+    name: "Hossam HAB",
     name_ar: "حسام هاب",
     position: "Trésorier",
+    statu: "موظف",
+    statu_ar: "Employé",
     image: "/Membres/hab houssam.jpg",
     level: "vice-president",
   },
   {
     id: 4,
-    name: "Reda Al-Filali Hammouz",
-    name_ar: "رضا الفيلالي حموز",
+    name: "RIDA El FILALI HAMOZ",
+    name_ar: "رضا الفيلالي حموز ",
     position: "Trésorier Adjoint",
+    statu: "ذ. جامعي",
+    statu_ar: "Professeur universitaire",
     image: "/Membres/rida.jpg",
     level: "executive",
   },
   {
     id: 5,
-    name: "Zineb Abu Al-Zohour",
+    name: "Zineb ABOUZZOUHOUR",
     name_ar: "زينب أبو الزهور",
     position: "Secrétaire Générale",
+    statu: "مستشارة",
+    statu_ar: "Conseillère",
     image: "/Membres/AbouZhor.jpg",
     level: "executive",
   },
   {
     id: 6,
-    name: "Ahmed Hammoush",
+    name: "AHMED HAMOUCH",
     name_ar: "أحمد حموش",
     position: "Secrétaire Général Adjoint",
+    statu: "محام",
+    statu_ar: "Avocat",
     image: "/Membres/ahmad.jpg",
     level: "executive",
   },
   {
     id: 7,
-    name: "Abdeljalil Bado",
-    name_ar: "عبد الجليل بادو",
+    name: "Abdeljalil BADDOU",
+    name_ar: "عبد الجليل بادو ",
     position: "Conseiller",
+    statu: "أستاذ جامعي",
+    statu_ar: "Professeur d'université",
     image: "/Membres/bado.jpg",
     level: "member",
   },
   {
     id: 8,
-    name: "Ahmed Regragui",
-    name_ar: "أحمد الركراكي",
+    name: "Ahmed RAKRAKI",
+    name_ar: "أحمد الرقراقي",
     position: "Conseiller",
+    statu: "أستاذ سابق",
+    statu_ar: "Ancien enseignant",
     image: "/Membres/Ahmed rakraki.jpg",
     level: "member",
   },
   {
     id: 9,
-    name: "Mohammed Ettaybi",
+    name: "Mohamed TAYEBI",
     name_ar: "محمد الطيبي",
     position: "Conseiller",
+    statu: "ذ. جامعي",
+    statu_ar: "Professeur universitaire",
     image: "/Membres/tayebi mohammed.jpg",
     level: "member",
   },
   {
     id: 10,
-    name: "Murad Hamdani",
-    name_ar: "مراد حمداني",
+    name: "Mourad HAMDANI",
+    name_ar: "مراد الحمداني",
     position: "Conseiller",
+    statu: "أستاذ",
+    statu_ar: "Professeur",
     image: "/Membres/mourad.jpg",
     level: "member",
   },
   {
     id: 11,
-    name: "Amina El Gani",
-    name_ar: "أمينة الگاني",
+    name: "Amina ELGANI",
+    name_ar: "أمينة الكاني",
     position: "Conseillère",
+    statu: "ذة. متقاعدة",
+    statu_ar: "Professeure à la retraite",
     image: "/Membres/amina elgani.jpeg.jpg",
     level: "member",
   },
   {
     id: 12,
-    name: "Fatima Sabahi",
+    name: "Fatima SABAHI",
     name_ar: "فاطمة صباحي",
     position: "Conseillère",
+    statu: "أستاذة",
+    statu_ar: "Professeure",
     image: "/Membres/FATIMA SABAHI.jpg",
     level: "member",
   },
   {
     id: 13,
-    name: "Kamilia Boutamou",
-    name_ar: "كاميليا بوتامو",
+    name: "Kamilia BOUTAMOU",
+    name_ar: "كاميليا بوطمو",
     position: "Conseillère",
+    statu: "محامية",
+    statu_ar: "Avocate",
     image: "/Membres/WhatsApp Image 2025-06-19 at 01.42.51_d4f6c485.jpg",
     level: "member",
   },
   {
     id: 14,
-    name: "Fadwa Amharesh",
-    name_ar: "فدوى أمحارش",
+    name: "Fadwa AMHARECH",
+    name_ar: "فدوى امحارش",
     position: "Conseillère",
+    statu: "مكلفة بمشاريع الوكالة البلجيكية للتعاون الدولي",
+    statu_ar: "Chargée de projets à l'Agence belge de coopération internationale",
     image: "/Membres/fadwa.jpg",
     level: "member",
   },
   {
     id: 15,
-    name: "Souad Hamidi",
+    name: "Souad HAMIDI",
     name_ar: "سعاد حميدي",
     position: "Conseillère",
+    statu: "ذة. جامعية",
+    statu_ar: "Professeure d'université",
     image: "/Membres/souad hamidi.jpg",
     level: "member",
   },
@@ -205,7 +235,18 @@ export default function TeamPage() {
           </div>
         </section>
 
-        {/* Team Section */}
+        {/* {teamMembers.map((member) => (
+                      <div key={member.id} className="team-member grid-member">
+                        <div className="member-image grid-image">
+                          <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill className="member-img" />
+                        </div>
+                        <div className="member-info">
+                          <h3 className="member-name">{`${member.name} / ${member.name_ar}`}</h3>
+                          <p className="member-position">{member.position}</p>
+                        </div>
+                      </div>
+                    ))}
+        */}
         <section className="team-section">
           <div className="container">
             {/* Leadership Team */}
@@ -299,26 +340,9 @@ export default function TeamPage() {
 
             {/* Team Members */}
             <div className="team-members">
-              <div className="section-header">
-                <span className="section-subtitle">Équipe</span>
-                <h2 className="section-title">Notre Équipe Complète</h2>
-                <p className="section-description">
-                  Des membres dévoués qui contribuent chaque jour au succès de notre mission.
-                </p>
-              </div>
-
+              
               <div className="team-grid">
-                {teamMembers.map((member) => (
-                  <div key={member.id} className="team-member grid-member">
-                    <div className="member-image grid-image">
-                      <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill className="member-img" />
-                    </div>
-                    <div className="member-info">
-                      <h3 className="member-name">{`${member.name} / ${member.name_ar}`}</h3>
-                      <p className="member-position">{member.position}</p>
-                    </div>
-                  </div>
-                ))}
+                
               </div>
             </div>
           </div>

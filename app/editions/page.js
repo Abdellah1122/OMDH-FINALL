@@ -31,6 +31,28 @@ export default function EditionsPage() {
         <div className="article-list"  translate="no">
           {/* Note: I've updated the hrefs to point to the pages we created! */}
 
+          <article className="article-item">
+          <div className="article-image">
+            {/* Using the organization's logo as a placeholder image */}
+            <Image src="/omdhlogo.png" alt="Déclaration de l'OMDH pour la Journée Mondiale des Réfugiés" width={300} height={300} style={{objectFit: 'contain', padding: '1rem', backgroundColor: '#f0f0f0'}}/>
+          </div>
+          <div className="article-content">
+            {/* Content from the PDF document */}
+            <span className="article-category">Déclaration</span>
+            <h3 className="article-title">
+              L'OMDH commémore la Journée Mondiale des Réfugiés
+            </h3>
+            <div className="article-meta">
+              <span className="article-author">OMDH</span>
+              <span className="article-date">Vendredi 20 Juin 2025</span>
+            </div>
+            <p className="article-excerpt">
+              À l'occasion de la Journée Mondiale des Réfugiés, l'Organisation Marocaine des Droits Humains (OMDH) réaffirme ses positions de principe concernant les droits des migrants et des réfugiés...
+            </p>
+            {/* Make sure the href points to the correct page for this new article */}
+            <Link href="/world-refugee-day-statement" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+          </div>
+        </article>
 
           <article className="article-item">
               <div className="article-image">
@@ -325,16 +347,7 @@ export default function EditionsPage() {
             padding-bottom: 10px;
             text-align: center;
         }
-        .section-title::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background-color: var(--primary-color);
-        }
+        
 
         /* Article List */
         .article-list {

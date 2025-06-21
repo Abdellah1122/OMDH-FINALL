@@ -69,6 +69,120 @@ const officeData = [
     address: "Rue de Fès N° 156, face au laboratoire Castilla",
   },
 ]
+const sections = [
+  {
+    id: 1,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Mohamed LAMRABTI", // 
+    city: "Al Hoceima", // 
+    address: "Al Hoceima", // 
+  },
+  {
+    id: 2,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Azzouz BOULAGDOUR", // 
+    city: "Nador", // 
+    address: "Nador", // 
+  },
+  {
+    id: 3,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Abderrazak OUIAM", // 
+    city: "Oujda", // 
+    address: "زنقة زياد، حي المحطة، الطابق الأول - وجدة", // 
+  },
+  {
+    id: 4,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Hamid BOUMAANE", // 
+    city: "Sefrou", // 
+    address: "Sefrou", // 
+  },
+  {
+    id: 5,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Mohammed KECHIKECHE", // 
+    city: "Meknes", // 
+    address: "Meknes", // 
+  },
+  {
+    id: 6,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Abdelkhalek EL BOUMESLOUHI", // 
+    city: "Rabat", // 
+    address: "8 زنقة ورغة إقامة وليلي الشقة 1 أكدال -الرباط", // 
+  },
+  {
+    id: 7,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Mourad TABET", // 
+    city: "Casablanca", // 
+    address: "ساحة باستور 17 إقامة Build Pasteur ، الطابق الأول رقم 13- الدار البيضاء", // 
+  },
+  {
+    id: 8,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Ismael JEBARI GARFATI", // 
+    city: "Tangier", // 
+    address: "زنقة فاس، رم 156- أمام مختبر Castilla- طنجة", // 
+  },
+  {
+    id: 9,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Sabrina HAMINA", // 
+    city: "Tétouan", // 
+    address: "Tétouan", // 
+  },
+  {
+    id: 10,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Abdelali ESSAFI", // 
+    city: "Kénitra", // 
+    address: "Kénitra", // 
+  },
+  {
+    id: 11,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Lhoussine IKAJTAOUN", // 
+    city: "Agadir", // 
+    address: "رقم 22- الطابق الخامس عمارة Moulak- زنقة القاضي عياض، المنطقة الصناعية- أكادير", // 
+  },
+  {
+    id: 12,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Driss JABRI", // 
+    city: "Beni Mellal", // 
+    address: "Beni Mellal", // 
+  },
+  {
+    id: 13,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Bouazza KARIM", // 
+    city: "Oued Zem", // 
+    address: "Oued Zem", // 
+  },
+  {
+    id: 14,
+    type: "section",
+    typeLabel: "Section",
+    responsable: "Zineb HAZZAZ", // 
+    city: "Fes", // 
+    address: "Fes", // 
+  },
+];
 
 const statsData = [
   { number: "12", label: "Régions Actives" },
@@ -188,7 +302,35 @@ export default function PresencePage() {
                 ))}
               </div>
             </div>
-
+            
+             {/* ===== START: NEW LOCAL SECTIONS ===== */}
+            <div className="local-sections">
+              <div className="timeline-header">
+                <h2>Nos Sections Locales</h2>
+                <p className="timeline-description">
+                  Découvrez nos sections locales et les responsables qui animent notre réseau à travers le Maroc.
+                </p>
+              </div>
+              <div className="section-grid">
+                {sections.map((section) => (
+                  <div key={section.id} className="section-card">
+                    <div className="section-info">
+                      <span className="section-type-label">{section.typeLabel}</span>
+                      <h3>{section.city}</h3>
+                      <div className="section-contact">
+                        <div className="contact-item responsable">
+                          <span>{`Responsable: ${section.responsable}`}</span>
+                        </div>
+                        <div translate="no" className="contact-item address">
+                          <span>{section.address}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* ===== END: NEW LOCAL SECTIONS ===== */}
             {/* Future Expansion */}
             <div className="future-expansion">
               <h2>Perspectives d&apos;Avenir</h2>
@@ -400,17 +542,7 @@ export default function PresencePage() {
           padding-bottom: 0.5rem;
         }
 
-        .timeline-header h2::after {
-          content: '';
-          position: absolute;
-          bottom: -10px;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 60px;
-          height: 3px;
-          background-color: #d3612f;
-          border-radius: 1.5px;
-        }
+        
 
         .timeline-description {
           max-width: 800px;
@@ -492,7 +624,63 @@ export default function PresencePage() {
           padding-top: 1rem;
           border-top: 1px solid #e8f0ed;
         }
+/* ===== START: NEW SECTION STYLES ===== */
+        .section-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: 2rem;
+        }
 
+        .section-card {
+          background-color: white;
+          border-radius: 6px;
+          box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+          overflow: hidden;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .section-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-info {
+          padding: 1.5rem;
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+        }
+
+        .section-type-label {
+          display: inline-block;
+          background-color: #e0f2f1;
+          color: #00796b;
+          padding: 0.3rem 0.8rem;
+          border-radius: 4px;
+          font-size: 0.8rem;
+          font-weight: 600;
+          margin-bottom: 0.8rem;
+          align-self: flex-start;
+        }
+        
+        .section-info h3 {
+          color: #1957a6;
+          margin-bottom: 0.8rem;
+          font-size: 1.25rem;
+        }
+        
+        .section-contact {
+          margin-top: auto;
+          padding-top: 1rem;
+          border-top: 1px solid #e8f0ed;
+        }
+
+        .section-contact .contact-item.responsable::before {
+          content: '👤';
+        }
+        /* ===== END: NEW SECTION STYLES ===== */
         .contact-item {
           display: flex;
           align-items: center;

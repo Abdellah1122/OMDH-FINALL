@@ -314,8 +314,7 @@ export default function HomePage() {
             </div>
             <div className="map-container">
                <iframe
-src="https://www.openstreetmap.org/export/embed.html?bbox=-6.867313299256923%2C33.9897194585291%2C-6.836693201142908%2C34.00332876585739&amp;layer=mapnik"
-                width="100%"
+src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=8,%20rue%20Ouargha,%20R%C3%A9sidence%20Volubilis,%20appt%201,%20Agdal%20/%20Rabat,%20Maroc+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"                width="100%"
                 height="500"
                 title="OMDH Location"
                 className="map-iframe"
