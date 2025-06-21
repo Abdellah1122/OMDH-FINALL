@@ -50,7 +50,7 @@ export default function EditionsPage() {
               À l'occasion de la Journée Mondiale des Réfugiés, l'Organisation Marocaine des Droits Humains (OMDH) réaffirme ses positions de principe concernant les droits des migrants et des réfugiés...
             </p>
             {/* Make sure the href points to the correct page for this new article */}
-            <Link href="/world-refugee-day-statement" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+            <Link href="/Article13" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
           </div>
         </article>
 
