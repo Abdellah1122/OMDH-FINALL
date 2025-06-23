@@ -60,7 +60,7 @@ export default function ContactPage() {
               <i className="bi bi-geo-alt-fill"></i>
               <div>
                 <p><strong>Adresse</strong></p>
-                <p className="contact-value">
+                <p className="contact-value"  translate='no'>
                   8, rue Ouargha,<br />
                   Résidence Volubilis, appt 1,<br />
                   Agdal / Rabat,<br />
@@ -84,7 +84,7 @@ export default function ContactPage() {
             <div className="contact-card auto-show">
               <i className="bi bi-phone-fill"></i>
               <div>
-                <p><strong>Mobile</strong></p>
+                <p><strong>Téléphone portable</strong></p>
                 <p className="contact-value">
                   <a href="tel:+212666947975" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none', textDecoration: 'none'}}>
                     +212 666 94 79 75
@@ -97,7 +97,7 @@ export default function ContactPage() {
               <i className="bi bi-envelope-fill"></i>
               <div>
                 <p><strong>Email</strong></p>
-                <p className="contact-value">
+                <p className="contact-value" translate='no'>
                   <a href="mailto:admin.omdh@omdh.ma" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none', textDecoration: 'none'}}>
                     admin.omdh@omdh.ma
                   </a>

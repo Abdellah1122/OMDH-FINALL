@@ -219,368 +219,362 @@ export default function TeamPage() {
       <Navbar />
 
       <main>
-        {/* Hero Section */}
-        <section className="hero-section">
-          <div className="container">
-            <div className="hero-content">
-              <span className="hero-subtitle-top">Rencontrez Notre Équipe</span>
-              <h1 className="hero-title">
-                Les visages derrière notre <span>mission</span>
-              </h1>
-              <p className="hero-subtitle">
-                Une équipe passionnée et dévouée travaillant sans relâche pour protéger et assister les réfugiés et
-                demandeurs d&apos;asile au Maroc.
-              </p>
-            </div>
-          </div>
-        </section>
+  {/* Hero Section */}
+  <section className="hero-section">
+    <div className="container">
+      <div className="hero-content">
+        <span className="hero-subtitle-top">Rencontrez Notre Équipe</span>
+        <h1 className="hero-title">
+          Les visages derrière notre <span>mission</span>
+        </h1>
+        <p className="hero-subtitle">
+          Une équipe passionnée et dévouée travaillant sans relâche.
+        </p>
+      </div>
+    </div>
+  </section>
 
-        {/* {teamMembers.map((member) => (
-                      <div key={member.id} className="team-member grid-member">
-                        <div className="member-image grid-image">
-                          <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill className="member-img" />
-                        </div>
-                        <div className="member-info">
-                          <h3 className="member-name">{`${member.name} / ${member.name_ar}`}</h3>
-                          <p className="member-position">{member.position}</p>
-                        </div>
-                      </div>
-                    ))}
-        */}
-        <section className="team-section">
-          <div className="container">
-            {/* Leadership Team */}
-            <div className="leadership-team">
-              <div className="section-header">
-                <span className="section-subtitle">Leadership</span>
-                <h2 className="section-title">Notre Leadership</h2>
-                <p className="section-description">
-                  L&apos;équipe de direction qui guide notre organisation avec vision et détermination.
-                </p>
-              </div>
+  <section className="team-section">
+    <div className="container" translate="no">
+      {/* Leadership Team */}
+      <div className="leadership-team">
+        <div className="section-header">
+          <span className="section-subtitle">Leadership</span>
+          <h2 className="section-title">Notre Bureau Exécutif</h2>
+          <p className="section-description">
+            L&apos;équipe de direction qui guide notre organisation avec vision et détermination.
+          </p>
+        </div>
 
-              {/* President */}
-              {president.length > 0 && (
-                <div className="team-level">
-                  <div className="team-row">
-                    {president.map((member) => (
-                      <div key={member.id} className="team-member">
-                        <div className="member-image">
-                          <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill className="member-img" />
-                        </div>
-                        <div className="member-info">
-                          <h3 className="member-name">{`${member.name} / ${member.name_ar}`}</h3>
-                          <p className="member-position">{member.position}</p>
-                        </div>
-                      </div>
-                    ))}
+        {/* President */}
+        {president.length > 0 && (
+          <div className="team-level">
+            <div className="team-row">
+              {president.map((member) => (
+                <div key={member.id} className="team-member">
+                  <div className="member-image">
+                    <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill style={{ objectFit: 'cover' }} />
                   </div>
-                </div>
-              )}
-
-              {/* Vice Presidents */}
-              {vicePresidents.length > 0 && (
-                <div className="team-level">
-                  <div className="team-row">
-                    {vicePresidents.map((member) => (
-                      <div key={member.id} className="team-member">
-                        <div className="member-image">
-                          <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill className="member-img" />
-                        </div>
-                        <div className="member-info">
-                          <h3 className="member-name">{`${member.name} / ${member.name_ar}`}</h3>
-                          <p className="member-position">{member.position}</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Executives */}
-              {executives.length > 0 && (
-                <div className="team-level">
-                  <div className="team-row">
-                    {executives.map((member) => (
-                      <div key={member.id} className="team-member">
-                        <div className="member-image">
-                          <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill className="member-img" />
-                        </div>
-                        <div className="member-info">
-                          <h3 className="member-name">{`${member.name} / ${member.name_ar}`}</h3>
-                          <p className="member-position">{member.position}</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Members */}
-              {members.length > 0 && (
-                <div className="team-level">
-                  <h3 className="level-title">.</h3>
-                  {memberRows.map((row, rowIndex) => (
-                    <div key={rowIndex} className="team-row">
-                      {row.map((member) => (
-                        <div key={member.id} className="team-member member-no-position">
-                          <div className="member-image">
-                            <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill className="member-img" />
-                          </div>
-                          <div className="member-info">
-                            <h3 className="member-name">{`${member.name} / ${member.name_ar}`}</h3>
-                          </div>
-                        </div>
-                      ))}
+                  <div className="member-info">
+                    <h3 className="member-name">{member.name}</h3>
+                    <h4 className="member-name-ar">{member.name_ar}</h4>
+                    <p className="member-position">{member.position}</p>
+                    <div className="member-status">
+                      <p>{member.statu_ar}</p>
+                      <p>{member.statu}</p>
                     </div>
-                  ))}
+                  </div>
                 </div>
-              )}
-            </div>
-
-            {/* Team Members */}
-            <div className="team-members">
-              
-              <div className="team-grid">
-                
-              </div>
+              ))}
             </div>
           </div>
-        </section>
-      </main>
+        )}
+
+        {/* Vice Presidents */}
+        {vicePresidents.length > 0 && (
+          <div className="team-level">
+            <div className="team-row">
+              {vicePresidents.map((member) => (
+                <div key={member.id} className="team-member">
+                  <div className="member-image">
+                    <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill style={{ objectFit: 'cover' }} />
+                  </div>
+                  <div className="member-info">
+                    <h3 className="member-name">{member.name}</h3>
+                    <h4 className="member-name-ar">{member.name_ar}</h4>
+                    <p className="member-position">{member.position}</p>
+                     <div className="member-status">
+                      <p>{member.statu_ar}</p>
+                      <p>{member.statu}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Executives */}
+        {executives.length > 0 && (
+          <div className="team-level">
+            <div className="team-row">
+              {executives.map((member) => (
+                <div key={member.id} className="team-member">
+                  <div className="member-image">
+                    <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill style={{ objectFit: 'cover' }} />
+                  </div>
+                   <div className="member-info">
+                    <h3 className="member-name">{member.name}</h3>
+                    <h4 className="member-name-ar">{member.name_ar}</h4>
+                    <p className="member-position">{member.position}</p>
+                     <div className="member-status">
+                      <p>{member.statu_ar}</p>
+                      <p>{member.statu}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Members */}
+        {members.length > 0 && (
+          <div className="team-level">
+             <div className="section-header">
+               <h2 className="section-title">Nos Conseillers</h2>
+            </div>
+            {memberRows.map((row, rowIndex) => (
+              <div key={rowIndex} className="team-row">
+                {row.map((member) => (
+                  <div key={member.id} className="team-member">
+                    <div className="member-image">
+                      <Image src={member.image || "/placeholder.svg"} alt={`${member.name} / ${member.name_ar}`} fill style={{ objectFit: 'cover' }} />
+                    </div>
+                    <div className="member-info">
+                        <h3 className="member-name">{member.name}</h3>
+                        <h4 className="member-name-ar">{member.name_ar}</h4>
+                        <p className="member-position">{member.position}</p>
+                         <div className="member-status">
+                            <p>{member.statu_ar}</p>
+                            <p>{member.statu}</p>
+                        </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+      
+    </div>
+  </section>
+</main>
 
       <Footer />
 
-      <style jsx>{`
-        /* Global Styles */
-        .team-page {
-          min-height: 100vh;
-          background-color: #f9f9f9;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          color: #333;
-        }
+     <style jsx>{`
+  /* Global Styles */
+  .team-page {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
 
-        .container {
-          width: 90%;
-          max-width: 1100px;
-          margin: 0 auto;
-          padding: 0 20px;
-        }
+  .container {
+    width: 90%;
+    max-width: 1200px; /* Increased max-width for better spacing */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 
-        /* Hero Section */
-        .hero-section {
-          padding: 100px 0;
-          background-color: #fff;
-          text-align: center;
-        }
+  /* Hero Section */
+  .hero-section {
+    padding: 100px 0;
+    background-color: #fff;
+    text-align: center;
+  }
 
-        .hero-content {
-          max-width: 700px;
-          margin: 0 auto;
-        }
+  .hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
 
-        .hero-subtitle-top {
-          font-size: 0.9rem;
-          color: #555;
-          margin-bottom: 10px;
-          letter-spacing: 0.1em;
-          text-transform: uppercase;
-        }
+  .hero-subtitle-top {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
 
-        .hero-title {
-          font-size: 2.8rem;
-          font-weight: 600;
-          line-height: 1.2;
-          margin-bottom: 20px;
-          color: #222;
-        }
+  .hero-title {
+    font-size: 2.8rem;
+    font-weight: 700; /* Bolder title */
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #222;
+  }
 
-        .hero-title span {
-          color:var(--primary-color);
-        }
+  .hero-title span {
+    color: var(--primary-color); /* Use a variable for primary color */
+  }
 
-        .hero-subtitle {
-          font-size: 1.1rem;
-          color: #666;
-          line-height: 1.6;
-        }
+  .hero-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+  }
 
-        /* Team Section */
-        .team-section {
-          padding: 80px 0;
-          background-color: #f9f9f9;
-        }
+  /* Team Section */
+  .team-section {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+  }
 
-        .section-header {
-          text-align: center;
-          margin-bottom: 50px;
-          
-        }
+  .section-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
 
-        .section-subtitle {
-          font-size: 0.85rem;
-          color: #777;
-          margin-bottom: 8px;
-          letter-spacing: 0.1em;
-          text-transform: uppercase;
-        }
+  .section-subtitle {
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 8px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
 
-        .section-title {
-          font-size: 2.2rem;
-          font-weight: 500;
-          color: #222;
-          margin-bottom: 15px;
-          color:var(--primary-color);
-        }
+  .section-title {
+    font-size: 2.4rem; /* Larger section title */
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .section-title:not(:first-child) {
+     margin-top: 40px;
+  }
 
-        .section-description {
-          font-size: 1rem;
-          color: #666;
-          line-height: 1.6;
-          max-width: 600px;
-          margin: 0 auto;
-        }
 
-        .team-level {
-          margin-bottom: 60px;
-        }
+  .section-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
 
-        .level-title {
-          font-size: 1.5rem;
-          font-weight: 500;
-          color: #333;
-          margin-bottom: 20px;
-          text-align: center;
-        }
+  .team-level {
+    margin-bottom: 40px;
+  }
 
-        .leadership-team > .section-header,
-        .team-members > .section-header {
-          margin-bottom: 40px;
-        }
+  /* Team Row */
+  .team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Increased gap */
+    margin-bottom: 20px;
+  }
 
-        /* Team Row */
-        .team-row {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 20px;
-          margin-bottom: 40px;
-        }
+  /* Team Member Card */
+  .team-member {
+    background-color: #fff;
+    border-radius: 12px; /* Smoother corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    width: 300px; /* Slightly wider card */
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-        .team-row:last-child {
-          margin-bottom: 0;
-        }
+  .team-member:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  }
 
-        /* Team Member Card */
-        .team-member {
-          background-color: #fff;
-          border-radius: 8px;
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-          overflow: hidden;
-          width: 280px;
-          transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        }
+  .member-image {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background-color: #eee;
+  }
 
-        .team-member:hover {
-          transform: translateY(-5px);
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
+  /* Member Info section */
+  .member-info {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Allows info to fill space */
+    justify-content: center;
+  }
 
-        .member-image {
-          position: relative;
-          width: 100%;
-          height: 300px;
-          overflow: hidden;
-          background-color: #eee;
-        }
+  .member-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #222;
+    margin: 0;
+  }
 
-        .member-image.grid-image {
-          height: 250px;
-        }
+  .member-name-ar {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #444;
+    margin: 4px 0 10px 0;
+    direction: rtl; /* Right-to-left for Arabic text */
+    font-family: 'Almarai', sans-serif; /* Example Arabic font */
+  }
 
-        .member-img {
-          object-fit: cover;
-          transition: opacity 0.2s ease-in-out;
-        }
+  .member-position {
+    font-size: 0.95rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin: 0 0 12px 0;
+  }
+  
+  .member-status {
+    margin-top: auto; /* Pushes status to the bottom */
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+    font-size: 0.9rem;
+    color: #777;
+    line-height: 1.5;
+  }
+  
+   .member-status p {
+     margin: 2px 0;
+   }
+   
+   .member-status p:last-child {
+      direction: rtl;
+      font-family: 'Almarai', sans-serif;
+   }
 
-        .member-info {
-          padding: 20px;
-          text-align: center;
-        }
 
-        .member-name {
-          font-size: 1.2rem;
-          font-weight: 500;
-          color: #222;
-          margin-bottom: 5px;
-        }
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .team-member {
+        width: 280px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.2rem;
+    }
+    .section-title {
+      font-size: 2rem;
+    }
+    .team-member {
+      width: 320px; /* Allow more space on tablets */
+    }
+    .team-row {
+      gap: 25px;
+    }
+  }
 
-        .member-position {
-          font-size: 0.9rem;
-          color: #555;
-          margin-bottom: 0;
-        }
-
-        .team-member.member-no-position .member-info {
-          padding: 25px;
-        }
-
-        .team-member.member-no-position .member-position {
-          display: none;
-        }
-
-        /* Team Grid */
-        .team-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-          gap: 30px;
-        }
-
-        .team-grid .team-member {
-          width: 100%;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-          .hero-title {
-            font-size: 2.2rem;
-          }
-          .team-member {
-            width: 220px;
-          }
-          .team-grid {
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-          }
-          .level-title {
-            font-size: 1.3rem;
-          }
-        }
-
-        @media (max-width: 576px) {
-          .hero-title {
-            font-size: 1.8rem;
-          }
-          .hero-subtitle {
-            font-size: 1rem;
-          }
-          .team-member {
-            width: 100%;
-          }
-          .team-row {
-            gap: 15px;
-          }
-          .team-grid {
-            grid-template-columns: 1fr;
-          }
-          .level-title {
-            font-size: 1.2rem;
-          }
-          .section-header {
-            margin-bottom: 30px;
-          }
-        }
-      `}</style>
+  @media (max-width: 576px) {
+    .container {
+      width: 95%;
+      padding: 0 15px;
+    }
+    .hero-title {
+      font-size: 2rem;
+    }
+    .team-member {
+      width: 100%; /* Full width on small screens */
+      max-width: 340px; /* Max-width to avoid being too wide */
+    }
+    .team-row {
+      gap: 20px;
+    }
+  }
+`}</style>
     </div>
   )
 }

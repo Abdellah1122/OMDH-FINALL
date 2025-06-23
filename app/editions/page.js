@@ -19,7 +19,7 @@ export default function EditionsPage() {
           <span className="header-subtitle">Ressources & Publications</span>
           <h1 className="header-title">Nos Articles</h1>
           {/* FIX: Replaced d' with d&apos; */}
-          <p className="header-description">Découvrez nos dernières publications, analyses et témoignages sur la protection des réfugiés et demandeurs d&apos;asile au Maroc.</p>
+          <p className="header-description">Découvrez nos dernières publications, analyses et témoignages.</p>
         </div>
       </div>
     </section>
@@ -30,29 +30,50 @@ export default function EditionsPage() {
 
         <div className="article-list"  translate="no">
           {/* Note: I've updated the hrefs to point to the pages we created! */}
-
-          <article className="article-item">
-          <div className="article-image">
-            {/* Using the organization's logo as a placeholder image */}
-            <Image src="/omdhlogo.png" alt="Déclaration de l'OMDH pour la Journée Mondiale des Réfugiés" width={300} height={300} style={{objectFit: 'contain', padding: '1rem', backgroundColor: '#f0f0f0'}}/>
-          </div>
-          <div className="article-content">
-            {/* Content from the PDF document */}
-            <span className="article-category">Déclaration</span>
-            <h3 className="article-title">
-              L&apos;OMDH commémore la Journée Mondiale des Réfugiés
-            </h3>
-            <div className="article-meta">
-              <span className="article-author">OMDH</span>
-              <span className="article-date">Vendredi 20 Juin 2025</span>
-            </div>
-            <p className="article-excerpt">
-              À l&apos;occasion de la Journée Mondiale des Réfugiés, l&apos;Organisation Marocaine des Droits Humains (OMDH) réaffirme ses positions de principe concernant les droits des migrants et des réfugiés...
-            </p>
-            {/* Make sure the href points to the correct page for this new article */}
-            <Link href="/Article13" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
-          </div>
-        </article>
+<article className="article-item">
+  <div className="article-image">
+    {/* Using the organization's logo as a placeholder image */}
+    <Image src="/omdhlogo.png" alt="L&apos;Organisation marocaine des droits de l&apos;homme célèbre la Journée mondiale des réfugiés" width={300} height={300} style={{objectFit: 'contain', padding: '1rem', backgroundColor: '#f0f0f0'}}/>
+  </div>
+  <div className="article-content">
+    {/* Content from the OMDH document */}
+    <span className="article-category">Communiqué</span>
+    <h3 className="article-title">
+      L&apos;Organisation marocaine des droits de l&apos;homme célèbre la Journée mondiale des réfugiés
+    </h3>
+    <div className="article-meta">
+      <span className="article-author">Organisation Marocaine des Droits Humains (OMDH)</span>
+      <span className="article-date">Vendredi 20 juin 2025</span>
+    </div>
+    <p className="article-excerpt">
+      À l&apos;occasion de la Journée mondiale des réfugiés, l&apos;OMDH réaffirme ses positions de principe concernant les droits des migrants, des réfugiés et des demandeurs d&apos;asile, et appelle à renforcer la protection internationale face à la montée des discours de haine et de discrimination...
+    </p>
+    {/* Make sure the href points to the correct page for this new article */}
+    <Link href="/Article14" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+  </div>
+</article>
+<article className="article-item">
+  <div className="article-image">
+    {/* Using the organization's logo as a placeholder image */}
+    <Image src="/omdhlogo.png" alt="تصريح المنظمة المغربية لحقوق الإنسان بمناسبة اليوم العالمي للاجئين" width={300} height={300} style={{objectFit: 'contain', padding: '1rem', backgroundColor: '#f0f0f0'}}/>
+  </div>
+  <div className="article-content">
+    {/* Content from the PDF document */}
+    <span className="article-category">تصريح</span>
+    <h3 className="article-title">
+      المنظمة المغربية لحقوق الإنسان تحيي اليوم العالمي للاجئين
+    </h3>
+    <div className="article-meta">
+      <span className="article-author">المنظمة المغربية لحقوق الإنسان</span>
+      <span className="article-date">الجمعة 20 يونيو 2025</span>
+    </div>
+    <p className="article-excerpt">
+      بمناسبة اليوم العالمي للاجئين، تجدد المنظمة المغربية لحقوق الإنسان (OMDH) التأكيد على مواقفها المبدئية بخصوص حقوق المهاجرين واللاجئين...
+    </p>
+    {/* Make sure the href points to the correct page for this new article */}
+    <Link href="/Article13" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+  </div>
+</article>
 
           <article className="article-item">
               <div className="article-image">

@@ -145,7 +145,7 @@ const timelineEvents2 = [
     {
     "year": "2011",
     "title": "Alliance Anti-Torture",
-    "description": "L'OMDH a collaboré avec le Conseil National des Droits de l'Homme (CNDH) et l'Association pour la Prévention de la Torture (APT) sur la ratification du Protocole Facultatif à la Convention des Nations Unies contre la Torture (OPCAT).",
+    "description": "L'Organisation marocaine des droits de l'homme a collaboré avec le Conseil national des droits de l'homme et l'Association pour la prévention de la torture pour la ratification du protocole facultatif à la Convention des Nations unies contre la torture (OPCAT).",
     "image": "/Images/CNDH.jpg",
     "type": "secondary"
   },
@@ -279,12 +279,12 @@ export default function AboutUsPage() {
                </div>
              </section>
              
-      <section className="timeline-section" translate='no'>
+      <section className="timeline-section" >
       <div className="section-header">
         <h2 className="section-title">Nos Pésidents</h2>
       </div>
 
-      <div className="timeline-container">
+      <div className="timeline-container" translate='no'>
         <div className="timeline-wrapper">
           <div className="timeline-line"></div>
 
