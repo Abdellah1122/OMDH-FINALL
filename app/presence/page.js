@@ -250,6 +250,10 @@ export default function PresencePage() {
                     <div className="legend-color office"></div>
                     <span className="legend-text">Antennes Régionales</span>
                   </div>
+                  <div className="legend-item">
+                    <div className="legend-color sec"></div>
+                    <span className="legend-text">Sections</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -476,7 +480,9 @@ export default function PresencePage() {
         .legend-color.hq {
           background-color: #d3612f;
         }
-
+ .legend-color.sec {
+          background-color: #47a043;
+        }
         .legend-color.office {
           background-color: #1957a6;
         }

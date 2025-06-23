@@ -101,7 +101,9 @@ export default function MissionsPage() {
                   <h4>Plaidoyer auprès des Décideurs Politiques</h4>
                   {/* FIX: Replaced d' with d&apos; */}
                   <p className="timeline-description">
-Plaidoyer auprès des décideurs politiques pour garantir le respect des obligations en matière de droits humains et influencer les changements législatifs.</p>
+                    Plaidoyer auprès des décideurs politiques
+Plaidoyer auprès des décideurs politiques
+Plaider auprès des décideurs politiques pour s'assurer que les obligations en matière de droits de l'homme sont respectées et pour influencer les changements législatifs.                  </p>
                 </div>
               </div>
 

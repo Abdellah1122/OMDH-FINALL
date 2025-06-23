@@ -281,7 +281,7 @@ export default function AboutUsPage() {
              
       <section className="timeline-section" >
       <div className="section-header">
-        <h2 className="section-title">Nos Pésidents</h2>
+        <h2 className="section-title">Découvrez les personnalités qui ont présidées auparavant</h2>
       </div>
 
       <div className="timeline-container" translate='no'>
