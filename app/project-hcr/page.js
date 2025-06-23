@@ -47,7 +47,8 @@ export default function ProjectHcrPage() {
           <div className="timeline-item fade-in delay-3">
             <div className="timeline-dot"></div>
             <div className="timeline-opposite">
-              <h3 className="timeline-title">Axe 3 : Enregistrement DSR en ligne</h3>
+              <h3 className="timeline-title">
+Axe trois : Enregistrement en ligne pour la détermination du statut d'asile</h3>
             </div>
             <div className="timeline-content">
               <p className="timeline-text">L&apos;OMDH facilite l&apos;enregistrement en ligne des demandes d&apos;asile auprès du HCR via ses bureaux d&apos;Oujda, Nador, Tanger, Casablanca et Agadir. Les demandeurs se rendent dans ces bureaux pour être accompagnés dans la procédure numérique. L&apos;unité DSR gère la planification des entretiens, tandis que l&apos;équipe locale assure la coordination, l&apos;assistance technique et l&apos;organisation logistique. Cette approche vise à rapprocher les services du HCR des populations éloignées, tout en garantissant un accès sécurisé et supervisé à la procédure d&apos;asile.</p>

@@ -145,7 +145,7 @@ const timelineEvents2 = [
     {
     "year": "2011",
     "title": "Alliance Anti-Torture",
-    "description": "L'Organisation marocaine des droits de l'homme a collaboré avec le Conseil national des droits de l'homme et l'Association pour la prévention de la torture pour la ratification du protocole facultatif à la Convention des Nations unies contre la torture (OPCAT).",
+    "description": "L'Organisation Marocaine des Droits Humains (OMDH) a travaillé en collaboration avec le Conseil National des Droits de l'Homme (CNDH) et l'Association pour la Prévention de la Torture (APT) pour promouvoir la approbation du Protocole facultatif à la Convention des Nations Unies contre la torture (OPCAT).",
     "image": "/Images/CNDH.jpg",
     "type": "secondary"
   },

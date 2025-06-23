@@ -235,7 +235,7 @@ export default function TeamPage() {
   </section>
 
   <section className="team-section">
-    <div className="container" translate="no">
+    <div className="container" >
       {/* Leadership Team */}
       <div className="leadership-team">
         <div className="section-header">
@@ -248,7 +248,7 @@ export default function TeamPage() {
 
         {/* President */}
         {president.length > 0 && (
-          <div className="team-level">
+          <div className="team-level" translate="no">
             <div className="team-row">
               {president.map((member) => (
                 <div key={member.id} className="team-member">
@@ -272,7 +272,7 @@ export default function TeamPage() {
 
         {/* Vice Presidents */}
         {vicePresidents.length > 0 && (
-          <div className="team-level">
+          <div className="team-level" translate="no">
             <div className="team-row">
               {vicePresidents.map((member) => (
                 <div key={member.id} className="team-member">
@@ -296,7 +296,7 @@ export default function TeamPage() {
 
         {/* Executives */}
         {executives.length > 0 && (
-          <div className="team-level">
+          <div className="team-level" translate="no">
             <div className="team-row">
               {executives.map((member) => (
                 <div key={member.id} className="team-member">
@@ -320,7 +320,7 @@ export default function TeamPage() {
 
         {/* Members */}
         {members.length > 0 && (
-          <div className="team-level">
+          <div className="team-level" translate="no">
              <div className="section-header">
                <h2 className="section-title">Nos Conseillers</h2>
             </div>
