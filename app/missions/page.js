@@ -103,7 +103,7 @@ export default function MissionsPage() {
                   <p className="timeline-description">
                     Plaidoyer auprès des décideurs politiques
 Plaidoyer auprès des décideurs politiques
-Plaider auprès des décideurs politiques pour s'assurer que les obligations en matière de droits de l'homme sont respectées et pour influencer les changements législatifs.                  </p>
+Plaider auprès des décideurs politiques pour s&apos;assurer que les obligations en matière de droits de l&apos;homme sont respectées et pour influencer les changements législatifs.                  </p>
                 </div>
               </div>
 
