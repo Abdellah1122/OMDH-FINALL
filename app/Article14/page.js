@@ -28,11 +28,11 @@ export default function PressReleasePage() {
         <header className="article-header" dir="ltr" lang="fr">
           <div className="container">
             <div className="article-category">Communiqué</div>
-            <h1 className="article-title">L'Organisation marocaine des droits de l'homme célèbre la Journée mondiale des réfugiés</h1>
+            <h1 className="article-title">L&apos;Organisation marocaine des droits de l&apos;homme célèbre la Journée mondiale des réfugiés</h1>
             <p className="article-subtitle">Chaque année, le 20 juin, le monde célèbre la Journée mondiale des réfugiés, une journée qui vise à rendre hommage aux personnes contraintes de fuir leur pays pour échapper à la persécution et aux conflits.</p>
             <div className="article-meta">
               <div className="meta-item">
-                <strong>Par L'Organisation Marocaine des Droits Humains (OMDH)</strong>
+                <strong>Par L&apos;Organisation Marocaine des Droits Humains (OMDH)</strong>
               </div>
               <div className="meta-divider"></div>
               <div className="meta-item">
@@ -53,48 +53,48 @@ export default function PressReleasePage() {
         <article className="article-content" dir="ltr" lang="fr">
           <div className="container">
             <div className="content-body">
-                <p className="lead-paragraph">Chaque année, le 20 juin, le monde célèbre la Journée mondiale des réfugiés, une journée qui vise à rendre hommage aux personnes contraintes de fuir leur pays pour échapper à la persécution et aux conflits et à exprimer la solidarité à leur égard afin de garantir leur droit à la sécurité et à la sûreté, et d'attirer l'attention de la communauté internationale sur leurs souffrances, dans le but de favoriser leur intégration économique, sociale et culturelle. </p>
-                <p>L'Organisation Marocaine des Droits Humains (OMDH), qui célèbre cette journée mondiale juste après la tenue de son douzième congrès national les 25, 26 et 27 avril 2025, rappelle et réaffirme ses positions de principe concernant les droits des migrants, des réfugiés et des demandeurs d'asile, telles qu'elles ont été exprimées dans la déclaration publique de son congrès. </p>
+                <p className="lead-paragraph">Chaque année, le 20 juin, le monde célèbre la Journée mondiale des réfugiés, une journée qui vise à rendre hommage aux personnes contraintes de fuir leur pays pour échapper à la persécution et aux conflits et à exprimer la solidarité à leur égard afin de garantir leur droit à la sécurité et à la sûreté, et d&apos;attirer l&apos;attention de la communauté internationale sur leurs souffrances, dans le but de favoriser leur intégration économique, sociale et culturelle. </p>
+                <p>L&apos;Organisation Marocaine des Droits Humains (OMDH), qui célèbre cette journée mondiale juste après la tenue de son douzième congrès national les 25, 26 et 27 avril 2025, rappelle et réaffirme ses positions de principe concernant les droits des migrants, des réfugiés et des demandeurs d&apos;asile, telles qu&apos;elles ont été exprimées dans la déclaration publique de son congrès. </p>
 
                 <h2>-1- Au niveau international</h2>
-                <p>L'OMDH saisit cette occasion pour exprimer sa conscience des droits humains et humanitaires, face à l'évolution actuelle de la situation mondiale en matière de recul de la protection des demandeurs d'asile et des réfugiés, et de leur droit à jouir de manière effective, des droits fondamentaux qui leur sont reconnus dans la Convention relative au statut des réfugiés de 1951, et dans les conventions internationales et régionales pertinentes en matière de droits de l'Homme, ainsi que dans le droit international humanitaire et coutumier, en particulier face à la montée des tendances extrémistes, des discours de haine et de discrimination en Europe et en Occident en général. </p>
-               
+                <p>L&apos;OMDH saisit cette occasion pour exprimer sa conscience des droits humains et humanitaires, face à l&apos;évolution actuelle de la situation mondiale en matière de recul de la protection des demandeurs d&apos;asile et des réfugiés, et de leur droit à jouir de manière effective, des droits fondamentaux qui leur sont reconnus dans la Convention relative au statut des réfugiés de 1951, et dans les conventions internationales et régionales pertinentes en matière de droits de l&apos;Homme, ainsi que dans le droit international humanitaire et coutumier, en particulier face à la montée des tendances extrémistes, des discours de haine et de discrimination en Europe et en Occident en général. </p>
+                
                 <h2>-2- Au niveau régional</h2>
-                <p>L'Organisation Marocaine des Droits Humains (OMDH), suit avec une vive inquiétude la situation dans plusieurs pays voisins, notamment en Algérie, en Tunisie et en Libye, où de graves et flagrantes violations des droits des réfugiés et des demandeurs d'asile sont commises.  Les persécutions sécuritaires, les pratiques humiliantes, racistes et inhumaines, et les expulsions collectives vers des zones désertiques et inhabitées, n'excluent ni femmes ni enfants, ni ceux qui ont besoin d'une protection internationale, en violation flagrante de leurs obligations internationales en matière de droits humains, qu'ils ont ratifiées en vertu des conventions internationales pertinentes. </p>
+                <p>L&apos;Organisation Marocaine des Droits Humains (OMDH), suit avec une vive inquiétude la situation dans plusieurs pays voisins, notamment en Algérie, en Tunisie et en Libye, où de graves et flagrantes violations des droits des réfugiés et des demandeurs d&apos;asile sont commises.  Les persécutions sécuritaires, les pratiques humiliantes, racistes et inhumaines, et les expulsions collectives vers des zones désertiques et inhabitées, n&apos;excluent ni femmes ni enfants, ni ceux qui ont besoin d&apos;une protection internationale, en violation flagrante de leurs obligations internationales en matière de droits humains, qu&apos;ils ont ratifiées en vertu des conventions internationales pertinentes. </p>
 
                 <h2>-3- Au niveau national</h2>
-                <p>L'OMDH rappelle la situation géographique du Maroc, devenu une destination pour de nombreux réfugiés et demandeurs d'asile, en particulier ceux en provenance des pays d'Afrique subsaharienne, en raison de la situation régionale difficile et complexe et des violations des droits humains dont cette catégorie est victime dans les pays voisins.  Ainsi, l'OMDH salue les initiatives positives prises par le Maroc en matière de gestion des questions d'immigration et d'asile, depuis la ratification d'une série de conventions internationales relatives aux droits de l'Homme, en passant par la Constitution marocaine de 2011, jusqu'à la Stratégie Nationale d'Immigration et d'Asile (SNIA). </p>
-                <p>Dans ce contexte, l'OMDH réaffirme son engagement pour un plaidoyer responsable en faveur du respect des droits des réfugiés, sur la base des principes de l'Organisation et de sa référence aux droits humains universels.  Ce plaidoyer s'est renforcé avec son engagement depuis 2007 dans un partenariat significatif avec le Haut-Commissariat des Nations unies pour les réfugiés, afin de fournir une assistance juridique aux réfugiés et aux demandeurs d'asile au Maroc, d'établir un suivi de leur situation humanitaire et humaniste, et de surveiller toute violation, dont ils pourraient être victime, ce qui a renforcé les acquis de l'Organisation en matière de la protection des réfugiés et de promotion de leurs droits au Maroc. </p>
+                <p>L&apos;OMDH rappelle la situation géographique du Maroc, devenu une destination pour de nombreux réfugiés et demandeurs d&apos;asile, en particulier ceux en provenance des pays d&apos;Afrique subsaharienne, en raison de la situation régionale difficile et complexe et des violations des droits humains dont cette catégorie est victime dans les pays voisins.  Ainsi, l&apos;OMDH salue les initiatives positives prises par le Maroc en matière de gestion des questions d&apos;immigration et d&apos;asile, depuis la ratification d&apos;une série de conventions internationales relatives aux droits de l&apos;Homme, en passant par la Constitution marocaine de 2011, jusqu&apos;à la Stratégie Nationale d&apos;Immigration et d&apos;Asile (SNIA). </p>
+                <p>Dans ce contexte, l&apos;OMDH réaffirme son engagement pour un plaidoyer responsable en faveur du respect des droits des réfugiés, sur la base des principes de l&apos;Organisation et de sa référence aux droits humains universels.  Ce plaidoyer s&apos;est renforcé avec son engagement depuis 2007 dans un partenariat significatif avec le Haut-Commissariat des Nations unies pour les réfugiés, afin de fournir une assistance juridique aux réfugiés et aux demandeurs d&apos;asile au Maroc, d&apos;établir un suivi de leur situation humanitaire et humaniste, et de surveiller toute violation, dont ils pourraient être victime, ce qui a renforcé les acquis de l&apos;Organisation en matière de la protection des réfugiés et de promotion de leurs droits au Maroc. </p>
                 
-                <h4>L'Organisation Marocaine des Droits Humains (OMDH) appelle à :</h4>
+                <h4>L&apos;Organisation Marocaine des Droits Humains (OMDH) appelle à :</h4>
                 <div className="highlight-box">
                     <ul>
-                            <li>La nécessité pour la communauté internationale d'honorer ses engagements en matière de droits de l'Homme et d'aide humanitaire, et de partager la charge entre les États en matière de protection et d'assistance aux réfugiés. </li>
-                            <li>Que, le Haut Commissariat des Nations Unies pour les réfugiés assume son devoir humanitaire et défende les réfugiés et les demandeurs d'asile dans les conditions difficiles qu'ils traversent actuellement. </li>
-                            <li>Prendre en considération les nouveaux défis liés à l'asile, notamment les déplacements et les migrations résultant des changements climatiques et des catastrophes environnementales et naturelles. </li>
-                            <li>Aligner la législation nationale sur le Pacte international relatif aux droits civils et politiques, ainsi que sur la Convention internationale sur la protection des droits de tous les travailleurs migrants et des membres de leur famille. </li>
-                            <li>Accélérer la promulgation de la loi n° 66.17 relative à l'asile et aux conditions d'octroi de celui-ci. </li>
-                            <li>Accélérer la refonte et la promulgation de la loi n° 72.17 relative à l'entrée, au séjour à l'immigration des étrangers au Royaume du Maroc. </li>
-                            <li>Œuvrer pour la territorialisation de la Stratégie Nationale d'Immigration et d'Asile (SNIA), notamment au niveau de la Région, et évaluer ses résultats plus de dix ans après son lancement. </li>
-                            <li>Mettre en place des mesures urgentes pour l'intégration des réfugiés et garantir leur accès à tous leurs droits fondamentaux. </li>
-                            <li>Renforcer les mécanismes de signalement et de protection des femmes réfugiées et demandeuses d'asile, des enfants accompagnant les demandeurs d'asile et des réfugiés victimes de violence. </li>
-                            <li>Appliquer strictement les mécanismes juridiques contre tous les discours discriminatoires et racistes. </li>
-                            <li>Intégrer les droits des migrants et des demandeurs d'asile dans les programmes éducatifs afin d'éliminer les stéréotypes négatifs. </li>
-                            <li>Soutenir et impliquer les organisations de la société civile actives dans le domaine de la migration et de l'asile. </li>
-                            <li>Accélérer la délivrance de cartes de réfugié par le Bureau des apatrides et des réfugiés. </li>
-                            <li>Faciliter et assouplir la procédure administrative de régularisation des réfugiés et leur octroi de cartes de séjour. </li>
+                          <li>La nécessité pour la communauté internationale d&apos;honorer ses engagements en matière de droits de l&apos;Homme et d&apos;aide humanitaire, et de partager la charge entre les États en matière de protection et d&apos;assistance aux réfugiés. </li>
+                          <li>Que, le Haut Commissariat des Nations Unies pour les réfugiés assume son devoir humanitaire et défende les réfugiés et les demandeurs d&apos;asile dans les conditions difficiles qu&apos;ils traversent actuellement. </li>
+                          <li>Prendre en considération les nouveaux défis liés à l&apos;asile, notamment les déplacements et les migrations résultant des changements climatiques et des catastrophes environnementales et naturelles. </li>
+                          <li>Aligner la législation nationale sur le Pacte international relatif aux droits civils et politiques, ainsi que sur la Convention internationale sur la protection des droits de tous les travailleurs migrants et des membres de leur famille. </li>
+                          <li>Accélérer la promulgation de la loi n° 66.17 relative à l&apos;asile et aux conditions d&apos;octroi de celui-ci. </li>
+                          <li>Accélérer la refonte et la promulgation de la loi n° 72.17 relative à l&apos;entrée, au séjour à l&apos;immigration des étrangers au Royaume du Maroc. </li>
+                          <li>Œuvrer pour la territorialisation de la Stratégie Nationale d&apos;Immigration et d&apos;Asile (SNIA), notamment au niveau de la Région, et évaluer ses résultats plus de dix ans après son lancement. </li>
+                          <li>Mettre en place des mesures urgentes pour l&apos;intégration des réfugiés et garantir leur accès à tous leurs droits fondamentaux. </li>
+                          <li>Renforcer les mécanismes de signalement et de protection des femmes réfugiées et demandeuses d&apos;asile, des enfants accompagnant les demandeurs d&apos;asile et des réfugiés victimes de violence. </li>
+                          <li>Appliquer strictement les mécanismes juridiques contre tous les discours discriminatoires et racistes. </li>
+                          <li>Intégrer les droits des migrants et des demandeurs d&apos;asile dans les programmes éducatifs afin d&apos;éliminer les stéréotypes négatifs. </li>
+                          <li>Soutenir et impliquer les organisations de la société civile actives dans le domaine de la migration et de l&apos;asile. </li>
+                          <li>Accélérer la délivrance de cartes de réfugié par le Bureau des apatrides et des réfugiés. </li>
+                          <li>Faciliter et assouplir la procédure administrative de régularisation des réfugiés et leur octroi de cartes de séjour. </li>
                     </ul>
                 </div>
 
-                        <h4>Appels spécifiques :</h4>
-                        <div className="highlight-box special-calls">
-                            <ul>
-                                <li>L'OMDH appelle l'État algérien à accorder aux habitants des camps de Tindouf tous les droits qui leur sont reconnus par la Convention de Genève de 1951, en particulier leur droit à la libre circulation, à la levée du blocus et à leur recensement. </li>
-                                <li>L'OMDH appelle le Haut-Commissariat des Nations Unies pour les réfugiés à procéder au recensement des habitants des camps de Tindouf et à assumer pleinement sa responsabilité légale de leur octroyer le statut de « réfugié ». </li>
-                            </ul>
-                        </div>
+                    <h4>Appels spécifiques :</h4>
+                    <div className="highlight-box special-calls">
+                        <ul>
+                            <li>L&apos;OMDH appelle l&apos;État algérien à accorder aux habitants des camps de Tindouf tous les droits qui leur sont reconnus par la Convention de Genève de 1951, en particulier leur droit à la libre circulation, à la levée du blocus et à leur recensement. </li>
+                            <li>L&apos;OMDH appelle le Haut-Commissariat des Nations Unies pour les réfugiés à procéder au recensement des habitants des camps de Tindouf et à assumer pleinement sa responsabilité légale de leur octroyer le statut de « réfugié ». </li>
+                        </ul>
+                    </div>
 
-                        <p className="conclusion"><strong>Pour conclure,</strong> l'Organisation Marocaine des Droits Humains (OMDH) affirme son engagement continu à fournir toutes formes d'aide et de conseils juridiques, à protéger les droits de tous les réfugiés, en collaboration avec ses différents partenaires, à améliorer leur situation, à plaider en faveur de la réforme méliorative des différentes lois pertinentes, et à s'ouvrir à toutes les parties prenantes intéressées et actives en la matière, afin de faire du Maroc un pays pionnier et une référence dans le domaine de la protection des droits des réfugiés et des demandeurs d'asile. </p>
+                    <p className="conclusion"><strong>Pour conclure,</strong> l&apos;Organisation Marocaine des Droits Humains (OMDH) affirme son engagement continu à fournir toutes formes d&apos;aide et de conseils juridiques, à protéger les droits de tous les réfugiés, en collaboration avec ses différents partenaires, à améliorer leur situation, à plaider en faveur de la réforme méliorative des différentes lois pertinentes, et à s&apos;ouvrir à toutes les parties prenantes intéressées et actives en la matière, afin de faire du Maroc un pays pionnier et une référence dans le domaine de la protection des droits des réfugiés et des demandeurs d&apos;asile. </p>
 
             </div>
           </div>
@@ -107,10 +107,10 @@ export default function PressReleasePage() {
                 <Image src="/omdhlogo.png" alt="Logo de l'Organisation Marocaine des Droits Humains" className="author-avatar" width={80} height={80}/>
               </div>
               <div className="author-info">
-                <h4>L'Organisation Marocaine des Droits Humains (OMDH)</h4>
+                <h4>L&apos;Organisation Marocaine des Droits Humains (OMDH)</h4>
                 <p className="author-title">Auteur du communiqué</p>
                 <p className="author-bio">
-                  Communiqué de presse publié à l'occasion de la Journée mondiale des réfugiés pour réaffirmer la position de l'organisation et appeler au respect et à la protection des droits des réfugiés et des demandeurs d'asile. 
+                  Communiqué de presse publié à l&apos;occasion de la Journée mondiale des réfugiés pour réaffirmer la position de l&apos;organisation et appeler au respect et à la protection des droits des réfugiés et des demandeurs d&apos;asile. 
                 </p>
               </div>
             </div>
