@@ -248,11 +248,11 @@ export default function PresencePage() {
                   </div>
                   <div className="legend-item">
                     <div className="legend-color office"></div>
-                    <span className="legend-text">Antennes Régionales</span>
+                    <span className="legend-text">Bureaux Régionales</span>
                   </div>
                   <div className="legend-item">
                     <div className="legend-color sec"></div>
-                    <span className="legend-text">Sections</span>
+                    <span className="legend-text">Succursales</span>
                   </div>
                 </div>
               </div>
@@ -310,7 +310,7 @@ export default function PresencePage() {
              {/* ===== START: NEW LOCAL SECTIONS ===== */}
             <div className="local-sections">
               <div className="timeline-header">
-                <h2>Nos Sections Locales</h2>
+                <h2>Nos Succursales Locales</h2>
                 <p className="timeline-description">
                   Découvrez nos sections locales et les responsables qui animent notre réseau à travers le Maroc.
                 </p>

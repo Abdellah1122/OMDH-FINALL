@@ -239,7 +239,7 @@ export default function TeamPage() {
       {/* Leadership Team */}
       <div className="leadership-team">
         <div className="section-header">
-          <span className="section-subtitle">Leadership</span>
+          <span className="section-subtitle"></span>
           <h2 className="section-title">Notre Bureau Exécutif</h2>
           <p className="section-description">
             L&apos;équipe de direction qui guide notre organisation avec vision et détermination.

@@ -98,19 +98,17 @@ export default function MissionsPage() {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4>Plaidoyer auprès des Décideurs Politiques</h4>
+                  <h4  className="timeline-title">Action auprès des législateurs politiques</h4>
                   {/* FIX: Replaced d' with d&apos; */}
                   <p className="timeline-description">
-                    Plaidoyer auprès des décideurs politiques
-Plaidoyer auprès des décideurs politiques
-Plaider auprès des décideurs politiques pour s&apos;assurer que les obligations en matière de droits de l&apos;homme sont respectées et pour influencer les changements législatifs.                  </p>
+                  Interpeller les responsables politiques pour garantir le respect des droits humains et promouvoir des réformes législatives.   </p>
                 </div>
               </div>
 
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4>Coopération Nationale et Internationale</h4>
+                  <h4  className="timeline-title">Coopération Nationale et Internationale</h4>
                   <p className="timeline-description">Renforcer la solidarité nationale et coopérer/coordonner avec les associations et institutions aux niveaux national, régional et international sur les questions relatives aux droits humains.</p>
                 </div>
               </div>
@@ -118,7 +116,7 @@ Plaider auprès des décideurs politiques pour s&apos;assurer que les obligation
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4>Publier des Rapports Parallèles</h4>
+                  <h4  className="timeline-title">Publier des Rapports Parallèles</h4>
                   <p className="timeline-description">Publier des rapports parallèles aux soumissions gouvernementales sous la supervision des comités compétents des organes de traités des Nations Unies.</p>
                 </div>
               </div>
@@ -126,7 +124,7 @@ Plaider auprès des décideurs politiques pour s&apos;assurer que les obligation
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4>Organiser des Événements</h4>
+                  <h4 className="timeline-title">Organiser des Événements</h4>
                   {/* FIX: Replaced d' with d&apos; (twice) */}
                   <p className="timeline-description">Organiser des séminaires, des conférences, des galeries d&apos;art et d&apos;autres expositions pour sensibiliser et débattre des sujets relatifs aux droits humains.</p>
                 </div>
