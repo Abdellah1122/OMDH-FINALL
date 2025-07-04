@@ -9,6 +9,9 @@ import Footer from "./components/Footer"
 
 const heroSlides = [
   {
+    image: "/Images/omdhbg.jpg",
+  },
+  {
     image: "/Images/CandleInHand2.jpg",
     alt: "Kids",
     text: "Explorez nos dernières initiatives et découvrez en avant-première les événements impactants qui nous attendent. Rejoignez-nous dans la défense des droits humains et soyez parmi les premiers à nous soutenir pour le changement.",
@@ -23,9 +26,7 @@ const heroSlides = [
     alt: "Hand Solidarity",
     text: "Explorez tous nos projets et découvrez comment chaque initiative nous rapproche d'un monde où les droits humains sont respectés pour tous !",
   },
-  {
-    image: "/Images/omdhbg.jpg",
-  },
+  
 ]
 
 const newsItems = [
@@ -158,12 +159,12 @@ export default function HomePage() {
                   className="hero-image"
                 />
                 <div className="hero-overlay" />
-               {/*  <div className="hero-content">
+                 <div className="hero-content">
                   <div className="hero-text-box">
                     <p className="hero-text">{slide.text}</p>
                   </div>
                 </div>
-                */}
+                
               </div>
             ))}
           </div>
