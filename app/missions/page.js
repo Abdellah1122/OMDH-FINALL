@@ -18,7 +18,7 @@ export default function MissionsPage() {
           <div className="hero-content">
             <div className="hero-title">
               {/* FIX: Replaced l' with l&apos; */}
-              <h1>Notre Mission à l&apos;OMDH</h1>
+              <h1>Notre message </h1>
             </div>
             <div className="hero-description">
               {/* FIX: Replaced L' with L&apos; and l' with l&apos; */}

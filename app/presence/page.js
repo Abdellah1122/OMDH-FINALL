@@ -27,7 +27,7 @@ const officeData = [
     city: "Casablanca",
     image: "/Images/casablanca.jpg",
     description:
-      "Le bureau de Casablanca soutient les droits urbains, l'inclusion socio-économique et l'aide juridique aux populations vulnérables de la région métropolitaine.",
+    "Le bureau de Casablanca soutient les droits urbains, l'inclusion socio-économique et l'aide juridique aux populations vulnérables de la région métropolitaine.",
     phone: ["+212 762 59 86 79"],
     email: "farah.houmani@omdh.ma",
     address: "place pasteur 17 résidence BUILD PASTEUR 1er étage N°13",
@@ -229,7 +229,7 @@ export default function PresencePage() {
             {/* Header */}
             <div className="presence-header">
               <h1>
-                Notre <span className="highlight">Présence Nationale</span>
+                Réseau de  <span className="highlight">Succursales</span>
               </h1>
                 <p className="presence-tagline">
       Depuis sa création, l&apos;OMDH a étendu sa présence à travers le Maroc pour plaider en faveur des droits

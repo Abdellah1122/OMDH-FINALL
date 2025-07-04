@@ -180,9 +180,9 @@ export default function AboutUsPage() {
   <section className="about-section">
     <div className="about-container">
       <div className="about-header">
-        <h1>À propos de <span className="highlight">l&apos;OMDH</span></h1>
+        <h1><span className="highlight">Établissement</span></h1>
         <p className="about-tagline">
-          Depuis sa création en 1988, l&apos;Organisation Marocaine des Droits Humains (OMDH) est un pilier de la défense, de la protection et de la promotion des droits humains au Maroc. Ancrée dans les principes d&apos;universalité, d&apos;indivisibilité et d&apos;interdépendance des droits, l&apos;OMDH plaide pour la dignité, l&apos;égalité et la justice pour tous.
+         L&apos;Organisation Marocaine des Droits de l&apos;Homme (OMDH) est une association nationale non gouvernementale de défense des droits de l&apos;homme, dotée d&apos;un mandat général, dont l&apos;objectif est de protéger et de promouvoir les droits de l&apos;homme au Maroc. Fondée en 1988, son mandat repose sur les valeurs et principes du droit international et des chartes, déclarations et accords internationaux pertinents. C&apos;est une association d&apos;intérêt public dotée du statut consultatif auprès du Conseil économique et social des Nations Unies et membre actif et fondateur de nombreux réseaux nationaux et internationaux de défense des droits de l&apos;homme.
         </p>
       </div>
 
@@ -195,20 +195,44 @@ export default function AboutUsPage() {
         </div>
 
         <div className="about-text">
-          <h2>Qui sommes-nous</h2>
+          <h2>Établissement</h2>
           <p>
-            L&apos;Organisation Marocaine des Droits Humains (OMDH) est une association reconnue au niveau national, indépendante et démocratique, créée en 1988 par des défenseurs des droits humains engagés à respecter les normes internationales. Elle est ouverte à toutes les personnes qui partagent les valeurs de liberté, d&apos;égalité et de justice, sans aucune discrimination fondée sur le sexe, la langue, la religion ou l&apos;idéologie.
+          L&apos;Organisation Marocaine des Droits de l&apos;Homme (OMDH) est une association nationale non gouvernementale de défense des droits de l&apos;homme, dotée d&apos;un mandat général, qui se consacre à la protection et à la promotion des droits de l&apos;homme.          
           </p>
           <p>
-            L&apos;OMDH opère dans le cadre des conventions internationales des droits humains ratifiées par le Maroc et de la législation nationale. Elle se concentre sur la nature universelle, globale et complémentaire des droits civils, politiques, économiques, sociaux, culturels et environnementaux.
+          L&apos;organisation a été fondée sur le principe du pluralisme, par des individus appartenant à divers groupes culturels et politiques. Son indépendance vis-à-vis des pouvoirs publics et des mouvements idéologiques et politiques est un principe fondamental de son action en faveur des droits de l&apos;homme.        
+          </p>
+          <p>
+            L&apos;OMDH poursuit son travail inlassable en matière de protection et de promotion des droits de l&apos;homme, en soutenant l&apos;État de droit, la séparation des pouvoirs et l&apos;indépendance de la justice, dans le but de consolider l&apos;État de droit.
           </p>
 
-          <h2>Notre parcours</h2>
+          <h2>Nos objectifs</h2>
           <p>
-            L&apos;OMDH est née en réponse à un besoin national croissant d&apos;une organisation démocratique des droits humains qui unit les citoyens au-delà des clivages idéologiques. Au fil des décennies, elle s&apos;est développée pour devenir un vaste mouvement pour la justice, façonnant le débat public, influençant les politiques et apportant son soutien aux victimes de violations des droits humains.
+          Depuis sa création, l&apos;organisation a pour objectifs, dans le cadre de ses activités, de :
           </p>
           <p>
-            À travers son siège et ses sections régionales, l&apos;OMDH a constamment contribué aux grands débats et réformes nationaux. Elle a participé à la justice transitionnelle, à la modernisation du code pénal et à la protection des populations vulnérables, tout en restant fermement ancrée dans la société civile.
+            - Diffuser et approfondir la connaissance des droits humains individuels et collectifs, sociaux, économiques, culturels, civils et politiques.
+          </p>
+           <p>
+            - Promouvoir l&apos;éducation à la citoyenneté et l&apos;éducation aux droits humains à tous les niveaux de l&apos;enseignement.
+          </p>
+           <p>
+            - Œuvrer à la promotion du respect de l&apos;État de droit en vue de sa consolidation.
+          </p>
+           <p>
+            - Renforcer le pouvoir judiciaire, son indépendance et son intégrité.
+          </p>
+           <p>
+            - Développer la législation marocaine et œuvrer à l&apos;abrogation des dispositions législatives et réglementaires portant atteinte aux libertés individuelles et collectives, ainsi que des textes incompatibles avec les normes internationales relatives aux droits humains.
+          </p>
+           <p>
+            - Fournir des garanties effectives pour la mise en œuvre de ces droits et libertés.
+          </p>
+           <p>
+            - Appeler à la ratification des traités internationaux relatifs aux droits humains et veiller au respect de l&apos;engagement du Maroc à soumettre des rapports sur la mise en œuvre des dispositions des accords ratifiés dans les délais impartis.
+          </p>
+           <p>
+            - Renforcer les liens de solidarité nationale, arabe, africaine et internationale dans le domaine des droits humains.
           </p>
 
           <h2>Notre mission</h2>
@@ -229,13 +253,15 @@ export default function AboutUsPage() {
               <span className="stat-label">Campagnes de plaidoyer et de sensibilisation</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">+40</span>
+              <span className="stat-number">+100</span>
               <span className="stat-label">Partenariats régionaux et locaux</span>
             </div>
+            {/* 
             <div className="stat-item">
               <span className="stat-number">+10K</span>
               <span className="stat-label">Personnes sensibilisées par l&apos;éducation</span>
             </div>
+            */}
           </div>
 
           <div className="cta-container">

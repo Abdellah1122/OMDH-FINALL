@@ -6,8 +6,8 @@ import Image from "next/image"
 
 const aboutItems = [
   { href: "/about-us", label: "Qui sommes-nous" },
-  { href: "/missions", label: "Nos Missions" },
-  { href: "/presence", label: "Présence nationale" },
+  { href: "/missions", label: "Notre message" },
+  { href: "/presence", label: "Réseau de Succursales" },
   { href: "/campaigns", label: "Nos Campagnes" },
 ]
 
@@ -18,8 +18,8 @@ const projectItems = [
 
 const mainNavItems = [
   { href: "/team", label: "Notre Équipe" },
-  { href: "/editions", label: "Les Éditions" },
-  { href: "/album", label: "Album" },
+  { href: "/editions", label: "Documents de référence" },
+  { href: "/album", label: "Galerie de photos" },
   { href: "/contact", label: "Contact" },
 ]
 

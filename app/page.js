@@ -216,7 +216,7 @@ export default function HomePage() {
 
           {/* National Partners */}
           <div className="partner-section">
-            <h2 className="section-title">Partenaires Nationaux</h2>
+            <h2 className="section-title">Partenaires institutionnels</h2>
             <div className="slider">
               <div className="slide-track national-track">
                 {/* We duplicate the array to create a seamless loop */}
@@ -231,7 +231,7 @@ export default function HomePage() {
 
           {/* University Partners */}
           <div className="partner-section">
-            <h2 className="section-title">Partenaires Universitaires</h2>
+            <h2 className="section-title">Universités partenaires</h2>
             <div className="slider">
               <div className="slide-track university-track">
                 {/* We duplicate the array to create a seamless loop */}
