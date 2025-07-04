@@ -26,7 +26,7 @@ const heroSlides = [
     alt: "Hand Solidarity",
     text: "Explorez tous nos projets et découvrez comment chaque initiative nous rapproche d'un monde où les droits humains sont respectés pour tous !",
   },
-  
+
 ]
 
 const newsItems = [
@@ -159,12 +159,12 @@ export default function HomePage() {
                   className="hero-image"
                 />
                 <div className="hero-overlay" />
-                 <div className="hero-content">
-                  <div className="hero-text-box">
-                    <p className="hero-text">{slide.text}</p>
+                  <div className="hero-content">
+                    <div className="hero-text-box">
+                      <p className="hero-text">{slide.text}</p>
+                    </div>
                   </div>
-                </div>
-                
+
               </div>
             ))}
           </div>
@@ -271,7 +271,7 @@ export default function HomePage() {
               <div className="story-content">
                 <h3 className="story-title">OMDH : Plaidoyer pour la Justice et la Dignité Humaine</h3>
                 <p className="story-text">
-                  Au cœur de notre mission réside un engagement inébranlable envers la justice, l&apos;égalité et la protection des droits humains fondamentaux. Nous plaidons pour la dignité et les libertés de tous les individus, nous efforçant de créer un monde où chaque voix est entendue, chaque droit est respecté, et chaque personne est habilitée à vivre sans peur ni oppression.
+                  Au cœur de notre mission réside un engagement inébranlable envers la justice, l'égalité et la protection des droits humains fondamentaux. Nous plaidons pour la dignité et les libertés de tous les individus, nous efforçant de créer un monde où chaque voix est entendue, chaque droit est respecté, et chaque personne est habilitée à vivre sans peur ni oppression.
                 </p>
                 <a href="/about-us" className="story-button">Explorez Plus</a>
               </div>
@@ -314,8 +314,8 @@ export default function HomePage() {
               </h2>
             </div>
             <div className="map-container">
-               <iframe
-src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=8,%20rue%20Ouargha,%20R%C3%A9sidence%20Volubilis,%20appt%201,%20Agdal%20/%20Rabat,%20Maroc+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"                width="100%"
+              <iframe
+                src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=8,%20rue%20Ouargha,%20R%C3%A9sidence%20Volubilis,%20appt%201,%20Agdal%20/%20Rabat,%20Maroc+(My%20Business%20Name)&t=&z=14&ie=UTF8&iwloc=B&output=embed"                width="100%"
                 height="500"
                 title="OMDH Location"
                 className="map-iframe"
@@ -373,13 +373,22 @@ src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=8,
           letter-spacing: -0.025em;
           position: relative;
         }
-        
+
         /* Hero Section */
         .hero-section { z-index:0; position: relative; height: 100vh; overflow: hidden; }
         .hero-container { position: relative; width: 100%; height: 100%; }
         .hero-slide { position: absolute; inset: 0; opacity: 0;overflow: hidden; transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1); }
         .hero-slide.active { opacity: 1; }
-        .hero-image { overflow: hidden;position: absolute; width: 100%; height: 100%; object-fit: cover; transform: scale(1.02); transition: transform 20s ease-out; }
+        .hero-image {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          transform: scale(1.02);
+          transition: transform 20s ease-out;
+        }
+
         .hero-slide.active .hero-image { transform: scale(1); }
         .hero-overlay { position: absolute; inset: 0; background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.6) 100% ); }
         .hero-content { position: absolute; bottom: 8rem; left: 50%; transform: translateX(-50%); width: 85%; max-width: 56rem; z-index: 10; }
@@ -422,7 +431,7 @@ src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=8,
         .partner-section .section-title {
             margin-bottom: 0;
         }
-        
+
         @keyframes scroll {
           0% { transform: translateX(0); }
           100% { transform: translateX(-50%); }
@@ -440,7 +449,7 @@ src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=8,
         .slider:hover .slide-track {
           animation-play-state: paused;
         }
-        
+
         .slide-track {
           display: flex;
           width: fit-content;
@@ -448,13 +457,13 @@ src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=8,
           animation-timing-function: linear;
           animation-iteration-count: infinite;
           background-color:var(--accent-color);
-         padding:1em;
+          padding:1em;
         }
 
         .national-track { animation-duration: 30s; }
         .university-track { animation-duration: 45s; }
         .international-track { animation-duration: 25s; }
-        
+
         .slide {
           height: 120px;
           display: flex;
@@ -509,13 +518,15 @@ src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=8,
         .timeline-image { position: relative; height: 10rem; border-radius: 2px; overflow: hidden; }
         .timeline-img { position: absolute; width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
         .timeline-card:hover .timeline-img { transform: scale(1.05); }
-        
+
         /* Map Section */
         .map-section { display: flex; flex-direction: column; }
         .map-container { border-radius: 4px; overflow: hidden; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04); border: 1px solid rgba(0, 0, 0, 0.05); }
         .map-iframe { border: none; display: block; width: 100%; }
 
-        /* === Responsive Design === */
+        /* === [ENHANCED] RESPONSIVE DESIGN === */
+
+        /* --- DESKTOP FIRST (EXISTING STYLES) --- */
         @media (min-width: 993px) {
           .timeline-line { left: 50%; transform: translateX(-50%); }
           .timeline-item { padding-left: 0; }
@@ -530,42 +541,81 @@ src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=8,
           .timeline-content .timeline-card:hover::before { border-left-color: white; border-right-color: white; }
         }
 
-        @media (max-width: 1200px) { .main-container { padding: 6rem 2rem; gap: 8rem; } }
+        /* --- LARGE TABLETS & SMALL LAPTOPS (1024px) --- */
         @media (max-width: 1024px) {
+          .main-container { padding: 6rem 2rem; gap: 8rem; }
           .timeline-line { left: 1rem; }
           .timeline-dot { left: 0.625rem; }
           .timeline-content, .timeline-content.right { margin-left: 3rem; width: calc(100% - 3rem); }
           .story-container { flex-direction: column; }
           .story-content { padding: 3rem; }
+          
+          /* Hero adjustments for this breakpoint */
+          .hero-content { max-width: 90%; }
+          .hero-text-box { padding: 2rem; }
+          .hero-text { font-size: 1.05rem; }
         }
 
+        /* --- TABLETS (768px) --- */
         @media (max-width: 768px) {
           .main-container { padding: 4rem 1.5rem; gap: 6rem; }
-          .section-title { font-size: 1.5rem; }
-          .hero-text { font-size: 1rem; }
+          .section-title { font-size: 1.75rem; }
+          
+          /* Hero adjustments for tablets */
+          .hero-section { height: 100vh; }
+          .hero-content { width: 90%; bottom: 6rem; }
           .hero-text-box { padding: 2rem; }
-          .hero-content { width: 90%; bottom: 4rem; }
+          .hero-text { font-size: 1rem; }
           .hero-control { width: 3rem; height: 3rem; }
           .hero-prev { left: 1.5rem; }
           .hero-next { right: 1.5rem; }
+          .hero-indicators { bottom: 2.5rem; }
+
           .news-content { flex-direction: column; min-height: auto; }
-          .news-text-section { padding: 2rem; }
-          .news-title { font-size: 1.25rem; }
-          .story-content { padding: 2rem; }
-          .story-title { font-size: 1.5rem; }
+          .news-text-section { padding: 2.5rem; }
+          .news-image-section { min-height: 350px; }
+          .news-title { font-size: 1.35rem; }
+
+          .story-content { padding: 2.5rem; }
+          .story-title { font-size: 1.6rem; }
           .timeline-container { padding: 3rem 1.5rem; }
         }
 
-        @media (max-width: 480px) {
-          .main-container { padding: 3rem 1rem; gap: 5rem; }
-          .section-title { font-size: 1.25rem; }
-          .hero-text { font-size: 0.9rem; }
-          .hero-content { bottom: 3rem; }
-          .news-text-section { padding: 1.5rem; }
-          .story-content { padding: 1.5rem; }
-          .timeline-card { padding: 1.5rem; }
-          .timeline-image { height: 8rem; }
-        }
+        /* --- MOBILE PHONES (480px) --- */
+@media (max-width: 480px) {
+  .main-container { padding: 3rem 1rem; gap: 5rem; }
+  .section-title { font-size: 1.5rem; }
+  
+  /* Hero adjustments for mobile */
+  .hero-section { height: 100vh; }
+
+  /* Add this rule for the hero image */
+  .hero-image {
+    object-fit: contain; /* This fits the entire image, may create letterbox effect */
+  }
+  .hero-content { width: 92%; bottom: 5rem; }
+  .hero-text-box { padding: 1.5rem; backdrop-filter: blur(5px); }
+  .hero-text { font-size: 0.9rem; }
+  .hero-control { display: none; } /* Hide controls to save space */
+  .hero-indicators { bottom: 2rem; }
+  .hero-indicator { width: 2rem; }
+  .hero-indicator.active { width: 3rem; }
+
+  .news-text-section { padding: 2rem 1.5rem; }
+  .news-title { font-size: 1.2rem; }
+  .news-image-section { min-height: 280px; }
+
+  .story-content { padding: 2rem 1.5rem; }
+  .story-title { font-size: 1.4rem; }
+
+  .timeline-card { padding: 1.5rem; }
+  .timeline-image { height: 8rem; }
+  .timeline-wrapper { max-width: 100%; }
+  .timeline-line { left: 1rem; }
+  .timeline-dot { left: calc(1rem - 5px); }
+  .timeline-item { padding-left: 2.5rem; margin-bottom: 2rem; }
+  .timeline-content.right, .timeline-content { margin-left: 0; width: 100%; }
+}
       `}</style>
     </div>
   )

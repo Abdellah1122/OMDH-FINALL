@@ -206,7 +206,7 @@ export default function AboutUsPage() {
             L&apos;OMDH poursuit son travail inlassable en matière de protection et de promotion des droits de l&apos;homme, en soutenant l&apos;État de droit, la séparation des pouvoirs et l&apos;indépendance de la justice, dans le but de consolider l&apos;État de droit.
           </p>
 
-          <h2>Nos objectifs</h2>
+          <h2>Chemin d'action</h2>
           <p>
           Depuis sa création, l&apos;organisation a pour objectifs, dans le cadre de ses activités, de 
           </p>
