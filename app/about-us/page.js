@@ -208,7 +208,7 @@ export default function AboutUsPage() {
 
           <h2>Nos objectifs</h2>
           <p>
-          Depuis sa création, l&apos;organisation a pour objectifs, dans le cadre de ses activités, de :
+          Depuis sa création, l&apos;organisation a pour objectifs, dans le cadre de ses activités, de 
           </p>
           <p>
             - Diffuser et approfondir la connaissance des droits humains individuels et collectifs, sociaux, économiques, culturels, civils et politiques.
@@ -245,12 +245,12 @@ export default function AboutUsPage() {
 
           <div className="stats-container">
             <div className="stat-item">
-              <span className="stat-number">+35</span>
+              <span className="stat-number">+37</span>
               <span className="stat-label">Années de défense des droits humains</span>
             </div>
             <div className="stat-item">
               <span className="stat-number">+100</span>
-              <span className="stat-label">Campagnes de plaidoyer et de sensibilisation</span>
+              <span className="stat-label">Campagnes de sensibilisation</span>
             </div>
             <div className="stat-item">
               <span className="stat-number">+100</span>

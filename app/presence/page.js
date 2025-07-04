@@ -229,7 +229,7 @@ export default function PresencePage() {
             {/* Header */}
             <div className="presence-header">
               <h1>
-                Réseau de  <span className="highlight">Succursales</span>
+                Réseau de <span className="highlight">Succursales</span>
               </h1>
                 <p className="presence-tagline">
       Depuis sa création, l&apos;OMDH a étendu sa présence à travers le Maroc pour plaider en faveur des droits

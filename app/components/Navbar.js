@@ -9,6 +9,7 @@ const aboutItems = [
   { href: "/missions", label: "Notre message" },
   { href: "/presence", label: "Réseau de Succursales" },
   { href: "/campaigns", label: "Nos Campagnes" },
+  { href: "/album", label: "Galerie de photos" },
 ]
 
 const projectItems = [
@@ -17,9 +18,8 @@ const projectItems = [
 ]
 
 const mainNavItems = [
-  { href: "/team", label: "Notre Équipe" },
+  { href: "/team", label: "Organes de gouvernance" },
   { href: "/editions", label: "Documents de référence" },
-  { href: "/album", label: "Galerie de photos" },
   { href: "/contact", label: "Contact" },
 ]
 
