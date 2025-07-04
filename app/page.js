@@ -271,7 +271,7 @@ export default function HomePage() {
               <div className="story-content">
                 <h3 className="story-title">OMDH : Plaidoyer pour la Justice et la Dignité Humaine</h3>
                 <p className="story-text">
-                  Au cœur de notre mission réside un engagement inébranlable envers la justice, l'égalité et la protection des droits humains fondamentaux. Nous plaidons pour la dignité et les libertés de tous les individus, nous efforçant de créer un monde où chaque voix est entendue, chaque droit est respecté, et chaque personne est habilitée à vivre sans peur ni oppression.
+                  Au cœur de notre mission réside un engagement inébranlable envers la justice, l&apos;égalité et la protection des droits humains fondamentaux. Nous plaidons pour la dignité et les libertés de tous les individus, nous efforçant de créer un monde où chaque voix est entendue, chaque droit est respecté, et chaque personne est habilitée à vivre sans peur ni oppression.
                 </p>
                 <a href="/about-us" className="story-button">Explorez Plus</a>
               </div>
