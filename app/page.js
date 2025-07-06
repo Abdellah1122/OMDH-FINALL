@@ -595,7 +595,7 @@ export default function HomePage() {
   .hero-image {
     object-fit: contain; /* This fits the entire image, may create letterbox effect */
   }
-  .hero-content { width: 92%; bottom: 5rem; margin-bottom:5em;}
+  .hero-content { width: 92%; bottom: 5rem; margin-bottom:3em;}
   .hero-text-box { padding: 1.5rem; backdrop-filter: blur(5px); }
   .hero-text { font-size: 1.6rem;  }
   .hero-control { display: none; } /* Hide controls to save space */
