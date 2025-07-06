@@ -10,21 +10,23 @@ import Footer from "./components/Footer"
 const heroSlides = [
   {
     image: "/Images/omdhbg.jpg",
+    text: "انبثاق فكرة....مسار فعل",
+
   },
   {
     image: "/Images/CandleInHand2.jpg",
     alt: "Kids",
-    text: "Explorez nos dernières initiatives et découvrez en avant-première les événements impactants qui nous attendent. Rejoignez-nous dans la défense des droits humains et soyez parmi les premiers à nous soutenir pour le changement.",
+    text: "حماية وتعزيز حقوق الانسان مسؤولية جماعية",
   },
   {
-    image: "/Images/Hands.jpg",
+    image: "/Images/CandleInHand.jpg",
     alt: "Peace Pigeon",
-    text: "Découvrez notre mission et voyez comment nous travaillons chaque jour pour défendre la dignité humaine, promouvoir la justice et créer un changement durable.",
+    text: "نضال مستمر من أجل تعزيز وحماية حقوق الانسان بالمغرب",
   },
   {
-    image: "/Images/CandleDarkBG2.jpg",
+    image: "/Images/News2.jpg",
     alt: "Hand Solidarity",
-    text: "Explorez tous nos projets et découvrez comment chaque initiative nous rapproche d'un monde où les droits humains sont respectés pour tous !",
+    text: "",
   },
 
 ]
@@ -161,7 +163,7 @@ export default function HomePage() {
                 <div className="hero-overlay" />
                   <div className="hero-content">
                     <div className="hero-text-box">
-                      <p className="hero-text">{slide.text}</p>
+                      <p className="hero-text" translate="no">{slide.text}</p>
                     </div>
                   </div>
 
@@ -392,8 +394,8 @@ export default function HomePage() {
         .hero-slide.active .hero-image { transform: scale(1); }
         .hero-overlay { position: absolute; inset: 0; background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.6) 100% ); }
         .hero-content { position: absolute; bottom: 8rem; left: 50%; transform: translateX(-50%); width: 85%; max-width: 56rem; z-index: 10; }
-        .hero-text-box { background: rgba(0, 0, 0, 0.1); backdrop-filter: blur(3px); border-radius: 10px; padding: 2.5rem; text-align: center; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); }
-        .hero-text { color: white; font-size: 1.125rem; font-weight: 400; line-height: 1.7; margin: 0; letter-spacing: 0.01em; }
+        .hero-text-box { background: rgba(0, 0, 0, 0.1);margin-bottom:32em; backdrop-filter: blur(3px); border-radius: 10px; padding: 2rem; text-align: center; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); }
+        .hero-text { color: white; font-size: 2.7rem; font-weight: 400; line-height: 1.7; margin: 0; letter-spacing: 0.01em; }
         .hero-control { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); border: none; border-radius: 50%; width: 3.5rem; height: 3.5rem; color: #333; cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); display: flex; align-items: center; justify-content: center; z-index: 20; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
         .hero-control:hover { background: rgba(255, 255, 255, 1); transform: translateY(-50%) scale(1.1); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); }
         .hero-prev { left: 3rem; }
@@ -553,7 +555,7 @@ export default function HomePage() {
           /* Hero adjustments for this breakpoint */
           .hero-content { max-width: 90%; }
           .hero-text-box { padding: 2rem; }
-          .hero-text { font-size: 1.05rem; }
+          .hero-text { font-size: 2rem; }
         }
 
         /* --- TABLETS (768px) --- */
@@ -565,7 +567,7 @@ export default function HomePage() {
           .hero-section { height: 100vh; }
           .hero-content { width: 90%; bottom: 6rem; }
           .hero-text-box { padding: 2rem; }
-          .hero-text { font-size: 1rem; }
+          .hero-text { font-size: 2rem;  }
           .hero-control { width: 3rem; height: 3rem; }
           .hero-prev { left: 1.5rem; }
           .hero-next { right: 1.5rem; }
@@ -593,9 +595,9 @@ export default function HomePage() {
   .hero-image {
     object-fit: contain; /* This fits the entire image, may create letterbox effect */
   }
-  .hero-content { width: 92%; bottom: 5rem; }
+  .hero-content { width: 92%; bottom: 5rem; margin-bottom:7em;}
   .hero-text-box { padding: 1.5rem; backdrop-filter: blur(5px); }
-  .hero-text { font-size: 0.9rem; }
+  .hero-text { font-size: 1.6rem;  }
   .hero-control { display: none; } /* Hide controls to save space */
   .hero-indicators { bottom: 2rem; }
   .hero-indicator { width: 2rem; }
