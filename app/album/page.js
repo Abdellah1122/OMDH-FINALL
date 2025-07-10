@@ -142,15 +142,14 @@ export default function ArticlePage() {
         setCurrentHeroSlide((prev) => (prev - 1 + photoAlbumData.length) % photoAlbumData.length)
     }
 
-
     return (
         <>
             <Navbar />
-            <main className="page-main">
+            <main className="page-main" dir='rtl' lang='ar'>
                 <div className="album-container">
                     <div className="album-header">
-                        <h1 className="album-title" style={{color:'var(--primary-color)'}}>OMDH : Un parcours marquant</h1>
-                        <p className="album-subtitle">Une collection de moments mémorables et d&apos;étapes importantes de notre travail à travers le Maroc.</p>
+                        <h1 className="album-title" style={{color:'var(--primary-color)'}}> معرض الصور </h1>
+                        <p className="album-subtitle">مجموعة من اللحظات والإنجازات التي لا تنسى من عملنا في جميع أنحاء المغرب.</p>
                     </div>
 
                     <section className="hero-section">
@@ -212,8 +211,8 @@ export default function ArticlePage() {
                     </section>
 
                     <div className="album-header">
-                        <h1 className="album-title" style={{color:'var(--secondary-color)'}}>Decouvrez tous nos moments marquants</h1>
-                        <p className="album-subtitle">Nos réalisations marquantes.</p>
+                        <h1 className="album-title" style={{color:'var(--secondary-color)'}}>اكتشف لحظاتنا الأكثر تميزًا</h1>
+                        <p className="album-subtitle">إنجازاتنا البارزة.</p>
                     </div>
                         <div className="photo-grid">
                             {photoAlbumData.map((photo, index) => (

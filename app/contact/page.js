@@ -12,7 +12,7 @@ export default function ContactPage() {
     <>
       <Navbar />
 
-    <main>
+    <main lang='ar' dir='rtl'>
     <div className="main-container">
       {/* Hero Section */}
       <section className="hero-section auto-show">
@@ -20,15 +20,14 @@ export default function ContactPage() {
           <Image src="/Images/Sm.jpg" alt="OMDH Contact" className="floating" width={400} height={400} style={{ borderRadius: 'var(--border-radius)'}} />
         </div>
         <div className="hero-content">
-          <h1 className="hero-title">Contactez-Nous</h1>
+          <h1 className="hero-title">اتصل بنا</h1>
           <p className="hero-description">
             {/* FIX: Replaced N'hésitez with N&apos;hésitez */}
-            N&apos;hésitez pas à nous contacter pour toute question ou assistance. 
-            Nous sommes là pour vous aider et répondre à vos préoccupations concernant les droits humains.
+            لا تترددوا في التواصل معنا لأي استفسار أو مساعدة. نحن هنا لمساعدتكم ومعالجة مخاوفكم المتعلقة بحقوق الإنسان.
           </p>
           <div className="social-section">
             <p style={{ fontWeight: 600, color: 'var(--text-dark)', marginBottom: '1em' }}>
-              Suivez-nous sur les réseaux sociaux :
+              تابعونا على وسائل التواصل الاجتماعي:
             </p>
             <div className="social-buttons">
               <a href="https://www.linkedin.com/company/omdh-morocco" target="_blank" rel="noopener noreferrer" className="social-btn linkedin" title="LinkedIn">
@@ -51,7 +50,7 @@ export default function ContactPage() {
       {/* Contact Information Section */}
       <section className="section">
         <div className="auto-show">
-          <h2>Retrouvez-nous</h2>
+          <h2>تجدنا:</h2>
         </div>
         
         <div className="contact-info auto-show">
@@ -59,11 +58,11 @@ export default function ContactPage() {
             <div className="contact-card auto-show">
               <i className="bi bi-geo-alt-fill"></i>
               <div>
-                <p><strong>Adresse</strong></p>
+                <p><strong>عنوان</strong></p>
                 <p className="contact-value"  translate='no'>
-                  8, rue Ouargha,<br />
-                  Résidence Volubilis, appt 1,<br />
-                  Agdal / Rabat,<br />
+                  8, rue Ouargha<br />
+                  Résidence Volubilis, appt 1<br />
+                  Agdal / Rabat<br />
                   Maroc
                 </p>
               </div>
@@ -72,7 +71,7 @@ export default function ContactPage() {
             <div className="contact-card auto-show">
               <i className="bi bi-telephone-fill"></i>
               <div>
-                <p><strong>Téléphone Principal</strong></p>
+                <p><strong>الهاتف الرئيسي</strong></p>
                 <p className="contact-value">
                   <a href="tel:+212537770060" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none', textDecoration: 'none'}}>
                     +212 537 77 00 60
@@ -84,7 +83,7 @@ export default function ContactPage() {
             <div className="contact-card auto-show">
               <i className="bi bi-phone-fill"></i>
               <div>
-                <p><strong>Téléphone portable</strong></p>
+                <p><strong>الهاتف المحمول</strong></p>
                 <p className="contact-value">
                   <a href="tel:+212666947975" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none', textDecoration: 'none'}}>
                     +212 666 94 79 75
@@ -96,7 +95,7 @@ export default function ContactPage() {
             <div className="contact-card auto-show">
               <i className="bi bi-envelope-fill"></i>
               <div>
-                <p><strong>Email</strong></p>
+                <p><strong>بريد إلكتروني</strong></p>
                 <p className="contact-value" translate='no'>
                   <a href="mailto:admin.omdh@omdh.ma" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none', textDecoration: 'none'}}>
                     admin.omdh@omdh.ma

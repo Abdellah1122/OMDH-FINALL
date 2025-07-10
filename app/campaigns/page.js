@@ -11,31 +11,31 @@ export default function CampaignsPage() {
     <>
       <Navbar />
 
-    <main>
+    <main lang='ar' dir='rtl'>
     <section className="initiatives-section">
       <div className="initiatives-container">
         <div className="initiatives-header">
-          <h1>Nos <span className="highlight">Initiatives et Réalisations</span></h1>
+          <h1><span className="highlight">مبادراتنا وإنجازاتنا</span></h1>
           {/* FIX: Replaced l' with l&apos; */}
-          <p className="initiatives-tagline">Depuis des décennies, l&apos;Organisation Marocaine des Droits Humains (OMDH) est à l&apos;avant-garde de la défense des droits humains au Maroc, impulsant des changements significatifs à travers des initiatives stratégiques, un plaidoyer persistant et un engagement communautaire.</p>
+          <p className="initiatives-tagline">منذ عقود من الزمن، كانت المنظمة المغربية لحقوق الإنسان في طليعة الدعوة إلى حقوق الإنسان في المغرب، حيث عملت على دفع التغيير الهادف من خلال المبادرات الاستراتيجية، والدعوة المستمرة، والمشاركة المجتمعية.</p>
         </div>
 
         <div className="impact-stats">
           <div className="stat-card">
             <div className="stat-number">1,000+</div>
-            <div className="stat-label">Prisonniers Politiques Libérés</div>
+            <div className="stat-label">السجناء السياسيون المفرج عنهم</div>
           </div>
           <div className="stat-card">
             <div className="stat-number">35+</div>
-            <div className="stat-label">Années de Plaidoyer</div>
+            <div className="stat-label">سنوات من المرافعة</div>
           </div>
           <div className="stat-card">
             <div className="stat-number">100+</div>
-            <div className="stat-label">Rapports sur les Droits Humains</div>
+            <div className="stat-label">تقارير حقوق الإنسان</div>
           </div>
           <div className="stat-card">
             <div className="stat-number">10,000+</div>
-            <div className="stat-label">Jeunes Éduqués</div>
+            <div className="stat-label">من الشباب المتعلم</div>
           </div>
         </div>
 
@@ -49,12 +49,12 @@ export default function CampaignsPage() {
                 <Image src="/Images/DeathPenaltyAbolition.jpg" alt="Campagne pour l'abolition de la peine de mort" width={500} height={200} />
               </div>
               <div className="timeline-text">
-                <span className="timeline-date">Depuis les années 1990</span>
-                <h3>Abolition de la Peine de Mort</h3>
+                <span className="timeline-date">منذ التسعينيات</span>
+                <h3>إلغاء عقوبة الإعدام</h3>
                 {/* FIX: Replaced multiple apostrophes */}
-                <p>L&apos;OMDH est à l&apos;avant-garde de la lutte pour l&apos;abolition de la peine de mort au Maroc. Grâce à un plaidoyer persistant, des partenariats avec des coalitions internationales et une mobilisation publique, elle a créé un élan en faveur d&apos;une réforme législative...</p>
+                <p>تتصدر المنظمة المغربية لحقوق الإنسان النضال من أجل إلغاء عقوبة الإعدام في المغرب. ومن خلال جهودها الدؤوبة في المناصرة، وشراكاتها مع التحالفات الدولية، وتعبئتها الجماهيرية، استطاعت خلق زخمٍ للإصلاح التشريعي...</p>
                 <div className="timeline-footer">
-                  <span className="location-tag">À l&apos;échelle nationale</span>
+                  <span className="location-tag">على الصعيد الوطني</span>
                 </div>
               </div>
             </div>
@@ -68,11 +68,11 @@ export default function CampaignsPage() {
                 <Image src="/Images/Prisonners.jpeg" alt="Soutien aux prisonniers politiques" width={500} height={200} />
               </div>
               <div className="timeline-text">
-                <span className="timeline-date">Fin des années 1980</span>
-                <h3>Soutien aux Prisonniers Politiques</h3>
-                <p>Durant une période de répression politique intense, l&apos;OMDH a joué un rôle crucial dans la documentation et la dénonciation de la détention de militants politiques et de dissidents...</p>
+                <span className="timeline-date">أواخر الثمانينيات</span>
+                <h3>دعم السجناء السياسيين</h3>
+                <p>خلال فترة القمع السياسي الشديد، لعبت المنظمة المغربية لحقوق الإنسان دوراً حاسماً في توثيق وكشف اعتقال النشطاء السياسيين والمعارضين...</p>
                 <div className="timeline-footer">
-                  <span className="location-tag">À l&apos;échelle nationale</span>
+                  <span className="location-tag">على الصعيد الوطني</span>
                 </div>
               </div>
             </div>
@@ -85,11 +85,11 @@ export default function CampaignsPage() {
                 <Image src="/Images/wOMENrIGHT.jpg" alt="Plaidoyer pour les droits des femmes" width={500} height={200} />
               </div>
               <div className="timeline-text">
-                <span className="timeline-date">En cours</span>
-                <h3>Plaidoyer pour les Droits des Femmes</h3>
-                <p>L&apos;OMDH a défendu les droits des femmes marocaines en poussant à des réformes du code de la famille, en luttant contre la violence basée sur le genre et en plaidant pour l&apos;égalité des chances...</p>
+                <span className="timeline-date">قيد التنفيذ</span>
+                <h3>الدعوة لحقوق المرأة</h3>
+                <p>دافعت المنظمة المغربية لحقوق الإنسان عن حقوق المرأة المغربية من خلال الدفع نحو إصلاح قانون الأسرة، ومكافحة العنف القائم على النوع الاجتماعي، والدعوة إلى تكافؤ الفرص...</p>
                 <div className="timeline-footer">
-                  <span className="location-tag">À l&apos;échelle nationale</span>
+                  <span className="location-tag">على الصعيد الوطني</span>
                 </div>
               </div>
             </div>
@@ -102,11 +102,11 @@ export default function CampaignsPage() {
                 <Image src="/Images/Awarness.jpg" alt="Éducation des jeunes aux droits humains" width={500} height={200} />
               </div>
               <div className="timeline-text">
-                <span className="timeline-date">En cours</span>
-                <h3>Éducation des Jeunes aux Droits Humains</h3>
-                <p>Convaincue que le changement commence par la jeunesse, l&apos;OMDH mène des programmes éducatifs à travers le Maroc pour inculquer un profond respect des droits humains aux jeunes générations...</p>
+                <span className="timeline-date">قيد التنفيذ</span>
+                <h3>تعليم الشباب حول حقوق الإنسان</h3>
+                <p>انطلاقا من قناعتها بأن التغيير يبدأ بالشباب، تنفذ المنظمة المغربية لحقوق الإنسان برامج تعليمية في مختلف أنحاء المغرب لغرس الاحترام العميق لحقوق الإنسان في نفوس الأجيال الشابة...</p>
                 <div className="timeline-footer">
-                  <span className="location-tag">À l&apos;échelle nationale</span>
+                  <span className="location-tag">على الصعيد الوطني</span>
                 </div>
               </div>
             </div>
@@ -120,10 +120,10 @@ export default function CampaignsPage() {
               </div>
               <div className="timeline-text">
                 <span className="timeline-date">2019</span>
-                <h3>Campagne contre le Mariage des Mineurs</h3>
-                <p>L&apos;OMDH a lancé une campagne nationale vigoureuse pour mettre fin au mariage des enfants, en soulignant ses conséquences psychologiques, sociales et juridiques...</p>
+                <h3>حملة ضد زواج الأطفال</h3>
+                <p>أطلقت المنظمة المغربية لحقوق الإنسان حملة وطنية حثيثة للقضاء على زواج الأطفال، مسلطة الضوء على عواقبه النفسية والاجتماعية والقانونية...</p>
                 <div className="timeline-footer">
-                  <span className="location-tag">À l&apos;échelle nationale</span>
+                  <span className="location-tag">على الصعيد الوطني</span>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ export default function CampaignsPage() {
         </div>
 
         {/* NOTE: The single quotes in the style attribute are part of JS syntax and are NOT changed. */}
-        <h2 style={{ textAlign: 'center', marginTop: '5rem', fontSize: '2rem', color: 'var(--text-dark)', fontFamily: 'var(--Poppins)' }}>Autres Initiatives Clés</h2>
+        <h2 style={{ textAlign: 'center', marginTop: '5rem', fontSize: '2rem', color: 'var(--text-dark)', fontFamily: 'var(--Poppins)' }}>مبادرات رئيسية أخرى</h2>
         <div className="initiatives-grid">
           {/* Initiative Cards Here */}
             <div className="initiative-card">
@@ -139,11 +139,11 @@ export default function CampaignsPage() {
                   <Image src="/Images/freedomeofspech.jpg" alt="Liberté d'expression" width={400} height={200} />
               </div>
               <div className="initiative-content">
-                  <span className="initiative-category">Liberté & Justice</span>
-                  <h3>Défense de la Liberté d&apos;Expression</h3>
-                  <p>L&apos;OMDH se tient comme un défenseur inébranlable des journalistes, artistes et citoyens confrontés à la censure ou au harcèlement judiciaire...</p>
+                  <span className="initiative-category">الحرية والعدالة</span>
+                  <h3>الدفاع عن حرية التعبير</h3>
+                  <p>تقف المنظمة المغربية لحقوق الإنسان كمدافع قوي عن الصحفيين والفنانين والمواطنين الذين يواجهون الرقابة أو المضايقة القضائية...</p>
                   <div className="initiative-footer">
-                      <span className="initiative-date">En cours</span>
+                      <span className="initiative-date">قيد التنفيذ</span>
                   </div>
               </div>
             </div>
@@ -152,11 +152,11 @@ export default function CampaignsPage() {
                 <Image src="/Images/humainrightreporting.jpg" alt="Documentation des droits humains" width={400} height={200}/>
             </div>
             <div className="initiative-content">
-                <span className="initiative-category">Plaidoyer</span>
-                <h3>Documentation et Rapports sur les Droits Humains</h3>
-                <p>Grâce à des enquêtes de terrain méticuleuses, des entretiens et des analyses juridiques, l&apos;OMDH produit des rapports détaillés...</p>
+                <span className="initiative-category">المرافعة</span>
+                <h3>توثيق حقوق الإنسان وإعداد التقارير عنها</h3>
+                <p>من خلال البحث الميداني الدقيق والمقابلات والتحليل القانوني، تنتج المرصد المغربي لحقوق الإنسان تقارير مفصلة...</p>
                 <div className="initiative-footer">
-                    <span className="initiative-date">En cours</span>
+                    <span className="initiative-date">قيد التنفيذ</span>
                 </div>
             </div>
           </div>
@@ -165,11 +165,11 @@ export default function CampaignsPage() {
                 <Image src="/Images/Parlement.png" alt="Conférences et débats publics" width={400} height={200}/>
             </div>
             <div className="initiative-content">
-                <span className="initiative-category">Éducation</span>
-                <h3>Conférences et Débats Publics</h3>
-                <p>L&apos;OMDH organise des débats publics inclusifs et des conférences académiques pour mettre en lumière les questions des droits humains...</p>
+                <span className="initiative-category">التوعية</span>
+                <h3>المؤتمرات والمناظرات العامة</h3>
+                <p>تنظم المنظمة المغربية لحقوق الإنسان مناقشات عامة شاملة ومؤتمرات أكاديمية لتسليط الضوء على قضايا حقوق الإنسان...</p>
                 <div className="initiative-footer">
-                    <span className="initiative-date">En cours</span>
+                    <span className="initiative-date">قيد التنفيذ</span>
                 </div>
             </div>
           </div>
@@ -178,11 +178,11 @@ export default function CampaignsPage() {
                   <Image src="/Images/9.jpg" alt="Partenariats internationaux" width={400} height={200}/>
               </div>
               <div className="initiative-content">
-                  <span className="initiative-category">Plaidoyer</span>
-                  <h3>Partenariats Internationaux pour les Droits Humains</h3>
-                  <p>L&apos;OMDH collabore avec des organismes internationaux tels que l&apos;ONU, Amnesty International et la Coalition Mondiale Contre la Peine de Mort...</p>
+                  <span className="initiative-category">المرافعة</span>
+                  <h3>الشراكات الدولية لحقوق الإنسان</h3>
+                  <p>تتعاون المنظمة المغربية لحقوق الإنسان مع المنظمات الدولية مثل الأمم المتحدة ومنظمة العفو الدولية والتحالف العالمي لمناهضة عقوبة الإعدام...</p>
                   <div className="initiative-footer">
-                      <span className="initiative-date">En cours</span>
+                      <span className="initiative-date">قيد التنفيذ</span>
                   </div>
               </div>
             </div>
@@ -191,21 +191,21 @@ export default function CampaignsPage() {
                   <Image src="/Images/Suppport.jpg" alt="Soutien aux victimes" width={400} height={200}/>
               </div>
               <div className="initiative-content">
-                  <span className="initiative-category">Liberté & Justice</span>
-                  <h3>Soutien aux Victimes de Violations des Droits Humains</h3>
-                  <p>Au-delà du plaidoyer, l&apos;OMDH offre un soutien direct aux victimes d&apos;abus — qu&apos;il s&apos;agisse de survivants de torture, de familles de personnes disparues ou de femmes confrontées à la violence...</p>
+                  <span className="initiative-category">الحرية والعدالة</span>
+                  <h3>دعم ضحايا انتهاكات حقوق الإنسان</h3>
+                  <p>إلى جانب المناصرة، تقدم المنظمة المغربية لحقوق الإنسان الدعم المباشر لضحايا الإساءة - سواء كانوا من الناجين من التعذيب، أو عائلات الأشخاص المفقودين، أو النساء اللواتي يواجهن العنف...</p>
                   <div className="initiative-footer">
-                      <span className="initiative-date">En cours</span>
+                      <span className="initiative-date">قيد التنفيذ</span>
                   </div>
               </div>
             </div>
         </div>
 
         <div className="cta-section">
-          <h2>Rejoignez Notre Mouvement pour les Droits Humains</h2>
-          <p className="cta-description">Ensemble, nous pouvons construire un Maroc où les droits humains sont respectés, protégés et réalisés pour tous. Votre soutien rend notre travail possible.</p>
+          <h2>انضم إلى حركتنا من أجل حقوق الإنسان</h2>
+          <p className="cta-description">معًا، نستطيع بناء مغرب تُحترم فيه حقوق الإنسان وتُحمى وتُطبّق للجميع. دعمكم يُمكّننا من تحقيق أهدافنا.</p>
           <div className="cta-buttons">
-            <Link href="/contact" className="cta-btn secondary">Soutenez Notre Travail</Link>
+            <Link href="/contact" className="cta-btn secondary">اتصل بنا</Link>
           </div>
         </div>
       </div>

@@ -102,71 +102,71 @@ const timelineEvents = [
 const timelineEvents2 = [
    {
     "year": "1988",
-    "title": "Fondation de l'OMDH",
-    "description": "L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 10 decembre 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.",
+    "title": "تأسيس المنظمة المغربية لحقوق الإنسان",
+    "description": "تم تأسيس المنظمة المغربية لحقوق الإنسان (OMDH) رسمياً في 10 ديسمبر 1988، بأكدال، الرباط، بهدف التوعية بحقوق الإنسان والدفاع عن ضحايا الانتهاكات.",
     "image": "/Images/HandsSolidarity.jpg",
     "type": "primary"
   },
   {
-    "year": "Début 1989",
-    "title": "Plaidoyer pour l'Amnistie",
-    "description": "L'OMDH a lancé des appels à l'amnistie pour les prisonniers politiques et soumis des demandes de visite des prisons dans le cadre de ses efforts initiaux.",
+    "year": "بداية 1989",
+    "title": "الدعوة إلى العفو",
+    "description": "أطلقت المنظمة المغربية لحقوق الإنسان دعوات للعفو عن المعتقلين السياسيين وقدمت طلبات لزيارة السجون في إطار جهودها الأولى.",
     "image": "/Images/AmnestyInternational.jpg",
     "type": "secondary"
   },
   {
     "year": "1993",
-    "title": "Reconnaissance internationale",
-    "description": "L'OMDH devient membre de la Fédération Internationale pour les Droits Humains (FIDH), élargissant ainsi son influence et son accès aux forums internationaux des droits humains.",
+    "title": "الاعتراف الدولي",
+    "description": "أصبحت المنظمة المغربية لحقوق الإنسان عضواً في الاتحاد الدولي لحقوق الإنسان (FIDH)، مما وسع نفوذها ووصولها إلى المحافل الدولية لحقوق الإنسان.",
     "image": "/Images/CandleInHand2.jpg",
     "type": "secondary"
   },
     {
     "year": "1997",
-    "title": "Intégration Régionale",
-    "description": "L'OMDH est devenu membre régulier du réseau EuroMed Rights, indiquant son engagement dans les cadres régionaux des droits humains.",
+    "title": "الاندماج الإقليمي",
+    "description": "أصبحت المنظمة المغربية لحقوق الإنسان عضواً نظامياً في شبكة حقوق الإنسان الأوروبية المتوسطية، مما يشير إلى التزامها بالأطر الإقليمية لحقوق الإنسان.",
     "image": "/Images/blue.png",
     "type": "primary"
   },
   {
     "year": "2004",
-    "title": "Justice et Réconciliation",
-    "description": "L'OMDH joue un rôle clé au sein de l'Instance Équité et Réconciliation (IER) du Maroc, contribuant à la justice transitionnelle et aux efforts de recherche de la vérité.",
+    "title": "العدالة والمصالحة",
+    "description": "لعبت المنظمة المغربية لحقوق الإنسان دوراً رئيسياً في هيئة الإنصاف والمصالحة المغربية، مساهمة في العدالة الانتقالية وجهود البحث عن الحقيقة.",
     "image": "/Images/Women.jpg",
     "type": "primary"
   },
   {
     "year": "2011",
-    "title": "Printemps arabe et Réforme constitutionnelle",
-    "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
+    "title": "الربيع العربي والإصلاح الدستوري",
+    "description": "خلال الإصلاحات الدستورية التي تلت مظاهرات 2011، دعت المنظمة المغربية لحقوق الإنسان إلى توسيع حماية حقوق الإنسان واستقلالية القضاء والمساواة بين الجنسين.",
     "image": "/Images/PA.jpg",
     "type": "secondary"
   },
     {
     "year": "2011",
-    "title": "Alliance Anti-Torture",
-    "description": "L'Organisation Marocaine des Droits Humains (OMDH) a travaillé en collaboration avec le Conseil National des Droits de l'Homme (CNDH) et l'Association pour la Prévention de la Torture (APT) pour promouvoir la approbation du Protocole facultatif à la Convention des Nations Unies contre la torture (OPCAT).",
+    "title": "التحالف ضد التعذيب",
+    "description": "عملت المنظمة المغربية لحقوق الإنسان بالتعاون مع المجلس الوطني لحقوق الإنسان وجمعية منع التعذيب لتعزيز الموافقة على البروتوكول الاختياري لاتفاقية الأمم المتحدة ضد التعذيب (OPCAT).",
     "image": "/Images/CNDH.jpg",
     "type": "secondary"
   },
   {
     "year": "2013",
-    "title": "Condamnation de l'Injustice",
-    "description": "L'OMDH a publié conjointement avec Ensemble Contre la Peine de Mort (ECPM) un rapport intitulé « Voyage au cimetière des vivants », qui analysait les conditions de détention des personnes condamnées à mort au Maroc.",
+    "title": "إدانة الظلم",
+    "description": "نشرت المنظمة المغربية لحقوق الإنسان بالتعاون مع منظمة معاً ضد عقوبة الإعدام تقريراً بعنوان \"رحلة إلى مقبرة الأحياء\"، والذي حلل ظروف احتجاز المحكوم عليهم بالإعدام في المغرب.",
     "image": "/Images/DeathPenaltyAbolition.jpg",
     "type": "primary"
   },
   {
     "year": "2023",
-    "title": "Plaidoyer national et Partenariats",
-    "description": "L'OMDH renforce sa coopération avec les universités marocaines, les institutions civiles et les organisations internationales pour promouvoir l'éducation, les droits des femmes et les libertés civiles.",
+    "title": "الدعوة الوطنية والشراكات",
+    "description": "عززت المنظمة المغربية لحقوق الإنسان تعاونها مع الجامعات المغربية والمؤسسات المدنية والمنظمات الدولية لتعزيز التعليم وحقوق المرأة والحريات المدنية.",
     "image": "/Images/ChatGPT Image May 3, 2025, 05_09_56 PM.png",
     "type": "primary"
   },
   {
-    "year": "Avril 2025",
-    "title": "Solidarité avec Gaza",
-    "description": "Lors de sa douzième conférence nationale, l'OMDH a exprimé sa solidarité avec le peuple palestinien et condamné l'agression israélienne en cours à Gaza, appelant à une intervention internationale.",
+    "year": "أبريل 2025",
+    "title": "التضامن مع غزة",
+    "description": "خلال مؤتمرها الوطني الثاني عشر، أعربت المنظمة المغربية لحقوق الإنسان عن تضامنها مع الشعب الفلسطيني وأدانت العدوان الإسرائيلي المستمر على غزة، ودعت إلى تدخل دولي.",
     "image": "/Images/gaza.jpg",
     "type": "primary"
   },
@@ -176,17 +176,20 @@ export default function AboutUsPage() {
     <>
       <Navbar />
 
-      <main>
+      <main lang='ar' dir='rtl'>
   <section className="about-section">
     <div className="about-container">
-      <div className="about-header">
-        <h1><span className="highlight">Établissement</span></h1>
+      <div className="about-header" dir='ltr'>
+        <h1><span className="highlight">انبثاق فكرة ... مسار فعل</span></h1>
         <p className="about-tagline">
-         L&apos;Organisation Marocaine des Droits de l&apos;Homme (OMDH) est une association nationale non gouvernementale de défense des droits de l&apos;homme, dotée d&apos;un mandat général, dont l&apos;objectif est de protéger et de promouvoir les droits de l&apos;homme au Maroc. Fondée en 1988, son mandat repose sur les valeurs et principes du droit international et des chartes, déclarations et accords internationaux pertinents. C&apos;est une association d&apos;intérêt public dotée du statut consultatif auprès du Conseil économique et social des Nations Unies et membre actif et fondateur de nombreux réseaux nationaux et internationaux de défense des droits de l&apos;homme.
+          المنظمة المغربية لحقوق الإنسان، جمعية حقوقية وطنية غير حكومية ذات اختصاص عام، غرضها الحماية والنهوض بحقوق الإنسان بالمغرب، تأسست سنة 1988.
+وتعتمد في مرجعيتها على قيم ومبادئ الشرعة الدولية والمواثيق والإعلانات والاتفاقيات الدولية ذات الصلة.
+وهي جمعيـــة ذات النفــع العـــام ولها الصفة الاستشارية لدى المجلس الاقتصادي والاجتماعي بالأمم المتحدة.
+
         </p>
       </div>
 
-      <div className="about-content">
+      <div className="about-content " dir='ltr'>
         <div className="about-image">
           <Image src="/Images/candle White Background.jpg" alt="OMDH" width={600} height={700} style={{ objectFit: 'cover' }} />
           <div className="image-overlay">
@@ -194,67 +197,41 @@ export default function AboutUsPage() {
           </div>
         </div>
 
-        <div className="about-text">
-          <h2>Établissement</h2>
+        <div className="about-text" dir='rtl'>
+          <h2>	التأسيس:</h2>
+          <p>المنظمة المغربية لحقوق الإنسان، جمعية حقوقية وطنية غير حكومية ذات اختصاص عام، غرضها الحماية والنهوض بحقوق الإنسان.
+تأسست في الذكرى الأربعينية لصدور الإعلان العالمي لحقوق الإنسان، يوم 10 دجنبر 1988، بعد ثلاثة قرارات منع متتالية (28 ماي،25 يونيو،24 شتنبر 1988) من طرف السلطات العمومية. وقد سهرت على هذا التأسيس لجنة تحضيرية تتكون من 37 رجلا وامرأة: جامعيين وباحثين ومحامين وكتاب وفنانين ومستخدمين...
+وتعتمد المنظمة في مرجعيتها على قيم ومبادئ الشرعة الدولية والمواثيق والإعلانات والاتفاقيات الدولية ذات الصلة.
+<br/> وتأسست المنظمة على مبدإ التعددية من أشخاص ينتمون إلى مجموعات ثقافية وسياسية مختلفة. ويمثل استقلالها عن السلطات العمومية وعن التيارات الإيديولوجية والسياسية مبدأ أساسيا في عملها الحقوقي.
+وتتابع المنظمة المغربية عملها الذؤوب في مجال حماية حقوق الإنسان والنهوض بها، لدعم دولة المؤسسات والفصل بين السلطات واستقلال القضاء وذلك في سبيل ترسيخ دولة الحق والقانون<br/>.
+المنظمة جمعيـــة ذات النفــع العـــام ولها الصفة الاستشارية لدى المجلس الاقتصادي والاجتماعي بالأمم المتحدة، عضو فاعل ومؤسس للعديد من الشبكات الوطنية والدولية لحقوق الانسان<br/> .
+  </p>
+
+          <h2>مسار الفعل:</h2>
           <p>
-          L&apos;Organisation Marocaine des Droits de l&apos;Homme (OMDH) est une association nationale non gouvernementale de défense des droits de l&apos;homme, dotée d&apos;un mandat général, qui se consacre à la protection et à la promotion des droits de l&apos;homme.          
-          </p>
-          <p>
-          L&apos;organisation a été fondée sur le principe du pluralisme, par des individus appartenant à divers groupes culturels et politiques. Son indépendance vis-à-vis des pouvoirs publics et des mouvements idéologiques et politiques est un principe fondamental de son action en faveur des droits de l&apos;homme.        
-          </p>
-          <p>
-            L&apos;OMDH poursuit son travail inlassable en matière de protection et de promotion des droits de l&apos;homme, en soutenant l&apos;État de droit, la séparation des pouvoirs et l&apos;indépendance de la justice, dans le but de consolider l&apos;État de droit.
+            خلال مسار فعلها مند التأسيس سعت المنظمة إلى :
+            <br/>- نشر وتعميق الوعي بحقوق الإنسان الفردية والجماعية والاجتماعية والاقتصادية والثقافية والمدنية والسياسية.
+            <br/>- السعي للتربية على المواطنة وتدريس التربية على حقوق الإنسان في جميع مراحل التعليم.
+            <br/>- العمل على احترام سيادة القانون في أفق توطيد دولة الحق والقانون.
+            <br/>- السعي إلى تعزيز السلطة القضائية واستقلالها ونزاهتها.
+            <br/>- السعي إلى تطوير التشريع المغربي والعمل على إلغاء المقتضيات التشريعية والتنظيمية الماسة بالحريات الفردية والجماعية، والنصوص المتنافية مع المعايير الدولية لحقوق الإنسان 
+            <br/>- توفير ضمانات فعالة لإعمال هذه الحقوق والحريات 
+            <br/>- الدعوة إلى المصادقة على المواثيق الدولية التي تهم حقوق الإنسان والعمل على متابعة التزام المغرب بتقديم التقارير المتعلقة بإعمال مقتضيات الاتفاقيات المصدق عليها في الآجال المحددة لها.
+            <br/>- تعزيز روابط التضامن الوطني والعربي والإفريقي والدولي في مجال حقوق الإنسان.
           </p>
 
-          <h2>Chemin d&apos;action</h2>
-          <p>
-          Depuis sa création, l&apos;organisation a pour objectifs, dans le cadre de ses activités, de 
-          </p>
-          <p>
-            - Diffuser et approfondir la connaissance des droits humains individuels et collectifs, sociaux, économiques, culturels, civils et politiques.
-          </p>
-           <p>
-            - Promouvoir l&apos;éducation à la citoyenneté et l&apos;éducation aux droits humains à tous les niveaux de l&apos;enseignement.
-          </p>
-           <p>
-            - Œuvrer à la promotion du respect de l&apos;État de droit en vue de sa consolidation.
-          </p>
-           <p>
-            - Renforcer le pouvoir judiciaire, son indépendance et son intégrité.
-          </p>
-           <p>
-            - Développer la législation marocaine et œuvrer à l&apos;abrogation des dispositions législatives et réglementaires portant atteinte aux libertés individuelles et collectives, ainsi que des textes incompatibles avec les normes internationales relatives aux droits humains.
-          </p>
-           <p>
-            - Fournir des garanties effectives pour la mise en œuvre de ces droits et libertés.
-          </p>
-           <p>
-            - Appeler à la ratification des traités internationaux relatifs aux droits humains et veiller au respect de l&apos;engagement du Maroc à soumettre des rapports sur la mise en œuvre des dispositions des accords ratifiés dans les délais impartis.
-          </p>
-           <p>
-            - Renforcer les liens de solidarité nationale, arabe, africaine et internationale dans le domaine des droits humains.
-          </p>
-
-          <h2>Notre mission</h2>
-          <p>
-            La mission de l&apos;OMDH est de promouvoir, protéger et étendre les droits humains au Maroc à travers un large éventail d&apos;actions comprenant le plaidoyer, l&apos;éducation, le soutien juridique, la réforme des politiques et les interventions sur le terrain. Elle s&apos;efforce d&apos;inculquer une culture fondée sur les droits parmi les citoyens et les institutions publiques.
-          </p>
-          <p>
-            L&apos;organisation défend l&apos;indivisibilité des droits et se concentre sur des questions clés telles que la justice transitionnelle, l&apos;égalité des sexes, la protection des groupes vulnérables, la démocratie participative et l&apos;éducation aux droits humains.
-          </p>
-
-          <div className="stats-container">
+          <div className="stats-container" dir='rtl'>
             <div className="stat-item">
               <span className="stat-number">+37</span>
-              <span className="stat-label">Années de défense des droits humains</span>
+              <span className="stat-label">سنوات من الدفاع عن حقوق الإنسان</span>
             </div>
             <div className="stat-item">
               <span className="stat-number">+100</span>
-              <span className="stat-label">Campagnes de sensibilisation</span>
+              <span className="stat-label">حملات التوعية</span>
             </div>
             <div className="stat-item">
               <span className="stat-number">+100</span>
-              <span className="stat-label">Partenariats régionaux et locaux</span>
+              <span className="stat-label">الشراكات الإقليمية والمحلية</span>
             </div>
             {/* 
             <div className="stat-item">
@@ -265,15 +242,15 @@ export default function AboutUsPage() {
           </div>
 
           <div className="cta-container">
-            <Link href="/projects" className="BtnPrimary">Nos Projets</Link>
-            <Link href="/contact" className="BtnSuc">Nous Contacter</Link>
+            <Link href="/projects" className="BtnPrimary">مشاريعنا</Link>
+            <Link href="/contact" className="BtnSuc">اتصل بنا</Link>
           </div>
         </div>
       </div>
 
       <section className="timeline-section">
                <div className="section-header">
-                 <h2 className="section-title">Découvrez Nos Étapes Clés</h2>
+                 <h2 className="section-title">اكتشف مسار فعلنا</h2>
                </div>
      
                <div className="timeline-container">
@@ -307,7 +284,7 @@ export default function AboutUsPage() {
              
       <section className="timeline-section" >
       <div className="section-header">
-        <h2 className="section-title">Découvrez les personnalités qui ont présidées auparavant</h2>
+        <h2 className="section-title"> تعرف على الرؤساء السابقين للمنظمة</h2>
       </div>
 
       <div className="timeline-container" translate='no'>
@@ -344,34 +321,34 @@ export default function AboutUsPage() {
     </section>
 
       <div className="values-section">
-        <h2>Nos valeurs fondamentales</h2>
-        <p className="values-description">Nos valeurs constituent le fondement de notre mission et de nos actions. Elles représentent notre engagement indéfectible envers la justice, la dignité et les droits humains pour tous.</p>
+        <h2>قيمنا الأساسية</h2>
+        <p className="values-description">قيمنا هي أساس رسالتنا وأعمالنا، وهي تُجسّد التزامنا الراسخ بالعدالة والكرامة وحقوق الإنسان للجميع.</p>
         <div className="values-container">
           <div className="value-card">
             <div className="value-icon"><div className="icon-circle"><span>⚖️</span></div></div>
-            <h3>Justice</h3>
-            <p>Nous recherchons la justice à travers la réforme juridique, la responsabilisation et la défense des droits individuels et collectifs, garantissant l&apos;équité et la justice dans toute la société marocaine.</p>
+            <h3>عدالة</h3>
+            <p>نسعى إلى تحقيق العدالة من خلال الإصلاح القانوني والمساءلة والدفاع عن الحقوق الفردية والجماعية، وضمان العدالة والمساواة في جميع أنحاء المجتمع المغربي.</p>
           </div>
           <div className="value-card">
             <div className="value-icon"><div className="icon-circle"><span>🕊️</span></div></div>
-            <h3>Dignité</h3>
-            <p>Nous promouvons le respect de la dignité inhérente à chaque personne, en œuvrant pour éliminer la discrimination, l&apos;exclusion et la violence sous toutes ses formes.</p>
+            <h3>كرامة</h3>
+            <p>نحن نعمل على تعزيز احترام الكرامة المتأصلة في كل شخص، ونعمل على القضاء على التمييز والإقصاء والعنف بجميع أشكاله.</p>
           </div>
           <div className="value-card">
             <div className="value-icon"><div className="icon-circle"><span>🤝</span></div></div>
-            <h3>Solidarité</h3>
-            <p>Nous collaborons avec les communautés, les organisations et les institutions pour construire une voix collective pour les droits humains et renforcer la participation de la société civile.</p>
+            <h3>تكافل</h3>
+            <p>نحن نتعاون مع المجتمعات والمنظمات والمؤسسات لبناء صوت جماعي لحقوق الإنسان وتعزيز مشاركة المجتمع المدني.</p>
           </div>
           <div className="value-card">
             <div className="value-icon"><div className="icon-circle"><span>📣</span></div></div>
-            <h3>Plaidoyer</h3>
-            <p>Nous participons activement au discours public, influençons les politiques et prenons des mesures concrètes pour protéger les droits humains et les libertés démocratiques.</p>
+            <h3>المرافعة</h3>
+            <p>نحن نشارك بشكل فعال في الخطاب العام، ونؤثر على السياسات، ونتخذ إجراءات ملموسة لحماية حقوق الإنسان والحريات الديمقراطية.</p>
           </div>
         </div>
       </div>
 
       <div className="Partnairs">
-        <h2>Découvrez tous nos partenaires !</h2>
+        <h2>اكتشف جميع شركائنا!</h2>
         <div className="parts">
           <div className="ImgCont"><Image src="/IntPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" alt="Ecosoc Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
           <div className="ImgCont"><Image src="/IntPartnaires/Amnesty_International_logo.svg.png" alt="Amnesty International Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
@@ -506,16 +483,7 @@ export default function AboutUsPage() {
             position: relative;
             padding-bottom: 0.5rem;
         }
-        .about-text h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 3px;
-            background-color: var(--secondary-color);
-            border-radius: 1.5px;
-        }
+        
         .about-text p {
             margin-bottom: 1.5rem;
             line-height: 1.7;

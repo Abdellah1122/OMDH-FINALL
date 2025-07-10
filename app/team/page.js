@@ -218,17 +218,17 @@ export default function TeamPage() {
     <div className="team-page">
       <Navbar />
 
-      <main>
+      <main dir="rtl" lang="ar">
   {/* Hero Section */}
   <section className="hero-section">
     <div className="container">
       <div className="hero-content">
-        <span className="hero-subtitle-top">Rencontrez Notre Équipe</span>
+        <span className="hero-subtitle-top">هيئات الحكامة</span>
         <h1 className="hero-title">
-          Les visages derrière notre <span>mission</span>
+          القلب النابض <span>لمهمتنا</span>
         </h1>
         <p className="hero-subtitle">
-          Une équipe passionnée et dévouée travaillant sans relâche.
+         فريق عمل متحمس ومخلص يعمل بلا كلل.
         </p>
       </div>
     </div>
@@ -240,9 +240,9 @@ export default function TeamPage() {
       <div className="leadership-team">
         <div className="section-header">
           <span className="section-subtitle"></span>
-          <h2 className="section-title">Notre Bureau Exécutif</h2>
+          <h2 className="section-title">مكتبنا التنفيذي</h2>
           <p className="section-description">
-            L&apos;équipe de direction qui guide notre organisation avec vision et détermination.
+            فريق القيادة الذي يقود مؤسستنا بالرؤية والتصميم.
           </p>
         </div>
 
@@ -322,7 +322,7 @@ export default function TeamPage() {
         {members.length > 0 && (
           <div className="team-level" translate="no">
              <div className="section-header">
-               <h2 className="section-title">Nos Conseillers</h2>
+               <h2 className="section-title">مستشارينا</h2>
             </div>
             {memberRows.map((row, rowIndex) => (
               <div key={rowIndex} className="team-row">

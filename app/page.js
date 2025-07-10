@@ -11,7 +11,6 @@ const heroSlides = [
   {
     image: "/Images/omdhbg.jpg",
     text: "انبثاق فكرة....مسار فعل",
-
   },
   {
     image: "/Images/CandleInHand2.jpg",
@@ -33,26 +32,41 @@ const heroSlides = [
 
 const newsItems = [
   {
-    date: "25-26-27 avril 2025",
-    title: "12ème Conférence Nationale de l'OMDH sur les Droits Humains et le Changement Global",
-    description:
-      'تكرم المنظمة المغربية لحقوق الإنسان مؤسسيها والمساهمين فيها بدعوتهم للمشاركة في الندوات والجلسات الاftتاحية لمؤتمراتها. ويبحث مؤتمرها الوطني الثاني عشر في الرباط موضوع "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة"، ويبدأ بندوة حول الحقوق الاقتصادية والاجتماعية والثقافية في السياسة العامة.',
-    image: "/Images/New Project.jpg",
-    imageStyle: "special-padding",
-  },
-  {
-    date: "6 mai 2025",
-    title: "Conférence de Presse de l'OMDH sur les Résultats de la 12ème Conférence Nationale des Droits Humains",
-    description:
-      'في 6 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان مؤتمراً صحفياً في الرباط لعرض نتائج مؤتمرها الوطني الثاني عشر حول "فعالية حقوق الإنسان في مواجهة التحولات الدولية الراهنة". وتقاسمت الإدارة الاستنتاجات والتوصيات، وحللت السياقات الوطنية والدولية، وأجابت على أسئلة وسائل الإعلام حول مواقفها من التحديات الراهنة لحقوق الإنسان.',
-    image: "/Images/News2.jpg",
+    date: "25 juin 2025",
+    title: "لقاء وفد عن المنظمة بقيادات أحزاب الاتحاد الاشتراكي والتقدم والاشتراكية",
+    description:'عقد وفد عن المنظمة المغربية لحقوق الانسان بقيادة رئيس المنظمة الأستاذ نوفل البعمري يوم الخميس 27 يونيو 2025، لقائين مع قيادة حزب الاتحاد الاشتراكي للقوات الشعبية برئاسة الكاتب الأول للحزب الأستاذ ادريس لشكر وأعضاء المكتب السياسي للحزب ومديري الفريقين بمجلسي البرلمان.اللقاء الثاني كان مع قيادة حزب التقدم والاشتراكية برئاسة الأمين العام للحزب الأستاذ نبيل بن عبد الله بحضور أعضاء من الديوان السياسي للحزب.اللقائين المنعقدين بالمقر المركزيين للحزبين الصديقين للمنظمة، كان فرصة للمنظمة المغربية لحقوق الانسان لتقديم خلاصات ومواقف المؤتمر الوطني الثاني عشر للمنظمة وافاق العمل المستقلبية.',
+    image: "",
   },
   {
     date: "18 mai 2025",
-    title: "Le Conseil National de l'OMDH se Réunit Suite à la 12ème Conférence, Rend Hommage aux Êtres Chers Disparus",
-    description:
-      "في 18 مايو 2025، عقدت المنظمة المغربية لحقوق الإنسان الجلسة الأولى لمجلسها الوطني لوضع اللمسات الأخيرة على جدول أعمال مؤتمرها الوطني الثاني عشر. بدأ الاجتماع بالوقوف دقيقة صمت حدادًا على روح أنس بوعيش ووالدة الأستاذ عبد الرزاق وئام.",
-    image: "/Images/News3.jpg",
+    title: "انعقاد الدورة الأولى للمجلس الوطني وانتخاب المكتب التنفيذي",
+    description:"في أطار استكمال الأجهزة التنظيمية، للمنظمة المغربية لحقوق الانسان، انعقدت بمقر المنظمة بالرباط، يوم الاحد 18 ماي 2025، الدورة الأولى للمجلس الوطني المنتخب من طرف المؤتمر الوطني الثاني عشر للمنظمة الذي انعقد أيام 25-26-27 أبريل 2025، وفي أجواء من النقاش الديمقراطي تم التصويت بالإجماع على اللائحة المقدمة من طرف رئيس المنظمة لعضوية المكتب التنفيذي، والتي ضمت 7 أعضاء و6 عضوات.",
+    image: "",
+  },
+  {
+    date: "18 mai 2025",
+    title: "ندوة صحفية لرئيس المنظمة مع وسائل الاعلام.",
+    description:"في إطار ربط جسور التوصل مع وسائل الاعلام الوطنية والدولية، عقد الرئيس الجديد للمنظمة الأستاذ نوفل البعمري، ندوة صحفية يوم الثلاثاء 6 ماي 2025 بمقر المنظمة بالرباط، من اجل اخبار الراي العام بمختلف المستجدات والمواقف المرتبطة بنتائج وخلاصات المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان، وافاق العمل المستقبلية، كما أجاب خلالها عن مختلف الأسئلة المطروحة من قبل ممثلي وممثلات وسائل الاعلام الوطنية والدولية الحاضرة.",
+    image: "",
+  },
+
+   {
+    date: "",
+    title: "تصريح صحفي المجريات، المواقف وافاق العمل الحقوق المستقبلية",
+    description:"",
+    image: "",
+  },
+  {
+    date: "",
+    title: "انتخاب الأستاذ نوفل البعمري رئيسا جديدا للمنطمة.",
+    description:"خلال أشغال المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، الذي انعقد نهاية الأسبوع الماضي بمدينة الرباط، جددت المنظمة هياكلها التنظيمية، حيث تم انتخاب الأستاذ نوفل البعمري، المحامي بهيئة تطوان، رئيسا وطنيا جديدا للمنظمة خلفا للأستاذ حسن الادريسي..",
+    image: "",
+  },
+  {
+    date: "",
+    title: "انعقاد اشغال  المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان  ",
+    description:"تحت شعار’أي فعلية لحقوق الانسان في ظل التحولات الدولية الراهنة؟’،انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 بالمعهد الوطني لكتابة الضبط والمهن القانونية والقضائية،وقد تم التمهيد لأشغال المؤتمر بتنظيم ندوة موضوعاتية تحت عنوان ‘الحقوق الاقتصادية والاجتماعية والثقافية في السياسات العمومية وسؤال الفعلية’، وتهدف هذه الندوة إلى طرح وضعية هذه الحقوق انطلاقا من السياسات العمومية التي نهجتها الحكومة في ظل تدبيرها للشأن العمومي، وقد شارك في تأطيرها مجموعة من الأساتذة الجامعيين والخبراء والفاعلين الحقوقيين الوطنيين والدوليين حيث طرحت مجموعة من الأسئلة والاشكالات المرتبطة بوضعية الحقوق الاقتصادية والاجتماعية والثقافية في ظل سؤال مركزي مرتبط بمدى فعليتها في السياسات العمومية.",
+    image: "",
   },
 ]
 
@@ -88,29 +102,29 @@ const intPart = [
 const timelineEvents = [
     {
     "year": "1988",
-    "title": "Fondation de l'OMDH",
-    "description": "L'Organisation Marocaine des Droits Humains (OMDH) a été officiellement fondée le 10 decembre 1988, à Agdal, Rabat, dans le but de sensibiliser aux droits humains et de défendre les victimes de violations.",
+    "title":"التأسيس",
+    "description": "تأسست في الذكرى الأربعينية لصدور الإعلان العالمي لحقوق الإنسان، يوم 10 دجنبر 1988، بعد ثلاثة قرارات منع متتالية (28 ماي،25 يونيو،24 شتنبر 1988) من طرف السلطات العمومية. وقد سهرت على هذا التأسيس لجنة تحضيرية تتكون من 37 رجلا وامرأة: جامعيين وباحثين ومحامين وكتاب وفنانين ومستخدمين...",
     "image": "/Images/HandsSolidarity.jpg",
     "type": "primary"
   },
   {
-    "year": "Début 1989",
-    "title": "Plaidoyer pour l'Amnistie",
-    "description": "L'OMDH a lancé des appels à l'amnistie pour les prisonniers politiques et soumis des demandes de visite des prisons dans le cadre de ses efforts initiaux.",
+    "year": "بداية 1989",
+    "title": "الدعوة إلى العفو",
+    "description": "أطلقت المنظمة المغربية لحقوق الإنسان دعوات للعفو عن المعتقلين السياسيين وقدمت طلبات لزيارة السجون في إطار جهودها الأولى.",
     "image": "/Images/AmnestyInternational.jpg",
     "type": "secondary"
   },
   {
     "year": "2011",
-    "title": "Printemps arabe et Réforme constitutionnelle",
-    "description": "Lors des réformes constitutionnelles qui ont suivi les manifestations de 2011, l'OMDH plaide pour l'élargissement des protections des droits humains, l'indépendance judiciaire et l'égalité des sexes.",
+    "title": "الربيع العربي والإصلاح الدستوري",
+    "description": "خلال الإصلاحات الدستورية التي تلت مظاهرات 2011، دعت المنظمة المغربية لحقوق الإنسان إلى توسيع حماية حقوق الإنسان واستقلالية القضاء والمساواة بين الجنسين.",
     "image": "/Images/PA.jpg",
     "type": "secondary"
   },
   {
-    "year": "Avril 2025",
-    "title": "Solidarité avec Gaza",
-    "description": "Lors de sa douzième conférence nationale, l'OMDH a exprimé sa solidarité avec le peuple palestinien et condamné l'agression israélienne en cours à Gaza, appelant à une intervention internationale.",
+    "year": "أبريل 2025",
+    "title": "التضامن مع غزة",
+    "description": "خلال مؤتمرها الوطني الثاني عشر، أعربت المنظمة المغربية لحقوق الإنسان عن تضامنها مع الشعب الفلسطيني وأدانت العدوان الإسرائيلي المستمر على غزة، ودعت إلى تدخل دولي.",
     "image": "/Images/gaza.jpg",
     "type": "primary"
   },
@@ -149,7 +163,7 @@ export default function HomePage() {
     <div className="homepage">
       <Nav />
 
-      <main style={{ marginTop: "-85px" }}>
+      <main style={{ marginTop: "-85px" }} >
         {/* Hero Carousel */}
         <section className="hero-section">
           <div className="hero-container">
@@ -189,18 +203,20 @@ export default function HomePage() {
           {/* News Section */}
           <section className="news-section">
             <div className="section-header">
-              <h2 className="section-title">Actualités Récentes</h2>
+              <h2 className="section-title">:اخر المستجدات</h2>
             </div>
-            <div className="news-container">
+            <div className="news-container" translate="no">
               <div className="news-card">
                 <div className="news-content">
                   <div className="news-text-section">
+                    {/*
                     <div className="news-date">
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" strokeWidth="1.5" /><path d="M16 2V6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /><path d="M8 2V6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /><path d="M3 10H21" stroke="currentColor" strokeWidth="1.5" /></svg>
                       <span>{newsItems[currentNewsSlide].date}</span>
                     </div>
-                    <h3 className="news-title">{newsItems[currentNewsSlide].title}</h3>
-                    <p className="news-description">{newsItems[currentNewsSlide].description}</p>
+                    */}
+                    <h3 className="news-title" lang="ar" dir="rtl">{newsItems[currentNewsSlide].title}</h3>
+                    <p className="news-description" lang="ar" dir="rtl">{newsItems[currentNewsSlide].description}</p>
                   </div>
                   <div className={`news-image-section ${newsItems[currentNewsSlide].imageStyle || ""}`}>
                     <img src={newsItems[currentNewsSlide].image || "/placeholder.svg?height=500&width=600"} alt={newsItems[currentNewsSlide].title} className="news-image" />
@@ -219,7 +235,7 @@ export default function HomePage() {
 
           {/* National Partners */}
           <div className="partner-section">
-            <h2 className="section-title">Partenaires institutionnels</h2>
+            <h2 className="section-title" style={{marginTop:"3em"}}>:مؤسسات وطنية شريكة</h2>
             <div className="slider">
               <div className="slide-track national-track">
                 {/* We duplicate the array to create a seamless loop */}
@@ -234,7 +250,7 @@ export default function HomePage() {
 
           {/* University Partners */}
           <div className="partner-section">
-            <h2 className="section-title">Universités partenaires</h2>
+            <h2 className="section-title">:جامعات شريكة</h2>
             <div className="slider">
               <div className="slide-track university-track">
                 {/* We duplicate the array to create a seamless loop */}
@@ -249,7 +265,7 @@ export default function HomePage() {
 
           {/* International Partners */}
           <div className="partner-section">
-            <h2 className="section-title">Partenaires Internationaux</h2>
+            <h2 className="section-title">:الشركاء الدوليون</h2>
             <div className="slider">
               <div className="slide-track international-track">
                 {/* We duplicate the array to create a seamless loop */}
@@ -265,25 +281,24 @@ export default function HomePage() {
           {/* === ENHANCED PARTNER SECTIONS END === */}
 
           {/* Our Story Section */}
-          <section className="story-section">
+          <section className="story-section" lang="ar" dir="rtl">
             <div className="story-container">
               <div className="story-image-section">
                 <img src="/Images/Hands.jpg" alt="OMDH Story" className="story-image" />
               </div>
               <div className="story-content">
-                <h3 className="story-title">OMDH : Plaidoyer pour la Justice et la Dignité Humaine</h3>
+                <h3 className="story-title">المنظمة المغربية لحقوق الإنسان: الدعوة إلى العدالة والكرامة الإنسانية</h3>
                 <p className="story-text">
-                  Au cœur de notre mission réside un engagement inébranlable envers la justice, l&apos;égalité et la protection des droits humains fondamentaux. Nous plaidons pour la dignité et les libertés de tous les individus, nous efforçant de créer un monde où chaque voix est entendue, chaque droit est respecté, et chaque personne est habilitée à vivre sans peur ni oppression.
-                </p>
-                <a href="/about-us" className="story-button">Explorez Plus</a>
+في صميم رسالتنا يكمن التزامنا الراسخ بالعدالة والمساواة وحماية حقوق الإنسان الأساسية. ندافع عن كرامة وحريات جميع الأفراد، ونسعى جاهدين لخلق عالم يُسمع فيه كل صوت، ويُحترم فيه كل حق، ويُمكّن كل شخص من العيش دون خوف أو قمع.                 </p>
+                <a href="/about-us" className="story-button">استكشف المزيد</a>
               </div>
             </div>
           </section>
 
           {/* Timeline Section */}
-          <section className="timeline-section">
+          <section className="timeline-section" lang="ar" dir="rtl">
             <div className="section-header">
-              <h2 className="section-title">Découvrez Nos Étapes Clés</h2>
+              <h2 className="section-title">اكتشف خطواتنا الرئيسية</h2>
             </div>
             <div className="timeline-container">
               <div className="timeline-wrapper">
@@ -312,7 +327,7 @@ export default function HomePage() {
             <div className="section-header">
               <h2 className="section-title">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /><path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
-                Nous Trouver
+               تجدنا
               </h2>
             </div>
             <div className="map-container">

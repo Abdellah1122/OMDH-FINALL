@@ -5,23 +5,22 @@ import Link from "next/link"
 import Image from "next/image"
 
 const aboutItems = [
-  { href: "/about-us", label: "Qui sommes-nous" },
-  { href: "/missions", label: "Notre message" },
-  { href: "/presence", label: "Réseau de Succursales" },
-  { href: "/campaigns", label: "Nos Campagnes" },
-  { href: "/album", label: "Galerie de photos" },
+  { href: "/about-us", label: "من نحن" },
+  { href: "/missions", label: "رسالتنا" },
+  { href: "/presence", label: "شبكة الفروع" },
+  { href: "/campaigns", label: "حملاتنا" },
+  { href: "/album", label: "معرض الصور" },
 ]
 
 const projectItems = [
-  { href: "/Projects", label: "Tous les projets" },
+  { href: "/Projects", label: "مشاريع وشراكات" },
   { href: "/project-hcr", label: "Projet HCR" },
 ]
 
 const mainNavItems = [
-  { href: "/team", label: "Organes de gouvernance" },
-  { href: "/editions", label: "Documents de référence" },
-  
-  { href: "/contact", label: "Contact" },
+  { href: "/team", label:"هيئات الحكامة" },
+  { href: "/editions", label: "وثائق مرجعية" },
+  { href: "/contact", label: "اتصل بنا" },
 ]
 
 export default function Navbar() {
@@ -131,7 +130,7 @@ export default function Navbar() {
               onClick={() => toggleDropdown("about")}
               aria-expanded={openDropdown === "about"}
             >
-              <span>À propos de l&apos;organisation</span>
+              <span>عن المنظمة</span>
               <svg
                 className={`chevron ${openDropdown === "about" ? "rotated" : ""}`}
                 width="12"
@@ -153,7 +152,7 @@ export default function Navbar() {
               onClick={() => toggleDropdown("projects")}
               aria-expanded={openDropdown === "projects"}
             >
-              <span>Projets</span>
+              <span>المشاريع</span>
               <svg
                 className={`chevron ${openDropdown === "projects" ? "rotated" : ""}`}
                 width="12"
@@ -230,7 +229,7 @@ export default function Navbar() {
               onClick={() => toggleMobileDropdown("about")}
               aria-expanded={isMobileAboutOpen}
             >
-              <span>À propos de l&apos;organisation</span>
+              <span>عن المنظمة</span>
               <svg
                 className={`chevron ${isMobileAboutOpen ? "rotated" : ""}`}
                 width="16"
@@ -257,7 +256,7 @@ export default function Navbar() {
               onClick={() => toggleMobileDropdown("projects")}
               aria-expanded={isMobileProjectsOpen}
             >
-              <span>Projets</span>
+              <span>المشاريع</span>
               <svg
                 className={`chevron ${isMobileProjectsOpen ? "rotated" : ""}`}
                 width="16"

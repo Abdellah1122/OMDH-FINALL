@@ -11,29 +11,28 @@ export default function EditionsPage() {
     <>
       <Navbar />
 
-     <main>
+     <main dir='rtl' lang='ar'>
     <section className="header-section">
       <div className="header-pattern"></div>
       <div className="container">
         <div className="header-content">
-          <span className="header-subtitle">Ressources & Publications</span>
-          <h1 className="header-title">Nos Articles</h1>
+          <span className="header-subtitle">الموارد والمنشورات</span>
+          <h1 className="header-title">مقالاتنا</h1>
           {/* FIX: Replaced d' with d&apos; */}
-          <p className="header-description">Découvrez nos dernières publications, analyses et témoignages.</p>
+          <p className="header-description">اكتشف أحدث منشوراتنا وتحليلاتنا وشهاداتنا.</p>
         </div>
       </div>
     </section>
 
     <section className="articles-section">
       <div className="container">
-        <h2 className="section-title">Articles à la Une</h2>
-
+        <h2 className="section-title">بيانات  :</h2>
         <div className="article-list"  translate="no">
           {/* Note: I've updated the hrefs to point to the pages we created! */}
 <article className="article-item">
   <div className="article-image">
     {/* Using the organization's logo as a placeholder image */}
-    <Image src="/omdhlogo.png" alt="L&apos;Organisation marocaine des droits de l&apos;homme célèbre la Journée mondiale des réfugiés" width={300} height={300} style={{objectFit: 'contain', padding: '1rem', backgroundColor: '#f0f0f0'}}/>
+    <Image src="/omdhlogo.png" alt="L&apos;Organisation marocaine des droits de l&apos;homme célèbre la Journée mondiale des réfugiés" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
   </div>
   <div className="article-content">
     {/* Content from the OMDH document */}
@@ -49,13 +48,13 @@ export default function EditionsPage() {
       À l&apos;occasion de la Journée mondiale des réfugiés, l&apos;OMDH réaffirme ses positions de principe concernant les droits des migrants, des réfugiés et des demandeurs d&apos;asile, et appelle à renforcer la protection internationale face à la montée des discours de haine et de discrimination...
     </p>
     {/* Make sure the href points to the correct page for this new article */}
-    <Link href="/Article14" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+    <Link href="/Article14" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
   </div>
 </article>
 <article className="article-item">
   <div className="article-image">
     {/* Using the organization's logo as a placeholder image */}
-    <Image src="/omdhlogo.png" alt="تصريح المنظمة المغربية لحقوق الإنسان بمناسبة اليوم العالمي للاجئين" width={300} height={300} style={{objectFit: 'contain', padding: '1rem', backgroundColor: '#f0f0f0'}}/>
+    <Image src="/omdhlogo.png" alt="تصريح المنظمة المغربية لحقوق الإنسان بمناسبة اليوم العالمي للاجئين" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
   </div>
   <div className="article-content">
     {/* Content from the PDF document */}
@@ -71,13 +70,13 @@ export default function EditionsPage() {
       بمناسبة اليوم العالمي للاجئين، تجدد المنظمة المغربية لحقوق الإنسان (OMDH) التأكيد على مواقفها المبدئية بخصوص حقوق المهاجرين واللاجئين...
     </p>
     {/* Make sure the href points to the correct page for this new article */}
-    <Link href="/Article13" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+    <Link href="/Article13" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
   </div>
 </article>
 
           <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/naoufal.JPG" alt="Naoufal Bouamri OMDH" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/naoufal.JPG" alt="Naoufal Bouamri OMDH" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">Actualité</span>
@@ -91,13 +90,13 @@ export default function EditionsPage() {
                 </div>
                 {/* FIX: Replaced typographic apostrophes */}
                 <p className="article-excerpt">Le 12e congrès national de l&apos;Organisation Marocaine des Droits Humains (OMDH) s&apos;est achevé dimanche dernier sur une note de renouveau...</p>
-                <Link href="/Article2" className="article-button"style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article2" className="article-button"style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
             <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/2.jpeg" alt="Droits des réfugiés au Maroc" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/2.jpeg" alt="Droits des réfugiés au Maroc" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">Actualité</span>
@@ -109,13 +108,13 @@ export default function EditionsPage() {
                   <span className="article-date">.</span>
                 </div>
                 <p className="article-excerpt">خلال أشغال المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان، الذي انعقد نهاية الأسبوع الماضي بمدينة الرباط، جددت المنظمة هياكلها التنظيمية...</p>
-                <Link href="/Article" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
            <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثاني عشر" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثاني عشر" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">البيان العام</span>
@@ -125,13 +124,13 @@ export default function EditionsPage() {
                   <span className="article-date">27 أبريل 2025</span>
                 </div>
                 <p className="article-excerpt">انعقد المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الانسان أيام 25-26-27 أبريل 2025 تحت شعار &quot;أي فعلية لحقوق الانسان في ظل التحولات الدولية الراهنة؟&quot;...</p>
-                <Link href="/Article12" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article12" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
             <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الحادي عشر" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الحادي عشر" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">البيان العام</span>
@@ -141,13 +140,13 @@ export default function EditionsPage() {
                   <span className="article-date">29 ماي 2022</span>
                 </div>
                 <p className="article-excerpt">انعقد المؤتمر الوطني الحادي عشر للمنظمة المغربية لحقوق الإنسان أيام 27 و 28 و 29 ماي 2022 تحت شعار &quot;من أجل حماية وضمانات فعلية التمتع بحقوق الإنسان في ظل الأزمات&quot;...</p>
-                <Link href="/Article11" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article11" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
             <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني العاشر" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني العاشر" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">بلاغ صحفي</span>
@@ -157,13 +156,13 @@ export default function EditionsPage() {
                   <span className="article-date">13 ماي 2018</span>
                 </div>
                 <p className="article-excerpt">عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها العاشر بالرباط أيام 11 و 12 و 13 ماي 2018، تحت شعار : &quot;دور الفاعل في إعمال حقوق الإنسان وإحقاقها&quot;...</p>
-                <Link href="/Article10" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article10" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
            <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني التاسع" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني التاسع" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">البيان العام</span>
@@ -173,13 +172,13 @@ export default function EditionsPage() {
                   <span className="article-date">12 أبريل 2015</span>
                 </div>
                 <p className="article-excerpt">انعقد المؤتمر الوطني التاسع للمنظمة المغربية لحقوق الإنسان بالرباط أيام 10-11-12 أبريل 2015، تحت شعار &quot;إعمال الحقوق وإحقاقها أساس دولة الحق والقانون&quot;...</p>
-                <Link href="/Article9" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article9" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
             <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثامن" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثامن" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">البيان العام</span>
@@ -189,14 +188,14 @@ export default function EditionsPage() {
                   <span className="article-date">08 أبريل 2012</span>
                 </div>
                 <p className="article-excerpt">إن المؤتمر الوطني الثامن للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط وبوزنيقة أيام 06- 07 - 08 أبريل 2012 تحت شعار &quot;إعمال المساواة ضمانا لسيادة حقوق الإنسان&quot;...</p>
-                <Link href="/Article8" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article8" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
             
              <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني السابع" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني السابع" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">البيان العام</span>
@@ -206,14 +205,14 @@ export default function EditionsPage() {
                   <span className="article-date">29 مارس 2009</span>
                 </div>
                 <p className="article-excerpt">إن المؤتمر الوطني السابع للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط أيام 27 28 و 29 مارس 2009 بشعار مركزي &quot;مناهضة الإفلات من العقاب رهان مأسسة دولة الحق&quot;...</p>
-                <Link href="/Article7" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article7" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
             
             <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني السادس" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني السادس" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">البيان العام</span>
@@ -223,14 +222,14 @@ export default function EditionsPage() {
                   <span className="article-date">02 أبريل 2006</span>
                 </div>
                 <p className="article-excerpt">إن المؤتمر الوطني السادس للمنظمة المغربية لحقوق الإنسان المنعقد بالرباط أيام 31 مارس 1- 2 أبريل 2006 تحت شعار: &quot;تعميق وتسريع وتيرة الاصلاحات أساس لضمان وحماية الانتقال الديمقراطي&quot;...</p>
-                <Link href="/Article6" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article6" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
             
             <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الخامس" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الخامس" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">البيان العام</span>
@@ -240,7 +239,7 @@ export default function EditionsPage() {
                   <span className="article-date">18 ماي 2003</span>
                 </div>
                 <p className="article-excerpt">إن المؤتمر الوطني الخامس للمنظمة المغربية لحقوق الإنسان، المنعقد بالرباط أيام 16-17-18 ماي 2003 تحت شعار &quot;من أجل حماية الانتقال الديموقراطي والشرعية الدولية والسلم العالمي&quot;...</p>
-                <Link href="/Article5" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article5" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
 
@@ -249,7 +248,7 @@ export default function EditionsPage() {
             
              <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الرابع" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الرابع" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">بلاغ</span>
@@ -259,12 +258,12 @@ export default function EditionsPage() {
                   <span className="article-date">26 مارس 2000</span>
                 </div>
                 <p className="article-excerpt">عقدت المنظمة المغربية لحقوق الإنسان مؤتمرها الرابع تحت شعار &quot;لا ضمانة قارة لحقوق الإنسان وللديمقراطيين دون إصلاح جذري للقضاء وترسيخ كل دعائم دولة الحق والقانون&quot;...</p>
-                <Link href="/Article4" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article4" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
             <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثالث" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="المؤتمر الوطني الثالث" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">بلاغ</span>
@@ -274,12 +273,12 @@ export default function EditionsPage() {
                   <span className="article-date">31 مارس 1997</span>
                 </div>
                 <p className="article-excerpt">أنهى المؤتمر الثالث للمنظمة المغربية لحقوق الإنسان أشغاله مساء يوم الأحد 30 مارس 1997. ولقد قرر المؤتمر تعديل بعض مقتضيات القانون الأساسي...</p>
-                <Link href="/Article3" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article3" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
             <article className="article-item">
               <div className="article-image">
-                <Image src="/Images/Com.jpg" alt="الجمع التأسيسي" width={300} height={300} style={{objectFit: 'cover'}}/>
+                <Image src="/Images/Com.jpg" alt="الجمع التأسيسي" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
               </div>
               <div className="article-content">
                 <span className="article-category">البيان العام</span>
@@ -289,9 +288,17 @@ export default function EditionsPage() {
                   <span className="article-date">10 ديسمبر 1988</span>
                 </div>
                 <p className="article-excerpt">إن الجمع العام التأسيسي للمنظمة المغربية لحقوق الإنسان المنعقد بالرباط يوم 10 دجنبر 1988 يوم الذكرى الأربعينية للإعلان العالمي لحقوق الإنسان...</p>
-                <Link href="/Article1" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>Lire plus</Link>
+                <Link href="/Article1" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
               </div>
             </article>
+        </div>
+        <h2 className="section-title">بلاغات  :</h2>
+        <div className="article-list"  translate="no">
+          
+        </div>
+        <h2 className="section-title">مذكرات واراء  :</h2>
+        <div className="article-list"  translate="no">
+
         </div>
       </div>
     </section>

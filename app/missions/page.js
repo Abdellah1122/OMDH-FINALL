@@ -13,17 +13,17 @@ export default function MissionsPage() {
     <>
       <Navbar />
 
-      <main>
+      <main lang='ar' dir='rtl'>
         <section className="hero-section">
           <div className="hero-content">
             <div className="hero-title">
               {/* FIX: Replaced l' with l&apos; */}
-              <h1>Notre message </h1>
+              <h1>رسالتنا</h1>
             </div>
             <div className="hero-description">
               {/* FIX: Replaced L' with L&apos; and l' with l&apos; */}
-              <p>L&apos;Organisation Marocaine des Droits Humains (OMDH) se consacre aux principes universels des droits humains. Nous nous efforçons de promouvoir et de protéger les libertés fondamentales, d&apos;assurer l&apos;état de droit et de soutenir les victimes de violations à travers le Maroc et au-delà.</p>
-              <Link href="/about-us" className="btn-secondary">Découvrir Nos Actions</Link>
+              <p>تلتزم المنظمة المغربية لحقوق الإنسان بالمبادئ العالمية لحقوق الإنسان. ونسعى جاهدين لتعزيز وحماية الحريات الأساسية، وضمان سيادة القانون، ودعم ضحايا الانتهاكات في جميع أنحاء المغرب وخارجه.</p>
+              <Link href="/about-us" className="btn-secondary">اكتشف أعمالنا</Link>
             </div>
           </div>
           <div className="hero-image">
@@ -37,41 +37,41 @@ export default function MissionsPage() {
           <section className="missions-section">
             <div className="missions-grid">
               <div className="mission-card">
-                <h4>Promouvoir et Protéger les Droits Humains</h4>
+                <h4>تعزيز وحماية حقوق الإنسان</h4>
                 {/* FIX: Replaced l' with l&apos; */}
-                <p>Œuvrer pour la promotion, la jouissance et l&apos;exercice des droits humains et des libertés fondamentales, individuelles et collectives, sans discrimination, sur la base des normes universelles.</p>
+                <p>العمل على تعزيز حقوق الإنسان والحريات الأساسية، الفردية والجماعية، والتمتع بها وممارستها، دون تمييز، على أساس المعايير العالمية.</p>
               </div>
 
               <div className="mission-card">
-                <h4>Surveiller et Signaler les Violations</h4>
+                <h4>مراقبة الانتهاكات والإبلاغ عنها</h4>
                 {/* FIX: Replaced d' with d&apos; */}
-                <p>Surveiller activement, exposer, signaler et traiter toutes les violations des droits humains, en publiant des communiqués de presse et des rapports d&apos;enquête.</p>
+                <p>رصد جميع انتهاكات حقوق الإنسان وكشفها والإبلاغ عنها ومعالجتها بشكل فعال، من خلال إصدار البيانات الصحفية والتقارير الاستقصائية.</p>
               </div>
 
               <div className="mission-card">
                 {/* FIX: Replaced l' with l&apos; */}
-                <h4>Plaider pour l&apos;État de Droit</h4>
+                <h4>الدعوة إلى سيادة القانون</h4>
                 {/* FIX: Replaced l' with l&apos; (multiple times) */}
-                <p>Revendiquer le respect constant des droits humains, l&apos;établissement et la consolidation de l&apos;état de droit, la séparation des pouvoirs et le renforcement de l&apos;indépendance et de l&apos;impartialité du pouvoir judiciaire.</p>
+                <p>المطالبة بالاحترام الدائم لحقوق الإنسان، وإرساء وتعزيز سيادة القانون، وفصل السلطات، وتعزيز استقلال القضاء ونزاهته.</p>
               </div>
 
               <div className="mission-card">
                 {/* FIX: Replaced l' with l&apos; */}
-                <h4>Éducation et Culture des Droits Humains</h4>
+                <h4>التعليم وثقافة حقوق الإنسان</h4>
                 {/* FIX: Replaced l' with l&apos; */}
-                <p>Diffuser la culture des droits humains, poursuivre l&apos;éducation à la citoyenneté et sensibiliser la société marocaine et la communauté internationale au respect de ces droits.</p>
+                <p>نشر ثقافة حقوق الإنسان، وتشجيع التربية على المواطنة، وتوعية المجتمع المغربي والمجتمع الدولي باحترام هذه الحقوق.</p>
               </div>
 
               <div className="mission-card">
-                <h4>Normes Internationales et Harmonisation</h4>
+                <h4>المعايير الدولية والتنسيق</h4>
                 {/* FIX: Replaced l' with l&apos; */}
-                <p>Appeler à la ratification des instruments et normes internationaux relatifs aux droits humains, assurer l&apos;harmonisation des lois nationales avec ces conventions et défendre la primauté des normes internationales.</p>
+                <p>الدعوة إلى التصديق على الصكوك والمعايير الدولية لحقوق الإنسان، وضمان مواءمة القوانين الوطنية مع هذه الاتفاقيات والدفاع عن أولوية المعايير الدولية.</p>
               </div>
 
               <div className="mission-card">
-                <h4>Soutenir les Victimes de Violations</h4>
+                <h4>دعم ضحايا الانتهاكات</h4>
                 {/* FIX: Replaced se constituant with se constituant (no change needed here, just checking) */}
-                <p>Fournir assistance, conseil et soutien par tous les moyens légaux aux victimes de violations des droits humains, en se constituant potentiellement partie civile dans les affaires judiciaires.</p>
+                <p>تقديم المساعدة والمشورة والدعم بكل الوسائل القانونية لضحايا انتهاكات حقوق الإنسان، وإمكانية تشكيل أنفسهم كطرف مدني في القضايا القانونية.</p>
               </div>
             </div>
           </section>
@@ -80,53 +80,54 @@ export default function MissionsPage() {
           <section className="timeline-section">
             <div className="timeline-header">
               {/* FIX: Replaced d' with d&apos; */}
-              <h2>Nos Activités Clés et Domaines d&apos;Intervention</h2>
+              <h2>أنشطتنا الرئيسية ومجالات تدخلنا</h2>
               {/* FIX: Replaced l' with l&apos; */}
-              <p>Notre travail couvre divers domaines cruciaux, se concentrant sur le plaidoyer, le soutien juridique, l&apos;éducation et la coopération internationale pour défendre les normes des droits humains.</p>
+              <p>يغطي عملنا العديد من المجالات الحيوية، مع التركيز على المناصرة، والدعم القانوني، والتعليم، والتعاون الدولي لدعم معايير حقوق الإنسان.</p>
             </div>
 
             <div className="timeline">
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4 className="timeline-title">Publier et Diffuser des Informations</h4>
+                  <h4 className="timeline-title">نشر المعلومات وتوزيعها</h4>
                   {/* FIX: Replaced d' with d&apos; */}
-                  <p className="timeline-description">Publier des données, des périodiques, des rapports thématiques (par exemple, sur les élections, la torture) et d&apos;autres documents relatifs aux questions et situations des droits humains.</p>
+                  <p className="timeline-description">نشر البيانات والدوريات والتقارير المواضيعية (على سبيل المثال، حول الانتخابات والتعذيب) وغيرها من الوثائق المتعلقة بقضايا ومواقف حقوق الإنسان.</p>
                 </div>
               </div>
 
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4  className="timeline-title">Action auprès des législateurs politiques</h4>
+                  <h4  className="timeline-title">العمل مع المشرعين السياسيين</h4>
                   {/* FIX: Replaced d' with d&apos; */}
                   <p className="timeline-description">
-                  Interpeller les responsables politiques pour garantir le respect des droits humains et promouvoir des réformes législatives.   </p>
+                    ندعو القادة السياسيين إلى ضمان احترام حقوق الإنسان وتعزيز الإصلاحات التشريعية.
+                   </p>
                 </div>
               </div>
 
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4  className="timeline-title">Coopération Nationale et Internationale</h4>
-                  <p className="timeline-description">Renforcer la solidarité nationale et coopérer/coordonner avec les associations et institutions aux niveaux national, régional et international sur les questions relatives aux droits humains.</p>
+                  <h4  className="timeline-title">التعاون الوطني والدولي</h4>
+                  <p className="timeline-description">  تعزيز التضامن الوطني والتعاون والتنسيق مع الجمعيات والمؤسسات على المستوى الوطني والإقليمي والدولي بشأن قضايا حقوق الإنسان.</p>
                 </div>
               </div>
 
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4  className="timeline-title">Publier des Rapports Parallèles</h4>
-                  <p className="timeline-description">Publier des rapports parallèles aux soumissions gouvernementales sous la supervision des comités compétents des organes de traités des Nations Unies.</p>
+                  <h4  className="timeline-title">نشر التقارير الموازية</h4>
+                  <p className="timeline-description">نشر تقارير موازية للتقارير الحكومية تحت إشراف اللجان ذات الصلة في هيئات المعاهدات التابعة للأمم المتحدة.</p>
                 </div>
               </div>
 
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4 className="timeline-title">Organiser des Événements</h4>
+                  <h4 className="timeline-title">تنظيم الأحداث</h4>
                   {/* FIX: Replaced d' with d&apos; (twice) */}
-                  <p className="timeline-description">Organiser des séminaires, des conférences, des galeries d&apos;art et d&apos;autres expositions pour sensibiliser et débattre des sujets relatifs aux droits humains.</p>
+                  <p className="timeline-description">تنظيم الندوات والمؤتمرات والمعارض الفنية وغيرها من المعارض لرفع مستوى الوعي ومناقشة قضايا حقوق الإنسان.</p>
                 </div>
               </div>
             </div>
@@ -292,16 +293,7 @@ export default function MissionsPage() {
           position: relative;
           display: inline-block;
         }
-        .timeline-header h2::after {
-          content: '';
-          position: absolute;
-          bottom: -10px;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 60px;
-          height: 3px;
-          background-color: var(--secondary-color);
-        }
+        
         .timeline-header p {
           color: var(--text-medium);
           max-width: 800px;
