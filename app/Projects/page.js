@@ -47,15 +47,12 @@ export default function ProjectsPage() {
     <div className="projects-page">
       <Navbar />
 
-      <main className="main-container">
+      <main className="main-container" dir="rtl " lang="ar">
         <section className="projects-section">
           <div className="section-header">
-            <h1 className="page-title">Nos Derniers Projets</h1>
+            <h1 className="page-title">أحدث مشاريعنا</h1>
             <p className="page-description">
-              Découvrez nos initiatives les plus récentes dédiées à la défense des droits humains et à la promotion de
-              la justice. Des campagnes de plaidoyer aux programmes communautaires, nos projets visent à créer un impact
-              durable, à autonomiser les individus et à générer un changement significatif. Restez informé et
-              rejoignez-nous pour construire un monde plus juste et équitable.
+            اكتشف أحدث مبادراتنا المُكرسة للدفاع عن حقوق الإنسان وتعزيز العدالة. من حملات المناصرة إلى البرامج المجتمعية، تهدف مشاريعنا إلى إحداث تأثير مستدام، وتمكين الأفراد، وإحداث تغيير هادف. ابقَ على اطلاع وانضم إلينا في بناء عالم أكثر عدلاً وإنصافاً.
             </p>
           </div>
 

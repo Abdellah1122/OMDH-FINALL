@@ -11,7 +11,7 @@ export default function ProjectHcrPage() {
     <>
       <Navbar />
 
-     <main>
+     <main translate='no'>
     <section className="hero-section">
       <div className="hero-content">
         <h1 className="hero-title">Projet UNHCR</h1>
