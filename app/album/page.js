@@ -6,31 +6,36 @@ import Image from 'next/image';
 import { useState, useEffect } from "react"
 import Link from 'next/link';
 
-const photoAlbumData = [
+// New data for the updates/news section
+const updatesData = [
   {
     "src": "/Album/1.jpg",
-    "alt": "",
-    "date": "",
-    "description": ""
+    "alt": "آخر المستجدات",
+    "date": "2024-01-15",
+    "description": "إنجاز جديد في مشروعنا الأخير"
   },
   {
     "src": "/Album/2.jpg",
-    "alt": "",
-    "date": "",
-    "description": ""
+    "alt": "مستجدات حديثة",
+    "date": "2024-01-10",
+    "description": "تطوير جديد في خدماتنا"
   },
   {
     "src": "/Album/3.jpg",
-    "alt": "",
-    "date": "",
-    "description": ""
+    "alt": "أحدث الأخبار",
+    "date": "2024-01-05",
+    "description": "إضافة جديدة لفريق العمل"
   },
   {
     "src": "/Album/4.jpg",
-    "alt": "",
-    "date": "",
-    "description": ""
-  },
+    "alt": "المستجدات الأخيرة",
+    "date": "2023-12-28",
+    "description": "نجاح باهر في المشروع الجديد"
+  }
+];
+
+// Previous photo album data for memory section
+const photoMemoryData = [
   {
     "src": "/Album/6.jpg",
     "alt": "",
@@ -121,25 +126,25 @@ const photoAlbumData = [
     "date": "",
     "description": ""
   }
-]
-
+];
 
 export default function ArticlePage() {
-    const [currentHeroSlide, setCurrentHeroSlide] = useState(0)
+    const [currentUpdatesSlide, setCurrentUpdatesSlide] = useState(0);
 
-    // Auto-advance hero carousel
+    // Auto-advance updates carousel
     useEffect(() => {
         const timer = setInterval(() => {
-            setCurrentHeroSlide((prev) => (prev + 1) % photoAlbumData.length)
+            setCurrentUpdatesSlide((prev) => (prev + 1) % updatesData.length)
         }, 6000)
         return () => clearInterval(timer)
     }, [])
-    const nextHeroSlide = () => {
-        setCurrentHeroSlide((prev) => (prev + 1) % photoAlbumData.length)
+
+    const nextUpdatesSlide = () => {
+        setCurrentUpdatesSlide((prev) => (prev + 1) % updatesData.length)
     }
 
-    const prevHeroSlide = () => {
-        setCurrentHeroSlide((prev) => (prev - 1 + photoAlbumData.length) % photoAlbumData.length)
+    const prevUpdatesSlide = () => {
+        setCurrentUpdatesSlide((prev) => (prev - 1 + updatesData.length) % updatesData.length)
     }
 
     return (
@@ -147,15 +152,16 @@ export default function ArticlePage() {
             <Navbar />
             <main className="page-main" dir='rtl' lang='ar'>
                 <div className="album-container">
+                    {/* Updates Section */}
                     <div className="album-header">
-                        <h1 className="album-title" style={{color:'var(--primary-color)'}}> معرض الصور </h1>
-                        <p className="album-subtitle">مجموعة من اللحظات والإنجازات التي لا تنسى من عملنا في جميع أنحاء المغرب.</p>
+                        <h1 className="album-title" style={{color:'var(--primary-color)'}}>مستجدات</h1>
+                        <p className="album-subtitle">آخر الأخبار والتطورات الجديدة في عملنا وإنجازاتنا.</p>
                     </div>
 
                     <section className="hero-section">
                         <div className="hero-container">
-                            {photoAlbumData.map((slide, index) => (
-                                <div key={index} className={`hero-slide ${index === currentHeroSlide ? "active" : ""}`}>
+                            {updatesData.map((slide, index) => (
+                                <div key={index} className={`hero-slide ${index === currentUpdatesSlide ? "active" : ""}`}>
                                     <Image
                                         src={slide.src}
                                         alt={slide.alt}
@@ -166,7 +172,7 @@ export default function ArticlePage() {
                                     <div className="hero-overlay" />
                                     <div className="hero-content">
                                         <div className="hero-text-box">
-                                            {/* Note: The slide.text was not in your data, so the text box will be empty. You can add text to your data if needed. */}
+                                            <p className="hero-date">{slide.date}</p>
                                             <p className="hero-text">{slide.description}</p>
                                         </div>
                                     </div>
@@ -174,7 +180,7 @@ export default function ArticlePage() {
                             ))}
                         </div>
                         {/* Carousel Controls */}
-                        <button onClick={prevHeroSlide} className="hero-control hero-prev" aria-label="Previous slide">
+                        <button onClick={prevUpdatesSlide} className="hero-control hero-prev" aria-label="Previous slide">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M15 18L9 12L15 6"
@@ -185,7 +191,7 @@ export default function ArticlePage() {
                                 />
                             </svg>
                         </button>
-                        <button onClick={nextHeroSlide} className="hero-control hero-next" aria-label="Next slide">
+                        <button onClick={nextUpdatesSlide} className="hero-control hero-next" aria-label="Next slide">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M9 18L15 12L9 6"
@@ -199,23 +205,24 @@ export default function ArticlePage() {
 
                         {/* Slide Indicators */}
                         <div className="hero-indicators">
-                            {photoAlbumData.map((_, index) => (
+                            {updatesData.map((_, index) => (
                                 <button
                                     key={index}
-                                    onClick={() => setCurrentHeroSlide(index)}
-                                    className={`hero-indicator ${index === currentHeroSlide ? "active" : ""}`}
+                                    onClick={() => setCurrentUpdatesSlide(index)}
+                                    className={`hero-indicator ${index === currentUpdatesSlide ? "active" : ""}`}
                                     aria-label={`Go to slide ${index + 1}`}
                                 />
                             ))}
                         </div>
                     </section>
 
+                    {/* Photo Memory Section */}
                     <div className="album-header">
-                        <h1 className="album-title" style={{color:'var(--secondary-color)'}}>اكتشف لحظاتنا الأكثر تميزًا</h1>
-                        <p className="album-subtitle">إنجازاتنا البارزة.</p>
+                        <h1 className="album-title" style={{color:'var(--secondary-color)'}}>ذاكرة الصور</h1>
+                        <p className="album-subtitle">مجموعة من اللحظات والإنجازات التي لا تنسى من عملنا في جميع أنحاء المغرب.</p>
                     </div>
                         <div className="photo-grid">
-                            {photoAlbumData.map((photo, index) => (
+                            {photoMemoryData.map((photo, index) => (
                                 <div key={index} className="photo-item">
                                     <div className="image-wrapper">
                                         <Image src={photo.src} alt={photo.alt} layout="fill" objectFit="cover" />
@@ -240,27 +247,27 @@ export default function ArticlePage() {
                     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
                 }
                
-
                 /* Hero Section */
                 .hero-section {
                     z-index: 0;
                     position: relative;
-                    height: 90vh; /* Reduced height for better fit */
+                    height: 90vh;
                     overflow: hidden;
-                    border-radius: 12px; /* Added border radius */
-                    margin-bottom: 70px; /* Spacing below the hero */
+                    border-radius: 12px;
+                    margin-bottom: 70px;
                 }
                 .hero-container { position: relative; width: 100%; height: 100%; }
                 .hero-slide { position: absolute; inset: 0; opacity: 0;overflow: hidden; transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1); }
                 .hero-slide.active { opacity: 1; }
                 .hero-image {
-                    object-fit: cover; /* Changed from a class to a direct property */
-                    transition: transform 8s ease-out; /* Slowed down the zoom */
+                    object-fit: cover;
+                    transition: transform 8s ease-out;
                 }
-                .hero-slide.active .hero-image { transform: scale(1.05); } /* Slightly reduced zoom */
+                .hero-slide.active .hero-image { transform: scale(1.05); }
                 .hero-overlay { position: absolute; inset: 0; background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.6) 100% ); }
                 .hero-content { position: absolute; bottom: 8rem; left: 50%; transform: translateX(-50%); width: 85%; max-width: 56rem; z-index: 10; }
                 .hero-text-box { background: rgba(0, 0, 0, 0.2); backdrop-filter: blur(5px); border-radius: 10px; padding: 2.5rem; text-align: center; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); }
+                .hero-date { color: rgba(255, 255, 255, 0.8); font-size: 0.9rem; font-weight: 400; margin: 0 0 1rem 0; text-transform: uppercase; letter-spacing: 1px; }
                 .hero-text { color: white; font-size: 1.125rem; font-weight: 400; line-height: 1.7; margin: 0; letter-spacing: 0.01em; }
                 .hero-control { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); border: none; border-radius: 50%; width: 3.5rem; height: 3.5rem; color: #333; cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); display: flex; align-items: center; justify-content: center; z-index: 20; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
                 .hero-control:hover { background: rgba(255, 255, 255, 1); transform: translateY(-50%) scale(1.1); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); }
@@ -269,7 +276,6 @@ export default function ArticlePage() {
                 .hero-indicators { position: absolute; bottom: 3rem; left: 50%; transform: translateX(-50%); display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; z-index: 20; max-width: 80%; }
                 .hero-indicator { width: 1.5rem; height: 3px; border-radius: 2px; border: none; background: rgba(255, 255, 255, 0.4); cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); padding: 0; }
                 .hero-indicator.active { background: rgba(255, 255, 255, 1); width: 2.5rem; }
-
 
                 .album-container {
                     max-width: 1400px;
@@ -331,7 +337,7 @@ export default function ArticlePage() {
                     padding: 25px;
                     flex-grow: 1;
                     /* Hide if no content */
-                    display: ${photoAlbumData.some(p => p.date || p.description) ? 'block' : 'none'};
+                    display: ${photoMemoryData.some(p => p.date || p.description) ? 'block' : 'none'};
                 }
 
                 .photo-date {
@@ -350,7 +356,7 @@ export default function ArticlePage() {
                     line-height: 1.6;
                 }
 
-                /* === [ENHANCED] RESPONSIVE STYLES === */
+                /* === RESPONSIVE STYLES === */
 
                 /* --- TABLETS (max-width: 992px) --- */
                 @media (max-width: 992px) {
@@ -386,6 +392,7 @@ export default function ArticlePage() {
                     .hero-content { width: 90%; bottom: 6rem; }
                     .hero-text-box { padding: 2rem; }
                     .hero-text { font-size: 1rem; }
+                    .hero-date { font-size: 0.8rem; }
                     .hero-control { width: 3rem; height: 3rem; }
                     .hero-prev { left: 1.5rem; }
                     .hero-next { right: 1.5rem; }
@@ -423,6 +430,7 @@ export default function ArticlePage() {
                         backdrop-filter: blur(8px);
                     }
                     .hero-text { font-size: 0.9rem; }
+                    .hero-date { font-size: 0.75rem; }
                     .hero-indicators { bottom: 1.5rem; }
                 }
             `}</style>

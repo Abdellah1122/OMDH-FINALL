@@ -7,8 +7,8 @@ import Image from "next/image"
 const aboutItems = [
   { href: "/about-us", label: "من نحن" },
   { href: "/missions", label: "رسالتنا" },
-  { href: "/presence", label: "شبكة الفروع" },
-  { href: "/campaigns", label: "حملاتنا" },
+  { href: "/presence", label: "الحضور المجالي" },
+  { href: "/campaigns", label: "مبادرة وترافع" },
   { href: "/album", label: "معرض الصور" },
 ]
 

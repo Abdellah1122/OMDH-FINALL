@@ -22,7 +22,10 @@ export default function MissionsPage() {
             </div>
             <div className="hero-description">
               {/* FIX: Replaced L' with L&apos; and l' with l&apos; */}
-              <p>تلتزم المنظمة المغربية لحقوق الإنسان بالمبادئ العالمية لحقوق الإنسان. ونسعى جاهدين لتعزيز وحماية الحريات الأساسية، وضمان سيادة القانون، ودعم ضحايا الانتهاكات في جميع أنحاء المغرب وخارجه.</p>
+              <p>الحقوق السياسية والمدنية والاقتصادية والاجتماعية والثقافية والبيئية والإيكولوجية والحق في التنمية، منظومة كلية لا تقبل التجزئة.<br/>
+              تلتزم المنظمة المغربية لحقوق الإنسان بالعمل الحقوقي المعياري المرتكز على المبادئ العالمية لحقوق الإنسان والمنسجم مع شموليتها وكونيتها، ونسعى جاهدين لتعزيز وحماية حقوق الانسان والنهوض يها وتحقيق ضمانات ممارستها في أبعادها المختلفة وبكل الوسائل الممكنة.<br/>
+              نرافع من أجل الدفع نحو تنفيذ توصيات هيئة الانصاف والمصالحة والعمل على ملاءمة المنظومة التشريعية المغربية مع مضامين المواثيق الدولية لحقوق الانسان لدعم دولة المؤسسات والفصل بين السلطات واستقلال القضاء وذلك في سبيل ترسيخ دولة الحق والقانون، وضمان التمتع الفعلي للجميع بها.<br/>
+              </p>
               <Link href="/about-us" className="btn-secondary">اكتشف أعمالنا</Link>
             </div>
           </div>
@@ -37,41 +40,120 @@ export default function MissionsPage() {
           <section className="missions-section">
             <div className="missions-grid">
               <div className="mission-card">
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M12 21a9 9 0 100-18 9 9 0 000 18zM9 12l2 2 4-4"/>
+                  </svg>
+                </div>
                 <h4>تعزيز وحماية حقوق الإنسان</h4>
-                {/* FIX: Replaced l' with l&apos; */}
                 <p>العمل على تعزيز حقوق الإنسان والحريات الأساسية، الفردية والجماعية، والتمتع بها وممارستها، دون تمييز، على أساس المعايير العالمية.</p>
               </div>
 
               <div className="mission-card">
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M15 3h4a2 2 0 012 2v14a2 2 0 01-2 2h-4M10 17l5-5-5-5M13.8 12H3"/>
+                  </svg>
+                </div>
                 <h4>مراقبة الانتهاكات والإبلاغ عنها</h4>
-                {/* FIX: Replaced d' with d&apos; */}
                 <p>رصد جميع انتهاكات حقوق الإنسان وكشفها والإبلاغ عنها ومعالجتها بشكل فعال، من خلال إصدار البيانات الصحفية والتقارير الاستقصائية.</p>
               </div>
 
               <div className="mission-card">
-                {/* FIX: Replaced l' with l&apos; */}
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+                  </svg>
+                </div>
                 <h4>الدعوة إلى سيادة القانون</h4>
-                {/* FIX: Replaced l' with l&apos; (multiple times) */}
                 <p>المطالبة بالاحترام الدائم لحقوق الإنسان، وإرساء وتعزيز سيادة القانون، وفصل السلطات، وتعزيز استقلال القضاء ونزاهته.</p>
               </div>
 
               <div className="mission-card">
-                {/* FIX: Replaced l' with l&apos; */}
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2zM22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
+                  </svg>
+                </div>
                 <h4>التعليم وثقافة حقوق الإنسان</h4>
-                {/* FIX: Replaced l' with l&apos; */}
                 <p>نشر ثقافة حقوق الإنسان، وتشجيع التربية على المواطنة، وتوعية المجتمع المغربي والمجتمع الدولي باحترام هذه الحقوق.</p>
               </div>
 
               <div className="mission-card">
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <circle cx="12" cy="12" r="3"/>
+                    <path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24"/>
+                  </svg>
+                </div>
                 <h4>المعايير الدولية والتنسيق</h4>
-                {/* FIX: Replaced l' with l&apos; */}
                 <p>الدعوة إلى التصديق على الصكوك والمعايير الدولية لحقوق الإنسان، وضمان مواءمة القوانين الوطنية مع هذه الاتفاقيات والدفاع عن أولوية المعايير الدولية.</p>
               </div>
 
               <div className="mission-card">
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z"/>
+                  </svg>
+                </div>
                 <h4>دعم ضحايا الانتهاكات</h4>
-                {/* FIX: Replaced se constituant with se constituant (no change needed here, just checking) */}
                 <p>تقديم المساعدة والمشورة والدعم بكل الوسائل القانونية لضحايا انتهاكات حقوق الإنسان، وإمكانية تشكيل أنفسهم كطرف مدني في القضايا القانونية.</p>
+              </div>
+
+              <div className="mission-card">
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+                    <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
+                    <line x1="12" y1="22.08" x2="12" y2="12"/>
+                  </svg>
+                </div>
+                <h4>الهجرة واللجوء</h4>
+                <p>العمل على الحماية والنهوض بالحقوق الأساسية للمهاجرين واللاجيئين وطالبي اللجوء وعائلاتهم، طبقا للمقتضيات الدولية ذات الصلة التي التزم بها المغرب، انسجاما مع شمولية وكونية حقوق الانسان.</p>
+              </div>
+
+              <div className="mission-card">
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M20 7h-9M14 17H5M17 12H8M21 3a2 2 0 00-2-2H5a2 2 0 00-2 2v18l4-4h12a2 2 0 002-2V3z"/>
+                  </svg>
+                </div>
+                <h4>المساواة وحقوق النساء</h4>
+                <p>تعمل المنظمة من أجل حماية وتعزيز حقوق النساء وضمان تمتعهن الكامل بحقوقهن، بما يتطلب ذلك من عمل على مستوى مأسسة مبدإ المساواة وتكافؤ الفرص بين الجنسين في مختلف السياسات والبرامج لدى مختلف القطاعات الحكومية و في الجهات والجماعات الترابية ضمانا للتنمية المستدامة، والترافع من أجل مدونة أسرة عادلة تحقق المساواة الفعلية في الحقوق والواجبات بين الرجال والنساء، وتفعيل الاستراتيجية الوطنية لمناهضة العنف ضد النساء وتطهير كل التشريعات الوطنية من أشكال التمييز ضد النساء، ودعم كل مبادرات الحركة النسائية المغربية.</p>
+              </div>
+
+              <div className="mission-card">
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                </div>
+                <h4>ضمان فعلية الحقوق الاقتصادية والاجتماعية</h4>
+                <p>ان انتهاك الحقوق الاقتصادية والاجتماعية والثقافية وتجلياتها في الفقر والتهميش والإقصاء سيظل معيقا مهددا للمكتسبات ومعطلا لمسار التنمية والديمقراطية، فإقرار الحقوق المدنية والسياسية لن يحقق في غياب التمتع بالحق في التعليم والصحة والشغل والسكن اللائق وبيئة سليمة.</p>
+              </div>
+
+              <div className="mission-card">
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M14.5 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V7.5L14.5 2z"/>
+                    <polyline points="14,2 14,8 20,8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                    <polyline points="10,9 9,9 8,9"/>
+                  </svg>
+                </div>
+                <h4>الحقوق اللغوية والثقافة الأمازيغية</h4>
+                <p>العمل على تعميق وتفعيل المكتسبات الدستورية المحصلة بخصوص اللغة والثقافة الأمازيغيتين ومجموع التعبيرات الثقافية، بالإجراءات التدبيرية والتشريعية التي تضمن لها الحماية والنهوض والتطور وطنيا ومحليا وفي مختلف المجالات.</p>
+              </div>
+
+              <div className="mission-card">
+                <div className="mission-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM22 11c0 5.523-4.477 10-10 10S2 16.523 2 11"/>
+                  </svg>
+                </div>
+                <h4>الديمقراطية والمشاركة</h4>
+                <p>العمل على ضمان الحقوق السياسية والمدنية كأساس للمشاركة الفاعلة في بناء الدولة الديمقراطية ومؤسساتها وضمان مشاركة الجميع في الحياة السياسية وتدبير الشـن العام محليا وجهويا ووطنيا.</p>
               </div>
             </div>
           </section>
@@ -243,10 +325,40 @@ export default function MissionsPage() {
           flex-direction: column;
           gap: 0.8em;
           transition: var(--transition);
+          position: relative;
+          overflow: hidden;
+        }
+        .mission-card::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 3px;
+          background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+          transform: scaleX(0);
+          transition: transform 0.3s ease;
+        }
+        .mission-card:hover::before {
+          transform: scaleX(1);
         }
         .mission-card:hover {
-          transform: translateY(-3px);
-          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+          transform: translateY(-5px);
+          box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+        .mission-icon {
+          width: 48px;
+          height: 48px;
+          margin-bottom: 0.5em;
+          color: var(--primary-color);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .mission-icon svg {
+          width: 100%;
+          height: 100%;
+          stroke-width: 1.5;
         }
         .mission-card h4 {
           color: var(--primary-color);

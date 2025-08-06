@@ -72,12 +72,18 @@ const newsItems = [
 
 // Note: Using placeholder logos for demonstration
 const natPart = [
-      { name: "Partner 1", logo:"NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" },
-      { name: "Partner 2", logo: "NatPartnaires/images (1).jpeg"},
-      { name: "Partner 3", logo: "NatPartnaires/images (1).png" },
-      { name: "Partner 4", logo: "NatPartnaires/images (2).png" },
-      { name: "Partner 5", logo: "NatPartnaires/images.jpeg" },
-      { name: "Partner 6", logo: "NatPartnaires/images.png" },
+      { name: "", logo:"nat/المجلس الأعلى للسلطة القضائية.jpg" },
+      { name: "", logo:"nat/المجلس الوطني لحقوق الانسان.jpg" },
+      { name: "", logo:"nat/المندوبية الوزارية لحقوق الانسان.jpg" },
+      { name: "", logo:"nat/المندوبية الوزارية لحقوق الانسان.jpeg" },
+      { name: "", logo:"nat/الهيئة الوطنية للنزاهة والوقاية من الرشوة ومحاربتها.jpg" },
+      { name: "", logo:"nat/الهيئة الوطنية للنزاهة والوقاية من الرشوة ومحاربتها.jpeg" },
+      { name: "", logo:"nat/هيئات المحامين بالمغرب.jpg" },
+      { name: "", logo:"nat/وزارة التربية الوطنية.png" },
+      { name: "", logo:"nat/وزارة التعليم العالي والبحت العلمي.png" },
+      { name: "", logo:"nat/وزارة الداخلية.jpg" },
+      { name: "", logo:"nat/وزارة العدل.jpeg" },
+      { name: "", logo:"nat/وسيط المملكة.jpg" },
 ]
 
 const UniPart = [
@@ -93,10 +99,17 @@ const UniPart = [
 ]
 
 const intPart = [
-      { name: "ECPM", logo: "IntPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" },
-      { name: "ECOSOC", logo: "IntPartnaires/Amnesty_International_logo.svg.png" },
-      { name: "Amnesty International", logo: "IntPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" },
-      { name: "LC", logo: "IntPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" },
+      { name: "", logo: "inter/AFD.png" },
+      { name: "", logo: "inter/CIDEAL Foundation.jpeg" },
+      { name: "", logo: "inter/ECPM.png" },
+      { name: "", logo: "inter/NDI.png" },
+      { name: "", logo: "inter/Euro-Med Monitor.jpg" },
+      { name: "", logo: "inter/Friedrich-Ebert-Stiftung.png" },
+      { name: "", logo: "inter/International Federation for Human Rights.png" },
+      { name: "", logo: "inter/The World Coalition Against the Death Penalty.png" },
+      { name: "", logo: "inter/المعهد العربي لحقوق الإنسان.png" },
+      { name: "", logo: "inter/المنظمة العربية لحقوق الإنسان.jpg" },
+      { name: "", logo: "inter/ECOSOC.jpg" },
 ]
 
 const timelineEvents = [
@@ -298,7 +311,7 @@ export default function HomePage() {
           {/* Timeline Section */}
           <section className="timeline-section" lang="ar" dir="rtl">
             <div className="section-header">
-              <h2 className="section-title">اكتشف خطواتنا الرئيسية</h2>
+              <h2 className="section-title">اكتشف مسار فعلنا</h2>
             </div>
             <div className="timeline-container">
               <div className="timeline-wrapper">
@@ -321,7 +334,32 @@ export default function HomePage() {
               </div>
             </div>
           </section>
-
+          <div className="values-section">
+              <h2>قيمنا الأساسية</h2>
+              <p className="values-description">قيمنا هي أساس رسالتنا وأعمالنا، وهي تُجسّد التزامنا الراسخ بالعدالة والكرامة وحقوق الإنسان للجميع.</p>
+              <div className="values-container">
+                <div className="value-card">
+                  <div className="value-icon"><div className="icon-circle"><span>⚖️</span></div></div>
+                  <h3>عدالة</h3>
+                  <p>نسعى إلى تحقيق العدالة من خلال الإصلاح القانوني والمساءلة والدفاع عن الحقوق الفردية والجماعية، وضمان العدالة والمساواة في جميع أنحاء المجتمع المغربي.</p>
+                </div>
+                <div className="value-card">
+                  <div className="value-icon"><div className="icon-circle"><span>🕊️</span></div></div>
+                  <h3>كرامة</h3>
+                  <p>نحن نعمل على تعزيز احترام الكرامة المتأصلة في كل شخص، ونعمل على القضاء على التمييز والإقصاء والعنف بجميع أشكاله.</p>
+                </div>
+                <div className="value-card">
+                  <div className="value-icon"><div className="icon-circle"><span>🤝</span></div></div>
+                  <h3>تكافل</h3>
+                  <p>نحن نتعاون مع المجتمعات والمنظمات والمؤسسات لبناء صوت جماعي لحقوق الإنسان وتعزيز مشاركة المجتمع المدني.</p>
+                </div>
+                <div className="value-card">
+                  <div className="value-icon"><div className="icon-circle"><span>📣</span></div></div>
+                  <h3>المرافعة</h3>
+                  <p>نحن نشارك بشكل فعال في الخطاب العام، ونؤثر على السياسات، ونتخذ إجراءات ملموسة لحماية حقوق الإنسان والحريات الديمقراطية.</p>
+                </div>
+              </div>
+            </div>
           {/* Map Section */}
           <section className="map-section">
             <div className="section-header">
@@ -535,7 +573,91 @@ export default function HomePage() {
         .timeline-image { position: relative; height: 10rem; border-radius: 2px; overflow: hidden; }
         .timeline-img { position: absolute; width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
         .timeline-card:hover .timeline-img { transform: scale(1.05); }
-
+                .values-section {
+          margin-top: 5rem;
+          text-align: center;
+        }
+        
+        .values-section h2 {
+          font-size: 2rem;
+          color: var(--text-dark);
+          margin-bottom: 1rem;
+          font-family: var(--Poppins);
+        }
+        
+        .values-description {
+          max-width: 800px;
+          margin: 0 auto 3rem;
+          color: var(--text-medium);
+          line-height: 1.7;
+        }
+        
+        .values-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 2rem;
+          justify-content: center;
+        }
+        
+        .value-card {
+          flex: 1;
+          min-width: 250px;
+          max-width: 350px;
+          background-color: white;
+          padding: 2.5rem 2rem;
+          border-radius: var(--border-radius);
+          box-shadow: var(--box-shadow);
+          text-align: center;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .value-card:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .value-icon {
+          margin-bottom: 1.5rem;
+        }
+        
+        .icon-circle {
+          width: 70px;
+          height: 70px;
+          background-color: var(--accent-color);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          transition: transform 0.3s ease;
+        }
+        
+        .value-card:hover .icon-circle {
+          transform: scale(1.1);
+          background-color: var(--primary-color);
+        }
+        
+        .value-card:hover .icon-circle span {
+          color: white;
+        }
+        
+        .icon-circle span {
+          font-size: 1.8rem;
+          color: var(--primary-color);
+          transition: color 0.3s ease;
+        }
+        
+        .value-card h3 {
+          font-size: 1.4rem;
+          color: var(--primary-color);
+          margin-bottom: 1rem;
+          font-family: var(--Poppins);
+        }
+        
+        .value-card p {
+          color: var(--text-medium);
+          line-height: 1.6;
+        }
         /* Map Section */
         .map-section { display: flex; flex-direction: column; }
         .map-container { border-radius: 4px; overflow: hidden; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04); border: 1px solid rgba(0, 0, 0, 0.05); }

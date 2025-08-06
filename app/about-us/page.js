@@ -97,8 +97,8 @@ const timelineEvents = [
     "status": "",
     "image": "/PastPres/10.JPG"
   },
-  
 ]
+
 const timelineEvents2 = [
    {
     "year": "1988",
@@ -171,209 +171,212 @@ const timelineEvents2 = [
     "type": "primary"
   },
 ]
+
 export default function AboutUsPage() {
   return (
     <>
       <Navbar />
 
       <main lang='ar' dir='rtl'>
-  <section className="about-section">
-    <div className="about-container">
-      <div className="about-header" dir='ltr'>
-        <h1><span className="highlight">انبثاق فكرة ... مسار فعل</span></h1>
-        <p className="about-tagline">
-          المنظمة المغربية لحقوق الإنسان، جمعية حقوقية وطنية غير حكومية ذات اختصاص عام، غرضها الحماية والنهوض بحقوق الإنسان بالمغرب، تأسست سنة 1988.
-وتعتمد في مرجعيتها على قيم ومبادئ الشرعة الدولية والمواثيق والإعلانات والاتفاقيات الدولية ذات الصلة.
-وهي جمعيـــة ذات النفــع العـــام ولها الصفة الاستشارية لدى المجلس الاقتصادي والاجتماعي بالأمم المتحدة.
-
-        </p>
-      </div>
-
-      <div className="about-content " dir='ltr'>
-        <div className="about-image">
-          <Image src="/Images/candle White Background.jpg" alt="OMDH" width={600} height={700} style={{ objectFit: 'cover' }} />
-          <div className="image-overlay">
-            <span className="founded-year">Fondée en 1988</span>
-          </div>
-        </div>
-
-        <div className="about-text" dir='rtl'>
-          <h2>	التأسيس:</h2>
-          <p>المنظمة المغربية لحقوق الإنسان، جمعية حقوقية وطنية غير حكومية ذات اختصاص عام، غرضها الحماية والنهوض بحقوق الإنسان.
-تأسست في الذكرى الأربعينية لصدور الإعلان العالمي لحقوق الإنسان، يوم 10 دجنبر 1988، بعد ثلاثة قرارات منع متتالية (28 ماي،25 يونيو،24 شتنبر 1988) من طرف السلطات العمومية. وقد سهرت على هذا التأسيس لجنة تحضيرية تتكون من 37 رجلا وامرأة: جامعيين وباحثين ومحامين وكتاب وفنانين ومستخدمين...
-وتعتمد المنظمة في مرجعيتها على قيم ومبادئ الشرعة الدولية والمواثيق والإعلانات والاتفاقيات الدولية ذات الصلة.
-<br/> وتأسست المنظمة على مبدإ التعددية من أشخاص ينتمون إلى مجموعات ثقافية وسياسية مختلفة. ويمثل استقلالها عن السلطات العمومية وعن التيارات الإيديولوجية والسياسية مبدأ أساسيا في عملها الحقوقي.
-وتتابع المنظمة المغربية عملها الذؤوب في مجال حماية حقوق الإنسان والنهوض بها، لدعم دولة المؤسسات والفصل بين السلطات واستقلال القضاء وذلك في سبيل ترسيخ دولة الحق والقانون<br/>.
-المنظمة جمعيـــة ذات النفــع العـــام ولها الصفة الاستشارية لدى المجلس الاقتصادي والاجتماعي بالأمم المتحدة، عضو فاعل ومؤسس للعديد من الشبكات الوطنية والدولية لحقوق الانسان<br/> .
-  </p>
-
-          <h2>مسار الفعل:</h2>
-          <p>
-            خلال مسار فعلها مند التأسيس سعت المنظمة إلى :
-            <br/>- نشر وتعميق الوعي بحقوق الإنسان الفردية والجماعية والاجتماعية والاقتصادية والثقافية والمدنية والسياسية.
-            <br/>- السعي للتربية على المواطنة وتدريس التربية على حقوق الإنسان في جميع مراحل التعليم.
-            <br/>- العمل على احترام سيادة القانون في أفق توطيد دولة الحق والقانون.
-            <br/>- السعي إلى تعزيز السلطة القضائية واستقلالها ونزاهتها.
-            <br/>- السعي إلى تطوير التشريع المغربي والعمل على إلغاء المقتضيات التشريعية والتنظيمية الماسة بالحريات الفردية والجماعية، والنصوص المتنافية مع المعايير الدولية لحقوق الإنسان 
-            <br/>- توفير ضمانات فعالة لإعمال هذه الحقوق والحريات 
-            <br/>- الدعوة إلى المصادقة على المواثيق الدولية التي تهم حقوق الإنسان والعمل على متابعة التزام المغرب بتقديم التقارير المتعلقة بإعمال مقتضيات الاتفاقيات المصدق عليها في الآجال المحددة لها.
-            <br/>- تعزيز روابط التضامن الوطني والعربي والإفريقي والدولي في مجال حقوق الإنسان.
-          </p>
-
-          <div className="stats-container" dir='rtl'>
-            <div className="stat-item">
-              <span className="stat-number">+37</span>
-              <span className="stat-label">سنوات من الدفاع عن حقوق الإنسان</span>
+        <section className="about-section">
+          <div className="about-container">
+            <div className="about-header" dir='ltr'>
+              <h1><span className="highlight">انبثاق فكرة ... مسار فعل</span></h1>
+              <p className="about-tagline">
+                المنظمة المغربية لحقوق الإنسان، جمعية حقوقية وطنية غير حكومية ذات اختصاص عام، غرضها الحماية والنهوض بحقوق الإنسان بالمغرب، تأسست سنة 1988.<br/>
+                وتعتمد في مرجعيتها على قيم ومبادئ الشرعة الدولية والمواثيق والإعلانات والاتفاقيات الدولية ذات الصلة.<br/>
+                وهي جمعيـــة ذات النفــع العـــام ولها الصفة الاستشارية لدى المجلس الاقتصادي والاجتماعي بالأمم المتحدة.
+              </p>
             </div>
-            <div className="stat-item">
-              <span className="stat-number">+100</span>
-              <span className="stat-label">حملات التوعية</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">+100</span>
-              <span className="stat-label">الشراكات الإقليمية والمحلية</span>
-            </div>
-            {/* 
-            <div className="stat-item">
-              <span className="stat-number">+10K</span>
-              <span className="stat-label">Personnes sensibilisées par l&apos;éducation</span>
-            </div>
-            */}
-          </div>
 
-          <div className="cta-container">
-            <Link href="/projects" className="BtnPrimary">مشاريعنا</Link>
-            <Link href="/contact" className="BtnSuc">اتصل بنا</Link>
-          </div>
-        </div>
-      </div>
+            <div className="about-content" dir='ltr'>
+              <div className="about-image">
+                <Image src="/Images/candle White Background.jpg" alt="OMDH" width={600} height={700} style={{ objectFit: 'cover' }} />
+                <div className="image-overlay">
+                  <span className="founded-year">Fondée en 1988</span>
+                </div>
+              </div>
 
-      <section className="timeline-section">
-               <div className="section-header">
-                 <h2 className="section-title">اكتشف مسار فعلنا</h2>
-               </div>
-     
-               <div className="timeline-container">
-                 <div className="timeline-wrapper">
-                   <div className="timeline-line"></div>
-     
-                   {timelineEvents2.map((event, index) => (
-                     <div key={index} className="timeline-item">
-                       <div className="timeline-dot"></div>
-     
-                       <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
-                         <div className="timeline-card">
-                           <div className={`timeline-year ${event.type}`}>{event.year}</div>
-                           <h4 className={`timeline-title ${event.type}`}>{event.title}</h4>
-                           <p className="timeline-description">{event.description}</p>
-                           <div className="timeline-image">
-                             <Image
-                               src={event.image || "/placeholder.svg?height=250&width=400"}
-                               alt={event.title}
-                               fill
-                               className="timeline-img"
-                             />
-                           </div>
-                         </div>
-                       </div>
-                     </div>
-                   ))}
-                 </div>
-               </div>
-             </section>
-             
-      <section className="timeline-section" >
-      <div className="section-header">
-        <h2 className="section-title"> تعرف على الرؤساء السابقين للمنظمة</h2>
-      </div>
+              <div className="about-text" dir='rtl'>
+                <h2>التأسيس</h2>
+                <p>
+                  المنظمة المغربية لحقوق الإنسان، جمعية حقوقية وطنية غير حكومية ذات اختصاص عام، غرضها الحماية والنهوض بحقوق الإنسان.
+                </p>
+                <p>
+                  تأسست في الذكرى الأربعينية لصدور الإعلان العالمي لحقوق الإنسان، يوم 10 دجنبر 1988، بعد ثلاثة قرارات منع متتالية (28 ماي، 25 يونيو، 24 شتنبر 1988) من طرف السلطات العمومية. وقد سهرت على هذا التأسيس لجنة تحضيرية تتكون من 37 رجلاً وامرأة: جامعيين وباحثين ومحامين وكتاب وفنانين ومستخدمين.
+                </p>
+                <p>
+                  وتعتمد المنظمة في مرجعيتها على قيم ومبادئ الشرعة الدولية والمواثيق والإعلانات والاتفاقيات الدولية ذات الصلة.
+                </p>
+                <p>
+                  وتأسست المنظمة على مبدأ التعددية من أشخاص ينتمون إلى مجموعات ثقافية وسياسية مختلفة. ويمثل استقلالها عن السلطات العمومية وعن التيارات الإيديولوجية والسياسية مبدأ أساسياً في عملها الحقوقي.
+                </p>
+                <p>
+                  وتتابع المنظمة المغربية عملها الدؤوب في مجال حماية حقوق الإنسان والنهوض بها، لدعم دولة المؤسسات والفصل بين السلطات واستقلال القضاء وذلك في سبيل ترسيخ دولة الحق والقانون.
+                </p>
+                <p>
+                  المنظمة جمعيـــة ذات النفــع العـــام ولها الصفة الاستشارية لدى المجلس الاقتصادي والاجتماعي بالأمم المتحدة، عضو فاعل ومؤسس للعديد من الشبكات الوطنية والدولية لحقوق الانسان.
+                </p>
 
-      <div className="timeline-container" translate='no'>
-        <div className="timeline-wrapper">
-          <div className="timeline-line"></div>
+                <h3>مسار الفعل</h3>
+                <p>خلال مسار فعلها منذ التأسيس سعت المنظمة إلى:</p>
+                
+                <div className="action-points">
+                  <p>• نشر وتعميق الوعي بحقوق الإنسان الفردية والجماعية والاجتماعية والاقتصادية والثقافية والمدنية والسياسية.</p>
+                  <p>• السعي للتربية على المواطنة وتدريس التربية على حقوق الإنسان في جميع مراحل التعليم.</p>
+                  <p>• العمل على احترام سيادة القانون في أفق توطيد دولة الحق والقانون.</p>
+                  <p>• السعي إلى تعزيز السلطة القضائية واستقلالها ونزاهتها.</p>
+                  <p>• السعي إلى تطوير التشريع المغربي والعمل على إلغاء المقتضيات التشريعية والتنظيمية الماسة بالحريات الفردية والجماعية، والنصوص المتنافية مع المعايير الدولية لحقوق الإنسان.</p>
+                  <p>• توفير ضمانات فعالة لإعمال هذه الحقوق والحريات.</p>
+                  <p>• الدعوة إلى المصادقة على المواثيق الدولية التي تهم حقوق الإنسان والعمل على متابعة التزام المغرب بتقديم التقارير المتعلقة بإعمال مقتضيات الاتفاقيات المصدق عليها في الآجال المحددة لها.</p>
+                  <p>• تعزيز روابط التضامن الوطني والعربي والإفريقي والدولي في مجال حقوق الإنسان.</p>
+                </div>
 
-          {timelineEvents.map((event, index) => (
-            <div key={index} className="timeline-item">
-              <div className="timeline-dot"></div>
-
-              <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
-                <div className="timeline-card">
-                  <div className={`timeline-year ${event.type}`}>{event.year}</div>
-                  {/* Display French title */}
-                  <h4 className={`timeline-title ${event.type}`}>{event.title_fr}</h4>
-                  {/* Display Arabic title */}
-                  {event.title_ar && <h5 className="timeline-title-ar">{event.title_ar}</h5>}
-                  {/* Display description (profession in Arabic) */}
-                  <p className="timeline-description">{event.description}</p>
-                  <div className="timeline-image">
-                    <Image
-                      src={event.image || "/placeholder.svg?height=250&width=400"}
-                      alt={event.title_fr} // Use French title for alt text
-                      fill
-                      className="timeline-img"
-                    />
+                <div className="stats-container" dir='rtl'>
+                  <div className="stat-item">
+                    <span className="stat-number">+37</span>
+                    <span className="stat-label">سنوات من الدفاع عن حقوق الإنسان</span>
                   </div>
+                  <div className="stat-item">
+                    <span className="stat-number">+100</span>
+                    <span className="stat-label">حملات التوعية</span>
+                  </div>
+                  <div className="stat-item">
+                    <span className="stat-number">+100</span>
+                    <span className="stat-label">الشراكات الإقليمية والمحلية</span>
+                  </div>
+                </div>
+
+                <div className="cta-container">
+                  <Link href="/projects" className="BtnPrimary">مشاريعنا</Link>
+                  <Link href="/contact" className="BtnSuc">اتصل بنا</Link>
                 </div>
               </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
 
-      <div className="values-section">
-        <h2>قيمنا الأساسية</h2>
-        <p className="values-description">قيمنا هي أساس رسالتنا وأعمالنا، وهي تُجسّد التزامنا الراسخ بالعدالة والكرامة وحقوق الإنسان للجميع.</p>
-        <div className="values-container">
-          <div className="value-card">
-            <div className="value-icon"><div className="icon-circle"><span>⚖️</span></div></div>
-            <h3>عدالة</h3>
-            <p>نسعى إلى تحقيق العدالة من خلال الإصلاح القانوني والمساءلة والدفاع عن الحقوق الفردية والجماعية، وضمان العدالة والمساواة في جميع أنحاء المجتمع المغربي.</p>
-          </div>
-          <div className="value-card">
-            <div className="value-icon"><div className="icon-circle"><span>🕊️</span></div></div>
-            <h3>كرامة</h3>
-            <p>نحن نعمل على تعزيز احترام الكرامة المتأصلة في كل شخص، ونعمل على القضاء على التمييز والإقصاء والعنف بجميع أشكاله.</p>
-          </div>
-          <div className="value-card">
-            <div className="value-icon"><div className="icon-circle"><span>🤝</span></div></div>
-            <h3>تكافل</h3>
-            <p>نحن نتعاون مع المجتمعات والمنظمات والمؤسسات لبناء صوت جماعي لحقوق الإنسان وتعزيز مشاركة المجتمع المدني.</p>
-          </div>
-          <div className="value-card">
-            <div className="value-icon"><div className="icon-circle"><span>📣</span></div></div>
-            <h3>المرافعة</h3>
-            <p>نحن نشارك بشكل فعال في الخطاب العام، ونؤثر على السياسات، ونتخذ إجراءات ملموسة لحماية حقوق الإنسان والحريات الديمقراطية.</p>
-          </div>
-        </div>
-      </div>
+            <section className="timeline-section">
+              <div className="section-header">
+                <h2 className="section-title">اكتشف مسار فعلنا</h2>
+              </div>
 
-      <div className="Partnairs">
-        <h2>اكتشف جميع شركائنا!</h2>
-        <div className="parts">
-          <div className="ImgCont"><Image src="/IntPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" alt="Ecosoc Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/IntPartnaires/Amnesty_International_logo.svg.png" alt="Amnesty International Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/IntPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" alt="LC Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/IntPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" alt="Human Rights Watch Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/UNIPartnaires/1631365508628.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/UNIPartnaires/images (3).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/UNIPartnaires/images.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/UNIPartnaires/Logo-UIZ.jpg" alt="UIZ Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/UNIPartnaires/logo.png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/UNIPartnaires/Mohammed_V_University_Logo.png" alt="Mohammed V University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/UNIPartnaires/univ-cadi-ayyad-logo-900x420-1.png" alt="Cadi Ayyad University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/UNIPartnaires/universite-abdelmalek-essaadi-900x420-1.png" alt="Abdelmalek Essaadi University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/UNIPartnaires/Universite-Hassan-1er-settat.png" alt="Hassan 1er University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" alt="ECPM Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/NatPartnaires/images (1).jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/NatPartnaires/images (1).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/NatPartnaires/images (2).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/NatPartnaires/images.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-          <div className="ImgCont"><Image src="/NatPartnaires/images.png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
+              <div className="timeline-container">
+                <div className="timeline-wrapper">
+                  <div className="timeline-line"></div>
+
+                  {timelineEvents2.map((event, index) => (
+                    <div key={index} className="timeline-item">
+                      <div className="timeline-dot"></div>
+
+                      <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
+                        <div className="timeline-card">
+                          <div className={`timeline-year ${event.type}`}>{event.year}</div>
+                          <h4 className={`timeline-title ${event.type}`}>{event.title}</h4>
+                          <p className="timeline-description">{event.description}</p>
+                          <div className="timeline-image">
+                            <Image
+                              src={event.image || "/placeholder.svg?height=250&width=400"}
+                              alt={event.title}
+                              fill
+                              className="timeline-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+             
+            <section className="timeline-section">
+              <div className="section-header">
+                <h2 className="section-title">تعرف على الرؤساء السابقين للمنظمة</h2>
+              </div>
+
+              <div className="timeline-container" translate='no'>
+                <div className="timeline-wrapper">
+                  <div className="timeline-line"></div>
+
+                  {timelineEvents.map((event, index) => (
+                    <div key={index} className="timeline-item">
+                      <div className="timeline-dot"></div>
+
+                      <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
+                        <div className="timeline-card">
+                          <div className={`timeline-year ${event.type}`}>{event.year}</div>
+                          <h4 className={`timeline-title ${event.type}`}>{event.title_fr}</h4>
+                          {event.title_ar && <h5 className="timeline-title-ar">{event.title_ar}</h5>}
+                          <p className="timeline-description">{event.description}</p>
+                          <div className="timeline-image">
+                            <Image
+                              src={event.image || "/placeholder.svg?height=250&width=400"}
+                              alt={event.title_fr}
+                              fill
+                              className="timeline-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+
+            <div className="values-section">
+              <h2>قيمنا الأساسية</h2>
+              <p className="values-description">قيمنا هي أساس رسالتنا وأعمالنا، وهي تُجسّد التزامنا الراسخ بالعدالة والكرامة وحقوق الإنسان للجميع.</p>
+              <div className="values-container">
+                <div className="value-card">
+                  <div className="value-icon"><div className="icon-circle"><span>⚖️</span></div></div>
+                  <h3>عدالة</h3>
+                  <p>نسعى إلى تحقيق العدالة من خلال الإصلاح القانوني والمساءلة والدفاع عن الحقوق الفردية والجماعية، وضمان العدالة والمساواة في جميع أنحاء المجتمع المغربي.</p>
+                </div>
+                <div className="value-card">
+                  <div className="value-icon"><div className="icon-circle"><span>🕊️</span></div></div>
+                  <h3>كرامة</h3>
+                  <p>نحن نعمل على تعزيز احترام الكرامة المتأصلة في كل شخص، ونعمل على القضاء على التمييز والإقصاء والعنف بجميع أشكاله.</p>
+                </div>
+                <div className="value-card">
+                  <div className="value-icon"><div className="icon-circle"><span>🤝</span></div></div>
+                  <h3>تكافل</h3>
+                  <p>نحن نتعاون مع المجتمعات والمنظمات والمؤسسات لبناء صوت جماعي لحقوق الإنسان وتعزيز مشاركة المجتمع المدني.</p>
+                </div>
+                <div className="value-card">
+                  <div className="value-icon"><div className="icon-circle"><span>📣</span></div></div>
+                  <h3>المرافعة</h3>
+                  <p>نحن نشارك بشكل فعال في الخطاب العام، ونؤثر على السياسات، ونتخذ إجراءات ملموسة لحماية حقوق الإنسان والحريات الديمقراطية.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="Partnairs">
+              <h2>اكتشف جميع شركائنا!</h2>
+              <div className="parts">
+                <div className="ImgCont"><Image src="/IntPartnaires/28JUN-ECOSOC-LOGO-BLOG.png" alt="Ecosoc Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/IntPartnaires/Amnesty_International_logo.svg.png" alt="Amnesty International Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/IntPartnaires/LC-Logo-thumbnail-980x551-1-400x250.jpg" alt="LC Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/IntPartnaires/WORLD_REPORT_2023_OF_HUMAN_RIGHTS_WATCH_0.png" alt="Human Rights Watch Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/UNIPartnaires/1631365508628.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/UNIPartnaires/images (3).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/UNIPartnaires/images.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/UNIPartnaires/Logo-UIZ.jpg" alt="UIZ Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/UNIPartnaires/logo.png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/UNIPartnaires/Mohammed_V_University_Logo.png" alt="Mohammed V University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/UNIPartnaires/univ-cadi-ayyad-logo-900x420-1.png" alt="Cadi Ayyad University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/UNIPartnaires/universite-abdelmalek-essaadi-900x420-1.png" alt="Abdelmalek Essaadi University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/UNIPartnaires/Universite-Hassan-1er-settat.png" alt="Hassan 1er University Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/NatPartnaires/ensemble-contre-la-peine-de-mort-ecpm-morocco-417461.jpg" alt="ECPM Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/NatPartnaires/images (1).jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/NatPartnaires/images (1).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/NatPartnaires/images (2).png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/NatPartnaires/images.jpeg" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+                <div className="ImgCont"><Image src="/NatPartnaires/images.png" alt="Partner Logo" width={150} height={100} style={{objectFit: 'contain'}} /></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 
       <Footer />
 
@@ -387,7 +390,7 @@ export default function AboutUsPage() {
         .section-title {
           font-size: 2rem;
           font-weight: 600;
-          color:var(--secondary-color);
+          color: var(--secondary-color);
           margin: 0;
           display: flex;
           align-items: center;
@@ -398,179 +401,254 @@ export default function AboutUsPage() {
         }
 
         .about-section {
-            padding: 5rem 2rem;
-            background-color: var(--light-bg);
+          padding: 5rem 2rem;
+          background-color: var(--light-bg);
         }
+        
         .about-container {
-            max-width: 1400px;
-            margin: 0 auto;
+          max-width: 1400px;
+          margin: 0 auto;
         }
+        
         .about-header {
-            text-align: center;
-            margin-bottom: 3rem;
+          text-align: center;
+          margin-bottom: 3rem;
         }
+        
         .about-header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--text-dark);
-            margin-bottom: 1rem;
-            position: relative;
-            display: inline-block;
+          font-size: 2.5rem;
+          font-weight: 700;
+          color: var(--text-dark);
+          margin-bottom: 1rem;
+          position: relative;
+          display: inline-block;
         }
+        
         .highlight {
-            color: var(--primary-color);
+          color: var(--primary-color);
         }
+        
         .about-tagline {
-            font-size: 1.2rem;
-            color: var(--text-medium);
-            max-width: 700px;
-            margin: 2rem auto;
-            line-height: 1.6;
-            font-family: var(--Poppins);
+          font-size: 1.2rem;
+          color: var(--text-medium);
+          max-width: 700px;
+          margin: 2rem auto;
+          line-height: 1.8;
+          font-family: var(--Poppins);
         }
+        
         .about-content {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 3rem;
-            margin-bottom: 4rem;
-            align-items: flex-start;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 3rem;
+          margin-bottom: 4rem;
+          align-items: flex-start;
         }
+        
         .about-image {
-            flex: 1;
-            min-width: 300px;
-            position: relative;
-            border-radius: var(--border-radius);
-            overflow: hidden;
-            box-shadow: var(--box-shadow);
+          flex: 1;
+          min-width: 300px;
+          position: relative;
+          border-radius: var(--border-radius);
+          overflow: hidden;
+          box-shadow: var(--box-shadow);
         }
+        
         .about-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            transition: transform 0.5s ease;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+          transition: transform 0.5s ease;
         }
+        
         .about-image:hover img {
-            transform: scale(1.05);
+          transform: scale(1.05);
         }
+        
         .image-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
-            padding: 2rem;
-            box-sizing: border-box;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+          padding: 2rem;
+          box-sizing: border-box;
         }
+        
         .founded-year {
-            display: inline-block;
-            background-color: var(--gold-accent);
-            color: var(--text-dark);
-            padding: 0.5rem 1.5rem;
-            font-weight: 600;
-            border-radius: var(--border-radius);
-            font-family: var(--Poppins);
+          display: inline-block;
+          background-color: var(--gold-accent);
+          color: var(--text-dark);
+          padding: 0.5rem 1.5rem;
+          font-weight: 600;
+          border-radius: var(--border-radius);
+          font-family: var(--Poppins);
         }
+        
         .about-text {
-            flex: 1.5; /* Give text more space */
-            min-width: 300px;
+          flex: 1.5;
+          min-width: 300px;
         }
+        
         .about-text h2 {
-            font-size: 1.8rem;
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-            font-family: var(--Poppins);
-            position: relative;
-            padding-bottom: 0.5rem;
+          font-size: 2rem;
+          color: var(--primary-color);
+          margin-bottom: 1.5rem;
+          font-family: var(--Poppins);
+          position: relative;
+          padding-bottom: 0.75rem;
+        }
+
+        .about-text h2::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 60px;
+          height: 3px;
+          background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+          border-radius: 2px;
+        }
+        
+        .about-text h3 {
+          font-size: 1.6rem;
+          color: var(--secondary-color);
+          margin: 2rem 0 1.5rem 0;
+          font-family: var(--Poppins);
+          position: relative;
+          padding-bottom: 0.5rem;
+        }
+
+        .about-text h3::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 40px;
+          height: 2px;
+          background: var(--secondary-color);
+          border-radius: 2px;
         }
         
         .about-text p {
-            margin-bottom: 1.5rem;
-            line-height: 1.7;
-            color: var(--text-medium);
-            font-size: 1.05rem;
+          margin-bottom: 1.5rem;
+          line-height: 1.8;
+          color: var(--text-medium);
+          font-size: 1.05rem;
+          position: relative;
+          padding-bottom: 0.5rem;
         }
+
+        .about-text p::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 20px;
+          height: 1px;
+          background: rgba(25, 87, 166, 0.2);
+          border-radius: 1px;
+        }
+
+        .action-points {
+          background: rgba(25, 87, 166, 0.05);
+          padding: 1.5rem;
+          border-radius: var(--border-radius);
+          border-right: 4px solid var(--primary-color);
+          margin: 1.5rem 0;
+        }
+
+        .action-points p {
+          margin-bottom: 1rem;
+          color: var(--text-medium);
+          font-size: 1rem;
+        }
+
+        .action-points p::after {
+          display: none;
+        }
+        
         .stats-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-            margin: 2.5rem 0;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1.5rem;
+          margin: 2.5rem 0;
         }
+        
         .stat-item {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            min-width: 120px;
-            background-color: white;
-            padding: 1.5rem;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          min-width: 120px;
+          background-color: white;
+          padding: 1.5rem;
+          border-radius: var(--border-radius);
+          box-shadow: var(--box-shadow);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+        
         .stat-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          transform: translateY(-5px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
+        
         .stat-number {
-            display: block;
-            font-size: 2.2rem;
-            font-weight: 700;
-            color: var(--primary-color);
-            margin-bottom: 0.5rem;
+          display: block;
+          font-size: 2.2rem;
+          font-weight: 700;
+          color: var(--primary-color);
+          margin-bottom: 0.5rem;
         }
+        
         .stat-label {
-            color: var(--text-medium);
-            font-size: 0.95rem;
-            font-weight: 500;
+          color: var(--text-medium);
+          font-size: 0.95rem;
+          font-weight: 500;
         }
+        
         .cta-container {
-            display: flex;
-            gap: 1rem;
-            margin-top: 2rem;
+          display: flex;
+          gap: 1rem;
+          margin-top: 2rem;
         }
         
-        /* === [CORRECTED] TIMELINE CSS START === */
-        
+        /* Timeline Styles */
         .timeline-section {
-          margin-top:5em;
+          margin-top: 5rem;
           display: flex;
           flex-direction: column;
         }
-        /* === STYLE FOR ADDED ARABIC CONTENT === */
+        
+        .timeline-title-ar {
+          font-family: 'Amiri', 'Noto Naskh Arabic', serif;
+          font-size: 1.25rem;
+          font-weight: 500;
+          color: #333;
+          margin-top: -0.75rem;
+          margin-bottom: 1rem;
+          line-height: 1.5;
+          direction: rtl;
+          text-align: right;
+          overflow: hidden;
+        }
 
-          /* Style for the Arabic name (h5 tag) */
-          .timeline-title-ar {
-            font-family: 'Amiri', 'Noto Naskh Arabic', serif; /* A good font for Arabic */
-            font-size: 1.25rem;  /* Slightly larger for readability */
-            font-weight: 500;
-            color: #333; /* Dark grey for a professional look */
-            margin-top: -0.75rem; /* Reduce space below the French title */
-            margin-bottom: 1rem;
-            line-height: 1.5;
-            direction: rtl; /* Ensure right-to-left text direction */
-            text-align: right;
-            overflow:hidden;
-          }
+        .timeline-description {
+          font-family: 'Amiri', 'Noto Naskh Arabic', serif;
+          font-size: 1rem;
+          color: #555;
+          direction: rtl;
+          text-align: right;
+          overflow: hidden;
+        }
 
-          /* Adjustments for the description (profession in Arabic) */
-          .timeline-description {
-            font-family: 'Amiri', 'Noto Naskh Arabic', serif; /* Consistent Arabic font */
-            font-size: 1rem;
-            color: #555; /* Slightly lighter than the title */
-            direction: rtl; /* Ensure right-to-left text direction */
-            text-align: right;
-            overflow:hidden;
-          }
-
-          /* Optional: Add a special style for the Honorary President's year text */
-          .timeline-year.رئيس.شرفي {
-              color: #d3612f; /* Example color to make it stand out */
-              font-weight: 700;
-          }
+        .timeline-year.رئيس.شرفي {
+          color: #d3612f;
+          font-weight: 700;
+        }
 
         .timeline-container {
           background: white;
@@ -585,7 +663,6 @@ export default function AboutUsPage() {
           position: relative;
         }
 
-        /* Base (Mobile) Styles */
         .timeline-line {
           position: absolute;
           left: 1rem;
@@ -597,9 +674,10 @@ export default function AboutUsPage() {
 
         .timeline-item {
           position: relative;
-          padding-left: 3rem; /* Space for content to clear the line */
+          padding-left: 3rem;
           margin-bottom: 4rem;
         }
+        
         .timeline-item:last-child {
           margin-bottom: 0;
         }
@@ -607,7 +685,7 @@ export default function AboutUsPage() {
         .timeline-dot {
           position: absolute;
           top: 1.5rem;
-          left: calc(1rem - 5px); /* Position dot on the line */
+          left: calc(1rem - 5px);
           width: 12px;
           height: 12px;
           background: #1957a6;
@@ -626,7 +704,6 @@ export default function AboutUsPage() {
           transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        /* Desktop Alternating Styles */
         @media (min-width: 993px) {
           .timeline-line {
             left: 50%;
@@ -634,10 +711,9 @@ export default function AboutUsPage() {
           }
 
           .timeline-item {
-            padding-left: 0; /* Reset mobile padding */
+            padding-left: 0;
           }
           
-          /* This is the container for the floated content */
           .timeline-item::after {
             content: '';
             display: table;
@@ -657,11 +733,11 @@ export default function AboutUsPage() {
           .timeline-content.left {
             float: left;
           }
+          
           .timeline-content.right {
             float: right;
           }
 
-          /* Arrows */
           .timeline-card::before {
             content: '';
             position: absolute;
@@ -700,17 +776,15 @@ export default function AboutUsPage() {
           margin-bottom: 0.5rem;
           text-transform: uppercase;
           letter-spacing: 0.05em;
-          color:var(--secondary-color);
-
+          color: var(--secondary-color);
         }
-
 
         .timeline-title {
           font-size: 1.125rem;
           font-weight: 600;
           margin-bottom: 1rem;
           line-height: 1.3;
-          color:var(--primary-color);
+          color: var(--primary-color);
         }
 
         .timeline-title.primary {
@@ -744,181 +818,206 @@ export default function AboutUsPage() {
           transform: scale(1.05);
         }
         
-        /* === TIMELINE CSS END === */
-
         .Projects img {
-            width: 100%;
-            max-width: 20em;
-            margin-top: 1em;
-            border-radius: var(--border-radius);
-            height: auto;
+          width: 100%;
+          max-width: 20em;
+          margin-top: 1em;
+          border-radius: var(--border-radius);
+          height: auto;
         }
+        
         .values-section {
-            margin-top: 5rem;
-            text-align: center;
+          margin-top: 5rem;
+          text-align: center;
         }
+        
         .values-section h2 {
-            font-size: 2rem;
-            color: var(--text-dark);
-            margin-bottom: 1rem;
-            font-family: var(--Poppins);
+          font-size: 2rem;
+          color: var(--text-dark);
+          margin-bottom: 1rem;
+          font-family: var(--Poppins);
         }
+        
         .values-description {
-            max-width: 800px;
-            margin: 0 auto 3rem;
-            color: var(--text-medium);
-            line-height: 1.7;
+          max-width: 800px;
+          margin: 0 auto 3rem;
+          color: var(--text-medium);
+          line-height: 1.7;
         }
+        
         .values-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: center;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 2rem;
+          justify-content: center;
         }
+        
         .value-card {
-            flex: 1;
-            min-width: 250px;
-            max-width: 350px;
-            background-color: white;
-            padding: 2.5rem 2rem;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          flex: 1;
+          min-width: 250px;
+          max-width: 350px;
+          background-color: white;
+          padding: 2.5rem 2rem;
+          border-radius: var(--border-radius);
+          box-shadow: var(--box-shadow);
+          text-align: center;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+        
         .value-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+          transform: translateY(-8px);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
         }
+        
         .value-icon {
-            margin-bottom: 1.5rem;
+          margin-bottom: 1.5rem;
         }
+        
         .icon-circle {
-            width: 70px;
-            height: 70px;
-            background-color: var(--accent-color);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto;
-            transition: transform 0.3s ease;
+          width: 70px;
+          height: 70px;
+          background-color: var(--accent-color);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          transition: transform 0.3s ease;
         }
+        
         .value-card:hover .icon-circle {
-            transform: scale(1.1);
-            background-color: var(--primary-color);
+          transform: scale(1.1);
+          background-color: var(--primary-color);
         }
+        
         .value-card:hover .icon-circle span {
-            color: white;
+          color: white;
         }
+        
         .icon-circle span {
-            font-size: 1.8rem;
-            color: var(--primary-color);
-            transition: color 0.3s ease;
+          font-size: 1.8rem;
+          color: var(--primary-color);
+          transition: color 0.3s ease;
         }
+        
         .value-card h3 {
-            font-size: 1.4rem;
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-            font-family: var(--Poppins);
+          font-size: 1.4rem;
+          color: var(--primary-color);
+          margin-bottom: 1rem;
+          font-family: var(--Poppins);
         }
+        
         .value-card p {
-            color: var(--text-medium);
-            line-height: 1.6;
+          color: var(--text-medium);
+          line-height: 1.6;
         }
+        
         .Partnairs {
-            padding: 2em;
-            background-color: #f9f9f9;
-            text-align: center;
-            margin-top: 4rem;
+          padding: 2rem;
+          background-color: #f9f9f9;
+          text-align: center;
+          margin-top: 4rem;
         }
+        
         .Partnairs h2 {
-            font-size: 2rem;
-            color: #333;
-            margin-bottom: 1.5em;
+          font-size: 2rem;
+          color: #333;
+          margin-bottom: 1.5rem;
         }
+        
         .parts {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1.5em;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 1.5rem;
         }
+        
         .ImgCont {
-            width: 15em;
-            height: 13em;
-            background-color: white;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 1em;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          width: 15rem;
+          height: 13rem;
+          background-color: white;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          border-radius: 1rem;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+        
         .ImgCont:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+          transform: translateY(-5px);
+          box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
         }
         
         .autoShow {
-            animation: autoShowAnimation both;
-            animation-timeline: view(90% 5%);
+          animation: autoShowAnimation both;
+          animation-timeline: view(90% 5%);
         }
+        
         @keyframes autoShowAnimation {
-            from {
-                opacity: 0;
-                transform: translateY(200px) scale(0.3);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0) scale(1);
-            }
+          from {
+            opacity: 0;
+            transform: translateY(200px) scale(0.3);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+          }
         }
         
         /* Responsive Design */
-        @media (max-width: 992px) {
-           /* Mobile timeline styles are now the default */
-        }
         @media (max-width: 768px) {
           .about-content {
             flex-direction: column;
           }
+          
           .cta-container {
             flex-direction: column;
           }
+          
           .about-header h1 {
             font-size: 2rem;
           }
+          
           .about-text h2 {
             font-size: 1.5rem;
           }
+          
           .values-section h2,
           .Partnairs h2 {
             font-size: 1.8rem;
           }
+          
           .stat-item {
-            min-width: 45%; /* Two items per row on tablet */
+            min-width: 45%;
           }
-            .timeline-container {
+          
+          .timeline-container {
             padding: 3rem 1.5rem;
           }
         }
+        
         @media (max-width: 576px) {
           .about-section {
             padding: 3rem 1rem;
           }
+          
           .about-header h1 {
             font-size: 1.8rem;
           }
+          
           .about-tagline {
             font-size: 1rem;
           }
+          
           .value-card,
           .ImgCont,
           .stat-item {
             min-width: 100%;
           }
-            .timeline-card {
+          
+          .timeline-card {
             padding: 1.5rem;
           }
 
