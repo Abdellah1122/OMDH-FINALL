@@ -13,19 +13,19 @@ const heroSlides = [
     text: "انبثاق فكرة....مسار فعل",
   },
   {
-    image: "/Images/CandleInHand2.jpg",
-    alt: "Kids",
-    text: "حماية وتعزيز حقوق الانسان مسؤولية جماعية",
+    image: "/slider/1.jpg",
   },
   {
-    image: "/Images/CandleInHand.jpg",
-    alt: "Peace Pigeon",
-    text: "نضال مستمر من أجل تعزيز وحماية حقوق الانسان بالمغرب",
+    image: "/slider/2.jpg",
   },
-  {
-    image: "/Images/News2.jpg",
-    alt: "Hand Solidarity",
-    text: "",
+    {
+    image: "/slider/3.jpg",
+  },
+    {
+    image: "/slider/4.jpg",
+  },
+    {
+    image: "/slider/5.jpg",
   },
 
 ]
@@ -187,12 +187,15 @@ export default function HomePage() {
                   alt={slide.alt}
                   className="hero-image"
                 />
-                <div className="hero-overlay" />
+                {/**
+                 *                 <div className="hero-overlay" />
                   <div className="hero-content">
                     <div className="hero-text-box">
                       <p className="hero-text" translate="no">{slide.text}</p>
                     </div>
                   </div>
+                 */}
+
 
               </div>
             ))}

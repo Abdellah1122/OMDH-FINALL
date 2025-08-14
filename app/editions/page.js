@@ -29,6 +29,82 @@ export default function EditionsPage() {
         <h2 className="section-title">بيانات  :</h2>
         <div className="article-list"  translate="no">
           {/* Note: I've updated the hrefs to point to the pages we created! */}
+          <article className="article-item">
+  <div className="article-image">
+    <Image src="/omdhlogo.png" alt="بيان حول الأحداث العنصرية بإقليم مورسيا بإسبانيا" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
+  </div>
+  <div className="article-content">
+    <span className="article-category">بيان</span>
+    <h3 className="article-title" dir="rtl">
+      بيان حول الأحداث العنصرية بإقليم مورسيا بإسبانيا
+    </h3>
+    <div className="article-meta">
+      <span className="article-author" dir="rtl">المكتب التنفيذي - المنظمة المغربية لحقوق الإنسان</span>
+      <span className="article-date" dir="rtl">21 يوليوز 2025</span>
+    </div>
+    <p className="article-excerpt" dir="rtl">
+      استنكار الاعتداءات العنصرية على المهاجرين المغاربة في "توري باتشينو" والتحذير من تصاعد المد العنصري لليمين المتطرف والتنديد بأعمال حزب فوكس...
+    </p>
+    <Link href="/Article18" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
+  </div>
+</article>
+          <article className="article-item">
+  <div className="article-image">
+    <Image src="/omdhlogo.png" alt="بلاغ المنظمة المغربية لحقوق الإنسان حول العفو الملكي" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
+  </div>
+  <div className="article-content">
+    <span className="article-category">بلاغ</span>
+    <h3 className="article-title" dir="rtl">
+      بلاغ المنظمة المغربية لحقوق الإنسان حول العفو الملكي
+    </h3>
+    <div className="article-meta">
+      <span className="article-author" dir="rtl">المكتب التنفيذي - المنظمة المغربية لحقوق الإنسان</span>
+      <span className="article-date" dir="rtl">30 يوليوز 2025</span>
+    </div>
+    <p className="article-excerpt" dir="rtl">
+      تثمين تحويل عقوبة الإعدام إلى المؤبد في إطار العفو الملكي بمناسبة الذكرى 26 لعيد العرش والدعوة لإقرار العدالة المجالية وتفعيل الحقوق الاقتصادية والاجتماعية...
+    </p>
+    <Link href="/Article17" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
+  </div>
+</article>
+          <article className="article-item">
+  <div className="article-image">
+    <Image src="/omdhlogo.png" alt="بيان حول الترحيل التعسفي للمناضلة الحقوقية نصيرة ديتور" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
+  </div>
+  <div className="article-content">
+    <span className="article-category">بيان</span>
+    <h3 className="article-title" dir="rtl">
+      بيان حول الترحيل التعسفي للمناضلة الحقوقية نصيرة ديتور
+    </h3>
+    <div className="article-meta">
+      <span className="article-author" dir="rtl">المكتب التنفيذي - المنظمة المغربية لحقوق الإنسان</span>
+      <span className="article-date" dir="rtl">31 يوليوز 2025</span>
+    </div>
+    <p className="article-excerpt" dir="rtl">
+      تنديد بمنع المناضلة الحقوقية نصيرة ديتور، رئيسة الفيدرالية الأورومتوسطية ضد الاختفاء القسري من دخول بلدها الجزائر وترحيلها تعسفيا من مطار الهواري بومدين...
+    </p>
+    <Link href="/Article16" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
+  </div>
+</article>
+          <article className="article-item">
+  <div className="article-image">
+    <Image src="/omdhlogo.png" alt="نتائج المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
+  </div>
+  <div className="article-content">
+    <span className="article-category">التصريح الصحفي</span>
+    <h3 className="article-title" dir="rtl">
+      نتائج المؤتمر الوطني الثاني عشر للمنظمة المغربية لحقوق الإنسان
+    </h3>
+    <div className="article-meta">
+      <span className="article-author" dir="rtl">المنظمة المغربية لحقوق الإنسان (OMDH)</span>
+      <span className="article-date" dir="rtl">06 مايو 2025</span>
+    </div>
+    <p className="article-excerpt" dir="rtl">
+      التصريح الصحفي حول نتائج المؤتمر الوطني الثاني عشر تحت شعار "أي فعلية لحقوق الإنسان في ظل التحولات الدولية الراهنة؟" والذي انعقد بمدينة الرباط أيام 25-26-27 أبريل 2025...
+    </p>
+    <Link href="/Article15" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
+  </div>
+</article>
 <article className="article-item">
   <div className="article-image">
     {/* Using the organization's logo as a placeholder image */}
