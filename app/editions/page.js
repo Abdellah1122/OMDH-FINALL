@@ -29,7 +29,7 @@ export default function EditionsPage() {
         <h2 className="section-title">بيانات  :</h2>
         <div className="article-list"  translate="no">
           {/* Note: I've updated the hrefs to point to the pages we created! */}
-          <article className="article-item">
+<article className="article-item">
   <div className="article-image">
     <Image src="/omdhlogo.png" alt="بيان حول الأحداث العنصرية بإقليم مورسيا بإسبانيا" width={300} height={300} style={{objectFit: 'contain', padding: '1rem'}}/>
   </div>
@@ -43,7 +43,7 @@ export default function EditionsPage() {
       <span className="article-date" dir="rtl">21 يوليوز 2025</span>
     </div>
     <p className="article-excerpt" dir="rtl">
-      استنكار الاعتداءات العنصرية على المهاجرين المغاربة في "توري باتشينو" والتحذير من تصاعد المد العنصري لليمين المتطرف والتنديد بأعمال حزب فوكس...
+      استنكار الاعتداءات العنصرية على المهاجرين المغاربة في &ldquo;توري باتشينو&rdquo; والتحذير من تصاعد المد العنصري لليمين المتطرف والتنديد بأعمال حزب فوكس...
     </p>
     <Link href="/Article18" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
   </div>
@@ -100,7 +100,7 @@ export default function EditionsPage() {
       <span className="article-date" dir="rtl">06 مايو 2025</span>
     </div>
     <p className="article-excerpt" dir="rtl">
-      التصريح الصحفي حول نتائج المؤتمر الوطني الثاني عشر تحت شعار "أي فعلية لحقوق الإنسان في ظل التحولات الدولية الراهنة؟" والذي انعقد بمدينة الرباط أيام 25-26-27 أبريل 2025...
+      التصريح الصحفي حول نتائج المؤتمر الوطني الثاني عشر تحت شعار &ldquo;أي فعلية لحقوق الإنسان في ظل التحولات الدولية الراهنة؟&rdquo; والذي انعقد بمدينة الرباط أيام 25-26-27 أبريل 2025...
     </p>
     <Link href="/Article15" className="article-button" style={{color: 'var(--primary-color)',backgroundColor:'transparent',border:'none'}}>اقرأ المزيد</Link>
   </div>
