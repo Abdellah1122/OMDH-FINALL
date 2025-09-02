@@ -345,7 +345,7 @@ export default function Navbar() {
         .nav-btn {
           background: transparent !important;
           border: none !important;
-          font-size: 1.5rem;
+          font-size: 1.01rem;
           font-weight: 500;
           padding: 0.75rem 1.25rem;
           cursor: pointer;
