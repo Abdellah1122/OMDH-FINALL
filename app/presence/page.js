@@ -15,7 +15,7 @@ const officeData = [
     city: "Rabat",
     image: "/Images/Rabat.jpg",
     description:
-      "Le siège principal de l'OMDH coordonne les initiatives nationales, le plaidoyer juridique et les programmes de coopération internationale. Établi en 1988, il demeure le cœur de la mission de l'organisation.",
+      "",
     phone: ["+212 537 77 00 60", "+212 666 94 79 75"],
     email: "admin.omdh@omdh.ma",
     address: "8 , rue Ouargha , Résidence volubilis, appt 1 , Agdal /Rabat , Maroc",
@@ -27,7 +27,7 @@ const officeData = [
     city: "Casablanca",
     image: "/Images/casablanca.jpg",
     description:
-    "Le bureau de Casablanca soutient les droits urbains, l'inclusion socio-économique et l'aide juridique aux populations vulnérables de la région métropolitaine.",
+    "",
     phone: ["+212 762 59 86 79"],
     email: "farah.houmani@omdh.ma",
     address: "place pasteur 17 résidence BUILD PASTEUR 1er étage N°13",
@@ -39,7 +39,7 @@ const officeData = [
     city: "Agadir",
     image: "/Images/Agadir.jpg",
     description:
-      "L'antenne d'Agadir traite des questions relatives aux droits amazighs, à la justice environnementale et au soutien des communautés rurales dans la région de Souss-Massa.",
+      "",
     phone: ["+212 666 43 28 97"],
     email: "Oumaima.Lahmar@omdh.ma",
     address: "N° 22, 5e étage, Immeuble Moulak, rue Al Qadi Ayyad, zone industrielle, Agadir.",
@@ -51,7 +51,7 @@ const officeData = [
     city: "Oujda",
     image: "/Images/oujda.jpeg",
     description:
-      "L'antenne d'Oujda se concentre sur les questions de migration, la coopération transfrontalière et les programmes d'éducation communautaire dans la région orientale du Maroc.",
+      "",
     phone: ["+212 536 00 00 00"],
     email: "admin.omdh@omdh.ma",
     address: "Rue Ziyani, Quartier Elmahata, 1er étage",
@@ -63,7 +63,7 @@ const officeData = [
     city: "Tanger",
     image: "/Images/Tangier.jpg",
     description:
-      "Situé dans le nord, le bureau de Tanger gère des programmes pour la jeunesse, des ateliers sur les droits humains et des initiatives de plaidoyer local en partenariat avec des groupes de la société civile.",
+      "",
     phone: ["+212 539 00 00 00"],
     email: "admin.omdh@omdh.ma",
     address: "Rue de Fès N° 156, face au laboratoire Castilla",
@@ -248,7 +248,7 @@ export default function PresencePage() {
                   </div>
                   <div className="legend-item">
                     <div className="legend-color office"></div>
-                    <span className="legend-text">Bureaux Régionales</span>
+                    <span className="legend-text">Présence Régionale d’Assistance et soutien aux réfugiés et demandeurs d’Asile (OMDH-HCR)</span>
                   </div>
                   <div className="legend-item">
                     <div className="legend-color sec"></div>
@@ -271,7 +271,7 @@ export default function PresencePage() {
             {/* Regional Presence */}
             <div className="regional-presence">
               <div className="timeline-header">
-                <h2>Présence Régionale</h2>
+                <h2>Présence Régionale d’Assistance et soutien aux réfugiés et demandeurs d’Asile (OMDH-HCR)</h2>
                 <p className="timeline-description">
                   Découvrez nos bureaux locaux et notre engagement communautaire à travers le Maroc
                 </p>

@@ -107,8 +107,8 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="section">
+      {/* Map Section 
+       <section className="section">
         <div className="map-section auto-show">
           <div className="map-container">
             <iframe 
@@ -118,7 +118,8 @@ src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=8,
             </iframe>
           </div>
         </div>
-      </section>
+      </section>*/}
+     
     </div>
   </main>
 

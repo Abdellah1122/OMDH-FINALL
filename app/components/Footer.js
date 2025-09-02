@@ -91,7 +91,7 @@ export default function Footer() {
             </div>
             <div className={styles.Omdh}>
               <p className={styles['translatable-text']}>
-                <span translate="yes">المنظمة المغربية لحقوق الإنسان (OMDH) هي منظمة متميزة وملتزمة للدفاع عن حقوق الإنسان، مكرسة لمعالجة القضايا الحاسمة مثل الاعتقال السياسي والتعذيب وتعزيز الوعي بحقوق الإنسان.</span>
+                <span translate="yes">المنظمة المغربية لحقوق الإنسان، هي منظمة مغربية ملتزمة بالنهوض وتعزيز وجماية  عن حقوق الإنسان، كرست جهودها لمعالجة القضايا الحاسمة مثل الاعتقال السياسي والتعذيب وتعزيز الوعي بحقوق الإنسان.</span>
               </p>
             </div>
           </div>
@@ -121,7 +121,7 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.AfterFooter}>
-          <p className={styles['no-translate']}>© 2025 OMDH - <span translate="yes">جميع الحقوق محفوظة</span></p>
+          <p className={styles['no-translate']}>© 2025 OMDH -<span translate="yes">  نسخة تجريبة-</span> <span translate="yes">جميع الحقوق محفوظة</span> </p>
           
           <div id="language-selector" className={styles['language-selector']}>
             <button translate="no" onClick={() => changeLanguage('en')}>English</button> |

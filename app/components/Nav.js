@@ -18,8 +18,8 @@ const projectItems = [
 ]
 
 const mainNavItems = [
-  { href: "/team", label:"هيئات الحكامة" },
-  { href: "/editions", label: "وثائق مرجعية" },
+  { href: "/team", label:"فريقنا" },
+  { href: "/editions", label: " بلاغات وبيانات" },
   { href: "/contact", label: "اتصل بنا" },
 ]
 
@@ -152,7 +152,7 @@ export default function Navbar() {
               onClick={() => toggleDropdown("projects")}
               aria-expanded={openDropdown === "projects"}
             >
-              <span>المشاريع</span>
+              <span>شراكات</span>
               <svg
                 className={`chevron ${openDropdown === "projects" ? "rotated" : ""}`}
                 width="12"
@@ -256,7 +256,7 @@ export default function Navbar() {
               onClick={() => toggleMobileDropdown("projects")}
               aria-expanded={isMobileProjectsOpen}
             >
-              <span>المشاريع</span>
+              <span>شراكات</span>
               <svg
                 className={`chevron ${isMobileProjectsOpen ? "rotated" : ""}`}
                 width="16"
@@ -345,7 +345,8 @@ export default function Navbar() {
         .nav-btn {
           background: transparent !important;
           border: none !important;
-          font-size: 0.95rem;
+          font-size: 1.01rem;
+          /* font-size: 0.95rem;*/
           font-weight: 500;
           padding: 0.75rem 1.25rem;
           cursor: pointer;

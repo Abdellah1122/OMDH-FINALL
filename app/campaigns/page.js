@@ -17,7 +17,7 @@ export default function CampaignsPage() {
         <div className="initiatives-header">
           <h1><span className="highlight">مبادراتنا وإنجازاتنا</span></h1>
           {/* FIX: Replaced l' with l&apos; */}
-          <p className="initiatives-tagline">منذ عقود من الزمن، كانت المنظمة المغربية لحقوق الإنسان في طليعة الدعوة إلى حقوق الإنسان في المغرب، حيث عملت على دفع التغيير الهادف من خلال المبادرات الاستراتيجية، والدعوة المستمرة، والمشاركة المجتمعية.</p>
+          <p className="initiatives-tagline">منذ عقود من الزمن، كانت المنظمة المغربية لحقوق الإنسان في طليعة الدعوة إلى حماية وتعزيز والنهوض بحقوق الإنسان في المغرب، حيث عملت على دفع التغيير الهادف من خلال المبادرات الاستراتيجية، والدعوة المستمرة، والمشاركة المجتمعية.</p>
         </div>
 
         <div className="impact-stats">
@@ -26,33 +26,32 @@ export default function CampaignsPage() {
             <div className="stat-label">السجناء السياسيون المفرج عنهم</div>
           </div>
           <div className="stat-card">
-            <div className="stat-number">35+</div>
-            <div className="stat-label">سنوات من المرافعة</div>
+            <div className="stat-number"> 37+سنة</div>
+            <div className="stat-label">من أجل النهوض بحقوق الانسان</div>
           </div>
           <div className="stat-card">
             <div className="stat-number">100+</div>
-            <div className="stat-label">تقارير حقوق الإنسان</div>
+            <div className="stat-label">تقرير ومذكرة </div>
           </div>
           <div className="stat-card">
-            <div className="stat-number">10,000+</div>
-            <div className="stat-label">من الشباب المتعلم</div>
+            <div className="stat-number">100+</div>
+            <div className="stat-label">مشروع وشراكة</div>
           </div>
         </div>
 
         <div className="timeline-section">
-          <div className="timeline-line"></div>
-
+          <div className="timeline-line"></div>          
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
               <div className="timeline-image">
-                <Image src="/Images/DeathPenaltyAbolition.jpg" alt="Campagne pour l'abolition de la peine de mort" width={500} height={200} />
+                <Image src="/Images/prisons.png" alt="Soutien aux prisonniers politiques" width={500} height={200} />
               </div>
               <div className="timeline-text">
-                <span className="timeline-date">منذ التسعينيات</span>
-                <h3>إلغاء عقوبة الإعدام</h3>
-                {/* FIX: Replaced multiple apostrophes */}
-                <p>تتصدر المنظمة المغربية لحقوق الإنسان النضال من أجل إلغاء عقوبة الإعدام في المغرب. ومن خلال جهودها الدؤوبة في المناصرة، وشراكاتها مع التحالفات الدولية، وتعبئتها الجماهيرية، استطاعت خلق زخمٍ للإصلاح التشريعي...</p>
+                <span className="timeline-date">أواخر الثمانينيات</span>
+                <h3>  الدعوة إلى اطلاق سراح المعتقلين السياسيين وعودة المنفيين</h3>
+                 {/* FIX: Replaced multiple apostrophes */}
+                <p>خلال فترة القمع السياسي الشديد، لعبت المنظمة المغربية لحقوق الإنسان دوراً حاسماً في توثيق وكشف اعتقال النشطاء السياسيين والمعارضين...</p>
                 <div className="timeline-footer">
                   <span className="location-tag">على الصعيد الوطني</span>
                 </div>
@@ -60,17 +59,20 @@ export default function CampaignsPage() {
             </div>
           </div>
 
-          {/* Repeat for other timeline items */}
+
+
+           {/* Repeat for other timeline items */}
+
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-content">
               <div className="timeline-image">
-                <Image src="/Images/Prisonners.jpeg" alt="Soutien aux prisonniers politiques" width={500} height={200} />
+                <Image src="/Images/death-penalty.jpg" alt="Campagne pour l'abolition de la peine de mort" width={500} height={200} />
               </div>
               <div className="timeline-text">
-                <span className="timeline-date">أواخر الثمانينيات</span>
-                <h3>دعم السجناء السياسيين</h3>
-                <p>خلال فترة القمع السياسي الشديد، لعبت المنظمة المغربية لحقوق الإنسان دوراً حاسماً في توثيق وكشف اعتقال النشطاء السياسيين والمعارضين...</p>
+                <span className="timeline-date">منذ التسعينيات</span>
+                <h3>الدعوة إلى إلغاء عقوبة الإعدام</h3>
+                <p>تساهم المنظمة المغربية لحقوق الإنسان إلى جانب حلفائها، في النضال من أجل إلغاء عقوبة الإعدام في المغرب، فمن خلال جهودها الدؤوبة في الترافع، وشراكاتها مع التحالفات الوطنية والدولية، وتعبئتها الجماهيرية، استطاعت خلق زخمٍ مجتمعي حول الحق في الحياة، مجهود أدى إلى تجميد تنفيدها،وأسهم في تصوت لصالح قرار الأمم المتحدة الداعي إلى وقف العمل بعقوبة الإعدام...</p>
                 <div className="timeline-footer">
                   <span className="location-tag">على الصعيد الوطني</span>
                 </div>
@@ -86,8 +88,8 @@ export default function CampaignsPage() {
               </div>
               <div className="timeline-text">
                 <span className="timeline-date">قيد التنفيذ</span>
-                <h3>الدعوة لحقوق المرأة</h3>
-                <p>دافعت المنظمة المغربية لحقوق الإنسان عن حقوق المرأة المغربية من خلال الدفع نحو إصلاح قانون الأسرة، ومكافحة العنف القائم على النوع الاجتماعي، والدعوة إلى تكافؤ الفرص...</p>
+                <h3>الدعوة إلى المساواة  وحقوق النساء </h3>
+                <p>دافعت المنظمة المغربية لحقوق الإنسان عن حقوق المرأة المغربية من خلال الدفع نحو إصلاح شامل لمدونة الأسرة، مدونة عادلة تحقق المساواة الفعلية في الحقوق والواجبات بين الرجال والنساء، ومكافحة العنف القائم على النوع الاجتماعي، والدعوة إلى تكافؤ الفرص، كما انحرطت في دعم كل مبادرات الحركة النسائية المغربية.</p>
                 <div className="timeline-footer">
                   <span className="location-tag">على الصعيد الوطني</span>
                 </div>

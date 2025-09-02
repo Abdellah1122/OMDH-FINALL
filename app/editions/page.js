@@ -19,7 +19,7 @@ export default function EditionsPage() {
           <span className="header-subtitle">الموارد والمنشورات</span>
           <h1 className="header-title">مقالاتنا</h1>
           {/* FIX: Replaced d' with d&apos; */}
-          <p className="header-description">اكتشف أحدث منشوراتنا وتحليلاتنا وشهاداتنا.</p>
+          <p className="header-description">اكتشف أحدث بلاغاتنا وبياناتنا ومواقفنا.</p>
         </div>
       </div>
     </section>

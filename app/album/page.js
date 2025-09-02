@@ -9,28 +9,75 @@ import Link from 'next/link';
 // New data for the updates/news section
 const updatesData = [
   {
-    "src": "/Album/1.jpg",
+    "src": "/Album/n-1.jpg",
     "alt": "آخر المستجدات",
-    "date": "2024-01-15",
-    "description": "إنجاز جديد في مشروعنا الأخير"
+    
+   
   },
   {
-    "src": "/Album/2.jpg",
+    "src": "/Album/n-2.jpg",
     "alt": "مستجدات حديثة",
-    "date": "2024-01-10",
-    "description": "تطوير جديد في خدماتنا"
+
+ 
   },
   {
-    "src": "/Album/3.jpg",
+    "src": "/Album/n-3.jpg",
     "alt": "أحدث الأخبار",
-    "date": "2024-01-05",
-    "description": "إضافة جديدة لفريق العمل"
+   
+  },
+   {
+    "src": "/Album/n-4.jpg",
+    "alt": "أحدث الأخبار",
+   
+   
+  },
+   {
+    "src": "/Album/n-5.jpg",
+    "alt": "أحدث الأخبار",
+   
+   
+  },
+   {
+    "src": "/Album/n-6.jpg",
+    "alt": "أحدث الأخبار",
+ 
+   
+  },
+   {
+    "src": "/Album/n-7.jpg",
+    "alt": "أحدث الأخبار",
+  
+   
+  },
+   {
+    "src": "/Album/n-8.jpg",
+    "alt": "أحدث الأخبار",
+   
+   
+  },
+   {
+    "src": "/Album/n-9.jpg",
+    "alt": "أحدث الأخبار",
+ 
+   
+  },
+   {
+    "src": "/Album/n-10.jpg",
+    "alt": "أحدث الأخبار",
+  
+   
+  },
+   {
+    "src": "/Album/n-11.jpg",
+    "alt": "أحدث الأخبار",
+   
+   
   },
   {
-    "src": "/Album/4.jpg",
+    "src": "/Album/n-12.jpg",
     "alt": "المستجدات الأخيرة",
-    "date": "2023-12-28",
-    "description": "نجاح باهر في المشروع الجديد"
+    "date": "",
+    "description": "    "
   }
 ];
 
@@ -154,8 +201,8 @@ export default function ArticlePage() {
                 <div className="album-container">
                     {/* Updates Section */}
                     <div className="album-header">
-                        <h1 className="album-title" style={{color:'var(--primary-color)'}}>مستجدات</h1>
-                        <p className="album-subtitle">آخر الأخبار والتطورات الجديدة في عملنا وإنجازاتنا.</p>
+                        <h1 className="album-title" style={{color:'var(--primary-color)'}}>معرض الصور</h1>
+                        <p className="album-subtitle">آخر صور أنشطتنا وأعمالنا </p>
                     </div>
 
                     <section className="hero-section">
@@ -219,7 +266,7 @@ export default function ArticlePage() {
                     {/* Photo Memory Section */}
                     <div className="album-header">
                         <h1 className="album-title" style={{color:'var(--secondary-color)'}}>ذاكرة الصور</h1>
-                        <p className="album-subtitle">مجموعة من اللحظات والإنجازات التي لا تنسى من عملنا في جميع أنحاء المغرب.</p>
+                        <p className="album-subtitle">مجموعة من اللحظات والإنجازات التاريخية  في جميع أنحاء المغرب.</p>
                     </div>
                         <div className="photo-grid">
                             {photoMemoryData.map((photo, index) => (
